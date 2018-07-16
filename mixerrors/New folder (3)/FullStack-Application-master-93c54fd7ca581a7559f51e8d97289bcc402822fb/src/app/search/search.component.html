@@ -1,0 +1,39 @@
+<!-- <div class="search-container">
+  <form class="example-form row" style="margin-top: 0px;">
+      <mat-form-field class="example-full-width col-lg-10 col-md-10 col-sm-10 col-xs-10">
+          <input [(ngModel)]='query' name='query' matInput placeholder="Type here... Eg. what is the total revenue?" value="" autocomplete="on">
+        </mat-form-field>
+        <button (click)='submit(query)' type='submit' class="search-button col-lg-1 col-md-1 col-sm-1 col-xs-1"
+          mat-button>
+          <mat-icon>search</mat-icon>
+        </button>
+  </form>
+</div> -->
+<!-- <div class="container">
+  <form>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" [(ngModel)]='query' name='query' placeholder="Type here... Eg. what is the total revenue?"
+        aria-label="Type here... Eg. what is the total revenue?" aria-describedby="basic-addon2">
+      <div class="input-group-append">
+        <button class="input-group-text" (click)='submit(query)' id="basic-addon2"><mat-icon>search</mat-icon></button>
+      </div>
+    </div>
+  </form>
+</div> -->
+<div class="row">
+  <div class="col col-lg-2 col-sm-2"></div>
+  <div class="col col-lg-8 col-sm-8">
+    <div class="row ">
+
+      <div class="col col-lg-10">
+        <input [(ngModel)]="query" name="query" type="text" class="input_query" placeholder="Search" id="query" autocomplete="on">
+      </div>
+      <div class="col col-lg-2">
+        <button data-toggle="modal"  data-target="#myModal" type="submit" (click)="animate()" class="bt">SEARCH</button>
+      </div>
+    </div>
+
+  </div>
+  <div class="col col-lg-2 col-sm-2"></div>
+
+</div>

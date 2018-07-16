@@ -1,0 +1,91 @@
+
+.top{
+    width:100%;
+    margin:0%;
+    padding:1.5%;
+    color:#fff;
+     background: #383232;
+     box-shadow: 0px 0px 5px #3e3e3e;
+  
+  }
+  
+
+  
+  .back{ 
+    border-radius: 50%;
+    border: 0px ;
+    padding:2%;
+  
+    color:#fff;  
+    background: linear-gradient(
+      rgba(0, 0, 0, 0), 
+      rgba(0, 0, 0, 0)
+    );
+  
+  }
+
+  .num{
+    color:#919191;
+    font-size: 30px;
+}
+.small-box{
+   color:#fff;
+ 
+
+   margin: 0%;
+
+}
+
+.inner{
+    width:0;
+    height:0;
+    border: 0px;
+}
+.glyphicon-arrow-up{
+   color:#fff;
+    font-size: 20px;
+}
+#card1{
+    margin:0%;
+     border-right: 2px solid #f4bb49;
+      background: #fff;
+    }
+  
+
+#card2{
+    margin:0%;
+    border-right: 2px solid #f4bb49;
+   background: #fff;
+}
+#card3{
+    margin:0%;
+    border-right: 2px solid #f4bb49;
+    background: #fff;
+}
+#card4{
+    margin:0%;
+    border-right: 2px solid #f4bb49;
+    background: #fff;
+}
+#card5{
+    margin:0%;
+    border-right: 2px solid #f4bb49;
+    background: #fff;
+}
+.small-box:hover > .inner{
+    width:0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #f4bb49;
+    float: right;
+    margin-top:10px;
+  }
+
+  .query{
+    /* margin-right: 40%; */
+    margin-top:1%; 
+    font-size:25px;
+    text-align: center;
+    color:#666;
+}

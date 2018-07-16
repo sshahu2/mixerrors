@@ -1,0 +1,327 @@
+
+
+<div class="profile-page sidebar-collapse">
+  <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
+    <div class="container">
+      <div class="navbar-translate">
+     
+           
+          <form>
+            <div class="form-group">
+              
+              <input [(ngModel)]="query" name="query" type="text" class=" formcontrol" id="searchbar" placeholder="Prediction for next quarter of ...."  autocomplete="on" (click)="animate()">
+            </div>
+          </form>
+              </div>
+          
+            </div>
+           
+          
+          
+      
+    
+  </nav>
+  <div id="new" class="page-header header-filter" data-parallax="true">
+    
+        <!-- <img src="../../assets/wipro_digital_logo.png" height="100px" alt="wipro_digital_logo">       -->
+        <p id="pgraph">AI-Powered : Revenue Prediction</p>
+       
+  
+</div>
+  <div style="background-color: darkgray;"class="main main-raised" >
+    <div  class="profile-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 ml-auto mr-auto">
+            <div class="profile">
+              <div class="avatar">
+                <img src="../assets/img/d5.png" alt="Circle Image" class="img-raised rounded-circle img-fluid" style="border-radius:100% ;" >
+              </div>
+              </div>
+              </div>
+              </div>
+             
+               
+                <!-- <div class="row">
+                  <div class="col-md-6 ml-auto mr-auto"> -->
+                    <!-- <div class="profile-tabs">
+                      <ul class="nav nav-pills nav-pills-icons justify-content-center" style="display:block; margin:-2% 25%; "role="tablist">
+                        <li class="nav-item" style="max-width: 100%;" id =f>
+                          <a class="nav-link active" href="#studio" role="tab" data-toggle="tab">
+                            <i class="material-icons">
+                              show_chart
+                              </i>
+                              REVENUE PREDICTION
+                          </a>
+                        </li>
+                        <li class="nav-item" style="max-width: 100%; " id=s>
+                          <a class="nav-link" href="#works" role="tab" data-toggle="tab">
+                            <i class="material-icons">bar_chart</i> REVENUE COMPARE
+                          </a>
+                        </li>
+                        <li class="nav-item" style="max-width: 100%;" id=t>
+                          <a class="nav-link" href="#favorite" role="tab" data-toggle="tab">
+                            <i class="material-icons">history</i>ACTUALS
+                          </a>
+                        </li>
+                      </ul>
+                  </div> -->
+                  <!--</div> -->
+                  <div class="row" >
+                  <div class="col-sm-12 col-md-12  col-lg-12  col-xl-12" id="bigs"> 
+                    <ul id="news"   style="list-style-type: none;">
+                        <li *ngFor="let header of imageUrls"> <a (click)="changeImage(header)"><img [src]="header|dataFilter" alt="small" class="img-responsive img-thumbnail" style="width:200px;height:100px;"></a>
+                
+                        </li>
+                       
+                      </ul>
+                      
+                  </div>    
+                   
+                </div>
+                  <div class="row" id="rc">
+                      <div class="col-sm-12 col-md-12  col-lg-12  col-xl-12" id="big">
+                        <img [src]="bigImageUrl" alt="big" class="img-responsive img-thumbnail" style="width:1050px;height:600px;opacity:0.2;">
+                        
+                          <!-- <h4  style="font-weight: bold;">{{first}}</h4>
+                          <h4>{{second}}</h4> -->
+                          <div *ngIf="second=='prediction'">
+                            <div class="text-block"> 
+                  
+                                   
+                                   
+                                  <h2 style="text-align:centre;margin-left:35%;">PREDICTION</h2>
+                                 
+                                      <div style="margin-left:20%;"class="row">
+                                        <form  #formValue="ngForm" (ngSubmit)="submitPred(formValue.value,'prediction')" class="form">
+                                          <div class="form-row">
+                                            <!--<select name="Entity" [(ngModel)]="Entity" (change)="dropdown(this)" class="form-control col-md-offset-1" id="sel1">
+                                              <option name="unit" value="unit">Business unit</option>
+                                              <option value="OVERALL" name="OVERALL" >OVERALL</option>
+                                              <option value="SBU" >SBU</option>
+                                              <option value="VERTICAL" >VERTICAL</option>
+                                            </select>-->
+                                            <div class="col-sm-3 ">
+                                                  <p-dropdown [options]="entityP" name="selectedElementP" (onChange)="dropdown($event)" [(ngModel)]="selectedElementP"  ></p-dropdown>
+                                                </div>
+                                       
+                                          <div class="  col-sm-5 ">
+                                            <!--<input  autocomplete ="off" name="EntityName" [(ngModel)]="EntityName" [disabled]="disable" type="text" class="form-control">-->
+                                             <p-autoComplete name="inputP" [(ngModel)]="inputP" [disabled]="oflag" [suggestions]="filteredvarp" (completeMethod)="filtervarSinglep($event)"></p-autoComplete>
+                                          </div>
+                                            <!--<div class="form-group col-xs-1 col-sm-1 col-md-1"></div>-->
+                                          <div class="col-sm-4 ">
+                                            <!--<select name="Timeline" [(ngModel)]="Timeline" class="form-control" id="sel1">
+                                              <option>TimeLine</option>
+                                              <option>Q1</option>
+                                              <option>Q1 After April Closure</option>
+                                              <option>Q1 After May Closure </option>
+                                            </select>-->
+                                             <p-dropdown [options]="timelineP" name="timelineP" [(ngModel)]="Timeline"  ></p-dropdown>
+                                          </div>
+                                          </div>
+                            
+                                           <div  style ="margin:2%; display:flex;justify-content:center;">
+                                          <button  type="submit" name="prediction" class="btn" style=" color: #fff;
+                                     background:#f4bb49 ;">GO</button>
+                                          </div>
+                                        </form>
+                                 
+                                        <div class="col-md-1" style="border:none;margin-left:-3%">
+                            
+                                  </div>
+                                      </div>
+                                    
+                                
+                              </div> 
+                                <div id="forList"> 
+                                  <div class="sticky">List of frequent queries for PREDICTION</div>
+      
+                                <div id="clist">
+                                <ul >
+                                    <li *ngFor="let query of queryPrediction"> <a (click)="passQuery(query)">{{query}}</a>
+                                      
+                                              </li>
+                                  </ul>
+                                  
+                                </div>
+                                  
+                                  
+                               
+                            </div>
+                              </div>
+                              <div *ngIf="second=='historical'">
+                                <div class="text-block"> 
+                                
+                                    
+                                      <h2 style="text-align:centre;margin-left:30%;">Historic Data</h2>
+                                      
+                                          <div class="row">
+                                            <form  #formValue="ngForm" (ngSubmit)="submitActual(formValue.value,'historicprediction')" class="form-inline">
+                                                <div class="form-group">
+                                                    <select name="Entity"  (change)="dropdown(this)" [(ngModel)]="Entity" class="form-control col-md-offset-1" id="sel1">
+                                                      <option [selected]="selected" value="OVERALL" >OVERALL</option>
+                                                      <option value="SBU" >SBU</option>
+                                                      <option value="VERTICAL" >VERTICAL</option>
+                                                    </select>
+                                                  </div>
+                                                  <div class="input-group">
+                                                    <input  autocomplete ="off"  name="EntityName" [(ngModel)]="EntityName" [disabled]="disable"  type="text" class="form-control">
+                                    
+                                                  </div>
+                                                  <div class="form-row">
+                                                    <select name="Timeline" [(ngModel)]="Timeline" class="form-control" id="sel1">
+                                                      <option>TimeLine</option>
+                                                      <option>Q1</option>
+                                                      <option>Q2</option>
+                                                      <option>Q3</option>
+                                                      <option>Q4</option>
+                                                    </select>
+                                                  </div>
+                                    
+                                                   <div  style ="margin:2%; justify-content:space-around;">
+                                                  <button  type="submit" name="prediction" class="btn" style=" color:#fff;
+                                     background:#e84545;">GO</button>
+                                                  </div>
+                                            </form>
+                                            <form>
+                                             
+                                            </form>
+                                            <form>
+                                             
+                                            </form>
+                                            
+                                          </div>
+                                          </div>
+                                          <div id="forList"> 
+                                            <div class="sticky" style=" color:#fff;
+                                            background:#e84545;">List of frequent queries for historical<span class="glyphicon glyphicon-envelope"></span></div>
+                
+                                         
+                                            <ul >
+                                                <li *ngFor="let query of queryActual"> <a (click)="passQuery(query)">{{query}}</a>
+                                                  
+                                                          </li>
+                                              </ul>
+                                              
+                                            
+                                        
+                                            
+                                            
+                                         
+                                      </div>
+                                        </div>
+                                     
+                              <div *ngIf="second=='compare'">
+                                  <div class="text-block"> 
+                                 
+                              
+                                      <h2 style="text-align:centre;margin-left:30%;">Compare</h2>
+                                  
+                                      <div class="row">
+                                        <form #formValue="ngForm" (ngSubmit)="submitCompare(formValue.value,'Revenue_Compare')" class="form">
+                                          <div class="form-row">
+                                          <div class="form-group">
+                                            <p-dropdown [options]="elements" name="Entity" [(ngModel)]="Entity" (onChange)="clearp($event)" ></p-dropdown>
+                                          </div>
+                                          <div class="form-group">
+                                          <div class="input-group">
+                                            <p-autoComplete name="EntityName" [(ngModel)]="EntityName" [disabled]="oflag" [suggestions]="filteredvarm" (onUnselect)="cleari()" (completeMethod)="filtervarMultiple($event)" [multiple]="true" ></p-autoComplete>
+                            
+                                          </div>
+                                          </div>
+                                        </div>
+                                          <div class="form-row">
+                                            <div class="a1">
+                                            <h3 class="a">Timeline:</h3>   
+                                            <div class="a" style="margin-left:10%;">
+                                            <p-checkbox [(ngModel)]="selectedtimelines" name="Timeline" label="Q1"value="Q1"inputId="Q1"></p-checkbox>
+                                          </div>
+                                            <div class="a"  style="margin-left:10%;">
+                                              <p-checkbox [(ngModel)]="selectedtimelines" name="Timeline" label="Q2"value="Q2"inputId="Q2"></p-checkbox>
+                                            </div>
+                                            <div class="a" style="margin-left:10%;">
+                                              <p-checkbox [(ngModel)]="selectedtimelines" name="Timeline" label="Q3"value="Q3"inputId="Q3"></p-checkbox>
+                                            </div>
+                                            <div class="a" style="margin-left:10%;">
+                                              <p-checkbox [(ngModel)]="selectedtimelines" name="Timeline" label="Q4"value="Q4"inputId="Q4"></p-checkbox>
+                                            </div>
+                                          </div>
+                                          </div>
+                                         
+                                          <div  style ="margin:2%; justify-content:space-around;">
+                                              <button  type="submit" name="prediction" class="btn " style=" color: #fff;
+                                     background:#3cead9;">GO</button>
+                                              </div>
+                                        </form>
+                                        
+                                        
+                                        </div>
+                                           
+                                    </div>
+                                    <div id="forList"> 
+                                        <div class="sticky"style=" color: #fff;
+                                        background:#3cead9;">List of frequent queries for historical<span class="glyphicon glyphicon-envelope"></span></div>
+            
+                                     
+                                        <ul >
+                                            <li *ngFor="let query of queryCompare"> <a (click)="passQuery(query)">{{query}}</a>
+                                              
+                                                      </li>
+                                          </ul>
+                                          
+                                    
+                                        
+                                        
+                                     
+                                  </div>
+                                  </div>
+                                
+                       
+                   
+                        
+                      </div>
+                  
+                     
+                    </div>
+
+
+
+                  
+                </div>
+    
+    
+  </div>
+  <footer class="footer footer-default">
+    <div class="container">
+      <nav class="float-left">
+        <ul>
+          <li>
+            <a href="#">
+            REVENUE PREDICTION TEAM
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              About Us
+            </a>
+          </li>
+         
+          
+        </ul>
+      </nav>
+      <div class="copyright float-right">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear())
+        </script>, made with <i class="material-icons">bar_chart</i> by
+        <a href="#" target="_blank">Revenue Prediction Team</a> for a better prediction.
+      </div>
+    </div>
+  </footer>
+  <!--   Core JS Files   -->
+  
+</div>
+</div>
+
+

@@ -1,0 +1,25 @@
+<div class="container-fluid top">
+    <div class="row " id=" head-container">
+        <div class=" col-xs-1 col-sm-1 col-lg-1">
+            <button class="back" (click)="back()">
+                <span class="material-icons">
+                    arrow_back
+                </span>
+            </button>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-lg-1"></div>
+        <div class=" col-xs-8 col-sm-8 col-lg-8 search-bar">
+            <app-search></app-search>
+        </div>
+        <div class=" col-xs-2 col-sm-2 col-lg-2"></div>
+    </div>
+</div>
+<div  *ngIf ="prediction">
+    <app-predict-revenue></app-predict-revenue>
+</div>
+<div *ngIf ="historicprediction">
+        <app-historic-prediction></app-historic-prediction>
+    </div>
+    <div *ngIf ="comparerevenue">
+            <app-compare-revenue></app-compare-revenue>
+        </div>

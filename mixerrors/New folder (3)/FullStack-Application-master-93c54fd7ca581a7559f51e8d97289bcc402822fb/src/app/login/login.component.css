@@ -1,0 +1,67 @@
+
+/*login css*/
+
+.card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+}
+.card {
+    background-color: #F7F7F7;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    padding-top: 50px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+.forgot-password {
+    color: rgb(104, 145, 162);
+}
+
+.forgot-password:hover,
+.forgot-password:active,
+.forgot-password:focus{
+    color: rgb(12, 97, 33);
+}
+.sss {
+      width: 100%;
+    margin: 16px 0 16px 0;
+}
+
+.bg-img {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url('../../assets/wipro_bg_1.png') center center no-repeat;
+    background-size: cover;
+}
+    .bg-img:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+      opacity: .6; 
+    }
+  
+
+/*login css end*/

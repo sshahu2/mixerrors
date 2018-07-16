@@ -1,0 +1,10 @@
+table .table-header{
+    background-color:rgb(125, 170, 125);
+    color:black;
+}
+.container{
+    margin:0px auto;
+}
+.container mat-form-field{
+    font-size:1em;
+}

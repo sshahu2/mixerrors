@@ -1,0 +1,157 @@
+<div style="margin-bottom: 50px"></div>
+<div class="container">
+  <img src='moviefetched.img' alt="Los Angeles" style="width:100%;">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#TODAY">20 TODAY</a></li>
+        <li><a data-toggle="tab" href="#TOM">21 TOM</a></li>
+        <li><a data-toggle="tab" href="#TUE">22 TUE</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="TODAY" class="tab-pane fade in active">
+
+<div class="container">
+
+            <div class="row">
+  <div class="col-sm-12" *ngFor='let theatre of moviefetched.theatre;let i=index'>
+    <div class="panel panel-default">
+      <div class="panel-body">
+
+            <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-body" >{{theatre.name}}</div>
+          </div>
+        </div>
+        <div class="col-sm-1" *ngFor='let timings of theatre.timing;let i=index'>
+          <div class="panel panel-default">
+            <div class="panel-body"  >{{timings}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+                  </div>
+</div>
+
+          
+        </div>
+        <div id="TOM" class="tab-pane fade">
+      <div class="container">
+
+            <div class="row">
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+      <div class="panel-body">
+
+            <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-body" s>Cinepolis: Royal Meenakshi Mall</div>
+          </div>
+        </div>
+        <div class="col-sm-1">
+          <div class="panel panel-default">
+            <div class="panel-body">7:15</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+                  </div>
+</div>
+        </div>
+        <div id="TUE" class="tab-pane fade">
+          <div class="container">
+
+            <div class="row">
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+      <div class="panel-body">
+
+            <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-body" s>Cinepolis: Royal Meenakshi Mall</div>
+          </div>
+        </div>
+        <div class="col-sm-1">
+          <div class="panel panel-default">
+            <div class="panel-body">7:15</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+                  </div>
+</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-4">
+      <div class="container">
+        <ul class="nav nav-tabs">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">FORMAT <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">ENGLISH-2D</a></li>
+              <li><a href="#">HINDI-2D</a></li>
+              <li><a href="#">ENGLISH-IMAX-3D</a></li>
+              <li><a href="#">ENGLISH-4DX</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">PRICE RANGE <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <form>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">RS.100-200</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">RS.200-300</label>
+                </div>
+                <div class="checkbox ">
+                  <label><input type="checkbox" value="">RS.300-400</label>
+                </div>
+              </form>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">SHOW TIMINGS <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <form>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">MORNING <span class="glyphicon glyphicon-sun"></span></label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">AFTERNOON<span class="glyphicons glyphicons-brightness-increase"></span></label>
+                </div>
+                <div class="checkbox ">
+                  <label><input type="checkbox" value="">EVENING<span class="glyphicons glyphicons-brightness-reduce"></span></label>
+                </div>
+                <div class="checkbox ">
+                  <label><input type="checkbox" value="">NIGHT<span class="glyphicons glyphicons-moon"></span></label>
+                </div>
+              </form>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<p-dialog header="Godfather I" [(visible)]="display" [modal]="true" [responsive]="true" [width]="100" [minWidth]="100" [minY]="70">
+    <span>The story begins as Don Vito Corleone, the head of a New York Mafia family, oversees his daughter's wedding. 
+        His beloved son Michael has just come home from the war, but does not intend to become part of his father's business. 
+        Through Michael's life the nature of the family business becomes clear. The business of the family is just like the head of the family, 
+        kind and benevolent to those who give respect,
+        but given to ruthless violence whenever anything stands against the good of the family.</span>
+        <p-footer>
+            <button type="button" pButton icon="fa-check" (click)="display=false" label="Yes"></button>
+            <button type="button" pButton icon="fa-close" (click)="display=false" label="No"></button>
+        </p-footer>
+</p-dialog>

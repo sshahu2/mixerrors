@@ -1,0 +1,4975 @@
+{
+  "acc_revenue": [
+    { "category": "vlsi india services", "group": "mnt", "measure": 9.66 },
+    { "category": "eastman kodak", "group": "mnt", "measure": 10.97 },
+    { "category": "bull", "group": "mnt", "measure": 11.69 },
+    { "category": "nimble storage", "group": "mnt", "measure": 12.03 },
+    { "category": "statschippac ltd", "group": "mnt", "measure": 10.46 },
+    {
+      "category": "hewlett - packard company (ned)",
+      "group": "mnt",
+      "measure": 10.91
+    },
+    { "category": "pitney bowes inc", "group": "mnt", "measure": 11.85 },
+    { "category": "verifone", "group": "mnt", "measure": 11.56 },
+    { "category": "actel corporation", "group": "mnt", "measure": 7.81 },
+    { "category": "analog devices inc", "group": "mnt", "measure": 13.26 },
+    { "category": "ricoh", "group": "mnt", "measure": 11.54 },
+    { "category": "sandisk corp", "group": "mnt", "measure": 10.33 },
+    { "category": "toshiba tec corporat", "group": "mnt", "measure": 12.17 },
+    { "category": "nxp semiconductors bv", "group": "mnt", "measure": 11.77 },
+    { "category": "lexmark us inc", "group": "mnt", "measure": 11.06 },
+    {
+      "category": "toshiba corporation semiconductor c",
+      "group": "mnt",
+      "measure": 13.02
+    },
+    { "category": "netapp", "group": "mnt", "measure": 10.51 },
+    { "category": "marvell", "group": "mnt", "measure": 9.75 },
+    {
+      "category": "toshiba america inc   procurement",
+      "group": "mnt",
+      "measure": 10.74
+    },
+    { "category": "intel", "group": "mnt", "measure": 12.43 },
+    {
+      "category": "infineon technologies ag",
+      "group": "mnt",
+      "measure": 10.84
+    },
+    { "category": "kla-tencor corporation", "group": "mnt", "measure": 9.94 },
+    { "category": "kanematsu corporation", "group": "mnt", "measure": 11.55 },
+    { "category": "pitney bowes", "group": "mnt", "measure": 13.61 },
+    { "category": "oki data corporation", "group": "mnt", "measure": 11.69 },
+    { "category": "pluribus networks", "group": "mnt", "measure": 11.05 },
+    { "category": "intel comneon gmbh", "group": "mnt", "measure": 11.32 },
+    {
+      "category": "hitachi building system coltd",
+      "group": "mnt",
+      "measure": 11.42
+    },
+    {
+      "category": "stmicroelectronics france",
+      "group": "mnt",
+      "measure": 13.62
+    },
+    { "category": "netapp india pvt ltd", "group": "mnt", "measure": 13.26 },
+    { "category": "ricoh company ltd", "group": "mnt", "measure": 8.4 },
+    { "category": "vmware inc", "group": "mnt", "measure": 8.93 },
+    { "category": "lattice semiconductor", "group": "mnt", "measure": 10.46 },
+    { "category": "lenovo pc hk ltd", "group": "mnt", "measure": 11.58 },
+    { "category": "hewlett-packard company", "group": "mnt", "measure": 10.88 },
+    { "category": "pure storage", "group": "mnt", "measure": 10.35 },
+    { "category": "statschip", "group": "mnt", "measure": 11.23 },
+    { "category": "qualcomm inc", "group": "mnt", "measure": 11.2 },
+    { "category": "hitachi", "group": "mnt", "measure": 9.9 },
+    {
+      "category": "hitachi global storage technologies",
+      "group": "mnt",
+      "measure": 9.87
+    },
+    { "category": "hewlett packard", "group": "mnt", "measure": 10.21 },
+    { "category": "mcafee inc", "group": "mnt", "measure": 11.34 },
+    { "category": "commvault systems inc", "group": "mnt", "measure": 10.24 },
+    {
+      "category": "intel technology india pvt ltd",
+      "group": "mnt",
+      "measure": 12.21
+    },
+    {
+      "category": "statschipac shanghai co ltd",
+      "group": "mnt",
+      "measure": 12.21
+    },
+    {
+      "category": "oki data corporation\u252c\u00e1",
+      "group": "mnt",
+      "measure": 12.0
+    },
+    {
+      "category": "epson electronics america inc",
+      "group": "mnt",
+      "measure": 13.5
+    },
+    { "category": "micron technologies inc", "group": "mnt", "measure": 8.88 },
+    {
+      "category": "silicon space technology corporatio",
+      "group": "mnt",
+      "measure": 10.23
+    },
+    {
+      "category": "tec information systems corporation",
+      "group": "mnt",
+      "measure": 11.22
+    },
+    { "category": "konica minolta inc", "group": "mnt", "measure": 11.62 },
+    { "category": "seagate technology", "group": "mnt", "measure": 12.14 },
+    {
+      "category": "texas instruments(india)limited",
+      "group": "mnt",
+      "measure": 11.62
+    },
+    {
+      "category": "sas software (beijing) co ltd",
+      "group": "mnt",
+      "measure": 10.93
+    },
+    { "category": "renesas technology", "group": "mnt", "measure": 11.35 },
+    { "category": "lexmark", "group": "mnt", "measure": 11.1 },
+    { "category": "altera", "group": "mnt", "measure": 13.29 },
+    {
+      "category": "freescale semiconductor inc",
+      "group": "mnt",
+      "measure": 12.28
+    },
+    {
+      "category": "lam research corporation",
+      "group": "mnt",
+      "measure": 10.57
+    },
+    {
+      "category": "toshiba electronic devices",
+      "group": "mnt",
+      "measure": 11.21
+    },
+    { "category": "saratoga speed inc", "group": "mnt", "measure": 11.5 },
+    {
+      "category": "silicon space technology corporation",
+      "group": "mnt",
+      "measure": 11.35
+    },
+    { "category": "3d systems inc", "group": "mnt", "measure": 11.5 },
+    { "category": "uhnder inc", "group": "mnt", "measure": 8.9 },
+    { "category": "texas instruments inc", "group": "mnt", "measure": 11.17 },
+    { "category": "hewlett-packard co", "group": "mnt", "measure": 9.81 },
+    { "category": "xerox corporation", "group": "mnt", "measure": 11.81 },
+    { "category": "mediatek inc", "group": "mnt", "measure": 10.61 },
+    { "category": "avago technologies", "group": "mnt", "measure": 10.2 },
+    {
+      "category": "nxp semiconductors netherlands bv",
+      "group": "mnt",
+      "measure": 11.99
+    },
+    { "category": "hewlett-packard india", "group": "mnt", "measure": 11.6 },
+    { "category": "diebold incorporated", "group": "mnt", "measure": 9.21 },
+    {
+      "category": "toshiba america inc # procurement",
+      "group": "mnt",
+      "measure": 12.09
+    },
+    {
+      "category": "renesas electronics corporation",
+      "group": "mnt",
+      "measure": 9.67
+    },
+    { "category": "bull sas", "group": "mnt", "measure": 8.35 },
+    { "category": "hewlett packard company", "group": "mnt", "measure": 8.35 },
+    {
+      "category": "novitex enterprise solutions inc",
+      "group": "mnt",
+      "measure": 10.58
+    },
+    { "category": "intel corporation", "group": "mnt", "measure": 11.63 },
+    {
+      "category": "veritas technologies llc",
+      "group": "mnt",
+      "measure": 11.64
+    },
+    { "category": "sun power", "group": "mnt", "measure": 8.97 },
+    {
+      "category": "videojet technologies inc",
+      "group": "mnt",
+      "measure": 12.05
+    },
+    {
+      "category": "tyco electronics corporation",
+      "group": "mnt",
+      "measure": 10.9
+    },
+    { "category": "hp", "group": "mnt", "measure": 12.73 },
+    {
+      "category": "intel microelectronics (m) s/b",
+      "group": "mnt",
+      "measure": 11.08
+    },
+    { "category": "trend micro incorporated", "group": "mnt", "measure": 8.84 },
+    { "category": "lam reaseach inc", "group": "mnt", "measure": 13.29 },
+    {
+      "category": "marvell semiconductor inc",
+      "group": "mnt",
+      "measure": 11.17
+    },
+    {
+      "category": "lexmark international inc",
+      "group": "mnt",
+      "measure": 11.32
+    },
+    { "category": "arm limited", "group": "mnt", "measure": 12.54 },
+    { "category": "eastman kodak company", "group": "mnt", "measure": 10.87 },
+    { "category": "hays bv", "group": "mnt", "measure": 9.43 },
+    { "category": "(blank)", "group": "mnt", "measure": 10.85 },
+    { "category": "te connectivity", "group": "mnt", "measure": 10.86 },
+    { "category": "broadcom corporation", "group": "mnt", "measure": 12.13 },
+    { "category": "nexenta", "group": "mnt", "measure": 10.35 },
+    {
+      "category": "nxp  semiconductors netherlands bv",
+      "group": "mnt",
+      "measure": 8.97
+    },
+    {
+      "category": "toshiba america inc procurement",
+      "group": "mnt",
+      "measure": 8.9
+    },
+    { "category": "texas instruments", "group": "mnt", "measure": 8.9 },
+    { "category": "freescale", "group": "mnt", "measure": 13.25 },
+    { "category": "sun-power corporation", "group": "mnt", "measure": 8.47 },
+    {
+      "category": "linx printing technologies",
+      "group": "mnt",
+      "measure": 10.72
+    },
+    { "category": "esilicon corporation", "group": "mnt", "measure": 10.44 },
+    { "category": "netapp inc", "group": "mnt", "measure": 11.63 },
+    { "category": "avago", "group": "mnt", "measure": 10.87 },
+    { "category": "analog devices", "group": "mnt", "measure": 10.28 },
+    {
+      "category": "oki data corporation\u00e2\u00a0",
+      "group": "mnt",
+      "measure": 10.1
+    },
+    { "category": "emc corporation", "group": "mnt", "measure": 11.62 },
+    { "category": "roland dg corporation", "group": "mnt", "measure": 10.94 },
+    { "category": "s2 co ltd", "group": "mnt", "measure": 11.52 },
+    {
+      "category": "toshiba global commerce solutions",
+      "group": "mnt",
+      "measure": 9.47
+    },
+    { "category": "nexenta systems inc", "group": "mnt", "measure": 11.6 },
+    { "category": "verifone inc", "group": "mnt", "measure": 12.26 },
+    {
+      "category": "hitachi data systems (hds)",
+      "group": "mnt",
+      "measure": 12.1
+    },
+    { "category": "st microelectronics", "group": "mnt", "measure": 12.1 },
+    { "category": "intel israel 74 ltd", "group": "mnt", "measure": 9.67 },
+    { "category": "xerox", "group": "mnt", "measure": 13.28 },
+    {
+      "category": "oki data corporation-\u00df",
+      "group": "mnt",
+      "measure": 10.19
+    },
+    { "category": "f5 networks", "group": "mnt", "measure": 11.4 },
+    { "category": "toshiba tec corporation", "group": "mnt", "measure": 10.65 },
+    { "category": "gainspan corporation", "group": "mnt", "measure": 10.59 },
+    {
+      "category": "oki data corporation-\u00e1",
+      "group": "mnt",
+      "measure": 9.52
+    },
+    { "category": "apple inc", "group": "mnt", "measure": 13.34 },
+    { "category": "apple", "group": "mnt", "measure": 11.27 },
+    {
+      "category": "apple procurement and operations",
+      "group": "mnt",
+      "measure": 9.92
+    },
+    { "category": "apple computers inc", "group": "mnt", "measure": 9.65 },
+    { "category": "magna electronics", "group": "mnt", "measure": 9.59 },
+    {
+      "category": "advanced automotive antennas sl",
+      "group": "mnt",
+      "measure": 8.23
+    },
+    {
+      "category": "mazda motor logistics europe nv-\u00df",
+      "group": "mnt",
+      "measure": 8.78
+    },
+    { "category": "roush industries inc", "group": "mnt", "measure": 12.14 },
+    {
+      "category": "nihon michelin tire co ltd",
+      "group": "mnt",
+      "measure": 9.17
+    },
+    { "category": "continental ag", "group": "mnt", "measure": 9.06 },
+    { "category": "ntt data", "group": "mnt", "measure": 10.74 },
+    {
+      "category": "toyo tire holdings of americas inc",
+      "group": "mnt",
+      "measure": 12.0
+    },
+    {
+      "category": "yamaha motor corporation usa",
+      "group": "mnt",
+      "measure": 9.53
+    },
+    {
+      "category": "michelin (china) investment co ltd",
+      "group": "mnt",
+      "measure": 10.27
+    },
+    { "category": "harman international", "group": "mnt", "measure": 10.13 },
+    {
+      "category": "smr automotive systems usa inc",
+      "group": "mnt",
+      "measure": 10.17
+    },
+    { "category": "nissan smyrna", "group": "mnt", "measure": 10.21 },
+    { "category": "denso corporation", "group": "mnt", "measure": 9.07 },
+    { "category": "allegis global solutions", "group": "mnt", "measure": 9.88 },
+    { "category": "johnson control inc", "group": "mnt", "measure": 12.02 },
+    {
+      "category": "mazda motor logistics europe nv\u00e1",
+      "group": "mnt",
+      "measure": 12.33
+    },
+    { "category": "ford motor co", "group": "mnt", "measure": 13.47 },
+    { "category": "magneti marelli spa-", "group": "mnt", "measure": 9.22 },
+    {
+      "category": "mitsubishi fusotruck and bus corpor",
+      "group": "mnt",
+      "measure": 10.06
+    },
+    { "category": "honda", "group": "mnt", "measure": 11.94 },
+    {
+      "category": "panasonic automotive system europe",
+      "group": "mnt",
+      "measure": 12.7
+    },
+    {
+      "category": "suzuki motor corporation",
+      "group": "mnt",
+      "measure": 12.77
+    },
+    {
+      "category": "bosch security system inc",
+      "group": "mnt",
+      "measure": 13.09
+    },
+    {
+      "category": "honda r&d asia pacific coltd",
+      "group": "mnt",
+      "measure": 10.64
+    },
+    { "category": "robert bosch gmbh", "group": "mnt", "measure": 11.81 },
+    {
+      "category": "isuzu north america corporation",
+      "group": "mnt",
+      "measure": 11.76
+    },
+    {
+      "category": "hyundai information service",
+      "group": "mnt",
+      "measure": 10.46
+    },
+    {
+      "category": "mclaren technology group limited",
+      "group": "mnt",
+      "measure": 11.53
+    },
+    { "category": "nissan", "group": "mnt", "measure": 11.52 },
+    { "category": "vehma international", "group": "mnt", "measure": 11.38 },
+    {
+      "category": "mazda motor logistics europe nv-\u00a0",
+      "group": "mnt",
+      "measure": 12.96
+    },
+    { "category": "dana corporation", "group": "mnt", "measure": 11.4 },
+    { "category": "federal-mogul", "group": "mnt", "measure": 10.73 },
+    {
+      "category": "mazda motor logistics europe nv\u00a0",
+      "group": "mnt",
+      "measure": 6.84
+    },
+    { "category": "alpine electronics", "group": "mnt", "measure": 9.68 },
+    { "category": "n/a", "group": "mnt", "measure": 9.84 },
+    {
+      "category": "panasonic automotive system",
+      "group": "mnt",
+      "measure": 12.4
+    },
+    { "category": "volkswagen ag", "group": "mnt", "measure": 8.06 },
+    {
+      "category": "smr automotive systems india ltd",
+      "group": "mnt",
+      "measure": 8.47
+    },
+    { "category": "general motors", "group": "mnt", "measure": 10.62 },
+    { "category": "michelin siam co ltd", "group": "mnt", "measure": 11.32 },
+    { "category": "michelin", "group": "mnt", "measure": 11.94 },
+    {
+      "category": "delphi powertrain systems deutschla",
+      "group": "mnt",
+      "measure": 10.2
+    },
+    { "category": "yamaha corporation", "group": "mnt", "measure": 13.29 },
+    { "category": "rac motoring services", "group": "mnt", "measure": 11.71 },
+    { "category": "alpine electronics gmbh", "group": "mnt", "measure": 11.51 },
+    {
+      "category": "harman/becker automotive systems",
+      "group": "mnt",
+      "measure": 9.66
+    },
+    { "category": "visteon", "group": "mnt", "measure": 10.98 },
+    { "category": "oshkosh", "group": "mnt", "measure": 12.18 },
+    { "category": "ns international ltd", "group": "mnt", "measure": 12.9 },
+    { "category": "daimler chrysler ag", "group": "mnt", "measure": 12.65 },
+    { "category": "nissan motor co ltd", "group": "mnt", "measure": 11.38 },
+    { "category": "affinia", "group": "mnt", "measure": 10.49 },
+    {
+      "category": "volkswagen do brasil ltda",
+      "group": "mnt",
+      "measure": 9.31
+    },
+    { "category": "hyundai", "group": "mnt", "measure": 9.85 },
+    { "category": "harman group", "group": "mnt", "measure": 9.7 },
+    { "category": "ntt", "group": "mnt", "measure": 11.28 },
+    { "category": "kawasaki motor usa", "group": "mnt", "measure": 12.54 },
+    {
+      "category": "continental automotive holdings co",
+      "group": "mnt",
+      "measure": 13.08
+    },
+    { "category": "mclaren automotive ltd", "group": "mnt", "measure": 12.63 },
+    { "category": "volkswagen", "group": "mnt", "measure": 11.66 },
+    { "category": "metzeler schaum inc", "group": "mnt", "measure": 9.14 },
+    { "category": "daimler", "group": "mnt", "measure": 10.39 },
+    {
+      "category": "michelin asia-pacific pte ltd",
+      "group": "mnt",
+      "measure": 9.17
+    },
+    { "category": "dejai live pty ltd", "group": "mnt", "measure": 8.81 },
+    {
+      "category": "volvo group india pvt ltd",
+      "group": "mnt",
+      "measure": 9.98
+    },
+    {
+      "category": "mazda motor logistics europe nv\u252c\u00e1",
+      "group": "mnt",
+      "measure": 9.22
+    },
+    {
+      "category": "harman international japan co ltd",
+      "group": "mnt",
+      "measure": 11.15
+    },
+    { "category": "man diesel & turbo se", "group": "mnt", "measure": 8.65 },
+    { "category": "ntt data mse corporation", "group": "mnt", "measure": 9.64 },
+    { "category": "michelin europe", "group": "mnt", "measure": 9.11 },
+    {
+      "category": "volkswagen of america inc",
+      "group": "mnt",
+      "measure": 12.61
+    },
+    { "category": "magneti marelli sistemi", "group": "mnt", "measure": 11.88 },
+    { "category": "johnson controls inc", "group": "mnt", "measure": 10.06 },
+    { "category": "adient us llc", "group": "mnt", "measure": 11.01 },
+    { "category": "metzeler-schaum inc", "group": "mnt", "measure": 10.58 },
+    {
+      "category": "mazda motor logistics europe nv\u00e2\u00a0",
+      "group": "mnt",
+      "measure": 11.5
+    },
+    {
+      "category": "harman international (china) holdin",
+      "group": "mnt",
+      "measure": 10.25
+    },
+    {
+      "category": "mazda north american operations",
+      "group": "mnt",
+      "measure": 10.6
+    },
+    { "category": "mann+hummel filtration", "group": "mnt", "measure": 9.33 },
+    { "category": "affinia group", "group": "mnt", "measure": 12.94 },
+    { "category": "mazda motor corporation", "group": "mnt", "measure": 12.09 },
+    {
+      "category": "mann+hummel filtration technology",
+      "group": "mnt",
+      "measure": 12.96
+    },
+    {
+      "category": "mazda motor logistics europe nv-\u00e1",
+      "group": "mnt",
+      "measure": 13.08
+    },
+    {
+      "category": "harman international industries inc",
+      "group": "mnt",
+      "measure": 12.39
+    },
+    { "category": "ntt data inc", "group": "mnt", "measure": 13.46 },
+    {
+      "category": "tyco international (us) inc",
+      "group": "mnt",
+      "measure": 11.87
+    },
+    { "category": "american honda motors", "group": "mnt", "measure": 8.6 },
+    {
+      "category": "harman becker automotive system",
+      "group": "mnt",
+      "measure": 12.16
+    },
+    { "category": "ford motor company", "group": "mnt", "measure": 11.09 },
+    {
+      "category": "xanavi informatics corporation",
+      "group": "mnt",
+      "measure": 10.48
+    },
+    { "category": "mazda motor corp", "group": "mnt", "measure": 12.01 },
+    {
+      "category": "continental automotive systems inc",
+      "group": "mnt",
+      "measure": 11.91
+    },
+    {
+      "category": "honda r & d americas inc",
+      "group": "mnt",
+      "measure": 10.17
+    },
+    { "category": "panasonic corporation", "group": "mnt", "measure": 12.04 },
+    {
+      "category": "honda r&d technical laboratory",
+      "group": "mnt",
+      "measure": 12.3
+    },
+    { "category": "dana", "group": "mnt", "measure": 13.31 },
+    {
+      "category": "aad_ford_test_automation",
+      "group": "mnt",
+      "measure": 13.78
+    },
+    {
+      "category": "continental reifen deutschland gmbh",
+      "group": "mnt",
+      "measure": 14.07
+    },
+    {
+      "category": "honda of america mfg inc",
+      "group": "mnt",
+      "measure": 10.84
+    },
+    {
+      "category": "continental automotive singapore pt",
+      "group": "mnt",
+      "measure": 11.35
+    },
+    {
+      "category": "hyundai autoever america llc",
+      "group": "mnt",
+      "measure": 9.47
+    },
+    {
+      "category": "mitsubishi motors corporation",
+      "group": "mnt",
+      "measure": 10.51
+    },
+    { "category": "hyundai mobis co ltd", "group": "mnt", "measure": 10.64 },
+    {
+      "category": "chrysler india automotive pvt ltd",
+      "group": "mnt",
+      "measure": 10.8
+    },
+    {
+      "category": "visteon corporation electronics",
+      "group": "mnt",
+      "measure": 9.3
+    },
+    {
+      "category": "harman/becker automotive system",
+      "group": "mnt",
+      "measure": 12.46
+    },
+    { "category": "continental usa", "group": "mnt", "measure": 12.77 },
+    {
+      "category": "systema systementwicklung",
+      "group": "mnt",
+      "measure": 10.83
+    },
+    {
+      "category": "american railcar industries inc",
+      "group": "mnt",
+      "measure": 9.95
+    },
+    { "category": "honda r&d co ltd", "group": "mnt", "measure": 9.93 },
+    { "category": "volvo india pvt ltd", "group": "mnt", "measure": 10.8 },
+    { "category": "adient", "group": "mnt", "measure": 11.14 },
+    { "category": "visteon corporation", "group": "mnt", "measure": 10.03 },
+    { "category": "isuzu na corporation", "group": "mnt", "measure": 10.57 },
+    { "category": "ieh auto parts llc", "group": "mnt", "measure": 11.64 },
+    { "category": "oshkosh corporation", "group": "mnt", "measure": 10.83 },
+    {
+      "category": "american railcar industries llc",
+      "group": "mnt",
+      "measure": 12.07
+    },
+    {
+      "category": "panasonic automotive systems",
+      "group": "mnt",
+      "measure": 10.21
+    },
+    {
+      "category": "panasonic automotive systems compan",
+      "group": "mnt",
+      "measure": 12.07
+    },
+    { "category": "edgewell personal care", "group": "mnt", "measure": 11.51 },
+    {
+      "category": "cobham advanced electronic solution",
+      "group": "mnt",
+      "measure": 9.58
+    },
+    {
+      "category": "zodiac inflight innovations",
+      "group": "mnt",
+      "measure": 13.09
+    },
+    { "category": "gfi", "group": "mnt", "measure": 11.36 },
+    {
+      "category": "recaro aircraft seating gmbh &co",
+      "group": "mnt",
+      "measure": 9.8
+    },
+    {
+      "category": "linx printing technologies",
+      "group": "mnt",
+      "measure": 9.78
+    },
+    { "category": "eads", "group": "mnt", "measure": 9.39 },
+    {
+      "category": "doosan infracore south america",
+      "group": "mnt",
+      "measure": 8.44
+    },
+    { "category": "woodward inc", "group": "mnt", "measure": 9.82 },
+    { "category": "bae-acp-royalty", "group": "mnt", "measure": 10.24 },
+    { "category": "bae systems", "group": "mnt", "measure": 13.44 },
+    { "category": "zodiac seats us", "group": "mnt", "measure": 8.88 },
+    { "category": "cetc avionics sjo ltd", "group": "mnt", "measure": 11.71 },
+    {
+      "category": "recaro aircraft seating americas i",
+      "group": "mnt",
+      "measure": 10.3
+    },
+    { "category": "recaro", "group": "mnt", "measure": 8.26 },
+    { "category": "cobham mission equipment", "group": "mnt", "measure": 8.7 },
+    { "category": "airbus operations  gmbh", "group": "mnt", "measure": 11.63 },
+    { "category": "thales usa inc", "group": "mnt", "measure": 12.55 },
+    {
+      "category": "compania espanola de sistemas",
+      "group": "mnt",
+      "measure": 12.55
+    },
+    { "category": "zodiac cabin control", "group": "mnt", "measure": 11.88 },
+    { "category": "rolls royce", "group": "mnt", "measure": 10.6 },
+    {
+      "category": "safran engineering services india p",
+      "group": "mnt",
+      "measure": 9.24
+    },
+    {
+      "category": "boeing shared services group",
+      "group": "mnt",
+      "measure": 13.55
+    },
+    {
+      "category": "bae systems controls inc",
+      "group": "mnt",
+      "measure": 12.94
+    },
+    { "category": "cesa sa", "group": "mnt", "measure": 12.43 },
+    { "category": "boeing", "group": "mnt", "measure": 11.74 },
+    { "category": "thales", "group": "mnt", "measure": 11.69 },
+    { "category": "cetc  avionics sjo ltd", "group": "mnt", "measure": 10.63 },
+    { "category": "airbus sas", "group": "mnt", "measure": 11.09 },
+    { "category": "nova-tech engineering", "group": "mnt", "measure": 12.26 },
+    {
+      "category": "eveready battery company inc",
+      "group": "mnt",
+      "measure": 9.32
+    },
+    { "category": "bae-onsite-support", "group": "mnt", "measure": 11.31 },
+    { "category": "humax", "group": "mnt", "measure": 11.08 },
+    { "category": "flextronics", "group": "mnt", "measure": 10.21 },
+    {
+      "category": "flextronics international kft",
+      "group": "mnt",
+      "measure": 9.98
+    },
+    {
+      "category": "samsung electronics co ltd",
+      "group": "mnt",
+      "measure": 11.35
+    },
+    {
+      "category": "nokia solutions and networks",
+      "group": "mnt",
+      "measure": 12.48
+    },
+    { "category": "ciena canada inc", "group": "mnt", "measure": 10.25 },
+    {
+      "category": "fujitsu network communication",
+      "group": "mnt",
+      "measure": 10.27
+    },
+    {
+      "category": "philips consumer electronics",
+      "group": "mnt",
+      "measure": 12.19
+    },
+    { "category": "cisco systems inc", "group": "mnt", "measure": 10.69 },
+    { "category": "intel corporation", "group": "mnt", "measure": 10.48 },
+    { "category": "ericsson ab", "group": "mnt", "measure": 9.49 },
+    { "category": "technicolor sa", "group": "mnt", "measure": 12.35 },
+    { "category": "ale international", "group": "mnt", "measure": 12.56 },
+    {
+      "category": "hisense electronics co ltd",
+      "group": "mnt",
+      "measure": 11.31
+    },
+    { "category": "bbi technologies", "group": "mnt", "measure": 10.09 },
+    {
+      "category": "philips consumer electronics b",
+      "group": "mnt",
+      "measure": 12.28
+    },
+    { "category": "cisco services business", "group": "mnt", "measure": 10.92 },
+    { "category": "lg electronics inc", "group": "mnt", "measure": 10.1 },
+    { "category": "alcatel-lucent france", "group": "mnt", "measure": 12.31 },
+    { "category": "motorola", "group": "mnt", "measure": 11.99 },
+    { "category": "olympus corporation", "group": "mnt", "measure": 10.95 },
+    {
+      "category": "freestyle technologies pty ltd",
+      "group": "mnt",
+      "measure": 11.05
+    },
+    { "category": "philips do brasil", "group": "mnt", "measure": 9.55 },
+    {
+      "category": "aastra telecom sweden ab",
+      "group": "mnt",
+      "measure": 11.26
+    },
+    { "category": "cisco", "group": "mnt", "measure": 8.01 },
+    {
+      "category": "alcatel-lucent italia spa",
+      "group": "mnt",
+      "measure": 11.93
+    },
+    { "category": "coriant r&d gmbh", "group": "mnt", "measure": 12.84 },
+    { "category": "ciena - nortel", "group": "mnt", "measure": 10.8 },
+    {
+      "category": "arima lasers corporation",
+      "group": "mnt",
+      "measure": 10.76
+    },
+    {
+      "category": "samsung telecommunications",
+      "group": "mnt",
+      "measure": 11.0
+    },
+    { "category": "commscope", "group": "mnt", "measure": 10.66 },
+    {
+      "category": "alcatel-lucent espana sa",
+      "group": "mnt",
+      "measure": 10.35
+    },
+    { "category": "wi-fi alliance", "group": "mnt", "measure": 10.63 },
+    { "category": "shoretel inc", "group": "mnt", "measure": 10.39 },
+    { "category": "huawei", "group": "mnt", "measure": 11.28 },
+    { "category": "nokia siemens networks", "group": "mnt", "measure": 10.99 },
+    { "category": "lumileds llc", "group": "mnt", "measure": 12.05 },
+    { "category": "tivo inc", "group": "mnt", "measure": 11.46 },
+    { "category": "redknee", "group": "mnt", "measure": 12.87 },
+    {
+      "category": "le shi zhi xin electronic",
+      "group": "mnt",
+      "measure": 10.72
+    },
+    {
+      "category": "alcatel lucent technologies",
+      "group": "mnt",
+      "measure": 9.97
+    },
+    { "category": "alcatel- lucent", "group": "mnt", "measure": 10.69 },
+    { "category": "ericsson inc", "group": "mnt", "measure": 13.35 },
+    {
+      "category": "le shi zhi xin electronic technology (tianjin) limited",
+      "group": "mnt",
+      "measure": 10.19
+    },
+    {
+      "category": "philips consumer electronics bv",
+      "group": "mnt",
+      "measure": 10.02
+    },
+    {
+      "category": "huawei technologies co ltd",
+      "group": "mnt",
+      "measure": 10.98
+    },
+    { "category": "zebra technologies", "group": "mnt", "measure": 9.48 },
+    {
+      "category": "nokia solutions and networks oy",
+      "group": "mnt",
+      "measure": 9.67
+    },
+    { "category": "alcatel usa", "group": "mnt", "measure": 11.44 },
+    { "category": "arista networks group", "group": "mnt", "measure": 11.33 },
+    { "category": "infinera india pvt ltd", "group": "mnt", "measure": 11.1 },
+    {
+      "category": "marconi communications inc",
+      "group": "mnt",
+      "measure": 10.71
+    },
+    { "category": "leica", "group": "mnt", "measure": 10.55 },
+    {
+      "category": "philips innovative applications",
+      "group": "mnt",
+      "measure": 10.16
+    },
+    { "category": "nec corporation", "group": "mnt", "measure": 9.98 },
+    { "category": "lg electronics", "group": "mnt", "measure": 10.06 },
+    {
+      "category": "le electronic technology",
+      "group": "mnt",
+      "measure": 10.51
+    },
+    { "category": "avaya inc", "group": "mnt", "measure": 10.28 },
+    { "category": "ericsson sverige ab", "group": "mnt", "measure": 12.1 },
+    {
+      "category": "commscope inc of north carolina",
+      "group": "mnt",
+      "measure": 9.42
+    },
+    { "category": "avaya", "group": "mnt", "measure": 9.35 },
+    { "category": "philips medical systems", "group": "mnt", "measure": 10.96 },
+    { "category": "alcatel-lucent bell nv", "group": "mnt", "measure": 11.04 },
+    { "category": "ericsson dura wireless", "group": "mnt", "measure": 9.4 },
+    { "category": "technicolor thomson", "group": "mnt", "measure": 11.28 },
+    { "category": "(blank)", "group": "mnt", "measure": 10.2 },
+    {
+      "category": "telcordia technologies inc",
+      "group": "mnt",
+      "measure": 11.73
+    },
+    { "category": "alcatel - lucent", "group": "mnt", "measure": 11.11 },
+    { "category": "ip infusion", "group": "mnt", "measure": 12.55 },
+    { "category": "leica geosystems ag", "group": "mnt", "measure": 10.03 },
+    { "category": "coriant", "group": "mnt", "measure": 10.46 },
+    { "category": "ip infusion inc", "group": "mnt", "measure": 12.07 },
+    { "category": "coriant gmbh", "group": "mnt", "measure": 11.31 },
+    { "category": "i direct technologies", "group": "mnt", "measure": 9.2 },
+    { "category": "fujitsu japan", "group": "mnt", "measure": 10.65 },
+    { "category": "nokia solutions", "group": "mnt", "measure": 12.5 },
+    {
+      "category": "huawei software technologies coltd",
+      "group": "mnt",
+      "measure": 8.38
+    },
+    {
+      "category": "alcatel-lucent telecom limited",
+      "group": "mnt",
+      "measure": 9.47
+    },
+    { "category": "ericsson", "group": "mnt", "measure": 11.19 },
+    { "category": "extreme networks", "group": "mnt", "measure": 13.15 },
+    {
+      "category": "nec india private limited",
+      "group": "mnt",
+      "measure": 11.37
+    },
+    {
+      "category": "nokia siemens networks oy",
+      "group": "mnt",
+      "measure": 13.47
+    },
+    { "category": "arista networks", "group": "mnt", "measure": 12.56 },
+    { "category": "nokia networks", "group": "mnt", "measure": 7.98 },
+    {
+      "category": "alcatel internetworking ltd",
+      "group": "mnt",
+      "measure": 12.87
+    },
+    {
+      "category": "alcatel - lucent india ltd",
+      "group": "mnt",
+      "measure": 10.16
+    },
+    { "category": "olympus america inc", "group": "mnt", "measure": 9.19 },
+    {
+      "category": "flextronics technologies",
+      "group": "mnt",
+      "measure": 10.23
+    },
+    { "category": "fujitsu limited", "group": "mnt", "measure": 11.46 },
+    { "category": "f5 networks", "group": "mnt", "measure": 10.48 },
+    { "category": "philips", "group": "mnt", "measure": 10.97 },
+    { "category": "ericsson limited", "group": "mnt", "measure": 11.67 },
+    { "category": "infinera", "group": "mnt", "measure": 10.13 },
+    { "category": "samsung", "group": "mnt", "measure": 9.01 },
+    { "category": "fujitsu", "group": "mnt", "measure": 9.93 },
+    {
+      "category": "alcatel-lucent deutschland ag",
+      "group": "mnt",
+      "measure": 10.25
+    },
+    {
+      "category": "alcatel-lucent india limited",
+      "group": "mnt",
+      "measure": 9.79
+    },
+    { "category": "aastra", "group": "mnt", "measure": 12.69 },
+    {
+      "category": "microsoft  india (r&d) pvt ltd",
+      "group": "mnt",
+      "measure": 9.52
+    },
+    {
+      "category": "sony india software centre private",
+      "group": "mnt",
+      "measure": 10.07
+    },
+    { "category": "ibm oracle porting", "group": "mnt", "measure": 11.08 },
+    { "category": "ca", "group": "mnt", "measure": 10.41 },
+    { "category": "ubisoft international", "group": "mnt", "measure": 10.79 },
+    { "category": "sap", "group": "mnt", "measure": 9.56 },
+    { "category": "symantec", "group": "mnt", "measure": 11.79 },
+    { "category": "smart technologies ulc", "group": "mnt", "measure": 9.06 },
+    {
+      "category": "bandai america incorporated",
+      "group": "mnt",
+      "measure": 11.01
+    },
+    {
+      "category": "one time customer[ ms certification",
+      "group": "mnt",
+      "measure": 11.05
+    },
+    { "category": "emailage", "group": "mnt", "measure": 10.06 },
+    { "category": "ca software b v", "group": "mnt", "measure": 12.51 },
+    { "category": "coupa software", "group": "mnt", "measure": 9.76 },
+    {
+      "category": "one time customer[ ms certific",
+      "group": "mnt",
+      "measure": 9.16
+    },
+    { "category": "vm ware", "group": "mnt", "measure": 10.36 },
+    { "category": "portable office company", "group": "mnt", "measure": 11.66 },
+    { "category": "apttus corporation", "group": "mnt", "measure": 10.95 },
+    { "category": "qliktech inc", "group": "mnt", "measure": 10.87 },
+    { "category": "unisys corporation", "group": "mnt", "measure": 10.16 },
+    { "category": "sap ag", "group": "mnt", "measure": 10.96 },
+    { "category": "microsoft corporation", "group": "mnt", "measure": 12.34 },
+    { "category": "pivotal software inc", "group": "mnt", "measure": 12.91 },
+    { "category": "kaseya management llc", "group": "mnt", "measure": 10.55 },
+    { "category": "adobe sytems", "group": "mnt", "measure": 13.67 },
+    { "category": "sugarcrm", "group": "mnt", "measure": 10.55 },
+    { "category": "vmware inc", "group": "mnt", "measure": 11.04 },
+    { "category": "electronic arts", "group": "mnt", "measure": 9.56 },
+    { "category": "citrix systems inc", "group": "mnt", "measure": 10.43 },
+    { "category": "red hat inc", "group": "mnt", "measure": 9.49 },
+    { "category": "netsuite inc", "group": "mnt", "measure": 12.94 },
+    { "category": "asg software solutions", "group": "mnt", "measure": 9.34 },
+    { "category": "citrix systems", "group": "mnt", "measure": 11.68 },
+    { "category": "sony corporation", "group": "mnt", "measure": 9.84 },
+    {
+      "category": "drivestream india private limited",
+      "group": "mnt",
+      "measure": 11.97
+    },
+    {
+      "category": "risk management solutions llc",
+      "group": "mnt",
+      "measure": 11.06
+    },
+    {
+      "category": "risk management solutions",
+      "group": "mnt",
+      "measure": 11.31
+    },
+    {
+      "category": "microsoft india (r&d) pvt ltd",
+      "group": "mnt",
+      "measure": 11.19
+    },
+    {
+      "category": "ubisoft production internationale s",
+      "group": "mnt",
+      "measure": 7.98
+    },
+    {
+      "category": "the portable office company limited",
+      "group": "mnt",
+      "measure": 11.58
+    },
+    { "category": "dimanex bv", "group": "mnt", "measure": 9.83 },
+    { "category": "computer associates", "group": "mnt", "measure": 11.91 },
+    { "category": "qlik tech inc", "group": "mnt", "measure": 10.67 },
+    { "category": "amazon", "group": "mnt", "measure": 10.61 },
+    { "category": "drivestream", "group": "mnt", "measure": 12.68 },
+    { "category": "asg group limited", "group": "mnt", "measure": 10.24 },
+    { "category": "intuit inc", "group": "mnt", "measure": 10.29 },
+    { "category": "qliktech", "group": "mnt", "measure": 12.08 },
+    { "category": "asg software solution", "group": "mnt", "measure": 11.33 },
+    { "category": "thinglogix", "group": "mnt", "measure": 11.49 },
+    { "category": "ca technologies", "group": "mnt", "measure": 8.26 },
+    { "category": "ca inc", "group": "mnt", "measure": 9.9 },
+    { "category": "sugarcrm inc", "group": "mnt", "measure": 11.44 },
+    { "category": "ibm", "group": "mnt", "measure": 14.11 },
+    { "category": "konami gaming inc", "group": "mnt", "measure": 10.05 },
+    { "category": "netsuite", "group": "mnt", "measure": 10.21 },
+    { "category": "sony electronics inc", "group": "mnt", "measure": 9.92 },
+    { "category": "novell kk", "group": "mnt", "measure": 10.33 },
+    { "category": "oracle japan kk", "group": "mnt", "measure": 13.2 },
+    { "category": "ibm corporation", "group": "mnt", "measure": 10.32 },
+    { "category": "bandai", "group": "mnt", "measure": 12.75 },
+    { "category": "amazon corporate llc", "group": "mnt", "measure": 9.71 },
+    { "category": "electronic arts ltd", "group": "mnt", "measure": 10.28 },
+    { "category": "oracle", "group": "mnt", "measure": 8.97 },
+    {
+      "category": "asg worldwide private limited",
+      "group": "mnt",
+      "measure": 12.42
+    },
+    { "category": "sony", "group": "mnt", "measure": 11.2 },
+    { "category": "drivestream inc", "group": "mnt", "measure": 11.45 },
+    { "category": "thinglogix llc", "group": "mnt", "measure": 11.99 },
+    { "category": "microsoft", "group": "mnt", "measure": 11.19 },
+    { "category": "electronic arts inc", "group": "mnt", "measure": 10.46 },
+    { "category": "cesa sa", "group": "mnt", "measure": 10.29 },
+    { "category": "zodiac cabin control", "group": "mnt", "measure": 10.32 },
+    { "category": "viskase companies inc", "group": "mnt", "measure": 9.23 },
+    {
+      "category": "norgren european logistics company",
+      "group": "mnt",
+      "measure": 9.68
+    },
+    { "category": "the scotts company", "group": "mnt", "measure": 9.69 },
+    { "category": "kone", "group": "mnt", "measure": 11.18 },
+    { "category": "saint gobain", "group": "mnt", "measure": 9.62 },
+    { "category": "ge", "group": "mnt", "measure": 12.13 },
+    {
+      "category": "emerson network power ltd",
+      "group": "mnt",
+      "measure": 12.69
+    },
+    { "category": "broadspectrum limited", "group": "mnt", "measure": 10.0 },
+    { "category": "outotec", "group": "mnt", "measure": 12.71 },
+    { "category": "vestas wind systems a/s", "group": "mnt", "measure": 11.78 },
+    { "category": "intertape polymer corp", "group": "mnt", "measure": 10.12 },
+    {
+      "category": "doosan infracore south america",
+      "group": "mnt",
+      "measure": 9.98
+    },
+    { "category": "rhodia operations", "group": "mnt", "measure": 13.08 },
+    { "category": "intertape polymer group", "group": "mnt", "measure": 12.1 },
+    {
+      "category": "schneider electric industries sas",
+      "group": "mnt",
+      "measure": 9.95
+    },
+    { "category": "atlas copco", "group": "mnt", "measure": 12.46 },
+    {
+      "category": "arcelormittal purchasing - luxembou",
+      "group": "mnt",
+      "measure": 9.65
+    },
+    {
+      "category": "arjowiggins fine papers pty ltd",
+      "group": "mnt",
+      "measure": 11.5
+    },
+    { "category": "nexeo solutions", "group": "mnt", "measure": 12.33 },
+    {
+      "category": "electrolux home products",
+      "group": "mnt",
+      "measure": 11.93
+    },
+    {
+      "category": "transfield services company",
+      "group": "mnt",
+      "measure": 11.57
+    },
+    { "category": "somfy sas", "group": "mnt", "measure": 9.27 },
+    { "category": "mts systems", "group": "mnt", "measure": 9.98 },
+    { "category": "the wiremold company", "group": "mnt", "measure": 9.49 },
+    {
+      "category": "gerdau ameristeel us inc",
+      "group": "mnt",
+      "measure": 10.06
+    },
+    { "category": "abb inc", "group": "mnt", "measure": 12.26 },
+    { "category": "caterpillar", "group": "mnt", "measure": 14.06 },
+    { "category": "w r grace & co", "group": "mnt", "measure": 9.68 },
+    {
+      "category": "schneider electric usa inc",
+      "group": "mnt",
+      "measure": 11.53
+    },
+    { "category": "genpact international", "group": "mnt", "measure": 11.51 },
+    { "category": "assa abloy ab", "group": "mnt", "measure": 11.64 },
+    { "category": "vestas", "group": "mnt", "measure": 12.1 },
+    { "category": "dupont", "group": "mnt", "measure": 8.5 },
+    {
+      "category": "hanson building products",
+      "group": "mnt",
+      "measure": 11.41
+    },
+    {
+      "category": "ppc group services proprietary limi",
+      "group": "mnt",
+      "measure": 10.37
+    },
+    { "category": "assa abloy", "group": "mnt", "measure": 12.79 },
+    { "category": "energizer holdings inc", "group": "mnt", "measure": 10.84 },
+    {
+      "category": "scentair technologies llc",
+      "group": "mnt",
+      "measure": 11.55
+    },
+    {
+      "category": "rockwell automation chile  sa",
+      "group": "mnt",
+      "measure": 9.55
+    },
+    {
+      "category": "godrej & boyce manufacturing compan",
+      "group": "mnt",
+      "measure": 8.05
+    },
+    { "category": "rockwell automation", "group": "mnt", "measure": 11.97 },
+    { "category": "outotec oyj", "group": "mnt", "measure": 13.47 },
+    {
+      "category": "utc - climate controls & security",
+      "group": "mnt",
+      "measure": 10.74
+    },
+    { "category": "whirlpool corporation", "group": "mnt", "measure": 11.2 },
+    { "category": "nissha usa", "group": "mnt", "measure": 9.84 },
+    {
+      "category": "electrolux consumer outdoor product",
+      "group": "mnt",
+      "measure": 11.84
+    },
+    { "category": "abb", "group": "mnt", "measure": 11.35 },
+    {
+      "category": "nippon otis elevator company",
+      "group": "mnt",
+      "measure": 11.13
+    },
+    { "category": "3m uk plc", "group": "mnt", "measure": 9.48 },
+    {
+      "category": "abb global services limited",
+      "group": "mnt",
+      "measure": 13.65
+    },
+    { "category": "stora enso oyj", "group": "mnt", "measure": 13.83 },
+    { "category": "royal dsm nv", "group": "mnt", "measure": 10.08 },
+    { "category": "energizer brands llc", "group": "mnt", "measure": 10.67 },
+    { "category": "scentair", "group": "mnt", "measure": 11.84 },
+    { "category": "somfy", "group": "mnt", "measure": 8.74 },
+    { "category": "gerdau sa", "group": "mnt", "measure": 9.56 },
+    {
+      "category": "berryplastic corporation",
+      "group": "mnt",
+      "measure": 13.91
+    },
+    { "category": "3m", "group": "mnt", "measure": 8.83 },
+    { "category": "whirlpool", "group": "mnt", "measure": 8.96 },
+    { "category": "arjowiggins fine papers", "group": "mnt", "measure": 12.48 },
+    {
+      "category": "arcelormittal purchasing-luxembourg",
+      "group": "mnt",
+      "measure": 10.8
+    },
+    {
+      "category": "3m / it internal support",
+      "group": "mnt",
+      "measure": 14.97
+    },
+    { "category": "arauco do brasil sa", "group": "mnt", "measure": 9.1 },
+    {
+      "category": "acuity brands lighting inc",
+      "group": "mnt",
+      "measure": 12.2
+    },
+    { "category": "abb sa", "group": "mnt", "measure": 11.14 },
+    {
+      "category": "rockwell automation argentina",
+      "group": "mnt",
+      "measure": 9.94
+    },
+    { "category": "kone international", "group": "mnt", "measure": 8.26 },
+    { "category": "honeywell inc", "group": "mnt", "measure": 10.44 },
+    {
+      "category": "norgren european logistics",
+      "group": "mnt",
+      "measure": 12.95
+    },
+    { "category": "hbp pipe & precast", "group": "mnt", "measure": 10.7 },
+    { "category": "abb switzerland ltd", "group": "mnt", "measure": 11.42 },
+    { "category": "legrand north america", "group": "mnt", "measure": 9.67 },
+    { "category": "alfa laval lund ab", "group": "mnt", "measure": 10.33 },
+    { "category": "kone corporation", "group": "mnt", "measure": 11.82 },
+    { "category": "gardner denver inc", "group": "mnt", "measure": 9.0 },
+    { "category": "trelleborg ab", "group": "mnt", "measure": 10.01 },
+    { "category": "carrier", "group": "mnt", "measure": 11.84 },
+    { "category": "areva", "group": "mnt", "measure": 10.25 },
+    { "category": "corning incorporated", "group": "mnt", "measure": 12.64 },
+    {
+      "category": "dynapac compaction equipment ab",
+      "group": "mnt",
+      "measure": 12.68
+    },
+    { "category": "genpact ge", "group": "mnt", "measure": 8.86 },
+    { "category": "esab ab", "group": "mnt", "measure": 8.26 },
+    { "category": "abb_pl_sap_support", "group": "mnt", "measure": 10.25 },
+    {
+      "category": "wipro ge healthcare private ltd",
+      "group": "mnt",
+      "measure": 12.48
+    },
+    {
+      "category": "united technologies corp",
+      "group": "mnt",
+      "measure": 10.55
+    },
+    { "category": "outokumpu", "group": "mnt", "measure": 9.29 },
+    {
+      "category": "emerson process management",
+      "group": "mnt",
+      "measure": 11.21
+    },
+    { "category": "sealed air", "group": "mnt", "measure": 11.15 },
+    { "category": "nilfisk a/s", "group": "mnt", "measure": 9.47 },
+    { "category": "emerson electric", "group": "mnt", "measure": 12.47 },
+    { "category": "caterpillar usa", "group": "mnt", "measure": 9.1 },
+    {
+      "category": "abb management services ltd",
+      "group": "mnt",
+      "measure": 12.97
+    },
+    { "category": "akzo nobel nv", "group": "mnt", "measure": 10.7 },
+    { "category": "arcelormittal brazil", "group": "mnt", "measure": 12.25 },
+    {
+      "category": "forterra building products ltd",
+      "group": "mnt",
+      "measure": 11.08
+    },
+    { "category": "carrier corporation", "group": "mnt", "measure": 11.15 },
+    { "category": "emerson retail services", "group": "mnt", "measure": 9.51 },
+    { "category": "abb ltda", "group": "mnt", "measure": 8.88 },
+    { "category": "schneider electric", "group": "mnt", "measure": 10.34 },
+    {
+      "category": "rheem manufacturing company",
+      "group": "mnt",
+      "measure": 10.08
+    },
+    {
+      "category": "videojet technologies inc",
+      "group": "mnt",
+      "measure": 10.03
+    },
+    { "category": "ab electrolux", "group": "mnt", "measure": 9.87 },
+    { "category": "rapiscans system", "group": "mnt", "measure": 11.3 },
+    {
+      "category": "dsm business services bv",
+      "group": "mnt",
+      "measure": 10.04
+    },
+    { "category": "eriks nv", "group": "mnt", "measure": 12.96 },
+    { "category": "corning", "group": "mnt", "measure": 12.53 },
+    {
+      "category": "honeywell technology solutions lab",
+      "group": "mnt",
+      "measure": 10.16
+    },
+    { "category": "3m south africa pty ltd", "group": "mnt", "measure": 12.89 },
+    {
+      "category": "husky injection molding systems ltd",
+      "group": "mnt",
+      "measure": 13.08
+    },
+    { "category": "(blank)", "group": "mnt", "measure": 10.44 },
+    { "category": "liebert corporation", "group": "mnt", "measure": 10.37 },
+    {
+      "category": "forterra pipe & precast llc",
+      "group": "mnt",
+      "measure": 11.01
+    },
+    { "category": "solvay sa", "group": "mnt", "measure": 11.5 },
+    { "category": "diversey inc", "group": "mnt", "measure": 8.53 },
+    { "category": "arcelor-mittal", "group": "mnt", "measure": 8.87 },
+    { "category": "tdm systems gmbh", "group": "mnt", "measure": 12.62 },
+    { "category": "transfield services", "group": "mnt", "measure": 13.1 },
+    { "category": "emerson", "group": "mnt", "measure": 9.64 },
+    { "category": "breville pty ltd", "group": "mnt", "measure": 9.8 },
+    {
+      "category": "sealed air corporation (us)",
+      "group": "mnt",
+      "measure": 12.94
+    },
+    {
+      "category": "the chemours company  fc llc",
+      "group": "mnt",
+      "measure": 11.7
+    },
+    { "category": "johnsondiversey", "group": "mnt", "measure": 10.64 },
+    {
+      "category": "abb beijing drive systems co ltd",
+      "group": "mnt",
+      "measure": 12.95
+    },
+    { "category": "valmet corporation", "group": "mnt", "measure": 11.54 },
+    { "category": "open text (asia) pte ltd", "group": "mnt", "measure": 8.59 },
+    {
+      "category": "electrolux do brasil s/a",
+      "group": "mnt",
+      "measure": 10.12
+    },
+    { "category": "abb-pros-cluster", "group": "mnt", "measure": 10.05 },
+    {
+      "category": "wipro ge healthcare private limited",
+      "group": "mnt",
+      "measure": 10.42
+    },
+    { "category": "bobcat company", "group": "mnt", "measure": 11.63 },
+    { "category": "evraz plc", "group": "mnt", "measure": 11.54 },
+    { "category": "legrand", "group": "mnt", "measure": 10.8 },
+    {
+      "category": "rockwell automation argentina sa",
+      "group": "mnt",
+      "measure": 10.65
+    },
+    {
+      "category": "dell financial services pty limited",
+      "group": "mnt",
+      "measure": 13.26
+    },
+    {
+      "category": "trelleborg sealing solutions",
+      "group": "mnt",
+      "measure": 8.71
+    },
+    {
+      "category": "ge home & business solutions",
+      "group": "mnt",
+      "measure": 10.26
+    },
+    { "category": "honeywell", "group": "mnt", "measure": 9.62 },
+    { "category": "jcb", "group": "mnt", "measure": 15.71 },
+    { "category": "dulux", "group": "mnt", "measure": 11.42 },
+    { "category": "csi leasing inc", "group": "mnt", "measure": 13.14 },
+    { "category": "sealed air corporation", "group": "mnt", "measure": 11.78 },
+    { "category": "abb_ch_sap_support", "group": "mnt", "measure": 12.64 },
+    { "category": "akzo nobel chemicals", "group": "mnt", "measure": 10.25 },
+    { "category": "electrolux", "group": "mnt", "measure": 11.23 },
+    { "category": "dulux group", "group": "mnt", "measure": 9.38 },
+    {
+      "category": "genpact international inc",
+      "group": "mnt",
+      "measure": 10.04
+    },
+    {
+      "category": "ammeraal beltech beheer nederlands",
+      "group": "mnt",
+      "measure": 13.8
+    },
+    { "category": "rapiscan systems", "group": "mnt", "measure": 8.19 },
+    {
+      "category": "dh business services llc",
+      "group": "mnt",
+      "measure": 10.07
+    },
+    { "category": "alfa laval ab", "group": "mnt", "measure": 10.41 },
+    {
+      "category": "cabot microelectronics corporation",
+      "group": "mnt",
+      "measure": 7.92
+    },
+    { "category": "schneider", "group": "mnt", "measure": 11.57 },
+    { "category": "jcb india limited", "group": "mnt", "measure": 11.74 },
+    {
+      "category": "berry plastics corporation",
+      "group": "mnt",
+      "measure": 10.82
+    },
+    {
+      "category": "ammeraal beltech nederland beheer b",
+      "group": "mnt",
+      "measure": 9.76
+    },
+    { "category": "sulzer management ag", "group": "mnt", "measure": 12.06 },
+    { "category": "norgren inc", "group": "mnt", "measure": 9.6 },
+    { "category": "outokumpu oyj", "group": "mnt", "measure": 10.67 },
+    {
+      "category": "information resources inc",
+      "group": "hls",
+      "measure": 10.46
+    },
+    { "category": "unhcr", "group": "hls", "measure": 12.7 },
+    { "category": "manpower group global", "group": "hls", "measure": 8.66 },
+    { "category": "dun & bradstreet inc", "group": "hls", "measure": 10.85 },
+    { "category": "dun & bradstreet", "group": "hls", "measure": 13.06 },
+    {
+      "category": "donnelley financial solutions llc",
+      "group": "hls",
+      "measure": 10.37
+    },
+    {
+      "category": "tyco international (us) inc",
+      "group": "hls",
+      "measure": 10.69
+    },
+    {
+      "category": "sutherland global services inc",
+      "group": "hls",
+      "measure": 11.74
+    },
+    {
+      "category": "mt services limited partnership",
+      "group": "hls",
+      "measure": 8.03
+    },
+    {
+      "category": "r r donnelley & sons company",
+      "group": "hls",
+      "measure": 9.68
+    },
+    {
+      "category": "national financial partners corp",
+      "group": "hls",
+      "measure": 11.57
+    },
+    { "category": "manpowergroup global inc", "group": "hls", "measure": 9.21 },
+    {
+      "category": "dun & bradstreet corporationsystems",
+      "group": "hls",
+      "measure": 11.21
+    },
+    { "category": "fidal", "group": "hls", "measure": 10.13 },
+    { "category": "pwc", "group": "hls", "measure": 10.24 },
+    {
+      "category": "invocare australia pty limited",
+      "group": "hls",
+      "measure": 12.65
+    },
+    { "category": "berendsen", "group": "hls", "measure": 9.37 },
+    {
+      "category": "rr donnelley & sons company",
+      "group": "hls",
+      "measure": 11.62
+    },
+    { "category": "rr donnelley & sons co", "group": "hls", "measure": 9.65 },
+    { "category": "excellus health plan inc", "group": "hls", "measure": 9.43 },
+    { "category": "quintiles inc", "group": "hls", "measure": 12.23 },
+    {
+      "category": "hca -information technology",
+      "group": "hls",
+      "measure": 8.82
+    },
+    { "category": "international sos", "group": "hls", "measure": 10.56 },
+    {
+      "category": "virginia premier health plan inc",
+      "group": "hls",
+      "measure": 11.34
+    },
+    {
+      "category": "aea international dba intlsos",
+      "group": "hls",
+      "measure": 10.71
+    },
+    { "category": "w h o", "group": "hls", "measure": 11.36 },
+    { "category": "state of nebraska", "group": "hls", "measure": 9.57 },
+    {
+      "category": "catholic health initiatives",
+      "group": "hls",
+      "measure": 13.28
+    },
+    {
+      "category": "fallon community health plan",
+      "group": "hls",
+      "measure": 10.09
+    },
+    {
+      "category": "hospital corporation of america",
+      "group": "hls",
+      "measure": 9.08
+    },
+    { "category": "cardinal health inc", "group": "hls", "measure": 13.63 },
+    {
+      "category": "sentara health plans inc",
+      "group": "hls",
+      "measure": 12.28
+    },
+    {
+      "category": "laboratory corporation of america",
+      "group": "hls",
+      "measure": 10.22
+    },
+    { "category": "sentara", "group": "hls", "measure": 8.23 },
+    { "category": "highmark health services", "group": "hls", "measure": 9.77 },
+    {
+      "category": "united healthcare services inc",
+      "group": "hls",
+      "measure": 12.77
+    },
+    {
+      "category": "nhs national services scotland",
+      "group": "hls",
+      "measure": 12.72
+    },
+    { "category": "change healthcare", "group": "hls", "measure": 9.89 },
+    { "category": "givaudan", "group": "hls", "measure": 10.99 },
+    {
+      "category": "cigna corporate services llc",
+      "group": "hls",
+      "measure": 12.08
+    },
+    {
+      "category": "laboratory corporation of amer",
+      "group": "hls",
+      "measure": 11.23
+    },
+    {
+      "category": "presbyterian healthcare services",
+      "group": "hls",
+      "measure": 11.33
+    },
+    { "category": "mount sinai hospital", "group": "hls", "measure": 12.36 },
+    {
+      "category": "change healthcare operations llc",
+      "group": "hls",
+      "measure": 10.11
+    },
+    { "category": "pacific blue cross", "group": "hls", "measure": 11.5 },
+    {
+      "category": "pt siloam international hospitals",
+      "group": "hls",
+      "measure": 11.19
+    },
+    { "category": "pt nirmala kencana mas", "group": "hls", "measure": 10.44 },
+    { "category": "quest diagonostics", "group": "hls", "measure": 12.59 },
+    { "category": "(blank)", "group": "hls", "measure": 11.12 },
+    { "category": "cardinal health", "group": "hls", "measure": 8.7 },
+    {
+      "category": "cardinal health (shanghai)",
+      "group": "hls",
+      "measure": 12.27
+    },
+    {
+      "category": "yayasan kesehatan telogorejo",
+      "group": "hls",
+      "measure": 10.29
+    },
+    {
+      "category": "the uniting church in australia pro",
+      "group": "hls",
+      "measure": 10.35
+    },
+    { "category": "medavie inc", "group": "hls", "measure": 9.11 },
+    {
+      "category": "thomas jefferson university",
+      "group": "hls",
+      "measure": 7.18
+    },
+    { "category": "cigna", "group": "hls", "measure": 8.82 },
+    {
+      "category": "beacon laboratory benefit solutions",
+      "group": "hls",
+      "measure": 11.41
+    },
+    {
+      "category": "p t sejahteraraya anugrahjaya",
+      "group": "hls",
+      "measure": 11.24
+    },
+    {
+      "category": "pt sejahteraraya anugrahjaya",
+      "group": "hls",
+      "measure": 7.19
+    },
+    {
+      "category": "quest diagnostics incorporated",
+      "group": "hls",
+      "measure": 11.4
+    },
+    {
+      "category": "western health advantage",
+      "group": "hls",
+      "measure": 12.64
+    },
+    { "category": "baxter", "group": "hls", "measure": 10.37 },
+    { "category": "indivior inc", "group": "hls", "measure": 15.27 },
+    { "category": "noramco", "group": "hls", "measure": 11.18 },
+    { "category": "allergan sales llc", "group": "hls", "measure": 11.87 },
+    { "category": "gsk inc", "group": "hls", "measure": 10.26 },
+    {
+      "category": "pfizer consumer healthcare limited",
+      "group": "hls",
+      "measure": 10.35
+    },
+    { "category": "baxter hospitalar ltda", "group": "hls", "measure": 5.95 },
+    { "category": "takeda", "group": "hls", "measure": 12.73 },
+    { "category": "mylan inc", "group": "hls", "measure": 11.85 },
+    {
+      "category": "parexel international inc",
+      "group": "hls",
+      "measure": 11.81
+    },
+    {
+      "category": "novartis institutes for biomedical",
+      "group": "hls",
+      "measure": 10.4
+    },
+    { "category": "johnson & johnson", "group": "hls", "measure": 11.84 },
+    { "category": "glaxosmithkline", "group": "hls", "measure": 10.17 },
+    {
+      "category": "china novartis institutes for",
+      "group": "hls",
+      "measure": 10.83
+    },
+    { "category": "takeda austria gmbh", "group": "hls", "measure": 9.42 },
+    {
+      "category": "shire pharmaceuticals llc",
+      "group": "hls",
+      "measure": 9.21
+    },
+    {
+      "category": "sanofi-aventis farmac+\u00e8utica ltda",
+      "group": "hls",
+      "measure": 10.45
+    },
+    { "category": "fcm llc", "group": "hls", "measure": 13.06 },
+    {
+      "category": "sanofi winthrop industries",
+      "group": "hls",
+      "measure": 11.5
+    },
+    { "category": "roche pharma", "group": "hls", "measure": 10.9 },
+    { "category": "eli lilly and company", "group": "hls", "measure": 12.93 },
+    {
+      "category": "novartis biosciences peru sa",
+      "group": "hls",
+      "measure": 6.04
+    },
+    {
+      "category": "regeneron pharmaceuticals inc",
+      "group": "hls",
+      "measure": 11.44
+    },
+    {
+      "category": "glaxosmithkline services unlim",
+      "group": "hls",
+      "measure": 10.92
+    },
+    { "category": "baxalta inc", "group": "hls", "measure": 12.21 },
+    {
+      "category": "novartis pharmaceuticals corporatio",
+      "group": "hls",
+      "measure": 12.8
+    },
+    {
+      "category": "johnson & johnson pte ltd",
+      "group": "hls",
+      "measure": 11.88
+    },
+    { "category": "lifescan inc", "group": "hls", "measure": 11.45 },
+    {
+      "category": "novartis corporativo sa de cv",
+      "group": "hls",
+      "measure": 9.06
+    },
+    { "category": "om partners usa", "group": "hls", "measure": 11.77 },
+    { "category": "novartis argentina sa", "group": "hls", "measure": 10.08 },
+    { "category": "astra zeneca", "group": "hls", "measure": 12.05 },
+    {
+      "category": "johnson & johnson services inc",
+      "group": "hls",
+      "measure": 10.28
+    },
+    { "category": "elanco us inc", "group": "hls", "measure": 12.45 },
+    {
+      "category": "catalent pharma solutions",
+      "group": "hls",
+      "measure": 13.31
+    },
+    { "category": "novartis chile", "group": "hls", "measure": 11.07 },
+    { "category": "novartis biocioncias sa", "group": "hls", "measure": 11.01 },
+    {
+      "category": "teva pharmaceutical industries limi",
+      "group": "hls",
+      "measure": 10.73
+    },
+    { "category": "johnson & johnson kk", "group": "hls", "measure": 10.25 },
+    { "category": "astrazenaca uk limited", "group": "hls", "measure": 12.43 },
+    {
+      "category": "johnson & johnson services",
+      "group": "hls",
+      "measure": 9.27
+    },
+    {
+      "category": "johnson & johnson limited",
+      "group": "hls",
+      "measure": 11.77
+    },
+    {
+      "category": "sanofi-aventis farmac+futica ltda",
+      "group": "hls",
+      "measure": 11.94
+    },
+    {
+      "category": "sanofi-aventis (china) investm",
+      "group": "hls",
+      "measure": 10.56
+    },
+    { "category": "takeda pharma", "group": "hls", "measure": 12.79 },
+    {
+      "category": "johnson & johnson industrial ltda",
+      "group": "hls",
+      "measure": 10.19
+    },
+    {
+      "category": "ansell healthcare products llc",
+      "group": "hls",
+      "measure": 12.7
+    },
+    {
+      "category": "sanofi-aventis farmac\u00e3\u0161utica ltda",
+      "group": "hls",
+      "measure": 11.27
+    },
+    {
+      "category": "takeda - farmaceuticos portugal lda",
+      "group": "hls",
+      "measure": 12.81
+    },
+    { "category": "novartis services inc", "group": "hls", "measure": 10.31 },
+    { "category": "alcon laboratories", "group": "hls", "measure": 11.27 },
+    { "category": "eli lilly and  company", "group": "hls", "measure": 11.82 },
+    {
+      "category": "beijing novartis pharma ltd",
+      "group": "hls",
+      "measure": 11.43
+    },
+    {
+      "category": "emd millipore corporation",
+      "group": "hls",
+      "measure": 9.12
+    },
+    { "category": "glaxo smithkline", "group": "hls", "measure": 9.33 },
+    { "category": "astrazeneca us", "group": "hls", "measure": 10.19 },
+    { "category": "sanofi", "group": "hls", "measure": 8.83 },
+    { "category": "f hoffmann-la roche ltd", "group": "hls", "measure": 12.85 },
+    {
+      "category": "novartis healthcare pvtltd",
+      "group": "hls",
+      "measure": 13.22
+    },
+    {
+      "category": "takeda - farmaceuticos lda",
+      "group": "hls",
+      "measure": 10.61
+    },
+    { "category": "zenith technologies", "group": "hls", "measure": 12.07 },
+    { "category": "takeda pharmaceutical", "group": "hls", "measure": 9.92 },
+    { "category": "takeda pharmaceuticals", "group": "hls", "measure": 11.69 },
+    { "category": "alcon laboratories inc", "group": "hls", "measure": 14.11 },
+    { "category": "takeda pharma spzoo", "group": "hls", "measure": 10.15 },
+    { "category": "medivation inc", "group": "hls", "measure": 10.93 },
+    {
+      "category": "sanofi-aventis (china) investment c",
+      "group": "hls",
+      "measure": 11.85
+    },
+    {
+      "category": "sanofi winthrop industrie",
+      "group": "hls",
+      "measure": 13.03
+    },
+    { "category": "novartis", "group": "hls", "measure": 11.53 },
+    {
+      "category": "novartis pharmaceutical corporation",
+      "group": "hls",
+      "measure": 11.94
+    },
+    { "category": "novartis pharma ag", "group": "hls", "measure": 10.95 },
+    { "category": "cigna", "group": "hls", "measure": 12.19 },
+    {
+      "category": "parexel international llc",
+      "group": "hls",
+      "measure": 8.47
+    },
+    { "category": "gsk", "group": "hls", "measure": 10.94 },
+    {
+      "category": "baxter healthcare corporation",
+      "group": "hls",
+      "measure": 10.23
+    },
+    {
+      "category": "glaxosmithkline services unlimited",
+      "group": "hls",
+      "measure": 10.06
+    },
+    {
+      "category": "eli lilly trading (shanghai)",
+      "group": "hls",
+      "measure": 11.05
+    },
+    { "category": "varian medical", "group": "hls", "measure": 12.48 },
+    {
+      "category": "terumo cardiovascular systems corp",
+      "group": "hls",
+      "measure": 12.06
+    },
+    { "category": "boston scientific", "group": "hls", "measure": 11.9 },
+    { "category": "hospira inc", "group": "hls", "measure": 11.43 },
+    { "category": "bayer ltd", "group": "hls", "measure": 10.72 },
+    {
+      "category":
+        "bayer healthcare\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1",
+      "group": "hls",
+      "measure": 13.79
+    },
+    {
+      "category": "abbott laboratories trading (shangh",
+      "group": "hls",
+      "measure": 13.74
+    },
+    { "category": "sendx medical inc", "group": "hls", "measure": 11.44 },
+    { "category": "fmcna", "group": "hls", "measure": 7.49 },
+    { "category": "roche diagnostics", "group": "hls", "measure": 13.62 },
+    {
+      "category": "draeger medical systems inc",
+      "group": "hls",
+      "measure": 9.48
+    },
+    { "category": "abbott laboratories", "group": "hls", "measure": 12.43 },
+    { "category": "stryker corporation", "group": "hls", "measure": 12.65 },
+    {
+      "category": "fresenius medical care deutschland",
+      "group": "hls",
+      "measure": 11.21
+    },
+    { "category": "carl zeiss meditec inc", "group": "hls", "measure": 10.24 },
+    { "category": "dentaquest llc", "group": "hls", "measure": 11.71 },
+    {
+      "category": "biotechnology industry research",
+      "group": "hls",
+      "measure": 11.69
+    },
+    { "category": "henry schein inc", "group": "hls", "measure": 11.85 },
+    { "category": "terumo corporation", "group": "hls", "measure": 11.47 },
+    {
+      "category":
+        "covidien ltd\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1\u00e1",
+      "group": "hls",
+      "measure": 9.18
+    },
+    {
+      "category": "roche diagnostics north america",
+      "group": "hls",
+      "measure": 9.15
+    },
+    { "category": "roche sequencing", "group": "hls", "measure": 9.97 },
+    {
+      "category": "ascensia diabetes care us inc",
+      "group": "hls",
+      "measure": 12.91
+    },
+    { "category": "dentaquest", "group": "hls", "measure": 12.97 },
+    {
+      "category": "abbott laboratorios do brasil ltda",
+      "group": "hls",
+      "measure": 11.38
+    },
+    { "category": "medtronic", "group": "hls", "measure": 11.29 },
+    { "category": "smiths medical asd inc", "group": "hls", "measure": 9.89 },
+    { "category": "varian medical system", "group": "hls", "measure": 11.85 },
+    { "category": "carefusion", "group": "hls", "measure": 11.93 },
+    {
+      "category": "plexus manufacturing sdn bhd",
+      "group": "hls",
+      "measure": 8.99
+    },
+    {
+      "category": "development of low cost glucometer",
+      "group": "hls",
+      "measure": 12.34
+    },
+    {
+      "category": "becton dickinson and company",
+      "group": "hls",
+      "measure": 8.65
+    },
+    { "category": "bayer healtcare", "group": "hls", "measure": 12.29 },
+    { "category": "covidien ltd", "group": "hls", "measure": 11.72 },
+    { "category": "birac", "group": "hls", "measure": 11.43 },
+    { "category": "hill-rom inc", "group": "hls", "measure": 11.04 },
+    {
+      "category": "fresenius medical care holdingsinc",
+      "group": "hls",
+      "measure": 11.14
+    },
+    { "category": "thermo labsystems inc", "group": "hls", "measure": 12.14 },
+    { "category": "philips healthcare", "group": "hls", "measure": 11.34 },
+    { "category": "bayer healthcare", "group": "hls", "measure": 9.97 },
+    { "category": "(blank)", "group": "hls", "measure": 11.97 },
+    {
+      "category": "integra lifesciences (ireland) limi",
+      "group": "hls",
+      "measure": 11.72
+    },
+    { "category": "hospira", "group": "hls", "measure": 9.92 },
+    { "category": "terumo", "group": "hls", "measure": 9.6 },
+    {
+      "category": "fresenius medical care deustchland",
+      "group": "hls",
+      "measure": 11.57
+    },
+    { "category": "bio-rad laboratories inc", "group": "hls", "measure": 8.55 },
+    { "category": "nxstage medical inc", "group": "hls", "measure": 11.86 },
+    { "category": "radiometer medical aps", "group": "hls", "measure": 11.91 },
+    { "category": "medtronic inc", "group": "hls", "measure": 9.82 },
+    { "category": "terumo bct inc", "group": "hls", "measure": 9.14 },
+    { "category": "roche diagnostics gmbh", "group": "hls", "measure": 11.39 },
+    { "category": "integra", "group": "hls", "measure": 11.37 },
+    {
+      "category": "echostar purchasing corporation",
+      "group": "comm",
+      "measure": 12.85
+    },
+    { "category": "brightstar corp", "group": "comm", "measure": 8.42 },
+    { "category": "nbn co limited", "group": "comm", "measure": 10.95 },
+    { "category": "ge nbc", "group": "comm", "measure": 10.38 },
+    { "category": "directv", "group": "comm", "measure": 10.07 },
+    { "category": "pace americas llc", "group": "comm", "measure": 11.45 },
+    {
+      "category": "level 3 communications inc",
+      "group": "comm",
+      "measure": 9.66
+    },
+    { "category": "hughes network systems", "group": "comm", "measure": 11.96 },
+    { "category": "altice-usa", "group": "comm", "measure": 12.34 },
+    {
+      "category": "charter communications operatingllc",
+      "group": "comm",
+      "measure": 13.63
+    },
+    { "category": "comcast", "group": "comm", "measure": 12.43 },
+    { "category": "at&t corporation", "group": "comm", "measure": 12.29 },
+    {
+      "category": "charter communications operatingll",
+      "group": "comm",
+      "measure": 11.52
+    },
+    { "category": "verizon business", "group": "comm", "measure": 11.1 },
+    { "category": "massachusetts", "group": "comm", "measure": 11.27 },
+    { "category": "shaw cable", "group": "comm", "measure": 11.15 },
+    {
+      "category": "samsung research america inc",
+      "group": "comm",
+      "measure": 9.85
+    },
+    { "category": "bell canada", "group": "comm", "measure": 13.37 },
+    { "category": "mckinsey & company inc", "group": "comm", "measure": 11.31 },
+    {
+      "category": "sprint/nextel systems corp",
+      "group": "comm",
+      "measure": 10.42
+    },
+    { "category": "at&t mobility", "group": "comm", "measure": 11.16 },
+    { "category": "verveba telecom", "group": "comm", "measure": 12.39 },
+    {
+      "category": "echostar purchasing corporation",
+      "group": "comm",
+      "measure": 13.05
+    },
+    { "category": "t-mobile usa inc", "group": "comm", "measure": 10.38 },
+    {
+      "category": "telef?nica germany gmbh & co ohg",
+      "group": "comm",
+      "measure": 11.14
+    },
+    { "category": "t-mobile polska sa", "group": "comm", "measure": 10.17 },
+    { "category": "bell canada", "group": "comm", "measure": 10.01 },
+    { "category": "aircel limited", "group": "comm", "measure": 11.63 },
+    {
+      "category": "telenor global telenor shared services",
+      "group": "comm",
+      "measure": 13.64
+    },
+    {
+      "category": "home box office (singapore) pte ltd",
+      "group": "comm",
+      "measure": 12.85
+    },
+    {
+      "category": "telef+\u00a6nica germany gmbh & co ohg",
+      "group": "comm",
+      "measure": 12.31
+    },
+    {
+      "category": "telef+\u00bcnica del per+\u00bc saa",
+      "group": "comm",
+      "measure": 10.67
+    },
+    { "category": "telefonica chile sa", "group": "comm", "measure": 10.8 },
+    { "category": "hutchison 3g uk ltd", "group": "comm", "measure": 10.67 },
+    { "category": "hughes network systems", "group": "comm", "measure": 9.48 },
+    {
+      "category": "pt telekomunkasi indonesia tbk",
+      "group": "comm",
+      "measure": 9.8
+    },
+    {
+      "category": "unitech wireless (tamil nadu) pvt l",
+      "group": "comm",
+      "measure": 11.01
+    },
+    { "category": "digi - malaysia", "group": "comm", "measure": 8.62 },
+    { "category": "a1 telecom", "group": "comm", "measure": 13.12 },
+    {
+      "category": "optus administration ptylimited",
+      "group": "comm",
+      "measure": 11.76
+    },
+    { "category": "telstra", "group": "comm", "measure": 12.92 },
+    { "category": "vodafone  limited", "group": "comm", "measure": 12.53 },
+    { "category": "equant france", "group": "comm", "measure": 10.49 },
+    { "category": "telefonica sa", "group": "comm", "measure": 10.49 },
+    {
+      "category": "telef=nica germany gmbh & co ohg",
+      "group": "comm",
+      "measure": 10.92
+    },
+    {
+      "category": "telef++nica germany gmbh & co ohg",
+      "group": "comm",
+      "measure": 11.91
+    },
+    { "category": "vodafone americas inc", "group": "comm", "measure": 10.64 },
+    { "category": "vodafone limited", "group": "comm", "measure": 11.06 },
+    { "category": "sky deutschland", "group": "comm", "measure": 10.15 },
+    { "category": "gta teleguam", "group": "comm", "measure": 11.81 },
+    { "category": "bt global services", "group": "comm", "measure": 11.3 },
+    { "category": "nbn co limited", "group": "comm", "measure": 12.57 },
+    { "category": "deutsche telekom ag", "group": "comm", "measure": 11.13 },
+    {
+      "category": "telef=nica del per+ saa",
+      "group": "comm",
+      "measure": 10.12
+    },
+    { "category": "hitsssa de cv", "group": "comm", "measure": 9.65 },
+    {
+      "category": "telef\u00e3\u00b3nica germany gmbh & co ohg",
+      "group": "comm",
+      "measure": 10.58
+    },
+    {
+      "category": "telef+\u00acnica del per+\u00ac saa",
+      "group": "comm",
+      "measure": 13.91
+    },
+    {
+      "category": "business connexion proprietary limi",
+      "group": "comm",
+      "measure": 11.64
+    },
+    {
+      "category": "cable & wireless (uk) ltd",
+      "group": "comm",
+      "measure": 12.64
+    },
+    {
+      "category": "mobile telephone networks (pty) ltd",
+      "group": "comm",
+      "measure": 11.88
+    },
+    {
+      "category": "total access communication",
+      "group": "comm",
+      "measure": 13.24
+    },
+    {
+      "category": "vodafone telekomnnikasyon a?",
+      "group": "comm",
+      "measure": 11.29
+    },
+    {
+      "category": "telef+\u00aanica germany gmbh & co ohg",
+      "group": "comm",
+      "measure": 11.82
+    },
+    {
+      "category": "telef=nica del per\u00b7 saa",
+      "group": "comm",
+      "measure": 11.01
+    },
+    { "category": "bt", "group": "comm", "measure": 10.26 },
+    { "category": "zerochaos ab", "group": "comm", "measure": 9.7 },
+    { "category": "mtn zambia limited", "group": "comm", "measure": 10.14 },
+    {
+      "category": "telef=nica germany gmbh & co",
+      "group": "comm",
+      "measure": 12.42
+    },
+    { "category": "celcom axiata berhad", "group": "comm", "measure": 9.72 },
+    {
+      "category": "telenor myanmar limited",
+      "group": "comm",
+      "measure": 12.72
+    },
+    {
+      "category": "singapore telecommunications ltd",
+      "group": "comm",
+      "measure": 10.19
+    },
+    { "category": "telenor shared services", "group": "comm", "measure": 9.53 },
+    {
+      "category": "telef+\u00acnica germany gmbh & co ohg",
+      "group": "comm",
+      "measure": 10.49
+    },
+    {
+      "category": "total access communication pcl",
+      "group": "comm",
+      "measure": 9.86
+    },
+    { "category": "pt xl axiata tbk", "group": "comm", "measure": 10.23 },
+    {
+      "category": "telef+\u00a6nica del per+\u00a6 saa",
+      "group": "comm",
+      "measure": 10.79
+    },
+    { "category": "telenor myanmar ltd", "group": "comm", "measure": 11.28 },
+    {
+      "category": "mtn nigria communications limited",
+      "group": "comm",
+      "measure": 13.01
+    },
+    {
+      "category": "telefonica de argentina sa",
+      "group": "comm",
+      "measure": 10.81
+    },
+    { "category": "magyar telekom plc", "group": "comm", "measure": 11.94 },
+    {
+      "category": "colombia telecomunicaciones sa es",
+      "group": "comm",
+      "measure": 9.54
+    },
+    {
+      "category": "vodafone telekom++nikasyon a+p",
+      "group": "comm",
+      "measure": 12.16
+    },
+    { "category": "veon", "group": "comm", "measure": 8.73 },
+    {
+      "category": "millicom international cellular sa",
+      "group": "comm",
+      "measure": 10.16
+    },
+    {
+      "category": "vodafone telekom\u00e3\u00bcnikasyon a\u00e5\u017e",
+      "group": "comm",
+      "measure": 12.89
+    },
+    { "category": "n/a", "group": "comm", "measure": 11.28 },
+    { "category": "maxis communication", "group": "comm", "measure": 11.59 },
+    { "category": "colt telecom group plc", "group": "comm", "measure": 9.95 },
+    { "category": "telenor global", "group": "comm", "measure": 11.33 },
+    {
+      "category": "telef\u2264nica germany gmbh & co ohg",
+      "group": "comm",
+      "measure": 10.67
+    },
+    { "category": "a1 slovenija d d", "group": "comm", "measure": 10.06 },
+    { "category": "(blank)", "group": "comm", "measure": 13.34 },
+    { "category": "a1 telekom austria ag", "group": "comm", "measure": 9.49 },
+    { "category": "sopra group", "group": "comm", "measure": 10.58 },
+    {
+      "category": "vodafone india services private lim",
+      "group": "comm",
+      "measure": 9.57
+    },
+    {
+      "category": "massachusetts technology collaborative",
+      "group": "comm",
+      "measure": 9.53
+    },
+    {
+      "category": "british sky broadcasting ltd",
+      "group": "comm",
+      "measure": 10.16
+    },
+    {
+      "category": "telef+\u00aanica del per+\u00aa saa",
+      "group": "comm",
+      "measure": 10.25
+    },
+    {
+      "category": "telef+\u00bcnica germany gmbh & co ohg",
+      "group": "comm",
+      "measure": 12.47
+    },
+    {
+      "category": "telef\u00e3\u00b3nica del per\u00e3\u00ba saa",
+      "group": "comm",
+      "measure": 10.54
+    },
+    {
+      "category": "vodafone telekom\u251c\u255dnikasyon a\u253c\u20a7",
+      "group": "comm",
+      "measure": 9.98
+    },
+    {
+      "category": "telef\u00f3nica del per\u00fa saa",
+      "group": "comm",
+      "measure": 12.42
+    },
+    { "category": "tigo el salvador", "group": "comm", "measure": 10.42 },
+    { "category": "telkomsel", "group": "comm", "measure": 10.89 },
+    {
+      "category": "optus systems ptylimited",
+      "group": "comm",
+      "measure": 11.76
+    },
+    { "category": "mtn-weca", "group": "comm", "measure": 9.39 },
+    {
+      "category": "pt telekomunikasi selular",
+      "group": "comm",
+      "measure": 12.08
+    },
+    {
+      "category": "telef\u251c\u2502nica germany gmbh & co ohg",
+      "group": "comm",
+      "measure": 10.42
+    },
+    { "category": "sfr", "group": "comm", "measure": 12.29 },
+    {
+      "category": "teliasonera finland oyi(f102)",
+      "group": "comm",
+      "measure": 9.35
+    },
+    {
+      "category": "telef\u00f3nica germany gmbh & co ohg",
+      "group": "comm",
+      "measure": 12.37
+    },
+    {
+      "category": "maxis mobile services  sdn bhd",
+      "group": "comm",
+      "measure": 9.21
+    },
+    { "category": "telenor hungary", "group": "comm", "measure": 10.23 },
+    {
+      "category": "telef\u251c\u2502nica del per\u251c\u2551 saa",
+      "group": "comm",
+      "measure": 11.48
+    },
+    {
+      "category": "maxis mobile services sdn bhd",
+      "group": "comm",
+      "measure": 9.08
+    },
+    { "category": "shell", "group": "enu", "measure": 10.6 },
+    { "category": "william companies", "group": "enu", "measure": 10.91 },
+    { "category": "bp", "group": "enu", "measure": 12.25 },
+    { "category": "rwe gbs uk limited", "group": "enu", "measure": 11.02 },
+    {
+      "category": "dwr cymru cyfyngedig (welsh water)",
+      "group": "enu",
+      "measure": 12.17
+    },
+    {
+      "category": "atco servicios y energia sa de cv",
+      "group": "enu",
+      "measure": 9.13
+    },
+    {
+      "category": "atco structures and logistics",
+      "group": "enu",
+      "measure": 9.91
+    },
+    {
+      "category": "electricity generation and",
+      "group": "enu",
+      "measure": 12.23
+    },
+    { "category": "contact energy", "group": "enu", "measure": 11.11 },
+    {
+      "category": "atco australia services p/l",
+      "group": "enu",
+      "measure": 10.6
+    },
+    {
+      "category": "greater cincinnaity of water works",
+      "group": "enu",
+      "measure": 10.96
+    },
+    { "category": "atco chile limitada", "group": "enu", "measure": 13.57 },
+    { "category": "paladin security group", "group": "enu", "measure": 11.97 },
+    { "category": "atco electric yukon", "group": "enu", "measure": 10.93 },
+    { "category": "united illuminating", "group": "enu", "measure": 11.23 },
+    {
+      "category": "northland  utilities (yellowknife)",
+      "group": "enu",
+      "measure": 9.9
+    },
+    { "category": "atco energy ltd", "group": "enu", "measure": 11.83 },
+    { "category": "atco pipelines", "group": "enu", "measure": 9.08 },
+    { "category": "(blank)", "group": "enu", "measure": 10.44 },
+    { "category": "national grid", "group": "enu", "measure": 13.1 },
+    {
+      "category": "thames  water utilities limited",
+      "group": "enu",
+      "measure": 10.28
+    },
+    { "category": "central hudson gas", "group": "enu", "measure": 10.27 },
+    { "category": "atco gas", "group": "enu", "measure": 12.01 },
+    { "category": "ace equities inc", "group": "enu", "measure": 13.55 },
+    { "category": "openlink financial llc", "group": "enu", "measure": 9.0 },
+    {
+      "category": "northern powergrid limited",
+      "group": "enu",
+      "measure": 10.69
+    },
+    {
+      "category": "berkshire hathaway energy company",
+      "group": "enu",
+      "measure": 9.08
+    },
+    { "category": "yarra valley water", "group": "enu", "measure": 9.32 },
+    {
+      "category": "united utilities water plc",
+      "group": "enu",
+      "measure": 10.46
+    },
+    { "category": "clk enerji", "group": "enu", "measure": 7.75 },
+    {
+      "category": "dwr cymru cyfyngedig (welsh wa",
+      "group": "enu",
+      "measure": 13.46
+    },
+    {
+      "category": "northern gas networks limited",
+      "group": "enu",
+      "measure": 11.2
+    },
+    { "category": "origin energy retail", "group": "enu", "measure": 9.32 },
+    { "category": "southern water systems", "group": "enu", "measure": 10.78 },
+    {
+      "category": "atco structures - re: usa",
+      "group": "enu",
+      "measure": 10.83
+    },
+    { "category": "nisource", "group": "enu", "measure": 12.05 },
+    { "category": "spi electricity pty ltd", "group": "enu", "measure": 12.99 },
+    { "category": "repower", "group": "enu", "measure": 12.06 },
+    {
+      "category": "atco emissions management",
+      "group": "enu",
+      "measure": 11.36
+    },
+    { "category": "haven power", "group": "enu", "measure": 10.29 },
+    {
+      "category": "atco structures and logistics (aem)",
+      "group": "enu",
+      "measure": 11.61
+    },
+    { "category": "sse services plc", "group": "enu", "measure": 9.79 },
+    { "category": "rwe ag", "group": "enu", "measure": 8.63 },
+    { "category": "edf - gaz de france", "group": "enu", "measure": 7.79 },
+    {
+      "category": "uniper global commodities se",
+      "group": "enu",
+      "measure": 11.96
+    },
+    {
+      "category": "atco servicios y energ+\u00a1a sa de c",
+      "group": "enu",
+      "measure": 10.63
+    },
+    {
+      "category": "dong energy oil & gas a/s",
+      "group": "enu",
+      "measure": 11.0
+    },
+    {
+      "category": "atco australia services pty ltd",
+      "group": "enu",
+      "measure": 9.47
+    },
+    { "category": "atco energy solutions", "group": "enu", "measure": 11.39 },
+    { "category": "endeavour energy", "group": "enu", "measure": 11.13 },
+    { "category": "abtran", "group": "enu", "measure": 10.62 },
+    { "category": "power ni", "group": "enu", "measure": 13.66 },
+    {
+      "category": "cki/hei electricity distribution pt",
+      "group": "enu",
+      "measure": 12.27
+    },
+    { "category": "northern powergrid ltd", "group": "enu", "measure": 10.32 },
+    { "category": "sub-zero group inc", "group": "enu", "measure": 7.91 },
+    { "category": "enwl", "group": "enu", "measure": 8.14 },
+    {
+      "category": "atco electric transmission",
+      "group": "enu",
+      "measure": 10.54
+    },
+    { "category": "the city of edmonton", "group": "enu", "measure": 9.49 },
+    { "category": "nrgi elsalg a/s", "group": "enu", "measure": 10.15 },
+    { "category": "ugi utilities inc", "group": "enu", "measure": 13.47 },
+    { "category": "gas south", "group": "enu", "measure": 13.69 },
+    { "category": "atos worldgrid", "group": "enu", "measure": 11.16 },
+    { "category": "xoserve limited", "group": "enu", "measure": 12.87 },
+    {
+      "category": "northumbrian water limited",
+      "group": "enu",
+      "measure": 15.1
+    },
+    {
+      "category": "piedmont natural gas co inc",
+      "group": "enu",
+      "measure": 10.18
+    },
+    {
+      "category": "pinnacle west capital corporation",
+      "group": "enu",
+      "measure": 11.35
+    },
+    { "category": "p&h milling group", "group": "enu", "measure": 12.61 },
+    { "category": "severn trent water", "group": "enu", "measure": 10.64 },
+    { "category": "information technology", "group": "enu", "measure": 10.52 },
+    {
+      "category": "southern water systems-bas",
+      "group": "enu",
+      "measure": 10.42
+    },
+    { "category": "atco", "group": "enu", "measure": 11.61 },
+    { "category": "viridian group limited", "group": "enu", "measure": 10.24 },
+    {
+      "category": "northland  utilities (yellowknife) ltd",
+      "group": "enu",
+      "measure": 8.74
+    },
+    { "category": "viridian", "group": "enu", "measure": 12.0 },
+    { "category": "eon-uk", "group": "enu", "measure": 10.9 },
+    {
+      "category": "electricity company of ghana\u00df ltd",
+      "group": "enu",
+      "measure": 9.93
+    },
+    {
+      "category": "electricity company of ghana  ltd",
+      "group": "enu",
+      "measure": 10.99
+    },
+    {
+      "category": "origin energy retail ltd",
+      "group": "enu",
+      "measure": 12.36
+    },
+    {
+      "category": "piedmont natural gas company inc",
+      "group": "enu",
+      "measure": 10.16
+    },
+    { "category": "truenergy", "group": "enu", "measure": 10.34 },
+    { "category": "atco australia services", "group": "enu", "measure": 11.02 },
+    { "category": "atco australia pty ltd", "group": "enu", "measure": 9.99 },
+    { "category": "s a water", "group": "enu", "measure": 9.15 },
+    { "category": "bristol water", "group": "enu", "measure": 13.06 },
+    { "category": "city of edmonton", "group": "enu", "measure": 9.56 },
+    { "category": "thames water", "group": "enu", "measure": 9.35 },
+    {
+      "category": "greater cincinnati  water works",
+      "group": "enu",
+      "measure": 12.95
+    },
+    {
+      "category": "npower-dc-inflight-projs",
+      "group": "enu",
+      "measure": 11.62
+    },
+    { "category": "gas south llc", "group": "enu", "measure": 9.44 },
+    { "category": "lyv bv", "group": "enu", "measure": 11.14 },
+    {
+      "category": "atco structures - re: australia",
+      "group": "enu",
+      "measure": 11.54
+    },
+    { "category": "prossam plus", "group": "enu", "measure": 11.12 },
+    { "category": "western power", "group": "enu", "measure": 12.28 },
+    {
+      "category": "harvard property management inc",
+      "group": "enu",
+      "measure": 14.46
+    },
+    { "category": "yukon energy corporation", "group": "enu", "measure": 9.82 },
+    { "category": "dong energy", "group": "enu", "measure": 13.26 },
+    { "category": "repower systems se", "group": "enu", "measure": 7.6 },
+    { "category": "ashcor", "group": "enu", "measure": 11.24 },
+    {
+      "category": "melbourne water corporation",
+      "group": "enu",
+      "measure": 10.25
+    },
+    {
+      "category": "atco power canada limited",
+      "group": "enu",
+      "measure": 10.77
+    },
+    { "category": "itineris na inc", "group": "enu", "measure": 12.16 },
+    {
+      "category": "atco servicios y energfa sa de c",
+      "group": "enu",
+      "measure": 10.86
+    },
+    { "category": "neueda ireland limited", "group": "enu", "measure": 12.58 },
+    { "category": "energia supply business", "group": "enu", "measure": 12.25 },
+    {
+      "category": "dundeal summer 2011 collect lp",
+      "group": "enu",
+      "measure": 12.48
+    },
+    { "category": "rwe it uk ltd", "group": "enu", "measure": 12.79 },
+    {
+      "category": "electricity genereation and retail",
+      "group": "enu",
+      "measure": 11.03
+    },
+    { "category": "piedmont natural gas", "group": "enu", "measure": 10.59 },
+    { "category": "guam power authority", "group": "enu", "measure": 10.28 },
+    {
+      "category": "atco servicios y energ\u00eda sa de c",
+      "group": "enu",
+      "measure": 8.2
+    },
+    { "category": "atco ltd", "group": "enu", "measure": 12.29 },
+    {
+      "category": "south east water corporation",
+      "group": "enu",
+      "measure": 9.73
+    },
+    {
+      "category": "arizona public service company",
+      "group": "enu",
+      "measure": 10.37
+    },
+    { "category": "innova global ltd", "group": "enu", "measure": 11.54 },
+    {
+      "category": "thames water utilities ltd",
+      "group": "enu",
+      "measure": 13.14
+    },
+    {
+      "category": "national grid usa service company",
+      "group": "enu",
+      "measure": 11.45
+    },
+    { "category": "scottish power", "group": "enu", "measure": 11.38 },
+    {
+      "category": "southern water services-adm",
+      "group": "enu",
+      "measure": 8.61
+    },
+    {
+      "category": "atco structures and logistics ltd",
+      "group": "enu",
+      "measure": 11.24
+    },
+    { "category": "yarra valley waters", "group": "enu", "measure": 10.94 },
+    {
+      "category": "ausnet asset services pty ltd",
+      "group": "enu",
+      "measure": 9.76
+    },
+    {
+      "category": "sentgraf enterprises ltd",
+      "group": "enu",
+      "measure": 14.17
+    },
+    {
+      "category": "northland utilities (nwt) limited",
+      "group": "enu",
+      "measure": 11.4
+    },
+    { "category": "sparq solutions pty ltd", "group": "enu", "measure": 13.23 },
+    {
+      "category": "dundee realty management corp",
+      "group": "enu",
+      "measure": 11.65
+    },
+    { "category": "big west oil", "group": "enu", "measure": 11.64 },
+    { "category": "essential energy", "group": "enu", "measure": 11.22 },
+    {
+      "category": "electricity generation and retail",
+      "group": "enu",
+      "measure": 9.04
+    },
+    {
+      "category": "electricity north west ltd",
+      "group": "enu",
+      "measure": 10.66
+    },
+    { "category": "eon it gmbh", "group": "enu", "measure": 11.53 },
+    { "category": "knowledge relay llc", "group": "enu", "measure": 9.99 },
+    {
+      "category": "eon business services gmbh",
+      "group": "enu",
+      "measure": 10.54
+    },
+    { "category": "nv energy", "group": "enu", "measure": 11.62 },
+    {
+      "category": "atco electric distribution",
+      "group": "enu",
+      "measure": 12.32
+    },
+    { "category": "p&h milling", "group": "enu", "measure": 10.12 },
+    {
+      "category": "district of columbia water  and",
+      "group": "enu",
+      "measure": 9.29
+    },
+    {
+      "category": "atco sustainable communities",
+      "group": "enu",
+      "measure": 11.06
+    },
+    { "category": "t&m unbilled mar 2016", "group": "enu", "measure": 12.32 },
+    { "category": "welsh water", "group": "enu", "measure": 9.37 },
+    { "category": " s a water", "group": "enu", "measure": 12.35 },
+    {
+      "category": "thames water utilities limited",
+      "group": "enu",
+      "measure": 8.3
+    },
+    { "category": "cisco systems inc", "group": "enu", "measure": 13.77 },
+    {
+      "category": "atco gas australia pty ltd",
+      "group": "enu",
+      "measure": 9.59
+    },
+    { "category": "cki/hei electricity", "group": "enu", "measure": 12.19 },
+    { "category": "haven power ltd", "group": "enu", "measure": 11.55 },
+    { "category": "ausnet", "group": "enu", "measure": 9.1 },
+    {
+      "category": "alberta power (2000) ltd",
+      "group": "enu",
+      "measure": 11.63
+    },
+    { "category": "severen trent water", "group": "enu", "measure": 10.28 },
+    { "category": "bristol water plc", "group": "enu", "measure": 12.14 },
+    {
+      "category": "ozege reklam buro hizmetleri",
+      "group": "enu",
+      "measure": 11.1
+    },
+    {
+      "category": "nisource corporate services company",
+      "group": "enu",
+      "measure": 11.25
+    },
+    { "category": "nvenergy", "group": "enu", "measure": 10.07 },
+    {
+      "category": "sydney water corporation",
+      "group": "enu",
+      "measure": 11.09
+    },
+    {
+      "category": "united utilties water plc",
+      "group": "enu",
+      "measure": 10.4
+    },
+    {
+      "category": "scottishpower energy management lim",
+      "group": "enu",
+      "measure": 9.55
+    },
+    {
+      "category": "uk power networks (operation) ltd",
+      "group": "enu",
+      "measure": 10.83
+    },
+    {
+      "category": "northland utilities (yellowknife) ltd",
+      "group": "enu",
+      "measure": 10.3
+    },
+    {
+      "category": "los angeles department of",
+      "group": "enu",
+      "measure": 11.8
+    },
+    { "category": "scotia gas networks", "group": "enu", "measure": 9.6 },
+    {
+      "category": "pacific gas and electric company",
+      "group": "enu",
+      "measure": 11.5
+    },
+    { "category": "eon", "group": "enu", "measure": 10.91 },
+    { "category": "severn trent services", "group": "enu", "measure": 10.76 },
+    { "category": "rwe npower", "group": "enu", "measure": 9.39 },
+    { "category": "maersk olie og gas a/s", "group": "enu", "measure": 11.7 },
+    { "category": "cairn energy", "group": "enu", "measure": 10.01 },
+    {
+      "category": "bp ist( integrated supply and tradi",
+      "group": "enu",
+      "measure": 13.14
+    },
+    { "category": "abb technology limited", "group": "enu", "measure": 11.09 },
+    { "category": "bolashak atyrau llc", "group": "enu", "measure": 10.91 },
+    { "category": "weatherford us lp", "group": "enu", "measure": 10.74 },
+    {
+      "category": "bp international ltd - 0946",
+      "group": "enu",
+      "measure": 12.67
+    },
+    {
+      "category": "bp asia pacific (malaysia)-\u00e1sdn bhd",
+      "group": "enu",
+      "measure": 11.75
+    },
+    {
+      "category": "exxon mobil global services co",
+      "group": "enu",
+      "measure": 11.45
+    },
+    {
+      "category": "schlumberger oilfield holdings ltd",
+      "group": "enu",
+      "measure": 10.59
+    },
+    {
+      "category": "bp international ltd -0946",
+      "group": "enu",
+      "measure": 14.37
+    },
+    {
+      "category": "glencore queensland limited",
+      "group": "enu",
+      "measure": 10.46
+    },
+    { "category": "tieto norways as", "group": "enu", "measure": 11.11 },
+    { "category": "bp corporation na inc", "group": "enu", "measure": 11.92 },
+    { "category": "merrick systems inc", "group": "enu", "measure": 9.07 },
+    { "category": "vale sa", "group": "enu", "measure": 9.92 },
+    {
+      "category": "bp asia pacific (malaysia)",
+      "group": "enu",
+      "measure": 10.28
+    },
+    {
+      "category": "north caspian operating company nv",
+      "group": "enu",
+      "measure": 10.3
+    },
+    {
+      "category": "morobe mining joint ventures",
+      "group": "enu",
+      "measure": 11.18
+    },
+    { "category": "energy saving trust", "group": "enu", "measure": 8.84 },
+    {
+      "category": "talisman energy uk limited",
+      "group": "enu",
+      "measure": 10.42
+    },
+    { "category": "tesoro companies inc", "group": "enu", "measure": 9.44 },
+    { "category": "bg international", "group": "enu", "measure": 7.86 },
+    { "category": "forcefield gmbh", "group": "enu", "measure": 9.75 },
+    {
+      "category": "bp asia pacific (malaysia)??sdn bhd",
+      "group": "enu",
+      "measure": 9.38
+    },
+    {
+      "category": "bp asia pacific (malaysia)-\u00dfsdn bhd",
+      "group": "enu",
+      "measure": 7.72
+    },
+    { "category": "schlumberger technology", "group": "enu", "measure": 9.68 },
+    {
+      "category": "bg international limited",
+      "group": "enu",
+      "measure": 11.64
+    },
+    { "category": "pbf holding company llc", "group": "enu", "measure": 11.65 },
+    { "category": "enquest plc", "group": "enu", "measure": 10.18 },
+    { "category": "bp gas espa??a sa", "group": "enu", "measure": 11.4 },
+    {
+      "category": "schlumberger global resource ltd",
+      "group": "enu",
+      "measure": 11.83
+    },
+    { "category": "bp oil espa-a sau", "group": "enu", "measure": 11.54 },
+    { "category": "bp pros rhine exec", "group": "enu", "measure": 10.99 },
+    { "category": "bp europa se", "group": "enu", "measure": 10.4 },
+    {
+      "category": "energy transfer equity lp",
+      "group": "enu",
+      "measure": 9.72
+    },
+    { "category": "exxon mobil", "group": "enu", "measure": 10.27 },
+    { "category": "bp r&m australia", "group": "enu", "measure": 12.6 },
+    { "category": "bp portugal", "group": "enu", "measure": 10.8 },
+    { "category": "n/a", "group": "enu", "measure": 10.6 },
+    { "category": "bp iraq nv", "group": "enu", "measure": 8.6 },
+    { "category": "mmg management pty ltd", "group": "enu", "measure": 8.05 },
+    {
+      "category": "bp gas espa\u251c\u2592a sa",
+      "group": "enu",
+      "measure": 10.2
+    },
+    { "category": "shell compania argentina", "group": "enu", "measure": 9.9 },
+    { "category": "adept solutions", "group": "enu", "measure": 8.64 },
+    { "category": "sibelco australia ltd", "group": "enu", "measure": 12.07 },
+    {
+      "category": "north caspian operating company bv",
+      "group": "enu",
+      "measure": 12.66
+    },
+    { "category": "marathon petroleum llc", "group": "enu", "measure": 10.68 },
+    {
+      "category": "xstrata coal pty limited",
+      "group": "enu",
+      "measure": 11.13
+    },
+    {
+      "category": "schlumberger business continuity ap",
+      "group": "enu",
+      "measure": 9.16
+    },
+    { "category": "ineos europe ltd", "group": "enu", "measure": 12.06 },
+    { "category": "barminco", "group": "enu", "measure": 10.19 },
+    { "category": "sunoco inc(r&m)", "group": "enu", "measure": 7.78 },
+    {
+      "category": "repsol sinopec resources uk limited",
+      "group": "enu",
+      "measure": 8.03
+    },
+    { "category": "energy savings trust", "group": "enu", "measure": 10.16 },
+    {
+      "category": "bp gas espa\u00e3\u00b1a sa",
+      "group": "enu",
+      "measure": 11.0
+    },
+    {
+      "category": "bp oil espa\u251c\u2592a sau",
+      "group": "enu",
+      "measure": 10.92
+    },
+    {
+      "category": "sakhalin energy investment",
+      "group": "enu",
+      "measure": 10.78
+    },
+    {
+      "category": "national oil well varco lp",
+      "group": "enu",
+      "measure": 13.88
+    },
+    {
+      "category": "kuwait petroleum italia spa",
+      "group": "enu",
+      "measure": 13.28
+    },
+    {
+      "category": "bp oil international limited",
+      "group": "enu",
+      "measure": 11.03
+    },
+    { "category": "virtus ip sdn bhd", "group": "enu", "measure": 11.34 },
+    { "category": "mantos copper sa", "group": "enu", "measure": 9.06 },
+    {
+      "category": "shell information technology",
+      "group": "enu",
+      "measure": 9.46
+    },
+    { "category": "vale", "group": "enu", "measure": 12.42 },
+    { "category": "detour gold corporation", "group": "enu", "measure": 10.75 },
+    { "category": "bp", "group": "enu", "measure": 8.05 },
+    { "category": "bp oil espa\u00b1a sau", "group": "enu", "measure": 10.08 },
+    {
+      "category": "bluecielo ecm solutions inc",
+      "group": "enu",
+      "measure": 12.42
+    },
+    {
+      "category": "lyondell chemical company",
+      "group": "enu",
+      "measure": 10.63
+    },
+    {
+      "category": "alyeska pipeline services company",
+      "group": "enu",
+      "measure": 11.61
+    },
+    {
+      "category": "info ventures systems and services",
+      "group": "enu",
+      "measure": 7.85
+    },
+    {
+      "category": "cheniere energy investments llc",
+      "group": "enu",
+      "measure": 10.53
+    },
+    { "category": "tieto norway as", "group": "enu", "measure": 11.12 },
+    {
+      "category": "lein minh trading and services",
+      "group": "enu",
+      "measure": 10.45
+    },
+    {
+      "category": "alyeska pipeline service company",
+      "group": "enu",
+      "measure": 10.03
+    },
+    { "category": "bp gas espana sa", "group": "enu", "measure": 13.56 },
+    {
+      "category": "schlumberger technical services",
+      "group": "enu",
+      "measure": 9.32
+    },
+    { "category": "valero services inc", "group": "enu", "measure": 12.82 },
+    {
+      "category": "bp oil espa\u00e3\u00b1a sau",
+      "group": "enu",
+      "measure": 10.29
+    },
+    {
+      "category": "kelman data management lp",
+      "group": "enu",
+      "measure": 10.31
+    },
+    { "category": "algeria jv", "group": "enu", "measure": 10.45 },
+    { "category": "pbf energy", "group": "enu", "measure": 9.35 },
+    { "category": "total e&p uk limited", "group": "enu", "measure": 13.29 },
+    { "category": "sb international inc", "group": "enu", "measure": 12.2 },
+    {
+      "category": "bp asia pacific (malaysia)\u00e2\u00a0sdn bhd",
+      "group": "enu",
+      "measure": 10.97
+    },
+    {
+      "category": "bp asia pacific (malaysia)\u00afsdn bhd",
+      "group": "enu",
+      "measure": 10.14
+    },
+    {
+      "category": "maersk oil north sea uk limite",
+      "group": "enu",
+      "measure": 12.31
+    },
+    {
+      "category": "devon energy corporation",
+      "group": "enu",
+      "measure": 11.04
+    },
+    { "category": "bp gas espa\u00b1a sa", "group": "enu", "measure": 11.95 },
+    { "category": "chevron", "group": "enu", "measure": 13.01 },
+    { "category": "talisman energy inc", "group": "enu", "measure": 10.73 },
+    { "category": "bp oil espa+\u00aaa sau", "group": "enu", "measure": 12.15 },
+    { "category": "william companies", "group": "enu", "measure": 11.1 },
+    { "category": "capricorn energy limited", "group": "enu", "measure": 9.15 },
+    {
+      "category": "schlumberger business continuity",
+      "group": "enu",
+      "measure": 12.8
+    },
+    { "category": "bp gas espa?a sa", "group": "enu", "measure": 10.81 },
+    {
+      "category": "schlumberger oilfield holdings",
+      "group": "enu",
+      "measure": 9.89
+    },
+    { "category": "vale canada limited", "group": "enu", "measure": 11.45 },
+    {
+      "category": "greystone property management corp",
+      "group": "enu",
+      "measure": 12.46
+    },
+    { "category": "barminco limited", "group": "enu", "measure": 10.58 },
+    { "category": "landmark graphics", "group": "enu", "measure": 9.43 },
+    { "category": "schlumberger", "group": "enu", "measure": 10.53 },
+    { "category": "cheniere energy", "group": "enu", "measure": 14.99 },
+    {
+      "category": "ineos americas limited liability co",
+      "group": "enu",
+      "measure": 12.12
+    },
+    { "category": "anadarko - topcoder", "group": "enu", "measure": 9.39 },
+    {
+      "category": "bp asia pacific (malaysia)\u00e1sdn bhd",
+      "group": "enu",
+      "measure": 9.97
+    },
+    {
+      "category": "newfield exploration company",
+      "group": "enu",
+      "measure": 8.23
+    },
+    { "category": "adept energy solutions", "group": "enu", "measure": 9.82 },
+    {
+      "category": "bp exploration (el djazair) li",
+      "group": "enu",
+      "measure": 11.6
+    },
+    { "category": "sasol limited", "group": "enu", "measure": 10.86 },
+    { "category": "management controls inc", "group": "enu", "measure": 11.31 },
+    {
+      "category": "halliburton energy services inc",
+      "group": "enu",
+      "measure": 9.53
+    },
+    {
+      "category": "vedanta zinc international",
+      "group": "enu",
+      "measure": 10.55
+    },
+    {
+      "category": "landmark graphics corporation",
+      "group": "enu",
+      "measure": 11.04
+    },
+    { "category": "alyeska", "group": "enu", "measure": 11.37 },
+    { "category": "bp r&m us", "group": "enu", "measure": 12.42 },
+    { "category": "bp gas espa+\u00a6a sa", "group": "enu", "measure": 9.89 },
+    { "category": "mantos copper", "group": "enu", "measure": 13.32 },
+    { "category": "ok tedi mining limited", "group": "enu", "measure": 11.83 },
+    { "category": "chevron usa inc", "group": "enu", "measure": 12.29 },
+    {
+      "category": "bp asia pacific (malaysia)?\u00dfsdn bhd",
+      "group": "enu",
+      "measure": 11.26
+    },
+    { "category": "bp gas espa+\u00aaa sa", "group": "enu", "measure": 10.12 },
+    {
+      "category": "maersk oil north sea uk limited",
+      "group": "enu",
+      "measure": 10.06
+    },
+    { "category": "wood group engineering", "group": "enu", "measure": 11.93 },
+    { "category": "origin integrated gas", "group": "enu", "measure": 11.38 },
+    {
+      "category": "bp exploration (el djazair) limited",
+      "group": "enu",
+      "measure": 9.23
+    },
+    { "category": "transocean", "group": "enu", "measure": 11.89 },
+    { "category": "total s a", "group": "enu", "measure": 8.36 },
+    {
+      "category": "international engineering and const",
+      "group": "enu",
+      "measure": 10.21
+    },
+    { "category": "repsol rp2", "group": "enu", "measure": 9.22 },
+    { "category": "woodside energy ltd", "group": "enu", "measure": 11.67 },
+    {
+      "category": "indorama ventures xylenes & pta llc",
+      "group": "enu",
+      "measure": 11.26
+    },
+    {
+      "category": "bp exploration operating company li",
+      "group": "enu",
+      "measure": 8.48
+    },
+    { "category": "sunoco inc (r&m)", "group": "enu", "measure": 12.78 },
+    {
+      "category": "citic pacific mining management pty",
+      "group": "enu",
+      "measure": 10.6
+    },
+    { "category": "williams", "group": "enu", "measure": 9.74 },
+    { "category": "anglogold ashanti", "group": "enu", "measure": 12.72 },
+    { "category": "bp oil espa??a sau", "group": "enu", "measure": 9.45 },
+    { "category": "t&m unbilled mar 2016", "group": "enu", "measure": 10.7 },
+    {
+      "category": "talisman sinopec energy uk limited",
+      "group": "enu",
+      "measure": 13.73
+    },
+    { "category": "bp digital security", "group": "enu", "measure": 10.55 },
+    {
+      "category": "bp exploration operating",
+      "group": "enu",
+      "measure": 10.59
+    },
+    { "category": "hess corporation", "group": "enu", "measure": 11.5 },
+    { "category": "honeywell", "group": "enu", "measure": 11.24 },
+    {
+      "category": "bp exploration operating company",
+      "group": "enu",
+      "measure": 11.6
+    },
+    { "category": "arrow energy pty ltd", "group": "enu", "measure": 11.72 },
+    { "category": "shell", "group": "enu", "measure": 11.4 },
+    {
+      "category": "par petroleum corporation",
+      "group": "enu",
+      "measure": 11.19
+    },
+    { "category": "bp oil espa+\u00a6a sau", "group": "enu", "measure": 9.05 },
+    {
+      "category": "schlumberger oilfield holdings limi",
+      "group": "enu",
+      "measure": 12.82
+    },
+    {
+      "category": "halliburton energy services incorpo",
+      "group": "enu",
+      "measure": 9.99
+    },
+    { "category": "sohl", "group": "enu", "measure": 10.44 },
+    {
+      "category": "bp exploration (alpha) limited",
+      "group": "enu",
+      "measure": 11.95
+    },
+    { "category": "bp oil espa?a sau", "group": "enu", "measure": 13.69 },
+    { "category": "marathon oil company", "group": "enu", "measure": 12.42 },
+    {
+      "category": "schlumberger global resource l",
+      "group": "enu",
+      "measure": 9.73
+    },
+    { "category": "halliburton", "group": "enu", "measure": 11.05 },
+    {
+      "category": "bp international limited",
+      "group": "enu",
+      "measure": 11.15
+    },
+    { "category": "ineos", "group": "enu", "measure": 12.75 },
+    {
+      "category": "bp asia pacific (malaysia)\u00a0sdn bhd",
+      "group": "enu",
+      "measure": 10.89
+    },
+    { "category": "oman lng llc", "group": "enu", "measure": 12.3 },
+    { "category": "enquest britain ltd", "group": "enu", "measure": 12.2 },
+    {
+      "category": "bp asia pacific (malaysia)?\u00afsdn bhd",
+      "group": "enu",
+      "measure": 10.78
+    },
+    {
+      "category": "bp exploration and production",
+      "group": "enu",
+      "measure": 11.32
+    },
+    { "category": "landmark", "group": "enu", "measure": 7.42 },
+    {
+      "category": "bp corporation north america inc",
+      "group": "enu",
+      "measure": 10.8
+    },
+    {
+      "category": "bp asia pacific (malaysia)\u252c\u00e1sdn bhd",
+      "group": "enu",
+      "measure": 8.71
+    },
+    { "category": "taqa bratani ltd", "group": "enu", "measure": 10.25 },
+    { "category": "skanska oy", "group": "enu", "measure": 10.09 },
+    {
+      "category": "greater toronto airports authority",
+      "group": "enu",
+      "measure": 7.81
+    },
+    {
+      "category": "innovative solutions finance sarl",
+      "group": "enu",
+      "measure": 11.5
+    },
+    { "category": "construtora norberto", "group": "enu", "measure": 10.47 },
+    {
+      "category": "appian software switzerland llc-\u00e1",
+      "group": "enu",
+      "measure": 10.85
+    },
+    { "category": "skanska", "group": "enu", "measure": 13.6 },
+    { "category": "carillion plc", "group": "enu", "measure": 11.55 },
+    { "category": "stantec consulting ltd", "group": "enu", "measure": 13.76 },
+    {
+      "category": "innovatives solutions for",
+      "group": "enu",
+      "measure": 10.12
+    },
+    {
+      "category": "appian software switzerland llc\u00e2\u00a0",
+      "group": "enu",
+      "measure": 10.28
+    },
+    {
+      "category": "innovative solutions for finance",
+      "group": "enu",
+      "measure": 10.78
+    },
+    { "category": "cimic group ltd", "group": "enu", "measure": 9.5 },
+    { "category": "monadelphous group", "group": "enu", "measure": 9.66 },
+    { "category": "technip", "group": "enu", "measure": 9.87 },
+    {
+      "category": "john holland group pty ltd",
+      "group": "enu",
+      "measure": 12.27
+    },
+    { "category": "cdm smith inc", "group": "enu", "measure": 8.98 },
+    { "category": "uslbm holdings llc", "group": "enu", "measure": 10.27 },
+    { "category": "arcadis nv", "group": "enu", "measure": 13.02 },
+    { "category": "carillion", "group": "enu", "measure": 8.82 },
+    {
+      "category": "linde engineering north americ",
+      "group": "enu",
+      "measure": 10.43
+    },
+    { "category": "city of los angeles", "group": "enu", "measure": 11.42 },
+    {
+      "category": "linde engineering north america inc",
+      "group": "enu",
+      "measure": 8.13
+    },
+    {
+      "category": "odebrecht agroidustrial sa",
+      "group": "enu",
+      "measure": 13.22
+    },
+    { "category": "cabela s inc", "group": "cbu", "measure": 12.53 },
+    { "category": "express incorporated", "group": "cbu", "measure": 13.88 },
+    { "category": "petco", "group": "cbu", "measure": 9.57 },
+    { "category": "j c penny", "group": "cbu", "measure": 9.99 },
+    { "category": "tjx", "group": "cbu", "measure": 10.33 },
+    {
+      "category": "best buy stores s de rl de",
+      "group": "cbu",
+      "measure": 10.85
+    },
+    { "category": "coop handel norge", "group": "cbu", "measure": 9.72 },
+    {
+      "category": "sears holdings management corporati",
+      "group": "cbu",
+      "measure": 9.08
+    },
+    { "category": "tjx companies inc", "group": "cbu", "measure": 10.81 },
+    { "category": "kmart australia limited", "group": "cbu", "measure": 13.33 },
+    { "category": "tesco hindustan services", "group": "cbu", "measure": 8.59 },
+    { "category": "coop", "group": "cbu", "measure": 11.36 },
+    { "category": "williams sonoma inc", "group": "cbu", "measure": 11.15 },
+    {
+      "category": "debenhams customer services",
+      "group": "cbu",
+      "measure": 10.1
+    },
+    { "category": "we europe bv", "group": "cbu", "measure": 10.67 },
+    { "category": "sephora do brasil", "group": "cbu", "measure": 7.89 },
+    { "category": "cabela's inc", "group": "cbu", "measure": 12.34 },
+    { "category": "wal-mart stores inc", "group": "cbu", "measure": 12.74 },
+    { "category": "eddie bauer llc", "group": "cbu", "measure": 13.16 },
+    { "category": "family dollar inc", "group": "cbu", "measure": 12.62 },
+    {
+      "category": "domtar paper company llc",
+      "group": "cbu",
+      "measure": 11.09
+    },
+    {
+      "category": "supermercados mayoristas",
+      "group": "cbu",
+      "measure": 12.13
+    },
+    { "category": "7-eleveninc", "group": "cbu", "measure": 11.57 },
+    {
+      "category": "target corporation india priva",
+      "group": "cbu",
+      "measure": 11.96
+    },
+    { "category": "stage stores", "group": "cbu", "measure": 8.68 },
+    {
+      "category": "7-eleven australia pty ltd",
+      "group": "cbu",
+      "measure": 11.85
+    },
+    {
+      "category": "comercializadora farmaceutica",
+      "group": "cbu",
+      "measure": 13.66
+    },
+    { "category": "bestbuy", "group": "cbu", "measure": 11.98 },
+    { "category": "koninklijke ahold nv", "group": "cbu", "measure": 9.2 },
+    { "category": "modelocom - vendas por", "group": "cbu", "measure": 13.64 },
+    {
+      "category": "morrisons supermarkets plc",
+      "group": "cbu",
+      "measure": 10.69
+    },
+    { "category": "neiman marcus", "group": "cbu", "measure": 11.26 },
+    {
+      "category": "sears holding management corpo",
+      "group": "cbu",
+      "measure": 9.66
+    },
+    { "category": "petsmart inc", "group": "cbu", "measure": 13.92 },
+    { "category": "ross dress for less inc", "group": "cbu", "measure": 10.81 },
+    {
+      "category": "shoprite checkers (pty) ltd",
+      "group": "cbu",
+      "measure": 12.01
+    },
+    { "category": "wal-mart de mexico s", "group": "cbu", "measure": 9.8 },
+    { "category": "pernambucanas - arthur", "group": "cbu", "measure": 12.46 },
+    {
+      "category": "sdsr - sports division sr sa",
+      "group": "cbu",
+      "measure": 11.6
+    },
+    { "category": "brooks brothers", "group": "cbu", "measure": 11.38 },
+    {
+      "category": "wipro/charming shoppes inc",
+      "group": "cbu",
+      "measure": 11.12
+    },
+    { "category": "dubai duty free", "group": "cbu", "measure": 8.4 },
+    {
+      "category": "jcpenney corporation inc",
+      "group": "cbu",
+      "measure": 11.74
+    },
+    { "category": "tesco plc", "group": "cbu", "measure": 9.99 },
+    { "category": "primark", "group": "cbu", "measure": 11.9 },
+    { "category": "the neiman marcus group", "group": "cbu", "measure": 12.78 },
+    { "category": "woolworths limited", "group": "cbu", "measure": 8.67 },
+    {
+      "category": "gie auchan international techn",
+      "group": "cbu",
+      "measure": 11.87
+    },
+    {
+      "category": "tesco hindustan service centre pvt",
+      "group": "cbu",
+      "measure": 13.02
+    },
+    { "category": "1-800-flowerscom", "group": "cbu", "measure": 11.56 },
+    {
+      "category": "target corporation india private li",
+      "group": "cbu",
+      "measure": 11.09
+    },
+    { "category": "monsoon", "group": "cbu", "measure": 7.9 },
+    { "category": "supervalu inc", "group": "cbu", "measure": 12.55 },
+    { "category": "weyerhaeuser company", "group": "cbu", "measure": 10.6 },
+    { "category": "la empresa chile sa", "group": "cbu", "measure": 13.45 },
+    {
+      "category": "target corporation india private li robert j ulrich center",
+      "group": "cbu",
+      "measure": 11.12
+    },
+    { "category": "pernambucanas", "group": "cbu", "measure": 10.77 },
+    { "category": "nisa retail limited", "group": "cbu", "measure": 10.14 },
+    { "category": "limited brands inc", "group": "cbu", "measure": 12.41 },
+    { "category": "woolworths", "group": "cbu", "measure": 12.62 },
+    { "category": "makro atacadista sa", "group": "cbu", "measure": 11.46 },
+    { "category": "target india", "group": "cbu", "measure": 11.21 },
+    { "category": "kit and ace", "group": "cbu", "measure": 13.57 },
+    { "category": "falabella", "group": "cbu", "measure": 10.68 },
+    {
+      "category": "kohl's department stores",
+      "group": "cbu",
+      "measure": 11.93
+    },
+    { "category": "ahold europe", "group": "cbu", "measure": 13.03 },
+    {
+      "category": "modelo continente hipermercados s",
+      "group": "cbu",
+      "measure": 11.43
+    },
+    { "category": "home retail group", "group": "cbu", "measure": 11.97 },
+    { "category": "domtar corporation", "group": "cbu", "measure": 10.8 },
+    { "category": "lowe's companies inc", "group": "cbu", "measure": 11.85 },
+    {
+      "category": "makro supermayorista sas",
+      "group": "cbu",
+      "measure": 11.86
+    },
+    { "category": "lowes companies inc", "group": "cbu", "measure": 9.74 },
+    { "category": "ahold usa inc", "group": "cbu", "measure": 9.17 },
+    { "category": "gamestop", "group": "cbu", "measure": 11.56 },
+    { "category": "target corporation", "group": "cbu", "measure": 10.6 },
+    { "category": "office depot inc", "group": "cbu", "measure": 14.01 },
+    { "category": "lowe", "group": "cbu", "measure": 11.76 },
+    { "category": "mch", "group": "cbu", "measure": 9.77 },
+    {
+      "category": "sonae center services ii sa",
+      "group": "cbu",
+      "measure": 8.8
+    },
+    { "category": "best buy services inc", "group": "cbu", "measure": 10.72 },
+    { "category": "7-eleven inc", "group": "cbu", "measure": 12.44 },
+    { "category": "tjx europe", "group": "cbu", "measure": 11.63 },
+    { "category": "ikea international a/s", "group": "cbu", "measure": 10.0 },
+    { "category": "(blank)", "group": "cbu", "measure": 11.53 },
+    { "category": "edcon limited", "group": "cbu", "measure": 14.36 },
+    { "category": "asda stores limited", "group": "cbu", "measure": 10.22 },
+    { "category": "magazine luiza", "group": "cbu", "measure": 9.44 },
+    {
+      "category": "kohl's department stores inc",
+      "group": "cbu",
+      "measure": 9.55
+    },
+    { "category": "tailored brands inc", "group": "cbu", "measure": 10.52 },
+    { "category": "home retail group plc", "group": "cbu", "measure": 11.68 },
+    { "category": "cvs caremark", "group": "cbu", "measure": 13.06 },
+    { "category": "best buy", "group": "cbu", "measure": 10.06 },
+    {
+      "category": "petco animal supplies inc",
+      "group": "cbu",
+      "measure": 11.22
+    },
+    {
+      "category": "kohls department stores inc",
+      "group": "cbu",
+      "measure": 12.95
+    },
+    { "category": "wm global technology", "group": "cbu", "measure": 11.11 },
+    { "category": "kohl's", "group": "cbu", "measure": 11.12 },
+    {
+      "category": "best buy stores s de rl de cv",
+      "group": "cbu",
+      "measure": 9.54
+    },
+    { "category": "debenhams", "group": "cbu", "measure": 13.08 },
+    { "category": "bj's wholesale club inc", "group": "cbu", "measure": 13.8 },
+    {
+      "category": "gie auchan international technology",
+      "group": "cbu",
+      "measure": 9.94
+    },
+    { "category": "aspiag service srl", "group": "cbu", "measure": 11.19 },
+    { "category": "charming shoppes inc", "group": "cbu", "measure": 11.59 },
+    { "category": "gander mountain company", "group": "cbu", "measure": 10.49 },
+    { "category": "aramark corporation", "group": "cbu", "measure": 12.01 },
+    { "category": "walmart", "group": "cbu", "measure": 9.38 },
+    { "category": "ahold usa", "group": "cbu", "measure": 9.57 },
+    {
+      "category": "ahold information services",
+      "group": "cbu",
+      "measure": 11.72
+    },
+    { "category": "ab lindex", "group": "cbu", "measure": 12.35 },
+    { "category": "tri pointe homes inc", "group": "cbu", "measure": 10.53 },
+    {
+      "category": "administradora de servicios y",
+      "group": "cbu",
+      "measure": 12.01
+    },
+    { "category": "the mcclatchy", "group": "cbu", "measure": 11.03 },
+    {
+      "category": "wolters kluwer united states inc",
+      "group": "cbu",
+      "measure": 11.05
+    },
+    { "category": "reed elsevier plc", "group": "cbu", "measure": 11.04 },
+    { "category": "ge nbc", "group": "cbu", "measure": 8.18 },
+    { "category": "acxiom uk", "group": "cbu", "measure": 9.28 },
+    { "category": "hibu inc", "group": "cbu", "measure": 11.05 },
+    { "category": "village roadshow group", "group": "cbu", "measure": 11.97 },
+    { "category": "griffith university", "group": "cbu", "measure": 10.44 },
+    {
+      "category": "sony  music entertainment",
+      "group": "cbu",
+      "measure": 10.77
+    },
+    { "category": "turner", "group": "cbu", "measure": 11.42 },
+    { "category": "motorola mobility llc", "group": "cbu", "measure": 13.22 },
+    { "category": "the mcclatchy company", "group": "cbu", "measure": 8.71 },
+    { "category": "sanoma oyj", "group": "cbu", "measure": 8.86 },
+    { "category": "harte hanks inc", "group": "cbu", "measure": 9.76 },
+    { "category": "sdl plc", "group": "cbu", "measure": 10.63 },
+    { "category": "yahoo inc", "group": "cbu", "measure": 12.26 },
+    { "category": "yell limited", "group": "cbu", "measure": 11.42 },
+    { "category": "google inc", "group": "cbu", "measure": 13.55 },
+    { "category": "the associated press", "group": "cbu", "measure": 10.75 },
+    {
+      "category": "national university of singapore",
+      "group": "cbu",
+      "measure": 11.48
+    },
+    { "category": "university of canberra", "group": "cbu", "measure": 11.06 },
+    { "category": "encompass digital media", "group": "cbu", "measure": 11.15 },
+    { "category": "university of sydney", "group": "cbu", "measure": 10.73 },
+    {
+      "category": "thomson silicon & components sas",
+      "group": "cbu",
+      "measure": 10.9
+    },
+    { "category": "aligned energy", "group": "cbu", "measure": 10.82 },
+    {
+      "category": "global eagle entertainment",
+      "group": "cbu",
+      "measure": 9.75
+    },
+    { "category": "schibsted centralen ab", "group": "cbu", "measure": 9.18 },
+    {
+      "category": "hewlett-packard international bank",
+      "group": "cbu",
+      "measure": 11.52
+    },
+    { "category": "sony music", "group": "cbu", "measure": 12.86 },
+    { "category": "village roadshow", "group": "cbu", "measure": 13.2 },
+    {
+      "category": "omnicom media group holdings inc",
+      "group": "cbu",
+      "measure": 10.46
+    },
+    {
+      "category": "thomson reuters holdings inc",
+      "group": "cbu",
+      "measure": 9.67
+    },
+    { "category": "wpp 2005 limited", "group": "cbu", "measure": 10.98 },
+    { "category": "the mcgraw-hill", "group": "cbu", "measure": 13.05 },
+    { "category": "chelsea fc plc", "group": "cbu", "measure": 11.16 },
+    {
+      "category": "australia national university",
+      "group": "cbu",
+      "measure": 11.26
+    },
+    { "category": "sdl", "group": "cbu", "measure": 11.29 },
+    {
+      "category": "stagwell technologies inc",
+      "group": "cbu",
+      "measure": 11.93
+    },
+    {
+      "category": "thomson silicon & components",
+      "group": "cbu",
+      "measure": 9.99
+    },
+    {
+      "category": "turner broadcasting system",
+      "group": "cbu",
+      "measure": 12.31
+    },
+    {
+      "category": "technicolor polska sp zoo",
+      "group": "cbu",
+      "measure": 10.93
+    },
+    {
+      "category": "university of new south wales",
+      "group": "cbu",
+      "measure": 10.89
+    },
+    { "category": "republic polytechnic", "group": "cbu", "measure": 10.73 },
+    { "category": "axiom systems", "group": "cbu", "measure": 12.81 },
+    {
+      "category": "the mcgraw-hill companies",
+      "group": "cbu",
+      "measure": 9.53
+    },
+    { "category": "chelsea", "group": "cbu", "measure": 11.24 },
+    { "category": "itv plc", "group": "cbu", "measure": 10.2 },
+    { "category": "omnicom media group", "group": "cbu", "measure": 9.51 },
+    {
+      "category": "cambridge university press",
+      "group": "cbu",
+      "measure": 9.92
+    },
+    { "category": "yell adworks ltd", "group": "cbu", "measure": 11.76 },
+    { "category": "amazon corporate llc", "group": "cbu", "measure": 10.23 },
+    { "category": "sanoma", "group": "cbu", "measure": 11.2 },
+    {
+      "category": "apn outdoor group limited",
+      "group": "cbu",
+      "measure": 11.03
+    },
+    { "category": "facebook inc", "group": "cbu", "measure": 10.73 },
+    { "category": "mcdonald's usa", "group": "cbu", "measure": 12.56 },
+    {
+      "category": "san mateo county transit district",
+      "group": "cbu",
+      "measure": 11.03
+    },
+    {
+      "category": "royal caribbean cruises ltd",
+      "group": "cbu",
+      "measure": 12.18
+    },
+    { "category": "mcdonald's australia", "group": "cbu", "measure": 10.86 },
+    { "category": "land transport authority", "group": "cbu", "measure": 9.61 },
+    { "category": "thomas cook group plc", "group": "cbu", "measure": 10.98 },
+    {
+      "category": "fedex corporate services inc",
+      "group": "cbu",
+      "measure": 12.41
+    },
+    { "category": "mcdonalds corporation", "group": "cbu", "measure": 10.54 },
+    { "category": "the scottish government", "group": "cbu", "measure": 10.09 },
+    {
+      "category": "appian software australia pty limit",
+      "group": "cbu",
+      "measure": 10.09
+    },
+    {
+      "category": "wilhelmsen it service as",
+      "group": "cbu",
+      "measure": 11.95
+    },
+    {
+      "category": "roads & maritime services",
+      "group": "cbu",
+      "measure": 11.3
+    },
+    { "category": "thomas cook", "group": "cbu", "measure": 13.25 },
+    { "category": "jurong town council", "group": "cbu", "measure": 8.62 },
+    { "category": "ana systems co ltd", "group": "cbu", "measure": 10.25 },
+    { "category": "nrma motoring & services", "group": "cbu", "measure": 9.69 },
+    {
+      "category": "salesforcecom singapore pte ltd",
+      "group": "cbu",
+      "measure": 10.58
+    },
+    { "category": "mcdonald's company", "group": "cbu", "measure": 13.04 },
+    { "category": "mc donald corporation", "group": "cbu", "measure": 12.95 },
+    { "category": "nsw department of family", "group": "cbu", "measure": 9.59 },
+    {
+      "category": "qld department of education",
+      "group": "cbu",
+      "measure": 12.83
+    },
+    { "category": "centrelink", "group": "cbu", "measure": 10.37 },
+    {
+      "category": "atlas air worldwide holdings inc",
+      "group": "cbu",
+      "measure": 13.28
+    },
+    {
+      "category": "the north lanarkshire council",
+      "group": "cbu",
+      "measure": 11.43
+    },
+    { "category": "uber technologies inc", "group": "cbu", "measure": 12.23 },
+    { "category": "hertz", "group": "cbu", "measure": 11.53 },
+    { "category": "fedex", "group": "cbu", "measure": 10.76 },
+    {
+      "category": "northwest airline (delta airlines)",
+      "group": "cbu",
+      "measure": 10.34
+    },
+    { "category": "ansto", "group": "cbu", "measure": 9.25 },
+    { "category": "canada post", "group": "cbu", "measure": 12.54 },
+    {
+      "category": "hertz equipment rental corporation",
+      "group": "cbu",
+      "measure": 9.06
+    },
+    { "category": "delta air lines inc", "group": "cbu", "measure": 8.2 },
+    { "category": "toll holdings limited", "group": "cbu", "measure": 10.76 },
+    { "category": "vicroads", "group": "cbu", "measure": 8.91 },
+    { "category": "mcdonalds company", "group": "cbu", "measure": 8.31 },
+    { "category": "the highland council", "group": "cbu", "measure": 9.9 },
+    { "category": "the hertz corporation", "group": "cbu", "measure": 10.77 },
+    { "category": "tui uk ag", "group": "cbu", "measure": 11.19 },
+    { "category": "con-way", "group": "cbu", "measure": 12.14 },
+    { "category": "san mateo county", "group": "cbu", "measure": 11.27 },
+    { "category": "innovapost inc", "group": "cbu", "measure": 10.14 },
+    { "category": " the highland council", "group": "cbu", "measure": 9.89 },
+    { "category": "transport for nsw", "group": "cbu", "measure": 13.34 },
+    {
+      "category": "american bureau of shipping",
+      "group": "cbu",
+      "measure": 11.57
+    },
+    { "category": "mcd usa", "group": "cbu", "measure": 13.27 },
+    { "category": "iata", "group": "cbu", "measure": 10.39 },
+    { "category": "delta air lines", "group": "cbu", "measure": 12.2 },
+    { "category": "mcdonalds company japan", "group": "cbu", "measure": 12.75 },
+    { "category": "tnt express ics limited", "group": "cbu", "measure": 12.46 },
+    { "category": "mxd group", "group": "cbu", "measure": 12.3 },
+    {
+      "category": "royal caribbean international",
+      "group": "cbu",
+      "measure": 11.97
+    },
+    { "category": "nsb as", "group": "cbu", "measure": 11.04 },
+    { "category": "smrt trains ltd", "group": "cbu", "measure": 11.03 },
+    { "category": "smrt", "group": "cbu", "measure": 8.86 },
+    {
+      "category": "central provident fund board",
+      "group": "cbu",
+      "measure": 9.87
+    },
+    { "category": "(blank)", "group": "cbu", "measure": 13.44 },
+    { "category": "tui uk limited", "group": "cbu", "measure": 12.84 },
+    {
+      "category":
+        "nsw department of family/facs - family and community services",
+      "group": "cbu",
+      "measure": 11.64
+    },
+    {
+      "category": "nsw govt board of studies",
+      "group": "cbu",
+      "measure": 9.37
+    },
+    {
+      "category": "dollar thrifty automitve group inc",
+      "group": "cbu",
+      "measure": 12.66
+    },
+    { "category": "tui", "group": "cbu", "measure": 10.49 },
+    { "category": "innovapost", "group": "cbu", "measure": 10.22 },
+    { "category": "federal express", "group": "cbu", "measure": 9.43 },
+    { "category": "dhl exel supply chain", "group": "cbu", "measure": 10.91 },
+    {
+      "category": "nsw deptt of education & training",
+      "group": "cbu",
+      "measure": 9.68
+    },
+    {
+      "category": "hewlett-packard financial svcs cda",
+      "group": "cbu",
+      "measure": 10.87
+    },
+    {
+      "category": "roads and maritime services",
+      "group": "cbu",
+      "measure": 9.61
+    },
+    {
+      "category": "department of family housing commun",
+      "group": "cbu",
+      "measure": 11.35
+    },
+    {
+      "category": "north lanarkshire council",
+      "group": "cbu",
+      "measure": 9.55
+    },
+    {
+      "category": "department of justice and regulatio",
+      "group": "cbu",
+      "measure": 11.41
+    },
+    {
+      "category": "empresa brasileira de correios e",
+      "group": "cbu",
+      "measure": 13.67
+    },
+    {
+      "category": "dhl global forwardingmanagementgmbh",
+      "group": "cbu",
+      "measure": 11.23
+    },
+    {
+      "category": "common structural rules software ll",
+      "group": "cbu",
+      "measure": 9.7
+    },
+    { "category": "united airlines", "group": "cbu", "measure": 9.99 },
+    { "category": "salesforcecom", "group": "cbu", "measure": 10.32 },
+    { "category": "ldc", "group": "cbu", "measure": 10.43 },
+    { "category": "pepsico inc", "group": "cbu", "measure": 10.98 },
+    {
+      "category": "coca-cola enterprises inc",
+      "group": "cbu",
+      "measure": 10.62
+    },
+    { "category": "archer daniels midland", "group": "cbu", "measure": 9.43 },
+    { "category": "brasil foods", "group": "cbu", "measure": 13.19 },
+    {
+      "category": "reckitt benckiser corporate",
+      "group": "cbu",
+      "measure": 12.25
+    },
+    {
+      "category": "nestl+\u00bc operational services worldwi",
+      "group": "cbu",
+      "measure": 8.92
+    },
+    { "category": "asahi holdings australia", "group": "cbu", "measure": 9.44 },
+    {
+      "category": "cervecer+\u00eda y maltaria",
+      "group": "cbu",
+      "measure": 12.12
+    },
+    { "category": "l'oreal sa", "group": "cbu", "measure": 10.98 },
+    { "category": "the highland council", "group": "cbu", "measure": 13.99 },
+    { "category": "coco-cola enterprises", "group": "cbu", "measure": 9.17 },
+    { "category": "kellogg's", "group": "cbu", "measure": 10.87 },
+    {
+      "category": "carlton united & breweries",
+      "group": "cbu",
+      "measure": 11.66
+    },
+    { "category": "kelloggs", "group": "cbu", "measure": 10.38 },
+    { "category": "treasury wine estates", "group": "cbu", "measure": 8.79 },
+    { "category": "tiger brands limited", "group": "cbu", "measure": 11.75 },
+    { "category": "pvh corp", "group": "cbu", "measure": 12.39 },
+    { "category": "coach inc", "group": "cbu", "measure": 9.63 },
+    {
+      "category": "frieslandcampina nederland",
+      "group": "cbu",
+      "measure": 8.2
+    },
+    { "category": "alticor", "group": "cbu", "measure": 12.99 },
+    {
+      "category": "kimberly-clark corporation",
+      "group": "cbu",
+      "measure": 11.12
+    },
+    { "category": "anheuser-busch", "group": "cbu", "measure": 10.94 },
+    { "category": "japan tobacco inc", "group": "cbu", "measure": 11.97 },
+    { "category": "pepsico india", "group": "cbu", "measure": 10.17 },
+    {
+      "category": "nike european operations nl bv",
+      "group": "cbu",
+      "measure": 8.74
+    },
+    { "category": "reckitt benckiser", "group": "cbu", "measure": 8.84 },
+    {
+      "category": "suntory holdings limited",
+      "group": "cbu",
+      "measure": 10.98
+    },
+    {
+      "category": "cervecer\u251c\u00a1a y maltaria",
+      "group": "cbu",
+      "measure": 10.71
+    },
+    { "category": "british american", "group": "cbu", "measure": 13.29 },
+    { "category": "olam europe limited", "group": "cbu", "measure": 12.05 },
+    {
+      "category": "general mills services inc",
+      "group": "cbu",
+      "measure": 9.68
+    },
+    {
+      "category": "cervecer\u00eda y maltaria",
+      "group": "cbu",
+      "measure": 11.25
+    },
+    { "category": "nestle - usa", "group": "cbu", "measure": 11.27 },
+    { "category": "jt international sa", "group": "cbu", "measure": 11.86 },
+    {
+      "category": "cargill sociedad anonima comercial",
+      "group": "cbu",
+      "measure": 8.63
+    },
+    { "category": "nike inc", "group": "cbu", "measure": 12.01 },
+    { "category": "edgewell personal care", "group": "cbu", "measure": 11.16 },
+    { "category": "heineken mexico", "group": "cbu", "measure": 9.25 },
+    { "category": "reckitt benckiser plc", "group": "cbu", "measure": 12.7 },
+    { "category": "vf asia", "group": "cbu", "measure": 13.83 },
+    {
+      "category": "pz cussons (international) limited",
+      "group": "cbu",
+      "measure": 10.73
+    },
+    { "category": "general mills", "group": "cbu", "measure": 11.42 },
+    { "category": "colgate", "group": "cbu", "measure": 10.71 },
+    { "category": "nestle australia", "group": "cbu", "measure": 11.58 },
+    {
+      "category": "imperial tobacco canada limited",
+      "group": "cbu",
+      "measure": 9.42
+    },
+    {
+      "category": "cervecer\u00e3\u00ada y maltaria",
+      "group": "cbu",
+      "measure": 11.23
+    },
+    { "category": "ingredion", "group": "cbu", "measure": 11.8 },
+    {
+      "category": "nike sport (china) co ltd",
+      "group": "cbu",
+      "measure": 12.46
+    },
+    {
+      "category": "cargill de mexico sa de cva de cv",
+      "group": "cbu",
+      "measure": 12.14
+    },
+    { "category": "lindt & sprnngli uk", "group": "cbu", "measure": 12.71 },
+    {
+      "category": "kimberly clark european servic",
+      "group": "cbu",
+      "measure": 10.34
+    },
+    { "category": "the coca-cola company", "group": "cbu", "measure": 11.53 },
+    { "category": "cargill agricola sa", "group": "cbu", "measure": 11.98 },
+    { "category": "colgate-palmolive", "group": "cbu", "measure": 10.56 },
+    { "category": "anheuser busch inb", "group": "cbu", "measure": 13.52 },
+    { "category": "yildiz holding as", "group": "cbu", "measure": 8.99 },
+    {
+      "category": "compa\u00e3\u00b1\u00e3\u00adas cic sa",
+      "group": "cbu",
+      "measure": 9.39
+    },
+    { "category": "pepsico", "group": "cbu", "measure": 9.03 },
+    {
+      "category": "gf services company pty limited",
+      "group": "cbu",
+      "measure": 11.18
+    },
+    { "category": "monsanto company", "group": "cbu", "measure": 12.36 },
+    { "category": "nike sport china co ltd", "group": "cbu", "measure": 10.35 },
+    { "category": "cargill", "group": "cbu", "measure": 9.65 },
+    {
+      "category": "nestle business services ltd",
+      "group": "cbu",
+      "measure": 11.56
+    },
+    { "category": "olam international", "group": "cbu", "measure": 14.33 },
+    {
+      "category": "british american tobacco plc",
+      "group": "cbu",
+      "measure": 10.76
+    },
+    {
+      "category": "anheuser-busch companies",
+      "group": "cbu",
+      "measure": 11.17
+    },
+    { "category": "unilever", "group": "cbu", "measure": 8.74 },
+    { "category": "kellogg company", "group": "cbu", "measure": 9.47 },
+    { "category": "colgate palmolive", "group": "cbu", "measure": 10.59 },
+    { "category": "cargill incorporated", "group": "cbu", "measure": 11.38 },
+    { "category": "souza cruz sa", "group": "cbu", "measure": 9.46 },
+    { "category": "levi strauss & company", "group": "cbu", "measure": 10.33 },
+    {
+      "category": "pz cussons (international) ltd",
+      "group": "cbu",
+      "measure": 10.45
+    },
+    {
+      "category": "reckitt benckiser (brazil) ltda",
+      "group": "cbu",
+      "measure": 10.5
+    },
+    { "category": "anheuser busch inbev", "group": "cbu", "measure": 12.28 },
+    { "category": "grupo modelo sab de cv", "group": "cbu", "measure": 8.62 },
+    {
+      "category": "lindt & spr\u207fngli uk",
+      "group": "cbu",
+      "measure": 10.94
+    },
+    { "category": "mattel inc", "group": "cbu", "measure": 9.75 },
+    {
+      "category": "british american tobacco",
+      "group": "cbu",
+      "measure": 10.01
+    },
+    { "category": "goodman fielder", "group": "cbu", "measure": 10.98 },
+    {
+      "category": "corn products international inc",
+      "group": "cbu",
+      "measure": 8.87
+    },
+    { "category": "coach hongkong limited", "group": "cbu", "measure": 12.37 },
+    { "category": "hanesbrands inc", "group": "cbu", "measure": 10.79 },
+    { "category": "japan tobacco", "group": "cbu", "measure": 10.58 },
+    { "category": "coach hongkong", "group": "cbu", "measure": 10.84 },
+    { "category": "brf brasil foods", "group": "cbu", "measure": 11.33 },
+    { "category": "philip morris", "group": "cbu", "measure": 11.04 },
+    {
+      "category": "kimberly-clark european services limited",
+      "group": "cbu",
+      "measure": 12.97
+    },
+    {
+      "category": "nestl+\u00ac operational services worldwi",
+      "group": "cbu",
+      "measure": 8.39
+    },
+    {
+      "category": "kimberly clark european services lt",
+      "group": "cbu",
+      "measure": 12.22
+    },
+    { "category": "nestle", "group": "cbu", "measure": 9.23 },
+    { "category": "levis", "group": "cbu", "measure": 8.62 },
+    {
+      "category": "louis dreyfus commodities",
+      "group": "cbu",
+      "measure": 11.65
+    },
+    {
+      "category": "cervecer+\u00a1a y maltaria",
+      "group": "cbu",
+      "measure": 12.02
+    },
+    {
+      "category": "coca cola enterprises inc",
+      "group": "cbu",
+      "measure": 14.29
+    },
+    { "category": "edf man", "group": "cbu", "measure": 11.76 },
+    {
+      "category": "coca-cola singapore beverages",
+      "group": "cbu",
+      "measure": 10.38
+    },
+    { "category": "reckit benkiser", "group": "cbu", "measure": 11.05 },
+    { "category": "fruit of the loom", "group": "cbu", "measure": 10.64 },
+    {
+      "category": "compa+\u00a6+\u00a1as cic sa",
+      "group": "cbu",
+      "measure": 11.72
+    },
+    {
+      "category": "colgate palmolive chile sa",
+      "group": "cbu",
+      "measure": 12.98
+    },
+    {
+      "category": "colgate palmolive argentina sa",
+      "group": "cbu",
+      "measure": 9.57
+    },
+    {
+      "category": "the north lanarkshire council",
+      "group": "cbu",
+      "measure": 8.56
+    },
+    { "category": "nike", "group": "cbu", "measure": 10.71 },
+    { "category": "carlsberg it a/s", "group": "cbu", "measure": 9.55 },
+    {
+      "category": "lucozade ribena suntory limited",
+      "group": "cbu",
+      "measure": 10.34
+    },
+    { "category": "vf europe bvba", "group": "cbu", "measure": 8.43 },
+    { "category": "cargill asia pacific", "group": "cbu", "measure": 10.15 },
+    {
+      "category": "bacardi martini bv - geneva branc",
+      "group": "cbu",
+      "measure": 13.27
+    },
+    { "category": "vf corp", "group": "cbu", "measure": 12.36 },
+    { "category": "l'oreal usa", "group": "cbu", "measure": 12.81 },
+    { "category": "l'oreal", "group": "cbu", "measure": 12.31 },
+    { "category": "kellogg's inc", "group": "cbu", "measure": 9.48 },
+    { "category": "coca cola", "group": "cbu", "measure": 12.95 },
+    { "category": "carlsberg", "group": "cbu", "measure": 10.23 },
+    {
+      "category": "yildiz jde implementation",
+      "group": "cbu",
+      "measure": 8.04
+    },
+    {
+      "category": "gf services company limited",
+      "group": "cbu",
+      "measure": 12.02
+    },
+    {
+      "category": "companhia de bebidas das americas",
+      "group": "cbu",
+      "measure": 9.64
+    },
+    {
+      "category": "nestle operational services",
+      "group": "cbu",
+      "measure": 10.66
+    },
+    { "category": "ingredion incorporated", "group": "cbu", "measure": 11.09 },
+    { "category": "kimberly clark", "group": "cbu", "measure": 10.59 },
+    { "category": "cargill argentina", "group": "cbu", "measure": 11.93 },
+    { "category": "chs inc", "group": "cbu", "measure": 11.75 },
+    { "category": "kelloggs inc", "group": "cbu", "measure": 9.41 },
+    { "category": "vfa", "group": "cbu", "measure": 13.28 },
+    { "category": "lindt & spr++ngli uk", "group": "cbu", "measure": 11.96 },
+    { "category": "louis dreyfus company", "group": "cbu", "measure": 11.65 },
+    { "category": "cervecerfa y maltaria", "group": "cbu", "measure": 11.44 },
+    { "category": "campbell soup company", "group": "cbu", "measure": 11.2 },
+    {
+      "category": "unilever uk central resources ltd",
+      "group": "cbu",
+      "measure": 12.08
+    },
+    { "category": "swarovski ag", "group": "cbu", "measure": 12.4 },
+    {
+      "category": "nomura services india pvt ltd",
+      "group": "bfsi",
+      "measure": 8.14
+    },
+    { "category": "morgan stanley & co inc", "group": "bfsi", "measure": 8.71 },
+    { "category": "bank of new york", "group": "bfsi", "measure": 11.35 },
+    {
+      "category": "credit agricole corporate and",
+      "group": "bfsi",
+      "measure": 13.63
+    },
+    {
+      "category": "the bank of new york mellon corpora",
+      "group": "bfsi",
+      "measure": 10.58
+    },
+    { "category": "credit suisse", "group": "bfsi", "measure": 12.95 },
+    {
+      "category": "international financial",
+      "group": "bfsi",
+      "measure": 12.18
+    },
+    {
+      "category": "wellington management company llp",
+      "group": "bfsi",
+      "measure": 12.45
+    },
+    { "category": "northern trust", "group": "bfsi", "measure": 11.87 },
+    {
+      "category": "nomura services india pvt ltd (sez)",
+      "group": "bfsi",
+      "measure": 11.79
+    },
+    { "category": "nyse", "group": "bfsi", "measure": 7.88 },
+    {
+      "category": "sumitomo mitsui trust bank ( usa",
+      "group": "bfsi",
+      "measure": 9.33
+    },
+    {
+      "category": "morgan stanley advantage services",
+      "group": "bfsi",
+      "measure": 11.59
+    },
+    {
+      "category": "societe generale global solution",
+      "group": "bfsi",
+      "measure": 10.66
+    },
+    { "category": "standard & poor's", "group": "bfsi", "measure": 10.68 },
+    { "category": "fmr llc (fidelity)", "group": "bfsi", "measure": 11.49 },
+    { "category": "six telekurs", "group": "bfsi", "measure": 12.03 },
+    {
+      "category": "new york stock exchange inc",
+      "group": "bfsi",
+      "measure": 10.58
+    },
+    { "category": "xtrac llc", "group": "bfsi", "measure": 10.84 },
+    { "category": "goldman sachs & co", "group": "bfsi", "measure": 9.32 },
+    { "category": "jefferies llc", "group": "bfsi", "measure": 8.92 },
+    {
+      "category": "asurion insurance services inc",
+      "group": "bfsi",
+      "measure": 10.59
+    },
+    { "category": "charles schwab & coinc", "group": "bfsi", "measure": 12.02 },
+    {
+      "category": "cr\u03b8dit agricole corporate and",
+      "group": "bfsi",
+      "measure": 10.09
+    },
+    { "category": "putnam investments", "group": "bfsi", "measure": 7.02 },
+    { "category": "state street", "group": "bfsi", "measure": 11.71 },
+    {
+      "category": "cr\u00e9dit agricole corporate and",
+      "group": "bfsi",
+      "measure": 10.68
+    },
+    { "category": "credit agricole", "group": "bfsi", "measure": 14.73 },
+    { "category": "john hancock  financial", "group": "bfsi", "measure": 10.4 },
+    {
+      "category": "state street bank & trust company",
+      "group": "bfsi",
+      "measure": 9.39
+    },
+    { "category": "societe generale", "group": "bfsi", "measure": 11.63 },
+    { "category": "standard & poor", "group": "bfsi", "measure": 10.51 },
+    { "category": "msci inc", "group": "bfsi", "measure": 13.62 },
+    {
+      "category": "the bank of new york mellon corp",
+      "group": "bfsi",
+      "measure": 11.71
+    },
+    {
+      "category": "london stock exchange plc",
+      "group": "bfsi",
+      "measure": 12.94
+    },
+    {
+      "category": "macquarie group services australia",
+      "group": "bfsi",
+      "measure": 12.22
+    },
+    {
+      "category": "john hancock life insurance co",
+      "group": "bfsi",
+      "measure": 9.98
+    },
+    { "category": "asurion", "group": "bfsi", "measure": 11.16 },
+    {
+      "category": "carlyle investment management ll",
+      "group": "bfsi",
+      "measure": 11.47
+    },
+    {
+      "category": "credit suisse securities (europe) l",
+      "group": "bfsi",
+      "measure": 12.76
+    },
+    { "category": "ubs", "group": "bfsi", "measure": 10.27 },
+    {
+      "category": "credit suisse ib singapore",
+      "group": "bfsi",
+      "measure": 11.19
+    },
+    { "category": "credit suisse (rb)", "group": "bfsi", "measure": 9.24 },
+    { "category": "credit suisse", "group": "bfsi", "measure": 11.24 },
+    { "category": "ubs ag", "group": "bfsi", "measure": 9.86 },
+    { "category": "credit suisse ag", "group": "bfsi", "measure": 10.94 },
+    {
+      "category": "credit suisse securities (usa) llc",
+      "group": "bfsi",
+      "measure": 9.75
+    },
+    {
+      "category": "the capital markets company sarl",
+      "group": "bfsi",
+      "measure": 8.14
+    },
+    { "category": "cssi", "group": "bfsi", "measure": 11.07 },
+    {
+      "category": "credit suisse services (india)",
+      "group": "bfsi",
+      "measure": 12.03
+    },
+    { "category": "dbs bank ltd", "group": "bfsi", "measure": 8.32 },
+    { "category": "rashid hussein bank", "group": "bfsi", "measure": 13.9 },
+    { "category": "fixer hokukokubank", "group": "bfsi", "measure": 10.89 },
+    {
+      "category": "thanachart bank public company limi",
+      "group": "bfsi",
+      "measure": 10.43
+    },
+    { "category": "thai military bank", "group": "bfsi", "measure": 12.63 },
+    {
+      "category": "the siam commercial bank",
+      "group": "bfsi",
+      "measure": 10.32
+    },
+    { "category": "swift scrl", "group": "bfsi", "measure": 11.25 },
+    { "category": "suncorp bank", "group": "bfsi", "measure": 11.11 },
+    {
+      "category": "anz operations and technology",
+      "group": "bfsi",
+      "measure": 11.4
+    },
+    {
+      "category": "reserve bank of australia",
+      "group": "bfsi",
+      "measure": 13.0
+    },
+    { "category": "anz bank", "group": "bfsi", "measure": 11.28 },
+    { "category": "anz singapore", "group": "bfsi", "measure": 11.69 },
+    { "category": "suncorp", "group": "bfsi", "measure": 9.84 },
+    {
+      "category": "australia and new zealand",
+      "group": "bfsi",
+      "measure": 10.29
+    },
+    {
+      "category": "bank mandiri (europe) ltd",
+      "group": "bfsi",
+      "measure": 11.91
+    },
+    {
+      "category": "pt bank mandiri(persero) tbk",
+      "group": "bfsi",
+      "measure": 10.39
+    },
+    { "category": "anz bank ltd", "group": "bfsi", "measure": 9.24 },
+    { "category": "maybank berhad", "group": "bfsi", "measure": 9.13 },
+    {
+      "category": "tmb bank public company limited",
+      "group": "bfsi",
+      "measure": 10.96
+    },
+    { "category": "ozforex limited", "group": "bfsi", "measure": 9.67 },
+    { "category": "raiffeisen bank aval", "group": "bfsi", "measure": 9.14 },
+    { "category": "cimb malaysia", "group": "bfsi", "measure": 11.92 },
+    { "category": "anz banking group ltd", "group": "bfsi", "measure": 9.69 },
+    { "category": "dbs bank limited", "group": "bfsi", "measure": 8.83 },
+    {
+      "category": "westpac banking corporation",
+      "group": "bfsi",
+      "measure": 12.05
+    },
+    { "category": "vietinbank", "group": "bfsi", "measure": 11.25 },
+    {
+      "category": "anz global services & operations",
+      "group": "bfsi",
+      "measure": 12.79
+    },
+    {
+      "category": "standard chartered bank",
+      "group": "bfsi",
+      "measure": 11.23
+    },
+    { "category": "allied irish bank plc", "group": "bfsi", "measure": 12.08 },
+    { "category": "hsbc brazil", "group": "bfsi", "measure": 10.69 },
+    {
+      "category": "first bank of nigeria limited",
+      "group": "bfsi",
+      "measure": 10.75
+    },
+    { "category": "raiffeisen bank aval", "group": "bfsi", "measure": 11.37 },
+    { "category": "barclays bank", "group": "bfsi", "measure": 12.0 },
+    { "category": "barclays", "group": "bfsi", "measure": 12.31 },
+    { "category": "barclays bank plc", "group": "bfsi", "measure": 11.33 },
+    {
+      "category": "hsbc global services (uk) limited",
+      "group": "bfsi",
+      "measure": 12.3
+    },
+    { "category": "fcm llc", "group": "bfsi", "measure": 11.15 },
+    {
+      "category": "hsbc software development (india)pv",
+      "group": "bfsi",
+      "measure": 8.67
+    },
+    { "category": "swift scrl", "group": "bfsi", "measure": 12.95 },
+    { "category": "deutsche bank ag", "group": "bfsi", "measure": 10.2 },
+    { "category": "royal bank of scotland", "group": "bfsi", "measure": 10.42 },
+    {
+      "category": "ing group/ops & it banking /",
+      "group": "bfsi",
+      "measure": 14.87
+    },
+    {
+      "category": "hsbc software development (guangdon",
+      "group": "bfsi",
+      "measure": 11.65
+    },
+    { "category": "dll", "group": "bfsi", "measure": 10.17 },
+    { "category": "allied irish bank", "group": "bfsi", "measure": 11.67 },
+    {
+      "category": "de lage landen international bv",
+      "group": "bfsi",
+      "measure": 11.93
+    },
+    { "category": "hsbc china", "group": "bfsi", "measure": 11.57 },
+    { "category": "ashburton investments", "group": "bfsi", "measure": 10.66 },
+    { "category": "hsbc bank brasil sa", "group": "bfsi", "measure": 12.55 },
+    { "category": "nedbank limited", "group": "bfsi", "measure": 10.09 },
+    {
+      "category": "rbs india development centre pvtlt",
+      "group": "bfsi",
+      "measure": 10.25
+    },
+    { "category": "hsbc bank plc", "group": "bfsi", "measure": 10.62 },
+    {
+      "category": "hsbc global services (uk) lim",
+      "group": "bfsi",
+      "measure": 10.91
+    },
+    { "category": "nedbank", "group": "bfsi", "measure": 13.81 },
+    { "category": "standard bank", "group": "bfsi", "measure": 13.81 },
+    { "category": "bank of scotland plc", "group": "bfsi", "measure": 13.28 },
+    { "category": "de lage landen", "group": "bfsi", "measure": 12.19 },
+    {
+      "category": "south african reserve bank",
+      "group": "bfsi",
+      "measure": 9.06
+    },
+    {
+      "category": "deutsche bank aktiengesellschaft",
+      "group": "bfsi",
+      "measure": 10.23
+    },
+    {
+      "category": "deutsche bank ag london",
+      "group": "bfsi",
+      "measure": 11.75
+    },
+    {
+      "category": "national westminster bank plc",
+      "group": "bfsi",
+      "measure": 10.58
+    },
+    { "category": "absa group limited", "group": "bfsi", "measure": 10.85 },
+    { "category": "absa", "group": "bfsi", "measure": 9.2 },
+    { "category": "deutsche bank", "group": "bfsi", "measure": 11.59 },
+    { "category": "firstrand bank ltd", "group": "bfsi", "measure": 12.63 },
+    {
+      "category": "barclays capital services limited",
+      "group": "bfsi",
+      "measure": 13.32
+    },
+    { "category": "citibank na usa", "group": "bfsi", "measure": 9.71 },
+    {
+      "category": "citigroup technology inc usa",
+      "group": "bfsi",
+      "measure": 12.4
+    },
+    {
+      "category": "citibank na singapore branch",
+      "group": "bfsi",
+      "measure": 11.31
+    },
+    {
+      "category": "citigroup global markets inc usa",
+      "group": "bfsi",
+      "measure": 11.55
+    },
+    { "category": "citibank as", "group": "bfsi", "measure": 10.67 },
+    {
+      "category": "citigroup corporate & financial sys",
+      "group": "bfsi",
+      "measure": 12.08
+    },
+    { "category": "geico", "group": "bfsi", "measure": 10.97 },
+    { "category": "citibank japan limited", "group": "bfsi", "measure": 11.87 },
+    {
+      "category": "citi consumer banking banking & ca",
+      "group": "bfsi",
+      "measure": 9.96
+    },
+    {
+      "category": "citibank na united kingdom",
+      "group": "bfsi",
+      "measure": 13.18
+    },
+    {
+      "category": "citibank na usa_gcg - nait_nait",
+      "group": "bfsi",
+      "measure": 10.2
+    },
+    { "category": "citi technology inc", "group": "bfsi", "measure": 10.1 },
+    {
+      "category": "citibank na_usa_cti_gcmd isa supp",
+      "group": "bfsi",
+      "measure": 11.83
+    },
+    {
+      "category": "citigroup services japan ltd",
+      "group": "bfsi",
+      "measure": 11.42
+    },
+    {
+      "category": "citibank na israel_cti_emea",
+      "group": "bfsi",
+      "measure": 11.12
+    },
+    {
+      "category": "citibank europe plc czech republic",
+      "group": "bfsi",
+      "measure": 12.02
+    },
+    {
+      "category": "citibank na south africa branch",
+      "group": "bfsi",
+      "measure": 10.39
+    },
+    { "category": "cfj kk", "group": "bfsi", "measure": 8.7 },
+    {
+      "category": "citicorp credit services inc(usa)",
+      "group": "bfsi",
+      "measure": 12.13
+    },
+    { "category": "citigroup na", "group": "bfsi", "measure": 9.61 },
+    {
+      "category": "citi consumer banking na",
+      "group": "bfsi",
+      "measure": 10.87
+    },
+    {
+      "category": "citibank international plc",
+      "group": "bfsi",
+      "measure": 11.49
+    },
+    {
+      "category": "banco nacional de m+xico sa",
+      "group": "bfsi",
+      "measure": 10.83
+    },
+    {
+      "category": "banco nacional de mexico sa",
+      "group": "bfsi",
+      "measure": 13.28
+    },
+    { "category": "citibank na singapore", "group": "bfsi", "measure": 10.48 },
+    {
+      "category": "citi consumer banking shared services",
+      "group": "bfsi",
+      "measure": 12.12
+    },
+    { "category": "bank handlowy w", "group": "bfsi", "measure": 10.44 },
+    {
+      "category": "citigroup global markets inc",
+      "group": "bfsi",
+      "measure": 12.37
+    },
+    { "category": "citibank na", "group": "bfsi", "measure": 12.49 },
+    { "category": "citi private bank", "group": "bfsi", "measure": 10.1 },
+    {
+      "category": "citi technology infrastructure na",
+      "group": "bfsi",
+      "measure": 11.22
+    },
+    {
+      "category": "citicorp north america inc",
+      "group": "bfsi",
+      "measure": 10.34
+    },
+    { "category": "citibank na india", "group": "bfsi", "measure": 11.37 },
+    {
+      "category": "citibank na egypt branch",
+      "group": "bfsi",
+      "measure": 11.0
+    },
+    {
+      "category": "citigroup technology inc",
+      "group": "bfsi",
+      "measure": 10.7
+    },
+    { "category": "citibank", "group": "bfsi", "measure": 11.82 },
+    { "category": "mckinsey & company", "group": "bfsi", "measure": 10.74 },
+    { "category": "zao kb citibank_cti", "group": "bfsi", "measure": 12.7 },
+    {
+      "category": "citigroup global markets inc usa_",
+      "group": "bfsi",
+      "measure": 12.06
+    },
+    {
+      "category": "citi consumer banking shared servi",
+      "group": "bfsi",
+      "measure": 10.28
+    },
+    { "category": "citibank na  bahrain", "group": "bfsi", "measure": 11.55 },
+    { "category": "citibank na regional", "group": "bfsi", "measure": 8.29 },
+    { "category": "freedom mortgage", "group": "bfsi", "measure": 9.12 },
+    { "category": "first republic bank", "group": "bfsi", "measure": 10.28 },
+    {
+      "category": "first republic national bank",
+      "group": "bfsi",
+      "measure": 11.59
+    },
+    { "category": "century", "group": "bfsi", "measure": 11.5 },
+    { "category": "virginia housing", "group": "bfsi", "measure": 11.9 },
+    { "category": "mortgage master", "group": "bfsi", "measure": 11.77 },
+    { "category": "impac", "group": "bfsi", "measure": 8.92 },
+    { "category": "discover product inc", "group": "bfsi", "measure": 12.56 },
+    { "category": "freddie mac", "group": "bfsi", "measure": 10.27 },
+    { "category": "jpmorgan chase bank na", "group": "bfsi", "measure": 12.4 },
+    { "category": "wells fargo bank na", "group": "bfsi", "measure": 10.16 },
+    { "category": "wells fargo", "group": "bfsi", "measure": 10.75 },
+    { "category": "the bank of new york", "group": "bfsi", "measure": 11.37 },
+    {
+      "category": "interbolsa soluciones de",
+      "group": "bfsi",
+      "measure": 9.38
+    },
+    {
+      "category": "pacific union financial",
+      "group": "bfsi",
+      "measure": 12.12
+    },
+    { "category": "flushing savings bank", "group": "bfsi", "measure": 9.88 },
+    { "category": "mortgage master inc", "group": "bfsi", "measure": 12.86 },
+    { "category": "firstkey holdings", "group": "bfsi", "measure": 9.88 },
+    { "category": "us bank home mortgage", "group": "bfsi", "measure": 12.56 },
+    {
+      "category": "northwest savings bank inc",
+      "group": "bfsi",
+      "measure": 9.34
+    },
+    {
+      "category": "astoria federal savings",
+      "group": "bfsi",
+      "measure": 10.29
+    },
+    {
+      "category": "american equity mortgage",
+      "group": "bfsi",
+      "measure": 10.95
+    },
+    { "category": "astoria", "group": "bfsi", "measure": 12.26 },
+    { "category": "freddie", "group": "bfsi", "measure": 8.65 },
+    { "category": "tbi mortgage", "group": "bfsi", "measure": 13.41 },
+    {
+      "category": "freedom mortgage corporation",
+      "group": "bfsi",
+      "measure": 11.45
+    },
+    { "category": "1st advantage mortgage", "group": "bfsi", "measure": 10.72 },
+    { "category": "impac mortgage corp", "group": "bfsi", "measure": 9.45 },
+    { "category": "bokf na", "group": "bfsi", "measure": 10.91 },
+    {
+      "category": "the bank of new york mellon corp",
+      "group": "bfsi",
+      "measure": 14.31
+    },
+    { "category": "city national bank", "group": "bfsi", "measure": 11.42 },
+    {
+      "category": "m & i mortgage corporation",
+      "group": "bfsi",
+      "measure": 10.64
+    },
+    { "category": "flushing saving bank", "group": "bfsi", "measure": 10.43 },
+    {
+      "category": "webster bank national associa",
+      "group": "bfsi",
+      "measure": 11.43
+    },
+    {
+      "category": "plaza home mortgage inc",
+      "group": "bfsi",
+      "measure": 10.07
+    },
+    { "category": "century lending company", "group": "bfsi", "measure": 9.57 },
+    {
+      "category": "huntington national bank",
+      "group": "bfsi",
+      "measure": 10.38
+    },
+    { "category": "anz group", "group": "bfsi", "measure": 10.98 },
+    { "category": "tbi mortgage company", "group": "bfsi", "measure": 11.37 },
+    { "category": "bank of scotland plc", "group": "bfsi", "measure": 12.99 },
+    { "category": "lloyds banking group", "group": "bfsi", "measure": 11.36 },
+    {
+      "category": "shell information technology",
+      "group": "bfsi",
+      "measure": 11.74
+    },
+    { "category": "lloyds tsb bank plc", "group": "bfsi", "measure": 10.66 },
+    {
+      "category": "mastercard international inc",
+      "group": "bfsi",
+      "measure": 11.31
+    },
+    { "category": "us bank", "group": "bfsi", "measure": 12.01 },
+    { "category": "jp morgan chase", "group": "bfsi", "measure": 11.24 },
+    { "category": "banco caja social", "group": "bfsi", "measure": 10.01 },
+    { "category": "banco do brasil s/a", "group": "bfsi", "measure": 10.61 },
+    { "category": "innovant", "group": "bfsi", "measure": 10.54 },
+    { "category": "banco original s/a", "group": "bfsi", "measure": 13.45 },
+    { "category": "visa europe", "group": "bfsi", "measure": 11.38 },
+    {
+      "category": "huntington national bank",
+      "group": "bfsi",
+      "measure": 9.86
+    },
+    {
+      "category": "fifth third processing solutions",
+      "group": "bfsi",
+      "measure": 9.37
+    },
+    { "category": "td - canadian retail", "group": "bfsi", "measure": 10.4 },
+    { "category": "northern trust", "group": "bfsi", "measure": 11.5 },
+    { "category": "td bank", "group": "bfsi", "measure": 11.75 },
+    {
+      "category": "total system services inc",
+      "group": "bfsi",
+      "measure": 10.68
+    },
+    { "category": "wells fargo", "group": "bfsi", "measure": 12.7 },
+    {
+      "category": "forum capital markets llc",
+      "group": "bfsi",
+      "measure": 9.95
+    },
+    {
+      "category": "td - usts - rise datamart with informatica",
+      "group": "bfsi",
+      "measure": 12.2
+    },
+    { "category": "upromise inc", "group": "bfsi", "measure": 11.99 },
+    { "category": "bank of the west", "group": "bfsi", "measure": 12.97 },
+    { "category": "inovant llc", "group": "bfsi", "measure": 12.01 },
+    { "category": "capital one", "group": "bfsi", "measure": 10.89 },
+    { "category": "capital one services", "group": "bfsi", "measure": 10.61 },
+    {
+      "category": "capital one auto finance",
+      "group": "bfsi",
+      "measure": 11.05
+    },
+    { "category": "isban (brazil)", "group": "bfsi", "measure": 11.48 },
+    { "category": "pnc financial services", "group": "bfsi", "measure": 10.42 },
+    {
+      "category": "discover financial services",
+      "group": "bfsi",
+      "measure": 9.95
+    },
+    { "category": "bank of america", "group": "bfsi", "measure": 11.4 },
+    { "category": "paypal inc", "group": "bfsi", "measure": 10.2 },
+    { "category": "regions bank", "group": "bfsi", "measure": 12.17 },
+    {
+      "category": "global payments south america",
+      "group": "bfsi",
+      "measure": 11.32
+    },
+    { "category": "banco santander brasil", "group": "bfsi", "measure": 9.34 },
+    { "category": "zurich north america", "group": "bfsi", "measure": 11.3 },
+    {
+      "category": "zurich insurance company",
+      "group": "bfsi",
+      "measure": 10.56
+    },
+    {
+      "category": "muenchner rueckversicherungs",
+      "group": "bfsi",
+      "measure": 13.24
+    },
+    {
+      "category": "axa technology services sas",
+      "group": "bfsi",
+      "measure": 9.66
+    },
+    { "category": "utica mutual insurance", "group": "bfsi", "measure": 9.64 },
+    {
+      "category": "anz operations and technology",
+      "group": "bfsi",
+      "measure": 12.75
+    },
+    {
+      "category": "main street america group inc",
+      "group": "bfsi",
+      "measure": 13.09
+    },
+    { "category": "marsh", "group": "bfsi", "measure": 10.06 },
+    {
+      "category": "onepath administration pty ltd",
+      "group": "bfsi",
+      "measure": 11.44
+    },
+    {
+      "category": "prudential assurance co ltd",
+      "group": "bfsi",
+      "measure": 9.17
+    },
+    {
+      "category": "arthur j gallagher international",
+      "group": "bfsi",
+      "measure": 11.77
+    },
+    { "category": "allianz ireland", "group": "bfsi", "measure": 11.59 },
+    { "category": "bt financial group", "group": "bfsi", "measure": 9.71 },
+    {
+      "category": "hewlett-packard international",
+      "group": "bfsi",
+      "measure": 9.68
+    },
+    {
+      "category": "axis specialty us services inc",
+      "group": "bfsi",
+      "measure": 10.72
+    },
+    {
+      "category": "stewart title guranty company",
+      "group": "bfsi",
+      "measure": 11.63
+    },
+    { "category": "racq", "group": "bfsi", "measure": 8.56 },
+    {
+      "category": "utica mutual insurance company",
+      "group": "bfsi",
+      "measure": 11.64
+    },
+    { "category": "ifds", "group": "bfsi", "measure": 8.81 },
+    { "category": "aviva uk life", "group": "bfsi", "measure": 11.6 },
+    { "category": "american family mutual", "group": "bfsi", "measure": 10.82 },
+    {
+      "category": "international financial",
+      "group": "bfsi",
+      "measure": 10.97
+    },
+    {
+      "category": "allstate insurance company",
+      "group": "bfsi",
+      "measure": 11.19
+    },
+    { "category": "verisk", "group": "bfsi", "measure": 12.62 },
+    { "category": "allianz amos se", "group": "bfsi", "measure": 9.84 },
+    {
+      "category": "first central group limited",
+      "group": "bfsi",
+      "measure": 14.61
+    },
+    { "category": "anz bank ltd", "group": "bfsi", "measure": 12.72 },
+    { "category": "nationwide", "group": "bfsi", "measure": 13.02 },
+    {
+      "category": "aviva life services uk limited",
+      "group": "bfsi",
+      "measure": 10.09
+    },
+    { "category": "suncorp insurance", "group": "bfsi", "measure": 9.81 },
+    { "category": "zurich life", "group": "bfsi", "measure": 9.19 },
+    {
+      "category": "stewart title guaranty company",
+      "group": "bfsi",
+      "measure": 12.46
+    },
+    {
+      "category": "life insurance corporation",
+      "group": "bfsi",
+      "measure": 12.92
+    },
+    { "category": "argo", "group": "bfsi", "measure": 12.74 },
+    { "category": "gmac", "group": "bfsi", "measure": 10.16 },
+    {
+      "category": "zurich minas brasil seguros sa",
+      "group": "bfsi",
+      "measure": 8.48
+    },
+    { "category": "allianz", "group": "bfsi", "measure": 12.48 },
+    { "category": "iag direct", "group": "bfsi", "measure": 10.35 },
+    {
+      "category": "allianz life insurance malaysia",
+      "group": "bfsi",
+      "measure": 7.94
+    },
+    { "category": "bt financial", "group": "bfsi", "measure": 9.57 },
+    { "category": "qsuper limited", "group": "bfsi", "measure": 10.96 },
+    { "category": "northwestern mutual", "group": "bfsi", "measure": 14.35 },
+    {
+      "category": "bravura solutions (uk) limited",
+      "group": "bfsi",
+      "measure": 12.38
+    },
+    {
+      "category": "precision administration",
+      "group": "bfsi",
+      "measure": 9.74
+    },
+    {
+      "category": "zurich financial services",
+      "group": "bfsi",
+      "measure": 12.43
+    },
+    { "category": "geico", "group": "bfsi", "measure": 8.81 },
+    { "category": "liberty life", "group": "bfsi", "measure": 9.21 },
+    {
+      "category": "international financial(insurance)",
+      "group": "bfsi",
+      "measure": 10.54
+    },
+    { "category": "the hartford", "group": "bfsi", "measure": 12.39 },
+    { "category": "iag", "group": "bfsi", "measure": 11.07 },
+    { "category": "qsuper", "group": "bfsi", "measure": 10.12 },
+    { "category": "manulife financial", "group": "bfsi", "measure": 12.16 },
+    { "category": "axis capital inc", "group": "bfsi", "measure": 10.55 },
+    {
+      "category": "axis speciality us services inc",
+      "group": "bfsi",
+      "measure": 8.69
+    },
+    {
+      "category": "hewlett-packard international bank",
+      "group": "bfsi",
+      "measure": 9.84
+    },
+    {
+      "category": "marsh corporate services (uk) ltd",
+      "group": "bfsi",
+      "measure": 12.12
+    },
+    {
+      "category": "insurance australia group ltd",
+      "group": "bfsi",
+      "measure": 8.85
+    },
+    { "category": "tal services limited", "group": "bfsi", "measure": 11.65 },
+    { "category": "suncorp", "group": "bfsi", "measure": 9.67 },
+    { "category": "prudential", "group": "bfsi", "measure": 10.45 },
+    { "category": "argo group us inc", "group": "bfsi", "measure": 11.65 },
+    { "category": "anz wealth", "group": "bfsi", "measure": 10.33 },
+    { "category": "norwich union", "group": "bfsi", "measure": 9.63 },
+    { "category": "ms amlin", "group": "bfsi", "measure": 13.02 },
+    {
+      "category": "main street america insurance",
+      "group": "bfsi",
+      "measure": 9.64
+    },
+    {
+      "category": "zurich in north america it finance",
+      "group": "bfsi",
+      "measure": 11.14
+    },
+    {
+      "category": "hyperion services limited",
+      "group": "bfsi",
+      "measure": 13.16
+    },
+    { "category": "amp services", "group": "bfsi", "measure": 10.06 },
+    { "category": "bravura solutions", "group": "bfsi", "measure": 12.15 },
+    {
+      "category": "hyperion insurance group",
+      "group": "bfsi",
+      "measure": 10.04
+    },
+    { "category": "amp services limited", "group": "bfsi", "measure": 11.61 },
+    {
+      "category": "allianz global corporate",
+      "group": "bfsi",
+      "measure": 10.49
+    },
+    { "category": "farmers new world life", "group": "bfsi", "measure": 11.02 },
+    {
+      "category": "zurich american insurance",
+      "group": "bfsi",
+      "measure": 13.35
+    },
+    {
+      "category": "allianz general insurance company",
+      "group": "bfsi",
+      "measure": 10.08
+    },
+    {
+      "category": "the church pension group",
+      "group": "bfsi",
+      "measure": 12.31
+    },
+    {
+      "category": "farmers insurance group of com",
+      "group": "bfsi",
+      "measure": 11.08
+    },
+    { "category": "farmers insurance group", "group": "bfsi", "measure": 13.5 },
+    { "category": "sunsuper", "group": "bfsi", "measure": 10.79 },
+    { "category": "lic singapore pte ltd", "group": "bfsi", "measure": 9.68 },
+    { "category": "church pension group", "group": "bfsi", "measure": 11.37 },
+    {
+      "category": "marsh & mclennan cos inc",
+      "group": "bfsi",
+      "measure": 13.18
+    },
+    {
+      "category": "farmers insurance group of companie",
+      "group": "bfsi",
+      "measure": 9.19
+    },
+    {
+      "category": "symetra life insurance company",
+      "group": "bfsi",
+      "measure": 9.84
+    },
+    { "category": "anz bank", "group": "bfsi", "measure": 10.86 },
+    { "category": "verisk health inc", "group": "bfsi", "measure": 9.49 },
+    {
+      "category": "arthur j gallagher limited",
+      "group": "bfsi",
+      "measure": 9.5
+    },
+    { "category": "royal sun alliance", "group": "bfsi", "measure": 12.23 },
+    {
+      "category": "workplace safety and insurance boar",
+      "group": "bfsi",
+      "measure": 10.53
+    },
+    { "category": "nationwide insurance", "group": "bfsi", "measure": 11.43 },
+    {
+      "category": "john hancock life insurance company",
+      "group": "bfsi",
+      "measure": 11.33
+    },
+    { "category": "suncrop", "group": "bfsi", "measure": 9.66 },
+    { "category": "aviva", "group": "bfsi", "measure": 9.38 }
+  ]
+}

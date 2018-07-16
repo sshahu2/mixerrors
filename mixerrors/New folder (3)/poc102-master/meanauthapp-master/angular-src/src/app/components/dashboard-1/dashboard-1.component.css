@@ -1,0 +1,12 @@
+canvas{
+    position: absolute;
+    left:100px;
+    
+}
+p{
+   position: center;
+}
+agm-map {
+   
+  height: 300px;
+}

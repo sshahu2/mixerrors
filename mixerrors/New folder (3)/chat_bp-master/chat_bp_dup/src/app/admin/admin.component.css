@@ -1,0 +1,33 @@
+h4.description{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 1em;
+    padding-top:0.25em;
+    padding-bottom:0.25em;
+    text-align: center;
+    /* border:1px solid darkblue; */
+    border-radius: 200px;
+    background-color: hsla(147, 39%, 25%, 0.699);
+    color:white;
+}
+.danger{
+    color:red;
+}
+table .table-header{
+    background-color:rgb(125, 170, 125);
+    color:black;
+}
+.font-lighter{
+    font-weight: lighter;
+}
+.fixed-middle-bottom {
+    position: fixed;
+    right: 45%;
+    bottom: 0;
+    height: auto;
+    width: auto;
+    margin-bottom: 0.5em;
+}
+.active{
+    border:1px solid #333;
+}

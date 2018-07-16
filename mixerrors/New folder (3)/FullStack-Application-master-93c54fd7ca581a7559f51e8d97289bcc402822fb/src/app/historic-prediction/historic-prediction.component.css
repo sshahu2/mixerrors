@@ -1,0 +1,157 @@
+.navwrap {
+    margin:5%;
+    text-align:center;
+    margin-top:7%;
+}
+.wrap{
+    margin-right:5%;
+    /* text-align:center; */
+}
+ul {
+	margin:0;
+	padding:0;
+    list-style:none;
+    border-right:2px solid #e53956;
+}
+.nav {display:inline-block;}
+.nav > li {
+	/* float:left; */
+	/* position:relative; */
+	
+	width:300px;
+}
+.nav > li:last-child {border:none}
+.nav li a {
+	/* display:block; */
+    /*  20px; */
+    padding-top:10px;
+    padding-bottom:8px;
+	color:#898989;
+	text-decoration:none;
+	background:#fff;
+}
+.result-body{
+    padding-top: 2%;
+    background: #fff;
+    margin: 2%;
+}
+.d{
+    font-size: 20px;
+    color:#c41d23;
+}
+.u{
+    font-size: 20px;
+    color: #398c20;
+}
+.data{
+    padding:3%;
+}
+.btn{
+    margin-top: 3%;
+    font-size: 20px;
+    background: #e53956;
+    color:#fff;
+}
+
+.in-para{
+  
+    font-size:22px;
+     color:#666;
+     
+}
+.pred{
+    margin-top: 5%;
+    padding: 7%;
+    border: 0px;
+}
+.in-item{
+    color:#666;
+}
+
+input:focus {
+    outline: none !important;
+}
+mat-slider {
+    margin:2%;
+    width: 200px;
+    color: #e53956;
+  }
+#slider{
+    color: #e53956; 
+}
+.input-para{
+    padding:2%;
+}
+.para{
+    text-align: center;
+    width: 75px;
+    margin-bottom: 0%;
+}
+.input-data{
+
+    margin: 2%;
+    margin-top: 0%;
+}
+
+
+
+
+
+
+/* the arrow */
+.nav > li:hover:after{
+	content:"";
+	height:0;
+    width:0; 
+	border-top: 10px solid transparent;
+	border-right: 10px solid #e53956;
+	border-bottom: 10px solid transparent ;
+	position:relative;
+    float: right;
+	margin:5px 0 0 -3px;
+	z-index:100;	
+}
+.para{
+   
+    border: 0px;
+    border-bottom: 1px solid #666;
+    /* width:50px; */
+    margin: 6%;
+}
+.query{
+    /* margin-right: 40%; */
+    margin-left:7%; 
+    font-size:25px;
+    /* text-align: center; */
+    color:#666;
+}
+
+.avatar1{
+    background: #666;
+    border: 2px solid #666;
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    margin:8%;
+
+}
+.avatar2{
+    background: #e53956;
+    border: 2px solid #e53956;
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    margin:8%;
+}
+.material-icons{
+    color:#fff;
+    font-size: 30px;
+    padding-top:25%;
+}  
+
+.wrap{
+    margin-right:2%;
+    /* text-align:center; */
+}   

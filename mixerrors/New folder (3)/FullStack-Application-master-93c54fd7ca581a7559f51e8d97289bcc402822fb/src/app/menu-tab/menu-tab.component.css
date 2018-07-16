@@ -1,0 +1,81 @@
+.extras{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#666;
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     margin-bottom: 0%;
+     background: #fff;
+     font-size: 70px;
+     height:100%;
+     overflow:hidden;
+     padding-top: 2%;
+   
+ 
+   }
+ 
+   .avatar1{
+     background: #f4bb49;
+     border: 2px solid #f4bb49;
+     width:150px;
+     height: 150px;
+     border-radius: 50%;
+     text-align: center;
+     margin-top:2%;
+    
+ 
+ }
+ .avatar2{
+   background: #e84545;
+   border: 2px solid #e84545;
+   width:150px;
+   height: 150px;
+   border-radius: 50%;
+   text-align: center;
+    margin-top:2%;
+  
+ 
+ }
+ .avatar3{
+   background: #3cead9;
+   border: 2px solid #3cead9;
+   width:150px;
+   height: 150px;
+   border-radius: 50%;
+   text-align: center;
+    margin-top:2%;
+  
+ 
+ }
+ .material-icons{
+     color:#fff;
+     font-size: 70px;
+     padding-top:23%;
+ }
+ .avatar1:hover{
+     background: #f1b141;
+ }
+ .avatar2:hover{
+   background: #e12545;
+ }
+ .avatar3:hover{
+   background: #1cdad9;
+ }
+ .btn1{
+   text-align: center;
+   font-size: 25px;
+   padding-bottom: 15%;
+  
+ }
+ .btn2{
+   text-align: left;
+   font-size: 25px;
+   padding-bottom: 15%;
+
+ }
+ .btn3{
+   text-align: center;
+   font-size: 25px;
+   padding-bottom: 15%;
+   
+ }

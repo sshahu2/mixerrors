@@ -1,0 +1,64 @@
+<div style="cursor:pointer;text-align:center;border: 1px solid;border-radius: 5px;">
+    <a (click)="openGraphDialog('comparison')">Compare Stocks</a>
+</div>
+<div id="card1">
+    <div class="small-box" (click)="openGraphDialog('WIT')">
+        <div class="icon">
+            <i class="glyphicon glyphicon-stats"></i>
+        </div>
+        <!-- <div class="inner">
+        <span class="num">53<sup style="font-size: 20px">%</sup><span class="glyphicon glyphicon-arrow-up"></span></span>
+    </div> -->
+        <p>Wipro Limited </p>
+        <p id='dateTime'></p>
+        <p id="wiproStockPrice"></p>
+    </div>
+</div>
+<div id="card2">
+    <div class="small-box">
+        <div class="icon">
+            <i class="glyphicon glyphicon-stats"></i>
+        </div>
+        <div class="inner">
+            <!-- <span class="num">53<sup style="font-size: 20px">%</sup><span class="glyphicon glyphicon-arrow-up"></span></span> -->
+        </div>
+        <p>TCS</p>
+        <p id="tcsStockPrice" style="cursor:pointer;" (click)="openGraphDialog('TCS')"></p>
+    </div>
+</div>
+<div id="card3">
+    <div class="small-box">
+        <div class="icon">
+            <i class="glyphicon glyphicon-stats"></i>
+        </div>
+        <div class="inner">
+            <!-- <span class="num">53<sup style="font-size: 20px">%</sup><span class="glyphicon glyphicon-arrow-up"></span></span> -->
+        </div>
+        <p>Infosys</p>
+        <p id="infyStockPrice" style="cursor:pointer;" (click)="openGraphDialog('INFY')"></p>
+    </div>
+</div>
+<div id="card5">
+    <div class="small-box">
+        <div class="icon">
+            <i class="glyphicon glyphicon-stats"></i>
+        </div>
+        <div class="inner">
+            <!-- <span class="num">53<sup style="font-size: 20px">%</sup><span class="glyphicon glyphicon-arrow-up"></span></span> -->
+        </div>
+        <p>Accenture</p>
+        <p id="accStockPrice" style="cursor:pointer;" (click)="openGraphDialog('ACC')"></p>
+    </div>
+</div>
+<div id="card4">
+    <div class="small-box">
+        <div class="icon">
+            <i class="glyphicon glyphicon-stats"></i>
+        </div>
+        <div class="inner">
+            <!-- <span class="num">53<sup style="font-size: 20px">%</sup><span class="glyphicon glyphicon-arrow-up"></span></span> -->
+        </div>
+        <p>Cognizant</p>
+        <p id="ctsStockPrice" style="cursor:pointer;" (click)="openGraphDialog('CTSH')"></p>
+    </div>
+</div>

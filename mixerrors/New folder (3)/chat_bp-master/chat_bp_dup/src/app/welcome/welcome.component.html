@@ -1,0 +1,19 @@
+<div>
+    <app-navbar></app-navbar>
+    <div class="container">
+        <div class="banner">
+            <h1 style="color:black"> WELCOME TO WIPRO CONVERSATION PLATFORM!</h1>
+        </div>
+        <div class="fixed-right-bottom fixed-right-bottom-button chat-button">
+            <button style="background: inherit;border: 1px solid transparent" class=""border-radius (click)="toggleChatBox()">
+                <img src="../../assets/images/bot_icon.gif" width="150px" height="150px">
+            </button>
+        </div>
+
+        <div *ngIf="isBotActive" class="fixed-right-bottom fixed-right-bottom-chatbox">
+            <div>
+                <app-chatbox2></app-chatbox2>
+            </div>
+        </div>
+    </div>
+</div>

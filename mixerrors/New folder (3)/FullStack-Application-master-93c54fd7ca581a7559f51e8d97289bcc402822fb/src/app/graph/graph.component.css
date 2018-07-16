@@ -1,0 +1,20 @@
+.graph{
+    background: #fff;
+    margin: 2%;
+    border-top: 4px solid #18BC9C;
+    padding:0%;
+    font-size: 20px;
+}
+.col{
+    border-right: 2px dashed #e8eaed;
+}
+.nav{
+      margin-top: 2%;
+}
+.extra{
+    margin-top:5%;
+    margin-bottom:1%;
+}
+#menu1{
+    padding:3%;
+}

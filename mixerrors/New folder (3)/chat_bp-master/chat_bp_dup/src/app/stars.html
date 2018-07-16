@@ -1,0 +1,121 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stars demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <script src="../assets/JS/jquery-3.3.1.min.js"></script>
+</head>
+<body style="flex:1">
+    <div style="flex-direction: row">
+        <div  data-id="id1" style="border: none"><img id="id1" src="../assets/images/star_unselected.jpeg" style="height:30;width:30"></div>
+        <div  data-id="id2"><img id="id2" src="../assets/images/star_unselected.jpeg" style="height:30;width:30"> </div>
+        <div data-id="id3"><img  id="id3" src="../assets/images/star_unselected.jpeg" style="height:30;width:30"></div>
+        <div  data-id="id4"><img id="id4" src="../assets/images/star_unselected.jpeg" style="height:30;width:30"></div>
+        <div data-id="id5"><img  id="id5"  src="../assets/images/star_unselected.jpeg" style="height:30;width:30"></div>
+    </div>
+    <div>
+        <p id="para1">paragraph</p>
+    </div>
+    <!-- <div>
+            <input type="button" id="1"><img src="../assets/images/star_unselected.jpeg" style="height:30;width:30"></input>
+            <input type="button" id="2"><img src="../assets/images/star_unselected.jpeg" style="height:30;width:30"> </input>
+            <input type="button" id="3"><img src="../assets/images/star_unselected.jpeg" style="height:30;width:30"></input>
+            <input type="button" id="4"><img src="../assets/images/star_unselected.jpeg" style="height:30;width:30"></input>
+            <input type="button" id="5"><img src="../assets/images/star_unselected.jpeg" style="height:30;width:30"></input>
+    </div> -->
+    <script>
+        $(document).ready(function(){
+                $("div").click((event)=>{
+                    var id =this.data_id;
+                    console.log("clicked "+id);
+                    // console.log('event info:'+JSON.stringify(this)+", event is "+JSON.stringify(event));
+                })
+                $('p').click(function(event){
+                    var id = $(this).attr('id');
+                    console.log('clicked paragraph:'+id);
+                    console.log('element instance:'+JSON.stringify(this));
+                    console.log('event is:'+JSON.stringify(event));
+                })
+        })
+    </script>
+</body>
+</html>
+<!-- 
+    {
+        "jQuery331069853006319992671":
+            {
+                "events":{
+                    "click":[
+                        {
+                        "type":"click",
+                        "origType":"click",
+                        "data":null,
+                        "guid":2,
+                        "namespace":""
+                    }]
+                }
+            }
+        }
+    }
+event is:{
+    "originalEvent":{
+        "isTrusted":true
+    },
+    "type":"click",
+    "target":{
+        "jQuery331069853006319992671":{
+            "events":{
+                "click":[
+                {
+                    "type":"click",
+                    "origType":"click",
+                    "data":null,
+                    "guid":2,
+                    "namespace":""
+                }
+                ]
+            }
+        }
+    },
+    "currentTarget":{
+        "jQuery331069853006319992671":{
+            "events":{
+                "click":[{
+                    "type":"click",
+                    "origType":"click",
+                    "data":null,
+                    "guid":2,
+                    "namespace":""
+                }]
+            }
+        }
+    },
+    "relatedTarget":null,
+    "timeStamp":2494.0000000005966,
+    "jQuery33106985300631999267":true,
+    "delegateTarget":{
+        "jQuery331069853006319992671":{
+            "events":{
+                "click":[{
+                    "type":"click",
+                    "origType":"click",
+                    "data":null,
+                    "guid":2,
+                    "namespace":""
+                }]
+            }
+        }
+    },
+    "handleObj":{
+        "type":"click",
+        "origType":"click",
+        "data":null,
+        "guid":2,
+        "namespace":""
+    },
+    "data":null
+} -->

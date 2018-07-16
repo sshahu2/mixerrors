@@ -1,0 +1,37 @@
+Response from backend-
+Please select the network technology in order to know about the detailed steps regarding modem setup :
+
+Buttons-
+Fiber to the Premises (FTTP) 
+
+Fiber to the Node (FTTN) 
+
+Fiber to the Building (FTTB) 
+
+Hybrid Fiber Coaxial(HFC) 
+
+Fixed Wireless
+
+
+
+Response from backend-
+Please select one of the available options:
+
+Buttons-
+Wi-Fi
+
+Ethernet
+
+
+
+
+
+
+
+Response from backend-
+Was this helpful?
+
+Buttons-
+Yes, Thanks.
+
+No, I still need help.

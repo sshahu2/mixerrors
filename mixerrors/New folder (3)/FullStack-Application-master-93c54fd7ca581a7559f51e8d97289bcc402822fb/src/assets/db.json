@@ -1,0 +1,259 @@
+{
+    "graphData": [
+        {
+            "graphName": "top5Customers",
+            "graphs": [
+                {
+                    "graphName": "LBG",
+                    "type": "line",
+                    "labels": [
+                        "Q1-Q2",
+                        "Q2-Q3",
+                        "Q3-Q4"
+                    ],
+                    "datasets": [
+                        {
+                            "data": [
+                                4.6,
+                                -13.3,
+                                6.6
+                            ],
+                            "label": "LBG",
+                            "borderColor": "#3e95cd",
+                            "fill": false
+                        },
+                        {
+                            "data": [
+                                -15,
+                                115,
+                                51
+                            ],
+                            "label": "WIPRO",
+                            "borderColor": "#8e5ea2",
+                            "fill": false
+                        }
+                    ]
+                },
+                {
+                    "graphName": "CISCO",
+                    "type": "line",
+                    "labels": [
+                        "Q1-Q2",
+                        "Q2-Q3",
+                        "Q3-Q4"
+                    ],
+                    "datasets": [
+                        {
+                            "data": [
+                                3.28,
+                                1.16,
+                                -2
+                            ],
+                            "label": "CISCO",
+                            "borderColor": "#3e95cd",
+                            "fill": false
+                        },
+                        {
+                            "data": [
+                                -1,
+                                0.95,
+                                -3.6
+                            ],
+                            "label": "WIPRO",
+                            "borderColor": "#8e5ea2",
+                            "fill": false
+                        }
+                    ]
+                },
+                {
+                    "graphName": "Capital_One",
+                    "type": "line",
+                    "labels": [
+                        "Q1-Q2",
+                        "Q2-Q3",
+                        "Q3-Q4"
+                    ],
+                    "datasets": [
+                        {
+                            "data": [
+                                2.1,
+                                4.1,
+                                0.7
+                            ],
+                            "label": "Capital One",
+                            "borderColor": "#3e95cd",
+                            "fill": false
+                        },
+                        {
+                            "data": [
+                                0,
+                                11.28,
+                                -6.8
+                            ],
+                            "label": "WIPRO",
+                            "borderColor": "#8e5ea2",
+                            "fill": false
+                        }
+                    ]
+                },
+                {
+                    "graphName": "Apple",
+                    "type": "line",
+                    "labels": [
+                        "Q1-Q2",
+                        "Q2-Q3",
+                        "Q3-Q4"
+                    ],
+                    "datasets": [
+                        {
+                            "data": [
+                                -13.5,
+                                16.29,
+                                67.2
+                            ],
+                            "label": "Apple",
+                            "borderColor": "#3e95cd",
+                            "fill": false
+                        },
+                        {
+                            "data": [
+                                5.2,
+                                40,
+                                -33
+                            ],
+                            "label": "WIPRO",
+                            "borderColor": "#8e5ea2",
+                            "fill": false
+                        }
+                    ]
+                },
+                {
+                    "graphName": "Citi_Bank",
+                    "type": "line",
+                    "labels": [
+                        "Q1-Q2",
+                        "Q2-Q3",
+                        "Q3-Q4"
+                    ],
+                    "datasets": [
+                        {
+                            "data": [
+                                5.8,
+                                -0.5,
+                                -3.6
+                            ],
+                            "label": "Citi Bank",
+                            "borderColor": "#3e95cd",
+                            "fill": false
+                        },
+                        {
+                            "data": [
+                                1.5,
+                                4.45,
+                                -0.9
+                            ],
+                            "label": "WIPRO",
+                            "borderColor": "#8e5ea2",
+                            "fill": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "graphName": "top10NewlyAdded",
+            "graphs": [
+                {
+                    "graphName": "top10NewlyAdded",
+                    "type": "bar",
+                    "labels": [
+                        "Kohls Department Stores Inc",
+                        "Diversey Inc",
+                        "Coriant GMBH",
+                        "Northern Trust",
+                        "Thomas Cook Group Plc",
+                        "The Chemours Company  FC LLC",
+                        "Pt Telekomunikasi Selular",
+                        "Toshiba Electronic Devices",
+                        "Verifone Inc",
+                        "Panasonic Automotive System"
+                    ],
+                    "datasets": {
+                        "borderColor": "#8e5ea2",
+                        "backgroundColor": [
+                          "#3e95cd",
+                          "#8e5ea2",
+                          "#3cba9f",
+                          "#e8c3b9",
+                          "#c45850",
+                          "#3e95cd",
+                          "#8e5ea2",
+                          "#3cba9f",
+                          "#e8c3b9",
+                          "#c45850"
+                        ],
+                        "label": "Revenue From Customer (in USD $)",
+                        "data": [
+                            3159629.91008,
+                            2447836.2991,
+                            2279134.74215,
+                            2097043.95891,
+                            1873096.35510065,
+                            1241122.20183,
+                            948767.551957633,
+                            737797.101241299,
+                            725398.64152,
+                            725344.61875716
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "graphName": "topOverrun",
+            "graphs": [
+                {
+                    "graphName": "top10NewlyAdded",
+                    "type": "bar",
+                    "labels": [
+                        "Royal Sun Alliance",
+                        "Xoserve Limited",
+                        "Harman International",
+                        "ELECTROLUX DO BRASIL S/A",
+                        "North Lanarkshire Council",
+                        "BP International Limited",
+                        "Allied Irish Bank",
+                        "Abbott Laboratories",
+                        "Novartis Pharma AG"
+                    ],
+                    "datasets": {
+                        "borderColor": "#8e5ea2",
+                        "backgroundColor": [
+                          "#3e95cd",
+                          "#8e5ea2",
+                          "#3cba9f",
+                          "#e8c3b9",
+                          "#fe9f1b",
+                          "#3e95cd",
+                          "#8e5ea2",
+                          "#3cba9f",
+                          "#e8c3b9"
+                        ],
+                        "label": "Top Project Overrun/Underrun in December 2017",
+                        "data": [
+                            -12835.7,
+                            -6665.87,
+                            -4908.86,
+                            -2319.77,
+                            3935.03,
+                            3936.34,
+                            4765.48,
+                            14728.44,
+                            22140.82
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

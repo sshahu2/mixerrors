@@ -1,0 +1,27 @@
+.back-image {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:#fff;
+     font-size: 70px;
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.5)
+      ),url("../../assets/graph.jpg");
+      background-repeat: no-repeat;
+      /* background-size: cover;
+      background-position: center; */
+      overflow:hidden;
+      background-size: 100% ;
+    
+      height: 400px;
+  }
+  .search{
+      /* margin: 8%; */
+      /* margin-top: 2%; */
+      /* margin-bottom: 20%; */
+      text-align: center;
+  }
+  .menus{
+    height: auto;
+    margin-bottom: 0%;
+  }

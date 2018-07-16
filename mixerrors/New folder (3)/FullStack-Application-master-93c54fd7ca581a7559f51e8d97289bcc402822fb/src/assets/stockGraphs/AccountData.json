@@ -1,0 +1,4853 @@
+[
+  { "category": "(blank)", "group": "scsp", "measure": 2.3291474171316384 },
+  {
+    "category": "3d systems inc",
+    "group": "scsp",
+    "measure": 501.7517708576631
+  },
+  {
+    "category": "actel corporation",
+    "group": "scsp",
+    "measure": 658.8680580144736
+  },
+  { "category": "altera", "group": "scsp", "measure": 156.36260974555373 },
+  {
+    "category": "analog devices",
+    "group": "scsp",
+    "measure": 830.8332400471685
+  },
+  {
+    "category": "analog devices inc",
+    "group": "scsp",
+    "measure": 355.9125210505635
+  },
+  { "category": "arm limited", "group": "scsp", "measure": 840.8811462300746 },
+  { "category": "avago", "group": "scsp", "measure": 647.6272353698937 },
+  {
+    "category": "avago technologies",
+    "group": "scsp",
+    "measure": 396.9395428822723
+  },
+  {
+    "category": "broadcom corporation",
+    "group": "scsp",
+    "measure": 332.82002178389314
+  },
+  { "category": "bull", "group": "scsp", "measure": 928.4415307703186 },
+  { "category": "bull sas", "group": "scsp", "measure": 928.390154555439 },
+  {
+    "category": "commvault systems inc",
+    "group": "scsp",
+    "measure": 770.8137277723687
+  },
+  {
+    "category": "diebold incorporated",
+    "group": "scsp",
+    "measure": 552.6581438079343
+  },
+  {
+    "category": "eastman kodak",
+    "group": "scsp",
+    "measure": 225.1754689926949
+  },
+  {
+    "category": "eastman kodak company",
+    "group": "scsp",
+    "measure": 265.94743951206357
+  },
+  {
+    "category": "emc corporation",
+    "group": "scsp",
+    "measure": 968.6256326328955
+  },
+  {
+    "category": "epson electronics america inc",
+    "group": "scsp",
+    "measure": 514.459932023882
+  },
+  {
+    "category": "esilicon corporation",
+    "group": "scsp",
+    "measure": 777.698330970197
+  },
+  { "category": "f5 networks", "group": "scsp", "measure": 381.4079877984711 },
+  { "category": "freescale", "group": "scsp", "measure": 72.98826170415451 },
+  {
+    "category": "freescale semiconductor inc",
+    "group": "scsp",
+    "measure": 504.68390485893923
+  },
+  {
+    "category": "freescale semiconductor inc",
+    "group": "scsp",
+    "measure": 997.9591351950407
+  },
+  {
+    "category": "gainspan corporation",
+    "group": "scsp",
+    "measure": 351.78438466859706
+  },
+  { "category": "hays bv", "group": "scsp", "measure": 490.3977321287305 },
+  {
+    "category": "hewlett - packard company (ned)",
+    "group": "scsp",
+    "measure": 474.20059832648684
+  },
+  {
+    "category": "hewlett packard",
+    "group": "scsp",
+    "measure": 81.6123093290625
+  },
+  {
+    "category": "hewlett packard company",
+    "group": "scsp",
+    "measure": 299.27221512733047
+  },
+  {
+    "category": "hewlett-packard co",
+    "group": "scsp",
+    "measure": 900.4084309618452
+  },
+  {
+    "category": "hewlett-packard company",
+    "group": "scsp",
+    "measure": 559.0722481400734
+  },
+  {
+    "category": "hewlett-packard india",
+    "group": "scsp",
+    "measure": 266.5642120475198
+  },
+  { "category": "hitachi", "group": "scsp", "measure": 407.88272420227787 },
+  {
+    "category": "hitachi building system coltd",
+    "group": "scsp",
+    "measure": 282.8335581102537
+  },
+  {
+    "category": "hitachi data systems (hds)",
+    "group": "scsp",
+    "measure": 452.7623622811592
+  },
+  {
+    "category": "hitachi global storage technologies",
+    "group": "scsp",
+    "measure": 484.67308762695825
+  },
+  { "category": "hp", "group": "scsp", "measure": 135.38206273080377 },
+  {
+    "category": "infineon technologies ag",
+    "group": "scsp",
+    "measure": 390.93634560119216
+  },
+  { "category": "intel", "group": "scsp", "measure": 515.4870258045935 },
+  {
+    "category": "intel comneon gmbh",
+    "group": "scsp",
+    "measure": 644.2421992884991
+  },
+  {
+    "category": "intel corporation",
+    "group": "scsp",
+    "measure": 701.3004623581061
+  },
+  {
+    "category": "intel israel 74 ltd",
+    "group": "scsp",
+    "measure": 745.2776648640635
+  },
+  {
+    "category": "intel microelectronics (m) s/b",
+    "group": "scsp",
+    "measure": 724.3845813248311
+  },
+  {
+    "category": "intel technology india pvt ltd",
+    "group": "scsp",
+    "measure": 509.7064789508413
+  },
+  {
+    "category": "kanematsu corporation",
+    "group": "scsp",
+    "measure": 315.4897121284558
+  },
+  {
+    "category": "kla-tencor corporation",
+    "group": "scsp",
+    "measure": 736.0163889187171
+  },
+  {
+    "category": "konica minolta inc",
+    "group": "scsp",
+    "measure": 659.0506558951522
+  },
+  {
+    "category": "lam reaseach inc",
+    "group": "scsp",
+    "measure": 479.91363062225946
+  },
+  {
+    "category": "lam research corporation",
+    "group": "scsp",
+    "measure": 584.7109990511807
+  },
+  {
+    "category": "lattice semiconductor",
+    "group": "scsp",
+    "measure": 809.3482990711087
+  },
+  {
+    "category": "lenovo pc hk ltd",
+    "group": "scsp",
+    "measure": 608.2093001162407
+  },
+  { "category": "lexmark", "group": "scsp", "measure": 412.83066835530093 },
+  {
+    "category": "lexmark international inc",
+    "group": "scsp",
+    "measure": 330.6344619701379
+  },
+  {
+    "category": "lexmark us inc",
+    "group": "scsp",
+    "measure": 897.6606945089226
+  },
+  {
+    "category": "linx printing technologies",
+    "group": "scsp",
+    "measure": 332.9364347099519
+  },
+  { "category": "marvell", "group": "scsp", "measure": 28.18653464642873 },
+  {
+    "category": "marvell semiconductor inc",
+    "group": "scsp",
+    "measure": 714.2884600623761
+  },
+  { "category": "mcafee inc", "group": "scsp", "measure": 15.2513419974597 },
+  { "category": "mediatek inc", "group": "scsp", "measure": 740.183493813148 },
+  {
+    "category": "micron technologies inc",
+    "group": "scsp",
+    "measure": 191.203625324734
+  },
+  {
+    "category": "micron technologies inc",
+    "group": "scsp",
+    "measure": 580.9132390570023
+  },
+  { "category": "netapp", "group": "scsp", "measure": 357.6658355127057 },
+  { "category": "netapp inc", "group": "scsp", "measure": 67.84299028928653 },
+  { "category": "netapp inc", "group": "scsp", "measure": 30.525637213530523 },
+  {
+    "category": "netapp india pvt ltd",
+    "group": "scsp",
+    "measure": 314.47071282355387
+  },
+  { "category": "nexenta", "group": "scsp", "measure": 537.5728089831215 },
+  {
+    "category": "nexenta systems inc",
+    "group": "scsp",
+    "measure": 97.82154412386423
+  },
+  {
+    "category": "nimble storage",
+    "group": "scsp",
+    "measure": 179.2256922871801
+  },
+  {
+    "category": "novitex enterprise solutions inc",
+    "group": "scsp",
+    "measure": 293.35664988611853
+  },
+  {
+    "category": "nxp  semiconductors netherlands bv",
+    "group": "scsp",
+    "measure": 834.7871249478973
+  },
+  {
+    "category": "nxp semiconductors bv",
+    "group": "scsp",
+    "measure": 944.9163772630144
+  },
+  {
+    "category": "nxp semiconductors netherlands bv",
+    "group": "scsp",
+    "measure": 480.33004340883434
+  },
+  {
+    "category": "oki data corporation",
+    "group": "scsp",
+    "measure": 880.7779605880143
+  },
+  {
+    "category": "oki data corporation-\u00df",
+    "group": "scsp",
+    "measure": 538.8960451400008
+  },
+  {
+    "category": "oki data corporation-\u00e1",
+    "group": "scsp",
+    "measure": 783.4514132316255
+  },
+  {
+    "category": "oki data corporation\u00e2\u00a0",
+    "group": "scsp",
+    "measure": 201.1389646456806
+  },
+  {
+    "category": "oki data corporation\u252c\u00e1",
+    "group": "scsp",
+    "measure": 481.3791791889664
+  },
+  { "category": "pitney bowes", "group": "scsp", "measure": 994.6479389103537 },
+  {
+    "category": "pitney bowes inc",
+    "group": "scsp",
+    "measure": 43.222759238109255
+  },
+  {
+    "category": "pluribus networks",
+    "group": "scsp",
+    "measure": 870.4816672918953
+  },
+  { "category": "pure storage", "group": "scsp", "measure": 767.3390680946986 },
+  {
+    "category": "qualcomm inc",
+    "group": "scsp",
+    "measure": 113.55034772578554
+  },
+  {
+    "category": "renesas electronics corporation",
+    "group": "scsp",
+    "measure": 404.7030284618429
+  },
+  {
+    "category": "renesas technology",
+    "group": "scsp",
+    "measure": 581.1836762554769
+  },
+  { "category": "ricoh", "group": "scsp", "measure": 860.0552885643755 },
+  {
+    "category": "ricoh company ltd",
+    "group": "scsp",
+    "measure": 782.3388513174594
+  },
+  {
+    "category": "roland dg corporation",
+    "group": "scsp",
+    "measure": 581.4062830599194
+  },
+  { "category": "s2 co ltd", "group": "scsp", "measure": 49.79550993803939 },
+  { "category": "sandisk corp", "group": "scsp", "measure": 634.8922903553596 },
+  {
+    "category": "saratoga speed inc",
+    "group": "scsp",
+    "measure": 520.5388623929279
+  },
+  {
+    "category": "sas software (beijing) co ltd",
+    "group": "scsp",
+    "measure": 800.0027911766449
+  },
+  {
+    "category": "seagate technology",
+    "group": "scsp",
+    "measure": 318.1358006456764
+  },
+  {
+    "category": "silicon space technology corporatio",
+    "group": "scsp",
+    "measure": 828.2153826243494
+  },
+  {
+    "category": "silicon space technology corporation",
+    "group": "scsp",
+    "measure": 730.07532533306
+  },
+  {
+    "category": "st microelectronics",
+    "group": "scsp",
+    "measure": 328.4867020025766
+  },
+  { "category": "statschip", "group": "scsp", "measure": 362.61658745264924 },
+  {
+    "category": "statschipac shanghai co ltd",
+    "group": "scsp",
+    "measure": 736.1390829677509
+  },
+  {
+    "category": "statschippac ltd",
+    "group": "scsp",
+    "measure": 457.36351096187997
+  },
+  {
+    "category": "stmicroelectronics france",
+    "group": "scsp",
+    "measure": 829.8686113808961
+  },
+  { "category": "sun power", "group": "scsp", "measure": 406.14641116083874 },
+  {
+    "category": "sun-power corporation",
+    "group": "scsp",
+    "measure": 69.4828776254729
+  },
+  {
+    "category": "te connectivity",
+    "group": "scsp",
+    "measure": 527.957370344253
+  },
+  {
+    "category": "tec information systems corporation",
+    "group": "scsp",
+    "measure": 903.3654638750795
+  },
+  {
+    "category": "texas instruments",
+    "group": "scsp",
+    "measure": 488.2673805946808
+  },
+  {
+    "category": "texas instruments inc",
+    "group": "scsp",
+    "measure": 930.8418316928758
+  },
+  {
+    "category": "texas instruments(india)limited",
+    "group": "scsp",
+    "measure": 465.4492899379553
+  },
+  {
+    "category": "toshiba america inc   procurement",
+    "group": "scsp",
+    "measure": 163.3230734998108
+  },
+  {
+    "category": "toshiba america inc # procurement",
+    "group": "scsp",
+    "measure": 835.435978903464
+  },
+  {
+    "category": "toshiba america inc procurement",
+    "group": "scsp",
+    "measure": 713.8097691953907
+  },
+  {
+    "category": "toshiba corporation semiconductor c",
+    "group": "scsp",
+    "measure": 891.5997747241844
+  },
+  {
+    "category": "toshiba electronic devices",
+    "group": "scsp",
+    "measure": 529.1133721450009
+  },
+  {
+    "category": "toshiba global commerce solutions",
+    "group": "scsp",
+    "measure": 87.07869071707009
+  },
+  {
+    "category": "toshiba global commerce solutions",
+    "group": "scsp",
+    "measure": 704.7664992587884
+  },
+  {
+    "category": "toshiba tec corporat",
+    "group": "scsp",
+    "measure": 581.5031801767803
+  },
+  {
+    "category": "toshiba tec corporation",
+    "group": "scsp",
+    "measure": 108.35360320806286
+  },
+  {
+    "category": "trend micro incorporated",
+    "group": "scsp",
+    "measure": 180.87198451004872
+  },
+  {
+    "category": "tyco electronics corporation",
+    "group": "scsp",
+    "measure": 505.19471877534426
+  },
+  { "category": "uhnder inc", "group": "scsp", "measure": 994.8987353978283 },
+  { "category": "verifone", "group": "scsp", "measure": 183.38069462302752 },
+  { "category": "verifone inc", "group": "scsp", "measure": 949.4061040807089 },
+  {
+    "category": "veritas technologies llc",
+    "group": "scsp",
+    "measure": 521.5746787784656
+  },
+  {
+    "category": "videojet technologies inc",
+    "group": "scsp",
+    "measure": 444.1164019164281
+  },
+  {
+    "category": "vlsi india services",
+    "group": "scsp",
+    "measure": 360.4054329108125
+  },
+  { "category": "vmware inc", "group": "scsp", "measure": 332.62400017946993 },
+  { "category": "xerox", "group": "scsp", "measure": 253.53410446039527 },
+  {
+    "category": "xerox corporation",
+    "group": "scsp",
+    "measure": 809.0572291320111
+  },
+  { "category": "apple", "group": "apple", "measure": 292.27680920596265 },
+  {
+    "category": "apple computers inc",
+    "group": "apple",
+    "measure": 862.8004418219512
+  },
+  { "category": "apple inc", "group": "apple", "measure": 434.0671555457648 },
+  {
+    "category": "apple procurement and operations",
+    "group": "apple",
+    "measure": 433.48396476208285
+  },
+  {
+    "category": "aad_ford_test_automation",
+    "group": "automotive",
+    "measure": 828.4605162988322
+  },
+  { "category": "adient", "group": "automotive", "measure": 852.7722583921847 },
+  {
+    "category": "adient us llc",
+    "group": "automotive",
+    "measure": 686.2128601436632
+  },
+  {
+    "category": "advanced automotive antennas sl",
+    "group": "automotive",
+    "measure": 217.50579261640002
+  },
+  {
+    "category": "affinia",
+    "group": "automotive",
+    "measure": 483.2742608042645
+  },
+  {
+    "category": "affinia group",
+    "group": "automotive",
+    "measure": 157.6105936498532
+  },
+  {
+    "category": "allegis global solutions",
+    "group": "automotive",
+    "measure": 648.5670237019023
+  },
+  {
+    "category": "alpine electronics",
+    "group": "automotive",
+    "measure": 328.71801260261947
+  },
+  {
+    "category": "alpine electronics gmbh",
+    "group": "automotive",
+    "measure": 880.1066902924998
+  },
+  {
+    "category": "american honda motors",
+    "group": "automotive",
+    "measure": 753.1797165988723
+  },
+  {
+    "category": "american railcar industries inc",
+    "group": "automotive",
+    "measure": 56.57773937053767
+  },
+  {
+    "category": "american railcar industries llc",
+    "group": "automotive",
+    "measure": 170.3604777311971
+  },
+  {
+    "category": "bosch security system inc",
+    "group": "automotive",
+    "measure": 473.69278245423305
+  },
+  {
+    "category": "chrysler india automotive pvt ltd",
+    "group": "automotive",
+    "measure": 212.69184042887622
+  },
+  {
+    "category": "continental ag",
+    "group": "automotive",
+    "measure": 303.5933868227779
+  },
+  {
+    "category": "continental automotive holdings co",
+    "group": "automotive",
+    "measure": 405.7743603840782
+  },
+  {
+    "category": "continental automotive singapore pt",
+    "group": "automotive",
+    "measure": 23.458346722210365
+  },
+  {
+    "category": "continental automotive systems inc",
+    "group": "automotive",
+    "measure": 599.4630920862628
+  },
+  {
+    "category": "continental reifen deutschland gmbh",
+    "group": "automotive",
+    "measure": 936.4324735695296
+  },
+  {
+    "category": "continental usa",
+    "group": "automotive",
+    "measure": 328.6463271619751
+  },
+  {
+    "category": "daimler",
+    "group": "automotive",
+    "measure": 176.88318535820292
+  },
+  {
+    "category": "daimler chrysler ag",
+    "group": "automotive",
+    "measure": 244.67629017663583
+  },
+  { "category": "dana", "group": "automotive", "measure": 597.4458572328219 },
+  {
+    "category": "dana corporation",
+    "group": "automotive",
+    "measure": 877.8147719417661
+  },
+  {
+    "category": "dejai live pty ltd",
+    "group": "automotive",
+    "measure": 382.37871250669565
+  },
+  {
+    "category": "delphi powertrain systems deutschla",
+    "group": "automotive",
+    "measure": 859.8846383748701
+  },
+  {
+    "category": "denso corporation",
+    "group": "automotive",
+    "measure": 536.5823930394444
+  },
+  {
+    "category": "federal-mogul",
+    "group": "automotive",
+    "measure": 979.1370818807378
+  },
+  {
+    "category": "ford motor co",
+    "group": "automotive",
+    "measure": 141.99914366784782
+  },
+  {
+    "category": "ford motor company",
+    "group": "automotive",
+    "measure": 304.4466716682174
+  },
+  {
+    "category": "general motors",
+    "group": "automotive",
+    "measure": 23.074372338060645
+  },
+  {
+    "category": "harman becker automotive system",
+    "group": "automotive",
+    "measure": 544.6723980191443
+  },
+  {
+    "category": "harman group",
+    "group": "automotive",
+    "measure": 478.610212305246
+  },
+  {
+    "category": "harman international",
+    "group": "automotive",
+    "measure": 541.021013931568
+  },
+  {
+    "category": "harman international (china) holdin",
+    "group": "automotive",
+    "measure": 119.5460701777279
+  },
+  {
+    "category": "harman international industries inc",
+    "group": "automotive",
+    "measure": 520.1693474694016
+  },
+  {
+    "category": "harman international japan co ltd",
+    "group": "automotive",
+    "measure": 238.36392146215414
+  },
+  {
+    "category": "harman/becker automotive system",
+    "group": "automotive",
+    "measure": 210.37149055211836
+  },
+  {
+    "category": "harman/becker automotive systems",
+    "group": "automotive",
+    "measure": 648.2182877147081
+  },
+  { "category": "honda", "group": "automotive", "measure": 183.24892793847536 },
+  {
+    "category": "honda of america mfg inc",
+    "group": "automotive",
+    "measure": 823.9403053844428
+  },
+  {
+    "category": "honda r & d americas inc",
+    "group": "automotive",
+    "measure": 309.1039566567704
+  },
+  {
+    "category": "honda r&d asia pacific coltd",
+    "group": "automotive",
+    "measure": 147.1230078803134
+  },
+  {
+    "category": "honda r&d co ltd",
+    "group": "automotive",
+    "measure": 782.8238130582415
+  },
+  {
+    "category": "honda r&d technical laboratory",
+    "group": "automotive",
+    "measure": 276.95628060491583
+  },
+  {
+    "category": "hyundai",
+    "group": "automotive",
+    "measure": 720.9327336621277
+  },
+  {
+    "category": "hyundai autoever america llc",
+    "group": "automotive",
+    "measure": 861.9023866731326
+  },
+  {
+    "category": "hyundai autoever america llc",
+    "group": "automotive",
+    "measure": 614.7828858679886
+  },
+  {
+    "category": "hyundai information service",
+    "group": "automotive",
+    "measure": 798.7430027811378
+  },
+  {
+    "category": "hyundai mobis co ltd",
+    "group": "automotive",
+    "measure": 657.9014839304247
+  },
+  {
+    "category": "ieh auto parts llc",
+    "group": "automotive",
+    "measure": 406.42246510689193
+  },
+  {
+    "category": "isuzu na corporation",
+    "group": "automotive",
+    "measure": 246.2841300352071
+  },
+  {
+    "category": "isuzu north america corporation",
+    "group": "automotive",
+    "measure": 838.7558332987992
+  },
+  {
+    "category": "johnson control inc",
+    "group": "automotive",
+    "measure": 43.901558481672545
+  },
+  {
+    "category": "johnson controls inc",
+    "group": "automotive",
+    "measure": 666.0337813589547
+  },
+  {
+    "category": "johnson controls inc",
+    "group": "automotive",
+    "measure": 124.39148954208534
+  },
+  {
+    "category": "kawasaki motor usa",
+    "group": "automotive",
+    "measure": 406.0126802441636
+  },
+  {
+    "category": "magna electronics",
+    "group": "automotive",
+    "measure": 489.7642952530814
+  },
+  {
+    "category": "magneti marelli sistemi",
+    "group": "automotive",
+    "measure": 509.32938631969705
+  },
+  {
+    "category": "magneti marelli spa-",
+    "group": "automotive",
+    "measure": 812.1962867567561
+  },
+  {
+    "category": "man diesel & turbo se",
+    "group": "automotive",
+    "measure": 856.4067406840232
+  },
+  {
+    "category": "mann+hummel filtration",
+    "group": "automotive",
+    "measure": 537.4606999311533
+  },
+  {
+    "category": "mann+hummel filtration technology",
+    "group": "automotive",
+    "measure": 400.78280348870834
+  },
+  {
+    "category": "mazda motor corp",
+    "group": "automotive",
+    "measure": 757.4826299062995
+  },
+  {
+    "category": "mazda motor corporation",
+    "group": "automotive",
+    "measure": 56.835688155479126
+  },
+  {
+    "category": "mazda motor logistics europe nv-\u00a0",
+    "group": "automotive",
+    "measure": 847.0858643551758
+  },
+  {
+    "category": "mazda motor logistics europe nv-\u00df",
+    "group": "automotive",
+    "measure": 351.8633072476648
+  },
+  {
+    "category": "mazda motor logistics europe nv-\u00e1",
+    "group": "automotive",
+    "measure": 634.5183868181432
+  },
+  {
+    "category": "mazda motor logistics europe nv\u00a0",
+    "group": "automotive",
+    "measure": 467.2728528427554
+  },
+  {
+    "category": "mazda motor logistics europe nv\u00e1",
+    "group": "automotive",
+    "measure": 217.42767286390853
+  },
+  {
+    "category": "mazda motor logistics europe nv\u00e2\u00a0",
+    "group": "automotive",
+    "measure": 850.324764055931
+  },
+  {
+    "category": "mazda motor logistics europe nv\u252c\u00e1",
+    "group": "automotive",
+    "measure": 683.1820961210861
+  },
+  {
+    "category": "mazda north american operations",
+    "group": "automotive",
+    "measure": 790.4592416194045
+  },
+  {
+    "category": "mclaren automotive ltd",
+    "group": "automotive",
+    "measure": 952.7840330115035
+  },
+  {
+    "category": "mclaren technology group limited",
+    "group": "automotive",
+    "measure": 409.35906378659246
+  },
+  {
+    "category": "metzeler schaum inc",
+    "group": "automotive",
+    "measure": 774.2352810358243
+  },
+  {
+    "category": "metzeler-schaum inc",
+    "group": "automotive",
+    "measure": 362.9166929562949
+  },
+  {
+    "category": "metzeler-schaum inc",
+    "group": "automotive",
+    "measure": 429.0515790829429
+  },
+  {
+    "category": "michelin",
+    "group": "automotive",
+    "measure": 11.52986784695198
+  },
+  {
+    "category": "michelin (china) investment co ltd",
+    "group": "automotive",
+    "measure": 984.1877958776948
+  },
+  {
+    "category": "michelin asia-pacific pte ltd",
+    "group": "automotive",
+    "measure": 781.1400282683819
+  },
+  {
+    "category": "michelin europe",
+    "group": "automotive",
+    "measure": 83.88105273442459
+  },
+  {
+    "category": "michelin siam co ltd",
+    "group": "automotive",
+    "measure": 687.5947141286167
+  },
+  {
+    "category": "mitsubishi fusotruck and bus corpor",
+    "group": "automotive",
+    "measure": 377.9267006831559
+  },
+  {
+    "category": "mitsubishi motors corporation",
+    "group": "automotive",
+    "measure": 525.5150724010178
+  },
+  { "category": "n/a", "group": "automotive", "measure": 990.112247167159 },
+  {
+    "category": "nihon michelin tire co ltd",
+    "group": "automotive",
+    "measure": 739.1791692255975
+  },
+  { "category": "nissan", "group": "automotive", "measure": 25.2346625462333 },
+  {
+    "category": "nissan motor co ltd",
+    "group": "automotive",
+    "measure": 862.1905882432399
+  },
+  {
+    "category": "nissan motor co ltd",
+    "group": "automotive",
+    "measure": 589.5718437676994
+  },
+  {
+    "category": "nissan smyrna",
+    "group": "automotive",
+    "measure": 355.8111358021071
+  },
+  {
+    "category": "ns international ltd",
+    "group": "automotive",
+    "measure": 930.491251372374
+  },
+  {
+    "category": "ns international ltd",
+    "group": "automotive",
+    "measure": 228.88975795846721
+  },
+  { "category": "ntt", "group": "automotive", "measure": 610.3769182562054 },
+  {
+    "category": "ntt data",
+    "group": "automotive",
+    "measure": 832.1803129055068
+  },
+  {
+    "category": "ntt data inc",
+    "group": "automotive",
+    "measure": 134.9718115529075
+  },
+  {
+    "category": "ntt data mse corporation",
+    "group": "automotive",
+    "measure": 641.7546788563766
+  },
+  {
+    "category": "oshkosh",
+    "group": "automotive",
+    "measure": 24.673324548509235
+  },
+  {
+    "category": "oshkosh corporation",
+    "group": "automotive",
+    "measure": 765.4421550374391
+  },
+  {
+    "category": "panasonic automotive system",
+    "group": "automotive",
+    "measure": 975.8087539303202
+  },
+  {
+    "category": "panasonic automotive system europe",
+    "group": "automotive",
+    "measure": 111.00959938599763
+  },
+  {
+    "category": "panasonic automotive systems",
+    "group": "automotive",
+    "measure": 854.0078558723327
+  },
+  {
+    "category": "panasonic automotive systems compan",
+    "group": "automotive",
+    "measure": 943.9561095530859
+  },
+  {
+    "category": "panasonic corporation",
+    "group": "automotive",
+    "measure": 112.4390321571671
+  },
+  {
+    "category": "rac motoring services",
+    "group": "automotive",
+    "measure": 859.2582669233558
+  },
+  {
+    "category": "robert bosch gmbh",
+    "group": "automotive",
+    "measure": 989.6686961958162
+  },
+  {
+    "category": "roush industries inc",
+    "group": "automotive",
+    "measure": 501.86710354240415
+  },
+  {
+    "category": "smr automotive systems india ltd",
+    "group": "automotive",
+    "measure": 654.1513671900086
+  },
+  {
+    "category": "smr automotive systems usa inc",
+    "group": "automotive",
+    "measure": 389.0478735697056
+  },
+  {
+    "category": "suzuki motor corporation",
+    "group": "automotive",
+    "measure": 737.1631883310972
+  },
+  {
+    "category": "systema systementwicklung",
+    "group": "automotive",
+    "measure": 158.78109983212886
+  },
+  {
+    "category": "toyo tire holdings of americas inc",
+    "group": "automotive",
+    "measure": 791.2570627805244
+  },
+  {
+    "category": "tyco international (us) inc",
+    "group": "automotive",
+    "measure": 365.1738418703966
+  },
+  {
+    "category": "vehma international",
+    "group": "automotive",
+    "measure": 501.0840424132901
+  },
+  {
+    "category": "visteon",
+    "group": "automotive",
+    "measure": 172.4619570970173
+  },
+  {
+    "category": "visteon corporation",
+    "group": "automotive",
+    "measure": 915.17510141256
+  },
+  {
+    "category": "visteon corporation electronics",
+    "group": "automotive",
+    "measure": 121.46549142179175
+  },
+  {
+    "category": "volkswagen",
+    "group": "automotive",
+    "measure": 951.8350988545639
+  },
+  {
+    "category": "volkswagen ag",
+    "group": "automotive",
+    "measure": 336.1805580557271
+  },
+  {
+    "category": "volkswagen do brasil ltda",
+    "group": "automotive",
+    "measure": 649.4497945922936
+  },
+  {
+    "category": "volkswagen of america inc",
+    "group": "automotive",
+    "measure": 247.4564394068982
+  },
+  {
+    "category": "volvo group india pvt ltd",
+    "group": "automotive",
+    "measure": 412.7751286067175
+  },
+  {
+    "category": "volvo india pvt ltd",
+    "group": "automotive",
+    "measure": 718.3175625026894
+  },
+  {
+    "category": "xanavi informatics corporation",
+    "group": "automotive",
+    "measure": 239.68858946460358
+  },
+  {
+    "category": "yamaha corporation",
+    "group": "automotive",
+    "measure": 242.0788842045566
+  },
+  {
+    "category": "yamaha motor corporation usa",
+    "group": "automotive",
+    "measure": 260.05615287008743
+  },
+  {
+    "category": "yamaha motor corporation usa",
+    "group": "automotive",
+    "measure": 277.70605363987477
+  },
+  {
+    "category": "cesa sa",
+    "group": "aero & defence",
+    "measure": 696.5389842038048
+  },
+  {
+    "category": "compania espanola de sistemas",
+    "group": "aero & defence",
+    "measure": 689.9638751494948
+  },
+  { "category": "(blank)", "group": "nepc", "measure": 371.8802248327032 },
+  { "category": "aastra", "group": "nepc", "measure": 896.728357633113 },
+  {
+    "category": "aastra telecom sweden ab",
+    "group": "nepc",
+    "measure": 936.3020697434864
+  },
+  {
+    "category": "alcatel - lucent",
+    "group": "nepc",
+    "measure": 262.49221023601365
+  },
+  {
+    "category": "alcatel - lucent india ltd",
+    "group": "nepc",
+    "measure": 836.2000682060867
+  },
+  {
+    "category": "alcatel internetworking ltd",
+    "group": "nepc",
+    "measure": 89.48109281532435
+  },
+  {
+    "category": "alcatel lucent technologies",
+    "group": "nepc",
+    "measure": 739.4038646974435
+  },
+  { "category": "alcatel usa", "group": "nepc", "measure": 873.5703910613613 },
+  {
+    "category": "alcatel- lucent",
+    "group": "nepc",
+    "measure": 705.7719073841105
+  },
+  {
+    "category": "alcatel-lucent bell nv",
+    "group": "nepc",
+    "measure": 387.21564329118075
+  },
+  {
+    "category": "alcatel-lucent deutschland ag",
+    "group": "nepc",
+    "measure": 249.2171723843214
+  },
+  {
+    "category": "alcatel-lucent espana sa",
+    "group": "nepc",
+    "measure": 547.9200315132297
+  },
+  {
+    "category": "alcatel-lucent france",
+    "group": "nepc",
+    "measure": 614.7013362016479
+  },
+  {
+    "category": "alcatel-lucent india limited",
+    "group": "nepc",
+    "measure": 68.13440469538779
+  },
+  {
+    "category": "alcatel-lucent italia spa",
+    "group": "nepc",
+    "measure": 111.84235952705824
+  },
+  {
+    "category": "alcatel-lucent telecom limited",
+    "group": "nepc",
+    "measure": 73.56994206340572
+  },
+  {
+    "category": "ale international",
+    "group": "nepc",
+    "measure": 63.662042653076846
+  },
+  {
+    "category": "arima lasers corporation",
+    "group": "nepc",
+    "measure": 189.23253672334405
+  },
+  {
+    "category": "arista networks",
+    "group": "nepc",
+    "measure": 956.1433883107321
+  },
+  {
+    "category": "arista networks group",
+    "group": "nepc",
+    "measure": 0.7963292697127367
+  },
+  { "category": "avaya", "group": "nepc", "measure": 777.252104529956 },
+  { "category": "avaya inc", "group": "nepc", "measure": 909.8711168497124 },
+  {
+    "category": "bbi technologies",
+    "group": "nepc",
+    "measure": 909.9045069795677
+  },
+  {
+    "category": "ciena - nortel",
+    "group": "nepc",
+    "measure": 397.3538918789727
+  },
+  {
+    "category": "ciena canada inc",
+    "group": "nepc",
+    "measure": 266.77852471813213
+  },
+  {
+    "category": "ciena canada inc",
+    "group": "nepc",
+    "measure": 597.6938541484813
+  },
+  { "category": "cisco", "group": "nepc", "measure": 966.4625607359345 },
+  {
+    "category": "cisco services business",
+    "group": "nepc",
+    "measure": 480.3131982054026
+  },
+  {
+    "category": "cisco systems inc",
+    "group": "nepc",
+    "measure": 263.0104406800922
+  },
+  {
+    "category": "cisco systems inc",
+    "group": "nepc",
+    "measure": 305.3791692372968
+  },
+  {
+    "category": "cisco systems inc",
+    "group": "nepc",
+    "measure": 487.5826266770256
+  },
+  { "category": "commscope", "group": "nepc", "measure": 762.2086135454297 },
+  {
+    "category": "commscope inc of north carolina",
+    "group": "nepc",
+    "measure": 945.7409566250752
+  },
+  { "category": "coriant", "group": "nepc", "measure": 234.60239831055108 },
+  { "category": "coriant gmbh", "group": "nepc", "measure": 914.8749900632866 },
+  {
+    "category": "coriant r&d gmbh",
+    "group": "nepc",
+    "measure": 377.24455959741863
+  },
+  { "category": "ericsson", "group": "nepc", "measure": 419.918397941101 },
+  { "category": "ericsson ab", "group": "nepc", "measure": 877.3436519983339 },
+  {
+    "category": "ericsson dura wireless",
+    "group": "nepc",
+    "measure": 105.88131396056721
+  },
+  { "category": "ericsson inc", "group": "nepc", "measure": 200.4819027182958 },
+  {
+    "category": "ericsson limited",
+    "group": "nepc",
+    "measure": 122.1851245311869
+  },
+  {
+    "category": "ericsson sverige ab",
+    "group": "nepc",
+    "measure": 793.335610393196
+  },
+  {
+    "category": "extreme networks",
+    "group": "nepc",
+    "measure": 248.69981304640453
+  },
+  { "category": "f5 networks", "group": "nepc", "measure": 508.65487815199316 },
+  { "category": "flextronics", "group": "nepc", "measure": 653.9607394829145 },
+  {
+    "category": "flextronics international kft",
+    "group": "nepc",
+    "measure": 811.7736884637924
+  },
+  {
+    "category": "flextronics technologies",
+    "group": "nepc",
+    "measure": 871.975542647583
+  },
+  {
+    "category": "freestyle technologies pty ltd",
+    "group": "nepc",
+    "measure": 180.75978141318595
+  },
+  { "category": "fujitsu", "group": "nepc", "measure": 422.1415782870084 },
+  {
+    "category": "fujitsu japan",
+    "group": "nepc",
+    "measure": 646.3016925320794
+  },
+  {
+    "category": "fujitsu limited",
+    "group": "nepc",
+    "measure": 441.9891289908446
+  },
+  {
+    "category": "fujitsu network communication",
+    "group": "nepc",
+    "measure": 461.7680559896429
+  },
+  {
+    "category": "hisense electronics co ltd",
+    "group": "nepc",
+    "measure": 407.08185662869613
+  },
+  { "category": "huawei", "group": "nepc", "measure": 406.6988695305359 },
+  {
+    "category": "huawei software technologies coltd",
+    "group": "nepc",
+    "measure": 476.2688879884417
+  },
+  {
+    "category": "huawei technologies co ltd",
+    "group": "nepc",
+    "measure": 355.6557913245904
+  },
+  { "category": "humax", "group": "nepc", "measure": 506.54321865525685 },
+  {
+    "category": "i direct technologies",
+    "group": "nepc",
+    "measure": 457.33454876859037
+  },
+  { "category": "infinera", "group": "nepc", "measure": 397.1566775516102 },
+  {
+    "category": "infinera india pvt ltd",
+    "group": "nepc",
+    "measure": 127.31581833279205
+  },
+  {
+    "category": "intel corporation",
+    "group": "nepc",
+    "measure": 386.81177238247244
+  },
+  { "category": "ip infusion", "group": "nepc", "measure": 513.905716721087 },
+  {
+    "category": "ip infusion inc",
+    "group": "nepc",
+    "measure": 317.59758416338855
+  },
+  {
+    "category": "le electronic technology",
+    "group": "nepc",
+    "measure": 815.4749259538949
+  },
+  {
+    "category": "le shi zhi xin electronic",
+    "group": "nepc",
+    "measure": 364.25037670930203
+  },
+  {
+    "category": "le shi zhi xin electronic technology (tianjin) limited",
+    "group": "nepc",
+    "measure": 471.3849956249313
+  },
+  { "category": "leica", "group": "nepc", "measure": 412.9796110529762 },
+  {
+    "category": "leica geosystems ag",
+    "group": "nepc",
+    "measure": 668.0400219398514
+  },
+  {
+    "category": "lg electronics",
+    "group": "nepc",
+    "measure": 121.12015141856813
+  },
+  {
+    "category": "lg electronics inc",
+    "group": "nepc",
+    "measure": 476.3780779477852
+  },
+  { "category": "lumileds llc", "group": "nepc", "measure": 359.8118099173209 },
+  {
+    "category": "marconi communications inc",
+    "group": "nepc",
+    "measure": 971.7255280794801
+  },
+  { "category": "motorola", "group": "nepc", "measure": 289.84552838024047 },
+  {
+    "category": "nec corporation",
+    "group": "nepc",
+    "measure": 648.9773114358429
+  },
+  {
+    "category": "nec india private limited",
+    "group": "nepc",
+    "measure": 870.4422323319201
+  },
+  {
+    "category": "nokia networks",
+    "group": "nepc",
+    "measure": 984.787128003559
+  },
+  {
+    "category": "nokia siemens networks",
+    "group": "nepc",
+    "measure": 506.9060444117365
+  },
+  {
+    "category": "nokia siemens networks oy",
+    "group": "nepc",
+    "measure": 948.924245592823
+  },
+  {
+    "category": "nokia solutions",
+    "group": "nepc",
+    "measure": 921.9174928369372
+  },
+  {
+    "category": "nokia solutions and networks",
+    "group": "nepc",
+    "measure": 379.47654325347327
+  },
+  {
+    "category": "nokia solutions and networks oy",
+    "group": "nepc",
+    "measure": 124.51850420982402
+  },
+  {
+    "category": "olympus america inc",
+    "group": "nepc",
+    "measure": 930.5281748628694
+  },
+  {
+    "category": "olympus america inc",
+    "group": "nepc",
+    "measure": 986.273245520757
+  },
+  {
+    "category": "olympus corporation",
+    "group": "nepc",
+    "measure": 410.24798207226456
+  },
+  { "category": "philips", "group": "nepc", "measure": 87.01536949538924 },
+  {
+    "category": "philips consumer electronics",
+    "group": "nepc",
+    "measure": 235.8980374793017
+  },
+  {
+    "category": "philips consumer electronics b",
+    "group": "nepc",
+    "measure": 212.9764929369188
+  },
+  {
+    "category": "philips consumer electronics bv",
+    "group": "nepc",
+    "measure": 81.51644918832801
+  },
+  {
+    "category": "philips do brasil",
+    "group": "nepc",
+    "measure": 473.2728373837189
+  },
+  {
+    "category": "philips innovative applications",
+    "group": "nepc",
+    "measure": 949.1629765966667
+  },
+  {
+    "category": "philips medical systems",
+    "group": "nepc",
+    "measure": 187.72452010131434
+  },
+  { "category": "redknee", "group": "nepc", "measure": 46.415813830990025 },
+  { "category": "samsung", "group": "nepc", "measure": 527.6490104379424 },
+  {
+    "category": "samsung electronics co ltd",
+    "group": "nepc",
+    "measure": 948.7077713108354
+  },
+  {
+    "category": "samsung telecommunications",
+    "group": "nepc",
+    "measure": 889.4904684682914
+  },
+  {
+    "category": "shoretel inc",
+    "group": "nepc",
+    "measure": 277.07661608142587
+  },
+  {
+    "category": "technicolor sa",
+    "group": "nepc",
+    "measure": 24.27341217371959
+  },
+  {
+    "category": "technicolor thomson",
+    "group": "nepc",
+    "measure": 130.9664793139369
+  },
+  {
+    "category": "telcordia technologies inc",
+    "group": "nepc",
+    "measure": 858.388791199947
+  },
+  {
+    "category": "telcordia technologies inc",
+    "group": "nepc",
+    "measure": 508.3195610066893
+  },
+  { "category": "tivo inc", "group": "nepc", "measure": 87.56172413702723 },
+  {
+    "category": "wi-fi alliance",
+    "group": "nepc",
+    "measure": 774.8579570341468
+  },
+  {
+    "category": "zebra technologies",
+    "group": "nepc",
+    "measure": 758.4055926927296
+  },
+  { "category": "adobe sytems", "group": "psp", "measure": 148.2126890191209 },
+  { "category": "amazon", "group": "psp", "measure": 677.598661380254 },
+  {
+    "category": "amazon corporate llc",
+    "group": "psp",
+    "measure": 143.1198043732985
+  },
+  {
+    "category": "apttus corporation",
+    "group": "psp",
+    "measure": 596.876427260228
+  },
+  {
+    "category": "asg group limited",
+    "group": "psp",
+    "measure": 927.5278758283453
+  },
+  {
+    "category": "asg software solution",
+    "group": "psp",
+    "measure": 701.4181213052558
+  },
+  {
+    "category": "asg software solutions",
+    "group": "psp",
+    "measure": 492.439666309694
+  },
+  {
+    "category": "asg worldwide private limited",
+    "group": "psp",
+    "measure": 82.36973016819249
+  },
+  { "category": "bandai", "group": "psp", "measure": 483.68968433608137 },
+  {
+    "category": "bandai america incorporated",
+    "group": "psp",
+    "measure": 683.6063710286784
+  },
+  { "category": "ca", "group": "psp", "measure": 740.4702585827424 },
+  { "category": "ca inc", "group": "psp", "measure": 425.8743135486689 },
+  {
+    "category": "ca software b v",
+    "group": "psp",
+    "measure": 866.812051476588
+  },
+  {
+    "category": "ca technologies",
+    "group": "psp",
+    "measure": 656.2310022361779
+  },
+  {
+    "category": "citrix systems",
+    "group": "psp",
+    "measure": 142.94253823887982
+  },
+  {
+    "category": "citrix systems inc",
+    "group": "psp",
+    "measure": 819.1618164340697
+  },
+  {
+    "category": "computer associates",
+    "group": "psp",
+    "measure": 973.8975817006088
+  },
+  {
+    "category": "coupa software",
+    "group": "psp",
+    "measure": 307.6853806169433
+  },
+  { "category": "dimanex bv", "group": "psp", "measure": 269.7712368198156 },
+  { "category": "drivestream", "group": "psp", "measure": 405.05881376496455 },
+  {
+    "category": "drivestream inc",
+    "group": "psp",
+    "measure": 397.7040733479904
+  },
+  {
+    "category": "drivestream india private limited",
+    "group": "psp",
+    "measure": 637.6199415295741
+  },
+  {
+    "category": "electronic arts",
+    "group": "psp",
+    "measure": 418.2983727461648
+  },
+  {
+    "category": "electronic arts inc",
+    "group": "psp",
+    "measure": 936.068788380784
+  },
+  {
+    "category": "electronic arts ltd",
+    "group": "psp",
+    "measure": 845.9538031152562
+  },
+  { "category": "emailage", "group": "psp", "measure": 788.8984835914288 },
+  { "category": "ibm", "group": "psp", "measure": 158.5488952247398 },
+  {
+    "category": "ibm corporation",
+    "group": "psp",
+    "measure": 775.0644482092748
+  },
+  {
+    "category": "ibm oracle porting",
+    "group": "psp",
+    "measure": 22.68019377994712
+  },
+  { "category": "intuit inc", "group": "psp", "measure": 787.054901753236 },
+  {
+    "category": "kaseya management llc",
+    "group": "psp",
+    "measure": 652.775687366818
+  },
+  {
+    "category": "konami gaming inc",
+    "group": "psp",
+    "measure": 188.6900413099788
+  },
+  { "category": "microsoft", "group": "psp", "measure": 961.9267033252158 },
+  {
+    "category": "microsoft  india (r&d) pvt ltd",
+    "group": "psp",
+    "measure": 608.4677810905716
+  },
+  {
+    "category": "microsoft  india (r&d) pvt ltd",
+    "group": "psp",
+    "measure": 542.6266562073049
+  },
+  {
+    "category": "microsoft corporation",
+    "group": "psp",
+    "measure": 772.7399012847329
+  },
+  {
+    "category": "microsoft india (r&d) pvt ltd",
+    "group": "psp",
+    "measure": 148.85226981167344
+  },
+  {
+    "category": "microsoft india (r&d) pvt ltd",
+    "group": "psp",
+    "measure": 330.52518479636103
+  },
+  { "category": "netsuite", "group": "psp", "measure": 834.9542515804088 },
+  { "category": "netsuite inc", "group": "psp", "measure": 152.98654875920715 },
+  { "category": "netsuite inc", "group": "psp", "measure": 452.11769301326154 },
+  { "category": "novell kk", "group": "psp", "measure": 749.6272986379665 },
+  {
+    "category": "one time customer[ ms certific",
+    "group": "psp",
+    "measure": 62.97838265628175
+  },
+  {
+    "category": "one time customer[ ms certification",
+    "group": "psp",
+    "measure": 680.564613768447
+  },
+  { "category": "oracle", "group": "psp", "measure": 433.0612619964469 },
+  {
+    "category": "oracle japan kk",
+    "group": "psp",
+    "measure": 143.41609933830824
+  },
+  {
+    "category": "pivotal software inc",
+    "group": "psp",
+    "measure": 667.5453633952696
+  },
+  {
+    "category": "portable office company",
+    "group": "psp",
+    "measure": 324.08218355942495
+  },
+  { "category": "qlik tech inc", "group": "psp", "measure": 616.5302236939244 },
+  { "category": "qliktech", "group": "psp", "measure": 428.1116255604194 },
+  { "category": "qliktech inc", "group": "psp", "measure": 196.72450939127728 },
+  { "category": "red hat inc", "group": "psp", "measure": 791.6300380669416 },
+  {
+    "category": "risk management solutions",
+    "group": "psp",
+    "measure": 94.6677702992541
+  },
+  {
+    "category": "risk management solutions llc",
+    "group": "psp",
+    "measure": 708.2157876258193
+  },
+  { "category": "sap", "group": "psp", "measure": 699.7348232300825 },
+  { "category": "sap ag", "group": "psp", "measure": 315.83161759702006 },
+  {
+    "category": "smart technologies ulc",
+    "group": "psp",
+    "measure": 253.8190533519038
+  },
+  { "category": "sony", "group": "psp", "measure": 50.41908108200632 },
+  {
+    "category": "sony corporation",
+    "group": "psp",
+    "measure": 237.68905796588058
+  },
+  {
+    "category": "sony electronics inc",
+    "group": "psp",
+    "measure": 899.3615932003074
+  },
+  {
+    "category": "sony electronics inc",
+    "group": "psp",
+    "measure": 18.96638162380637
+  },
+  {
+    "category": "sony india software centre private",
+    "group": "psp",
+    "measure": 166.62741028367233
+  },
+  { "category": "sugarcrm", "group": "psp", "measure": 89.62957145545202 },
+  { "category": "sugarcrm inc", "group": "psp", "measure": 504.3031566778281 },
+  { "category": "symantec", "group": "psp", "measure": 222.92200485003977 },
+  {
+    "category": "the portable office company limited",
+    "group": "psp",
+    "measure": 726.9364569139184
+  },
+  { "category": "thinglogix", "group": "psp", "measure": 850.2428420207626 },
+  {
+    "category": "thinglogix llc",
+    "group": "psp",
+    "measure": 777.5248683982333
+  },
+  {
+    "category": "ubisoft international",
+    "group": "psp",
+    "measure": 868.7184906105123
+  },
+  {
+    "category": "ubisoft production internationale s",
+    "group": "psp",
+    "measure": 492.02866276484315
+  },
+  {
+    "category": "unisys corporation",
+    "group": "psp",
+    "measure": 560.4397830763447
+  },
+  { "category": "vm ware", "group": "psp", "measure": 631.6805472552721 },
+  { "category": "vmware inc", "group": "psp", "measure": 696.2220239785792 },
+  {
+    "category": "cesa sa",
+    "group": "aero & defense",
+    "measure": 477.1297767422903
+  },
+  {
+    "category": "zodiac cabin control",
+    "group": "aero & defense",
+    "measure": 257.93251448143883
+  },
+  { "category": "(blank)", "group": "pim", "measure": 440.0799523740938 },
+  { "category": "3m", "group": "pim", "measure": 11.60813985006337 },
+  {
+    "category": "3m / it internal support",
+    "group": "pim",
+    "measure": 810.0574321766713
+  },
+  {
+    "category": "3m south africa pty ltd",
+    "group": "pim",
+    "measure": 401.1304363115512
+  },
+  { "category": "3m uk plc", "group": "pim", "measure": 120.9174227910228 },
+  { "category": "3m uk plc", "group": "pim", "measure": 338.32050599639786 },
+  { "category": "ab electrolux", "group": "pim", "measure": 765.0882927914483 },
+  { "category": "abb", "group": "pim", "measure": 97.47907666059952 },
+  {
+    "category": "abb beijing drive systems co ltd",
+    "group": "pim",
+    "measure": 555.4955377021615
+  },
+  {
+    "category": "abb global services limited",
+    "group": "pim",
+    "measure": 120.45856532588905
+  },
+  { "category": "abb inc", "group": "pim", "measure": 485.4223850479373 },
+  { "category": "abb ltda", "group": "pim", "measure": 312.4139598610658 },
+  {
+    "category": "abb management services ltd",
+    "group": "pim",
+    "measure": 411.5613085569576
+  },
+  { "category": "abb sa", "group": "pim", "measure": 101.6895760518829 },
+  {
+    "category": "abb switzerland ltd",
+    "group": "pim",
+    "measure": 9.65155424706432
+  },
+  {
+    "category": "abb-pros-cluster",
+    "group": "pim",
+    "measure": 746.1662216470982
+  },
+  {
+    "category": "abb_ch_sap_support",
+    "group": "pim",
+    "measure": 478.8975007720508
+  },
+  {
+    "category": "abb_pl_sap_support",
+    "group": "pim",
+    "measure": 220.68830846573883
+  },
+  {
+    "category": "acuity brands lighting inc",
+    "group": "pim",
+    "measure": 261.9015004550361
+  },
+  {
+    "category": "akzo nobel chemicals",
+    "group": "pim",
+    "measure": 123.88173895820532
+  },
+  { "category": "akzo nobel nv", "group": "pim", "measure": 905.3588128299943 },
+  { "category": "alfa laval ab", "group": "pim", "measure": 736.4324885851116 },
+  {
+    "category": "alfa laval lund ab",
+    "group": "pim",
+    "measure": 682.9751973159215
+  },
+  {
+    "category": "ammeraal beltech beheer nederlands",
+    "group": "pim",
+    "measure": 463.9895707851328
+  },
+  {
+    "category": "ammeraal beltech nederland beheer b",
+    "group": "pim",
+    "measure": 131.57790155508687
+  },
+  {
+    "category": "arauco do brasil sa",
+    "group": "pim",
+    "measure": 931.2703204268767
+  },
+  {
+    "category": "arcelor-mittal",
+    "group": "pim",
+    "measure": 431.8007551760693
+  },
+  {
+    "category": "arcelormittal brazil",
+    "group": "pim",
+    "measure": 954.8890278730893
+  },
+  {
+    "category": "arcelormittal purchasing - luxembou",
+    "group": "pim",
+    "measure": 358.8503252188864
+  },
+  {
+    "category": "arcelormittal purchasing-luxembourg",
+    "group": "pim",
+    "measure": 79.88917019334507
+  },
+  { "category": "areva", "group": "pim", "measure": 520.1118574711634 },
+  {
+    "category": "arjowiggins fine papers",
+    "group": "pim",
+    "measure": 279.7366958665556
+  },
+  {
+    "category": "arjowiggins fine papers pty ltd",
+    "group": "pim",
+    "measure": 171.90187179149729
+  },
+  { "category": "assa abloy", "group": "pim", "measure": 599.6245851612586 },
+  { "category": "assa abloy ab", "group": "pim", "measure": 538.5070893943268 },
+  { "category": "atlas copco", "group": "pim", "measure": 531.2271841778767 },
+  {
+    "category": "berry plastics corporation",
+    "group": "pim",
+    "measure": 89.23843823620925
+  },
+  {
+    "category": "berryplastic corporation",
+    "group": "pim",
+    "measure": 72.32075583272213
+  },
+  { "category": "bobcat company", "group": "pim", "measure": 515.682701518562 },
+  {
+    "category": "breville pty ltd",
+    "group": "pim",
+    "measure": 421.0426007671686
+  },
+  {
+    "category": "broadspectrum limited",
+    "group": "pim",
+    "measure": 926.1366563362399
+  },
+  {
+    "category": "cabot microelectronics corporation",
+    "group": "pim",
+    "measure": 634.1894178767535
+  },
+  { "category": "carrier", "group": "pim", "measure": 527.6456916239338 },
+  {
+    "category": "carrier corporation",
+    "group": "pim",
+    "measure": 821.289824809772
+  },
+  { "category": "caterpillar", "group": "pim", "measure": 482.1338850848407 },
+  {
+    "category": "caterpillar usa",
+    "group": "pim",
+    "measure": 871.8488691854055
+  },
+  {
+    "category": "caterpillar usa",
+    "group": "pim",
+    "measure": 112.04096162938481
+  },
+  { "category": "corning", "group": "pim", "measure": 425.07961596796275 },
+  {
+    "category": "corning incorporated",
+    "group": "pim",
+    "measure": 716.3735377256594
+  },
+  {
+    "category": "csi leasing inc",
+    "group": "pim",
+    "measure": 647.2884488085099
+  },
+  {
+    "category": "dell financial services pty limited",
+    "group": "pim",
+    "measure": 343.27170789978777
+  },
+  {
+    "category": "dh business services llc",
+    "group": "pim",
+    "measure": 884.6988117128318
+  },
+  { "category": "diversey inc", "group": "pim", "measure": 584.1633634215233 },
+  {
+    "category": "doosan infracore south america",
+    "group": "pim",
+    "measure": 440.5505670504571
+  },
+  {
+    "category": "dsm business services bv",
+    "group": "pim",
+    "measure": 339.2748499896401
+  },
+  { "category": "dulux", "group": "pim", "measure": 823.9195485062163 },
+  { "category": "dulux group", "group": "pim", "measure": 187.1057342496436 },
+  { "category": "dupont", "group": "pim", "measure": 86.09451954800618 },
+  {
+    "category": "dynapac compaction equipment ab",
+    "group": "pim",
+    "measure": 725.7554953264744
+  },
+  { "category": "electrolux", "group": "pim", "measure": 694.4526015480828 },
+  {
+    "category": "electrolux consumer outdoor product",
+    "group": "pim",
+    "measure": 931.2933727404693
+  },
+  {
+    "category": "electrolux do brasil s/a",
+    "group": "pim",
+    "measure": 32.959975544255556
+  },
+  {
+    "category": "electrolux home products",
+    "group": "pim",
+    "measure": 400.12006942121883
+  },
+  { "category": "emerson", "group": "pim", "measure": 294.2127185369311 },
+  {
+    "category": "emerson electric",
+    "group": "pim",
+    "measure": 128.49765919100076
+  },
+  {
+    "category": "emerson network power ltd",
+    "group": "pim",
+    "measure": 882.7801426640386
+  },
+  {
+    "category": "emerson process management",
+    "group": "pim",
+    "measure": 866.5018687783308
+  },
+  {
+    "category": "emerson retail services",
+    "group": "pim",
+    "measure": 80.09872720190769
+  },
+  {
+    "category": "energizer brands llc",
+    "group": "pim",
+    "measure": 417.20399138094734
+  },
+  {
+    "category": "energizer brands llc",
+    "group": "pim",
+    "measure": 523.7580438163635
+  },
+  {
+    "category": "energizer holdings inc",
+    "group": "pim",
+    "measure": 577.046503156035
+  },
+  { "category": "eriks nv", "group": "pim", "measure": 121.99726259043354 },
+  { "category": "esab ab", "group": "pim", "measure": 455.6482074063329 },
+  { "category": "evraz plc", "group": "pim", "measure": 9.350519953863824 },
+  {
+    "category": "forterra building products ltd",
+    "group": "pim",
+    "measure": 23.524446989710125
+  },
+  {
+    "category": "forterra pipe & precast llc",
+    "group": "pim",
+    "measure": 588.5162773334924
+  },
+  {
+    "category": "gardner denver inc",
+    "group": "pim",
+    "measure": 815.8084623176816
+  },
+  { "category": "ge", "group": "pim", "measure": 366.51022362960305 },
+  {
+    "category": "ge home & business solutions",
+    "group": "pim",
+    "measure": 372.05486329344615
+  },
+  { "category": "genpact ge", "group": "pim", "measure": 966.6425904244152 },
+  {
+    "category": "genpact international",
+    "group": "pim",
+    "measure": 645.6842727076652
+  },
+  {
+    "category": "genpact international inc",
+    "group": "pim",
+    "measure": 958.0833127906754
+  },
+  {
+    "category": "gerdau ameristeel us inc",
+    "group": "pim",
+    "measure": 820.5962989566247
+  },
+  { "category": "gerdau sa", "group": "pim", "measure": 174.07562970179757 },
+  {
+    "category": "godrej & boyce manufacturing compan",
+    "group": "pim",
+    "measure": 152.00782663087065
+  },
+  {
+    "category": "hanson building products",
+    "group": "pim",
+    "measure": 272.4133198036184
+  },
+  {
+    "category": "hbp pipe & precast",
+    "group": "pim",
+    "measure": 742.3734503650138
+  },
+  { "category": "honeywell", "group": "pim", "measure": 617.1478996184877 },
+  {
+    "category": "honeywell inc",
+    "group": "pim",
+    "measure": 504.66210924917067
+  },
+  { "category": "honeywell inc", "group": "pim", "measure": 70.97634592691293 },
+  {
+    "category": "honeywell technology solutions lab",
+    "group": "pim",
+    "measure": 297.4503659350657
+  },
+  {
+    "category": "husky injection molding systems ltd",
+    "group": "pim",
+    "measure": 393.6922081765204
+  },
+  {
+    "category": "intertape polymer corp",
+    "group": "pim",
+    "measure": 200.97663030776093
+  },
+  {
+    "category": "intertape polymer group",
+    "group": "pim",
+    "measure": 441.33529709440387
+  },
+  { "category": "jcb", "group": "pim", "measure": 54.055899598425825 },
+  {
+    "category": "jcb india limited",
+    "group": "pim",
+    "measure": 960.6541848256048
+  },
+  {
+    "category": "johnsondiversey",
+    "group": "pim",
+    "measure": 303.63048906364986
+  },
+  { "category": "kone", "group": "pim", "measure": 219.6915930996156 },
+  {
+    "category": "kone corporation",
+    "group": "pim",
+    "measure": 672.8092468117459
+  },
+  {
+    "category": "kone international",
+    "group": "pim",
+    "measure": 385.60941465164575
+  },
+  { "category": "legrand", "group": "pim", "measure": 918.96635777604 },
+  {
+    "category": "legrand north america",
+    "group": "pim",
+    "measure": 11.477075860797159
+  },
+  {
+    "category": "liebert corporation",
+    "group": "pim",
+    "measure": 398.7019762560463
+  },
+  { "category": "mts systems", "group": "pim", "measure": 61.25244757552895 },
+  {
+    "category": "nexeo solutions",
+    "group": "pim",
+    "measure": 308.2667430314292
+  },
+  { "category": "nilfisk a/s", "group": "pim", "measure": 746.3161039173143 },
+  {
+    "category": "nippon otis elevator company",
+    "group": "pim",
+    "measure": 984.1125841830989
+  },
+  { "category": "nissha usa", "group": "pim", "measure": 87.90635178901107 },
+  {
+    "category": "norgren european logistics",
+    "group": "pim",
+    "measure": 964.3385439267523
+  },
+  {
+    "category": "norgren european logistics company",
+    "group": "pim",
+    "measure": 966.8187263627688
+  },
+  { "category": "norgren inc", "group": "pim", "measure": 821.7618156763389 },
+  {
+    "category": "open text (asia) pte ltd",
+    "group": "pim",
+    "measure": 51.25919317550864
+  },
+  { "category": "outokumpu", "group": "pim", "measure": 817.1427651550753 },
+  { "category": "outokumpu oyj", "group": "pim", "measure": 975.5097447752116 },
+  { "category": "outotec", "group": "pim", "measure": 424.8903022743531 },
+  { "category": "outotec oyj", "group": "pim", "measure": 277.7878320132955 },
+  {
+    "category": "ppc group services proprietary limi",
+    "group": "pim",
+    "measure": 484.60052307399116
+  },
+  {
+    "category": "rapiscan systems",
+    "group": "pim",
+    "measure": 838.7401611836211
+  },
+  {
+    "category": "rapiscans system",
+    "group": "pim",
+    "measure": 521.6059631467098
+  },
+  {
+    "category": "rheem manufacturing company",
+    "group": "pim",
+    "measure": 983.9676905004671
+  },
+  {
+    "category": "rhodia operations",
+    "group": "pim",
+    "measure": 987.3242565563186
+  },
+  {
+    "category": "rockwell automation",
+    "group": "pim",
+    "measure": 822.98065506479
+  },
+  {
+    "category": "rockwell automation argentina",
+    "group": "pim",
+    "measure": 375.38681244472826
+  },
+  {
+    "category": "rockwell automation argentina sa",
+    "group": "pim",
+    "measure": 76.7105123509032
+  },
+  {
+    "category": "rockwell automation chile  sa",
+    "group": "pim",
+    "measure": 596.7869525168865
+  },
+  { "category": "royal dsm nv", "group": "pim", "measure": 867.0697338418104 },
+  { "category": "saint gobain", "group": "pim", "measure": 687.0993750960602 },
+  { "category": "scentair", "group": "pim", "measure": 75.54635798135634 },
+  {
+    "category": "scentair technologies llc",
+    "group": "pim",
+    "measure": 294.4523840996065
+  },
+  { "category": "schneider", "group": "pim", "measure": 229.85561199685455 },
+  {
+    "category": "schneider electric",
+    "group": "pim",
+    "measure": 722.7187229987759
+  },
+  {
+    "category": "schneider electric industries sas",
+    "group": "pim",
+    "measure": 405.3459619718628
+  },
+  {
+    "category": "schneider electric usa inc",
+    "group": "pim",
+    "measure": 310.5193015433315
+  },
+  {
+    "category": "schneider electric usa inc",
+    "group": "pim",
+    "measure": 312.50506499965326
+  },
+  { "category": "sealed air", "group": "pim", "measure": 217.49036186075043 },
+  {
+    "category": "sealed air corporation",
+    "group": "pim",
+    "measure": 719.0819963785206
+  },
+  {
+    "category": "sealed air corporation (us)",
+    "group": "pim",
+    "measure": 152.72078567776404
+  },
+  { "category": "solvay sa", "group": "pim", "measure": 329.9032524974612 },
+  { "category": "somfy", "group": "pim", "measure": 103.49012920615996 },
+  { "category": "somfy sas", "group": "pim", "measure": 292.3882256663725 },
+  {
+    "category": "stora enso oyj",
+    "group": "pim",
+    "measure": 570.7687183691615
+  },
+  {
+    "category": "sulzer management ag",
+    "group": "pim",
+    "measure": 182.32076008455113
+  },
+  {
+    "category": "tdm systems gmbh",
+    "group": "pim",
+    "measure": 739.8620827389308
+  },
+  {
+    "category": "the chemours company  fc llc",
+    "group": "pim",
+    "measure": 454.8561077425536
+  },
+  {
+    "category": "the scotts company",
+    "group": "pim",
+    "measure": 730.1257153871984
+  },
+  {
+    "category": "the wiremold company",
+    "group": "pim",
+    "measure": 120.78024980096825
+  },
+  {
+    "category": "transfield services",
+    "group": "pim",
+    "measure": 381.95226834835285
+  },
+  {
+    "category": "transfield services company",
+    "group": "pim",
+    "measure": 692.7544056376859
+  },
+  {
+    "category": "trelleborg ab",
+    "group": "pim",
+    "measure": 32.045452147726024
+  },
+  {
+    "category": "trelleborg sealing solutions",
+    "group": "pim",
+    "measure": 205.1804118483589
+  },
+  {
+    "category": "united technologies corp",
+    "group": "pim",
+    "measure": 390.23784582114786
+  },
+  {
+    "category": "utc - climate controls & security",
+    "group": "pim",
+    "measure": 249.72499191430376
+  },
+  {
+    "category": "utc - climate controls & security",
+    "group": "pim",
+    "measure": 484.21596758582797
+  },
+  {
+    "category": "valmet corporation",
+    "group": "pim",
+    "measure": 752.6168432199721
+  },
+  { "category": "vestas", "group": "pim", "measure": 830.8414610525211 },
+  {
+    "category": "vestas wind systems a/s",
+    "group": "pim",
+    "measure": 109.19482930620129
+  },
+  {
+    "category": "videojet technologies inc",
+    "group": "pim",
+    "measure": 43.55320001071339
+  },
+  {
+    "category": "viskase companies inc",
+    "group": "pim",
+    "measure": 802.7727270300852
+  },
+  {
+    "category": "w r grace & co",
+    "group": "pim",
+    "measure": 582.4640411873299
+  },
+  { "category": "whirlpool", "group": "pim", "measure": 22.695147774245306 },
+  {
+    "category": "whirlpool corporation",
+    "group": "pim",
+    "measure": 454.2320849118554
+  },
+  {
+    "category": "wipro ge healthcare private limited",
+    "group": "pim",
+    "measure": 711.2619761268853
+  },
+  {
+    "category": "wipro ge healthcare private ltd",
+    "group": "pim",
+    "measure": 621.0394070701794
+  },
+  {
+    "category": "berendsen",
+    "group": "services",
+    "measure": 335.2811344552496
+  },
+  {
+    "category": "donnelley financial solutions llc",
+    "group": "services",
+    "measure": 378.5127516127305
+  },
+  {
+    "category": "dun & bradstreet",
+    "group": "services",
+    "measure": 309.66409980496456
+  },
+  {
+    "category": "dun & bradstreet corporationsystems",
+    "group": "services",
+    "measure": 745.1203383041172
+  },
+  {
+    "category": "dun & bradstreet inc",
+    "group": "services",
+    "measure": 712.982387741499
+  },
+  { "category": "fidal", "group": "services", "measure": 866.8657089559026 },
+  {
+    "category": "information resources inc",
+    "group": "services",
+    "measure": 352.5451754627517
+  },
+  {
+    "category": "invocare australia pty limited",
+    "group": "services",
+    "measure": 114.52651596655295
+  },
+  {
+    "category": "manpower group global",
+    "group": "services",
+    "measure": 274.5907444851302
+  },
+  {
+    "category": "manpowergroup global inc",
+    "group": "services",
+    "measure": 102.12453214056838
+  },
+  {
+    "category": "mt services limited partnership",
+    "group": "services",
+    "measure": 265.7235153269747
+  },
+  {
+    "category": "national financial partners corp",
+    "group": "services",
+    "measure": 811.7970237496565
+  },
+  {
+    "category": "r r donnelley & sons company",
+    "group": "services",
+    "measure": 414.7193032918961
+  },
+  {
+    "category": "rr donnelley & sons co",
+    "group": "services",
+    "measure": 742.063191051304
+  },
+  {
+    "category": "rr donnelley & sons company",
+    "group": "services",
+    "measure": 72.09603665378495
+  },
+  {
+    "category": "sutherland global services inc",
+    "group": "services",
+    "measure": 149.00624575564848
+  },
+  {
+    "category": "tyco international (us) inc",
+    "group": "services",
+    "measure": 937.8831437351065
+  },
+  { "category": "unhcr", "group": "services", "measure": 823.4227989515524 },
+  {
+    "category": "aea international dba intlsos",
+    "group": "hc p&p",
+    "measure": 477.90346294194717
+  },
+  {
+    "category": "cardinal health",
+    "group": "hc p&p",
+    "measure": 902.6335877172431
+  },
+  {
+    "category": "cardinal health (shanghai)",
+    "group": "hc p&p",
+    "measure": 142.52304610729084
+  },
+  {
+    "category": "cardinal health inc",
+    "group": "hc p&p",
+    "measure": 481.27539688966425
+  },
+  {
+    "category": "cardinal health inc",
+    "group": "hc p&p",
+    "measure": 779.5944818691225
+  },
+  {
+    "category": "catholic health initiatives",
+    "group": "hc p&p",
+    "measure": 298.07922331697824
+  },
+  {
+    "category": "change healthcare",
+    "group": "hc p&p",
+    "measure": 815.1457713341711
+  },
+  {
+    "category": "change healthcare operations llc",
+    "group": "hc p&p",
+    "measure": 631.3458951102423
+  },
+  {
+    "category": "change healthcare operations llc",
+    "group": "hc p&p",
+    "measure": 707.9889703646691
+  },
+  { "category": "cigna", "group": "hc p&p", "measure": 106.70013379066134 },
+  {
+    "category": "cigna corporate services llc",
+    "group": "hc p&p",
+    "measure": 737.4275908847752
+  },
+  {
+    "category": "excellus health plan inc",
+    "group": "hc p&p",
+    "measure": 346.0764666011429
+  },
+  {
+    "category": "fallon community health plan",
+    "group": "hc p&p",
+    "measure": 466.8256293720349
+  },
+  { "category": "givaudan", "group": "hc p&p", "measure": 646.8631286890835 },
+  {
+    "category": "hca -information technology",
+    "group": "hc p&p",
+    "measure": 763.4352287369205
+  },
+  {
+    "category": "highmark health services",
+    "group": "hc p&p",
+    "measure": 927.6513752088285
+  },
+  {
+    "category": "hospital corporation of america",
+    "group": "hc p&p",
+    "measure": 831.8878298200292
+  },
+  {
+    "category": "international sos",
+    "group": "hc p&p",
+    "measure": 899.8999473604398
+  },
+  {
+    "category": "laboratory corporation of amer",
+    "group": "hc p&p",
+    "measure": 366.2057915661466
+  },
+  {
+    "category": "laboratory corporation of america",
+    "group": "hc p&p",
+    "measure": 384.3805396683484
+  },
+  {
+    "category": "medavie inc",
+    "group": "hc p&p",
+    "measure": 252.4711540895823
+  },
+  {
+    "category": "medavie inc",
+    "group": "hc p&p",
+    "measure": 99.28169168182532
+  },
+  {
+    "category": "mount sinai hospital",
+    "group": "hc p&p",
+    "measure": 691.7998006665183
+  },
+  {
+    "category": "nhs national services scotland",
+    "group": "hc p&p",
+    "measure": 467.14249891355007
+  },
+  {
+    "category": "p t sejahteraraya anugrahjaya",
+    "group": "hc p&p",
+    "measure": 128.25760121368523
+  },
+  {
+    "category": "pacific blue cross",
+    "group": "hc p&p",
+    "measure": 205.1160326392697
+  },
+  {
+    "category": "presbyterian healthcare services",
+    "group": "hc p&p",
+    "measure": 11.310657395972257
+  },
+  {
+    "category": "pt nirmala kencana mas",
+    "group": "hc p&p",
+    "measure": 647.1747672020175
+  },
+  {
+    "category": "pt sejahteraraya anugrahjaya",
+    "group": "hc p&p",
+    "measure": 151.99103977275652
+  },
+  {
+    "category": "pt siloam international hospitals",
+    "group": "hc p&p",
+    "measure": 624.600448819385
+  },
+  {
+    "category": "quest diagnostics incorporated",
+    "group": "hc p&p",
+    "measure": 548.6599616765192
+  },
+  {
+    "category": "quest diagonostics",
+    "group": "hc p&p",
+    "measure": 907.2267450720258
+  },
+  {
+    "category": "quintiles inc",
+    "group": "hc p&p",
+    "measure": 843.6521401185988
+  },
+  { "category": "sentara", "group": "hc p&p", "measure": 851.0712095790387 },
+  {
+    "category": "sentara health plans inc",
+    "group": "hc p&p",
+    "measure": 58.21227906264448
+  },
+  {
+    "category": "state of nebraska",
+    "group": "hc p&p",
+    "measure": 34.762219402859174
+  },
+  {
+    "category": "the uniting church in australia pro",
+    "group": "hc p&p",
+    "measure": 291.0005656051494
+  },
+  {
+    "category": "thomas jefferson university",
+    "group": "hc p&p",
+    "measure": 504.6491199477162
+  },
+  {
+    "category": "united healthcare services inc",
+    "group": "hc p&p",
+    "measure": 371.2554444100695
+  },
+  {
+    "category": "united healthcare services inc",
+    "group": "hc p&p",
+    "measure": 290.4279656736428
+  },
+  {
+    "category": "virginia premier health plan inc",
+    "group": "hc p&p",
+    "measure": 245.50761611236416
+  },
+  {
+    "category": "virginia premier health plan inc",
+    "group": "hc p&p",
+    "measure": 653.5108536016113
+  },
+  { "category": "w h o", "group": "hc p&p", "measure": 759.0795742792527 },
+  {
+    "category": "western health advantage",
+    "group": "hc p&p",
+    "measure": 860.3232008615219
+  },
+  {
+    "category": "yayasan kesehatan telogorejo",
+    "group": "hc p&p",
+    "measure": 122.78565525026053
+  },
+  { "category": "novartis", "group": "pharma", "measure": 272.8701923594462 },
+  {
+    "category": "dentaquest",
+    "group": "devices",
+    "measure": 179.89068133628172
+  },
+  {
+    "category": "dentaquest llc",
+    "group": "devices",
+    "measure": 691.0928729721916
+  },
+  {
+    "category": "fresenius medical care deustchland",
+    "group": "devices",
+    "measure": 46.1010445333353
+  },
+  {
+    "category": "echostar purchasing corporation",
+    "group": "comms - north america",
+    "measure": 552.2413062397936
+  },
+  {
+    "category": "altice-usa",
+    "group": "comms - na",
+    "measure": 79.70664760992297
+  },
+  {
+    "category": "at&t corporation",
+    "group": "comms - na",
+    "measure": 417.77691675283
+  },
+  {
+    "category": "at&t mobility",
+    "group": "comms - na",
+    "measure": 833.5068333385908
+  },
+  {
+    "category": "bell canada",
+    "group": "comms - na",
+    "measure": 262.889117200699
+  },
+  {
+    "category": "brightstar corp",
+    "group": "comms - na",
+    "measure": 237.61793208280992
+  },
+  {
+    "category": "charter communications operatingll",
+    "group": "comms - na",
+    "measure": 19.596644310678645
+  },
+  {
+    "category": "charter communications operatingllc",
+    "group": "comms - na",
+    "measure": 879.7652570119184
+  },
+  {
+    "category": "comcast",
+    "group": "comms - na",
+    "measure": 777.8386654255586
+  },
+  {
+    "category": "directv",
+    "group": "comms - na",
+    "measure": 359.86768687792517
+  },
+  {
+    "category": "echostar purchasing corporation",
+    "group": "comms - na",
+    "measure": 753.7334461724777
+  },
+  { "category": "ge nbc", "group": "comms - na", "measure": 624.1931870270652 },
+  {
+    "category": "hughes network systems",
+    "group": "comms - na",
+    "measure": 91.09812494744007
+  },
+  {
+    "category": "level 3 communications inc",
+    "group": "comms - na",
+    "measure": 92.30305374593306
+  },
+  {
+    "category": "massachusetts",
+    "group": "comms - na",
+    "measure": 961.9031260032723
+  },
+  {
+    "category": "mckinsey & company inc",
+    "group": "comms - na",
+    "measure": 302.41006945945435
+  },
+  {
+    "category": "nbn co limited",
+    "group": "comms - na",
+    "measure": 198.44442692281484
+  },
+  {
+    "category": "pace americas llc",
+    "group": "comms - na",
+    "measure": 820.529475163595
+  },
+  {
+    "category": "samsung research america inc",
+    "group": "comms - na",
+    "measure": 605.5234520759051
+  },
+  {
+    "category": "shaw cable",
+    "group": "comms - na",
+    "measure": 77.61916417564197
+  },
+  {
+    "category": "sprint/nextel systems corp",
+    "group": "comms - na",
+    "measure": 339.3279594566082
+  },
+  {
+    "category": "t-mobile usa inc",
+    "group": "comms - na",
+    "measure": 5.66941955376199
+  },
+  {
+    "category": "t-mobile usa inc",
+    "group": "comms - na",
+    "measure": 880.1744936715656
+  },
+  {
+    "category": "verizon business",
+    "group": "comms - na",
+    "measure": 652.4960073935796
+  },
+  {
+    "category": "verveba telecom",
+    "group": "comms - na",
+    "measure": 481.3769463058396
+  },
+  {
+    "category": "a1 telecom",
+    "group": "comms - egm",
+    "measure": 932.1922804557885
+  },
+  {
+    "category": "nbn co limited",
+    "group": "comms - egm",
+    "measure": 358.86423882981876
+  },
+  { "category": "shell", "group": "energy", "measure": 786.9980655918478 },
+  {
+    "category": "appian software switzerland llc-\u00e1",
+    "group": "epc",
+    "measure": 694.5113631175597
+  },
+  {
+    "category": "appian software switzerland llc\u00e2\u00a0",
+    "group": "epc",
+    "measure": 105.27011396933139
+  },
+  { "category": "arcadis nv", "group": "epc", "measure": 703.0655710126972 },
+  { "category": "carillion", "group": "epc", "measure": 511.3519771962565 },
+  { "category": "carillion plc", "group": "epc", "measure": 472.8234540295537 },
+  { "category": "cdm smith inc", "group": "epc", "measure": 6.759848937803126 },
+  {
+    "category": "cimic group ltd",
+    "group": "epc",
+    "measure": 688.9662695893259
+  },
+  {
+    "category": "cimic group ltd",
+    "group": "epc",
+    "measure": 650.0402285851887
+  },
+  {
+    "category": "city of los angeles",
+    "group": "epc",
+    "measure": 462.6013520875366
+  },
+  {
+    "category": "construtora norberto",
+    "group": "epc",
+    "measure": 341.3064363394989
+  },
+  {
+    "category": "greater toronto airports authority",
+    "group": "epc",
+    "measure": 951.7859374926796
+  },
+  {
+    "category": "innovative solutions finance sarl",
+    "group": "epc",
+    "measure": 125.43692062113676
+  },
+  {
+    "category": "innovative solutions for finance",
+    "group": "epc",
+    "measure": 302.38839081931457
+  },
+  {
+    "category": "innovatives solutions for",
+    "group": "epc",
+    "measure": 639.2007835226285
+  },
+  {
+    "category": "john holland group pty ltd",
+    "group": "epc",
+    "measure": 277.9210186635028
+  },
+  {
+    "category": "linde engineering north americ",
+    "group": "epc",
+    "measure": 886.9773906789958
+  },
+  {
+    "category": "linde engineering north america inc",
+    "group": "epc",
+    "measure": 514.2352296380141
+  },
+  {
+    "category": "monadelphous group",
+    "group": "epc",
+    "measure": 227.68743737046503
+  },
+  {
+    "category": "odebrecht agroidustrial sa",
+    "group": "epc",
+    "measure": 418.1264596419555
+  },
+  { "category": "skanska", "group": "epc", "measure": 346.3055641533054 },
+  { "category": "skanska oy", "group": "epc", "measure": 106.82435003546375 },
+  {
+    "category": "stantec consulting ltd",
+    "group": "epc",
+    "measure": 663.0187263562432
+  },
+  { "category": "technip", "group": "epc", "measure": 918.376475362031 },
+  {
+    "category": "uslbm holdings llc",
+    "group": "epc",
+    "measure": 113.71933375094012
+  },
+  {
+    "category": "uslbm holdings llc",
+    "group": "epc",
+    "measure": 957.1332144343794
+  },
+  {
+    "category": "northern powergrid ltd",
+    "group": "utilities",
+    "measure": 320.65152584089276
+  },
+  {
+    "category": "scottishpower energy management lim",
+    "group": "utilities",
+    "measure": 667.9571446883724
+  },
+  {
+    "category": "bp exploration operating",
+    "group": "energy & nr",
+    "measure": 730.6150185135332
+  },
+  {
+    "category": "sasol limited",
+    "group": "energy & nr",
+    "measure": 34.90268341174107
+  },
+  {
+    "category": "tieto norway as",
+    "group": "energy & nr",
+    "measure": 640.7460782424745
+  },
+  { "category": "(blank)", "group": "retail", "measure": 956.219487596222 },
+  { "category": "coop", "group": "retail", "measure": 651.3061674280236 },
+  {
+    "category": "coop handel norge",
+    "group": "retail",
+    "measure": 1.8337337873876036
+  },
+  {
+    "category": "cvs caremark",
+    "group": "retail",
+    "measure": 460.54707047113897
+  },
+  {
+    "category": "gander mountain company",
+    "group": "retail",
+    "measure": 703.8079954224806
+  },
+  {
+    "category": "kohl's department stores",
+    "group": "retail",
+    "measure": 706.8292206192423
+  },
+  {
+    "category": "kohl's department stores inc",
+    "group": "retail",
+    "measure": 559.7287528109797
+  },
+  {
+    "category": "wal-mart de mexico s",
+    "group": "retail",
+    "measure": 773.3819574793365
+  },
+  { "category": "walmart", "group": "retail", "measure": 692.310852725015 },
+  { "category": "woolworths", "group": "retail", "measure": 390.572299512429 },
+  {
+    "category": "woolworths limited",
+    "group": "retail",
+    "measure": 143.98346174104137
+  },
+  {
+    "category": " the highland council",
+    "group": "http",
+    "measure": 927.0409767111598
+  },
+  { "category": "(blank)", "group": "http", "measure": 179.51687934883643 },
+  {
+    "category": "american bureau of shipping",
+    "group": "http",
+    "measure": 958.0840142857269
+  },
+  {
+    "category": "ana systems co ltd",
+    "group": "http",
+    "measure": 777.1931878526076
+  },
+  { "category": "ansto", "group": "http", "measure": 425.68132993000853 },
+  {
+    "category": "appian software australia pty limit",
+    "group": "http",
+    "measure": 504.01799914091373
+  },
+  {
+    "category": "atlas air worldwide holdings inc",
+    "group": "http",
+    "measure": 299.11455537271524
+  },
+  { "category": "canada post", "group": "http", "measure": 142.74810307292063 },
+  {
+    "category": "central provident fund board",
+    "group": "http",
+    "measure": 200.8895524769705
+  },
+  { "category": "centrelink", "group": "http", "measure": 71.55470919336804 },
+  {
+    "category": "common structural rules software ll",
+    "group": "http",
+    "measure": 151.61466558903035
+  },
+  { "category": "con-way", "group": "http", "measure": 459.4411688781278 },
+  {
+    "category": "delta air lines",
+    "group": "http",
+    "measure": 53.721571602245
+  },
+  {
+    "category": "delta air lines inc",
+    "group": "http",
+    "measure": 710.9379521286119
+  },
+  {
+    "category": "department of family housing commun",
+    "group": "http",
+    "measure": 911.159075207805
+  },
+  {
+    "category": "department of justice and regulatio",
+    "group": "http",
+    "measure": 257.8298089795948
+  },
+  {
+    "category": "dhl exel supply chain",
+    "group": "http",
+    "measure": 637.262068159379
+  },
+  {
+    "category": "dhl global forwardingmanagementgmbh",
+    "group": "http",
+    "measure": 362.12423547642345
+  },
+  {
+    "category": "dollar thrifty automitve group inc",
+    "group": "http",
+    "measure": 588.5988215616189
+  },
+  {
+    "category": "empresa brasileira de correios e",
+    "group": "http",
+    "measure": 699.5743134764398
+  },
+  {
+    "category": "federal express",
+    "group": "http",
+    "measure": 566.8662642219723
+  },
+  { "category": "fedex", "group": "http", "measure": 240.82712496781343 },
+  {
+    "category": "fedex corporate services inc",
+    "group": "http",
+    "measure": 250.91109285655844
+  },
+  { "category": "hertz", "group": "http", "measure": 445.4833723288263 },
+  {
+    "category": "hertz equipment rental corporation",
+    "group": "http",
+    "measure": 192.42964238259597
+  },
+  {
+    "category": "hewlett-packard financial svcs cda",
+    "group": "http",
+    "measure": 404.23926214752623
+  },
+  { "category": "iata", "group": "http", "measure": 555.2210136157287 },
+  { "category": "innovapost", "group": "http", "measure": 923.1643539301849 },
+  {
+    "category": "innovapost inc",
+    "group": "http",
+    "measure": 364.34799783091034
+  },
+  {
+    "category": "jurong town council",
+    "group": "http",
+    "measure": 219.20497982240983
+  },
+  {
+    "category": "land transport authority",
+    "group": "http",
+    "measure": 199.33260572376676
+  },
+  {
+    "category": "mc donald corporation",
+    "group": "http",
+    "measure": 140.76050494911198
+  },
+  { "category": "mcd usa", "group": "http", "measure": 806.2334941043597 },
+  {
+    "category": "mcdonald's australia",
+    "group": "http",
+    "measure": 561.7081440313206
+  },
+  {
+    "category": "mcdonald's company",
+    "group": "http",
+    "measure": 964.1583913008488
+  },
+  {
+    "category": "mcdonald's usa",
+    "group": "http",
+    "measure": 660.4430877657776
+  },
+  {
+    "category": "mcdonalds company",
+    "group": "http",
+    "measure": 147.3217936103579
+  },
+  {
+    "category": "mcdonalds company japan",
+    "group": "http",
+    "measure": 618.2463920986617
+  },
+  {
+    "category": "mcdonalds corporation",
+    "group": "http",
+    "measure": 511.0856213410203
+  },
+  { "category": "mxd group", "group": "http", "measure": 288.7419700032906 },
+  {
+    "category": "north lanarkshire council",
+    "group": "http",
+    "measure": 88.2382602492342
+  },
+  {
+    "category": "northwest airline (delta airlines)",
+    "group": "http",
+    "measure": 733.9862121604613
+  },
+  {
+    "category": "nrma motoring & services",
+    "group": "http",
+    "measure": 62.471091136521274
+  },
+  { "category": "nsb as", "group": "http", "measure": 29.478255128852382 },
+  {
+    "category": "nsw department of family",
+    "group": "http",
+    "measure": 458.98887621989803
+  },
+  {
+    "category": "nsw department of family/facs - family and community services",
+    "group": "http",
+    "measure": 539.1418842895257
+  },
+  {
+    "category": "nsw deptt of education & training",
+    "group": "http",
+    "measure": 76.0001544525456
+  },
+  {
+    "category": "nsw govt board of studies",
+    "group": "http",
+    "measure": 490.1192306283821
+  },
+  {
+    "category": "qld department of education",
+    "group": "http",
+    "measure": 876.986909066846
+  },
+  {
+    "category": "roads & maritime services",
+    "group": "http",
+    "measure": 302.5310694321502
+  },
+  {
+    "category": "roads and maritime services",
+    "group": "http",
+    "measure": 629.5913002657447
+  },
+  {
+    "category": "royal caribbean cruises ltd",
+    "group": "http",
+    "measure": 322.62965759799613
+  },
+  {
+    "category": "royal caribbean international",
+    "group": "http",
+    "measure": 130.65215060615444
+  },
+  {
+    "category": "salesforcecom",
+    "group": "http",
+    "measure": 963.0184187252469
+  },
+  {
+    "category": "salesforcecom singapore pte ltd",
+    "group": "http",
+    "measure": 814.6949723027813
+  },
+  {
+    "category": "san mateo county",
+    "group": "http",
+    "measure": 325.1007682309178
+  },
+  {
+    "category": "san mateo county transit district",
+    "group": "http",
+    "measure": 503.52043301271834
+  },
+  { "category": "smrt", "group": "http", "measure": 448.527404266587 },
+  {
+    "category": "smrt trains ltd",
+    "group": "http",
+    "measure": 296.80961824506403
+  },
+  {
+    "category": "the hertz corporation",
+    "group": "http",
+    "measure": 286.34560838484504
+  },
+  {
+    "category": "the highland council",
+    "group": "http",
+    "measure": 364.0729521421876
+  },
+  {
+    "category": "the north lanarkshire council",
+    "group": "http",
+    "measure": 299.89039447782983
+  },
+  {
+    "category": "the scottish government",
+    "group": "http",
+    "measure": 733.8382021341016
+  },
+  { "category": "thomas cook", "group": "http", "measure": 517.8884126943796 },
+  {
+    "category": "thomas cook group plc",
+    "group": "http",
+    "measure": 892.8563216817026
+  },
+  {
+    "category": "tnt express ics limited",
+    "group": "http",
+    "measure": 213.01677937283813
+  },
+  {
+    "category": "toll holdings limited",
+    "group": "http",
+    "measure": 996.7432901558374
+  },
+  {
+    "category": "transport for nsw",
+    "group": "http",
+    "measure": 912.1142657790014
+  },
+  { "category": "tui", "group": "http", "measure": 190.5719058366091 },
+  { "category": "tui uk ag", "group": "http", "measure": 459.7752047176499 },
+  {
+    "category": "tui uk limited",
+    "group": "http",
+    "measure": 270.98167484290326
+  },
+  {
+    "category": "uber technologies inc",
+    "group": "http",
+    "measure": 55.42642061325931
+  },
+  {
+    "category": "united airlines",
+    "group": "http",
+    "measure": 823.3768101900837
+  },
+  { "category": "vicroads", "group": "http", "measure": 185.4605519450163 },
+  {
+    "category": "wilhelmsen it service as",
+    "group": "http",
+    "measure": 884.0451314680868
+  },
+  { "category": "acxiom uk", "group": "nme", "measure": 909.5860767609761 },
+  {
+    "category": "aligned energy",
+    "group": "nme",
+    "measure": 465.27460482863626
+  },
+  {
+    "category": "amazon corporate llc",
+    "group": "nme",
+    "measure": 880.5301865893381
+  },
+  {
+    "category": "apn outdoor group limited",
+    "group": "nme",
+    "measure": 581.9933486721692
+  },
+  {
+    "category": "australia national university",
+    "group": "nme",
+    "measure": 992.3577794796731
+  },
+  { "category": "axiom systems", "group": "nme", "measure": 319.6705152463035 },
+  {
+    "category": "cambridge university press",
+    "group": "nme",
+    "measure": 55.568860295903136
+  },
+  { "category": "chelsea", "group": "nme", "measure": 121.0062329891517 },
+  {
+    "category": "chelsea fc plc",
+    "group": "nme",
+    "measure": 419.37447272240445
+  },
+  {
+    "category": "encompass digital media",
+    "group": "nme",
+    "measure": 791.6475462793186
+  },
+  { "category": "facebook inc", "group": "nme", "measure": 378.1531105491126 },
+  { "category": "ge nbc", "group": "nme", "measure": 440.2269377948409 },
+  {
+    "category": "global eagle entertainment",
+    "group": "nme",
+    "measure": 87.26997461940833
+  },
+  { "category": "google inc", "group": "nme", "measure": 442.6028162104062 },
+  {
+    "category": "griffith university",
+    "group": "nme",
+    "measure": 48.58362794221982
+  },
+  {
+    "category": "harte hanks inc",
+    "group": "nme",
+    "measure": 65.24833194238711
+  },
+  {
+    "category": "hewlett-packard international bank",
+    "group": "nme",
+    "measure": 516.1931581266568
+  },
+  { "category": "hibu inc", "group": "nme", "measure": 298.56864431377727 },
+  { "category": "itv plc", "group": "nme", "measure": 400.64622379232253 },
+  {
+    "category": "motorola mobility llc",
+    "group": "nme",
+    "measure": 993.4148376004646
+  },
+  {
+    "category": "national university of singapore",
+    "group": "nme",
+    "measure": 138.2460813152232
+  },
+  {
+    "category": "omnicom media group",
+    "group": "nme",
+    "measure": 918.4810861401849
+  },
+  {
+    "category": "omnicom media group holdings inc",
+    "group": "nme",
+    "measure": 559.2408139495884
+  },
+  {
+    "category": "reed elsevier plc",
+    "group": "nme",
+    "measure": 517.9864196517918
+  },
+  {
+    "category": "republic polytechnic",
+    "group": "nme",
+    "measure": 591.0049797419612
+  },
+  { "category": "sanoma", "group": "nme", "measure": 679.9527321924429 },
+  { "category": "sanoma oyj", "group": "nme", "measure": 246.5193538641267 },
+  {
+    "category": "schibsted centralen ab",
+    "group": "nme",
+    "measure": 714.5426119674866
+  },
+  { "category": "sdl", "group": "nme", "measure": 415.16897367474945 },
+  { "category": "sdl plc", "group": "nme", "measure": 492.7705447109654 },
+  {
+    "category": "sony  music entertainment",
+    "group": "nme",
+    "measure": 737.964395402422
+  },
+  { "category": "sony music", "group": "nme", "measure": 393.9322299487593 },
+  {
+    "category": "stagwell technologies inc",
+    "group": "nme",
+    "measure": 110.331176756858
+  },
+  {
+    "category": "technicolor polska sp zoo",
+    "group": "nme",
+    "measure": 10.292718857976556
+  },
+  {
+    "category": "the associated press",
+    "group": "nme",
+    "measure": 743.7438765438908
+  },
+  { "category": "the mcclatchy", "group": "nme", "measure": 868.4822629597567 },
+  {
+    "category": "the mcclatchy company",
+    "group": "nme",
+    "measure": 430.5030100070597
+  },
+  {
+    "category": "the mcgraw-hill",
+    "group": "nme",
+    "measure": 410.7181238327124
+  },
+  {
+    "category": "the mcgraw-hill companies",
+    "group": "nme",
+    "measure": 193.47768561332225
+  },
+  {
+    "category": "thomson reuters holdings inc",
+    "group": "nme",
+    "measure": 116.91469409345379
+  },
+  {
+    "category": "thomson silicon & components",
+    "group": "nme",
+    "measure": 622.5702082419543
+  },
+  {
+    "category": "thomson silicon & components sas",
+    "group": "nme",
+    "measure": 55.995912527928795
+  },
+  { "category": "turner", "group": "nme", "measure": 586.442360238174 },
+  {
+    "category": "turner broadcasting system",
+    "group": "nme",
+    "measure": 883.5717887702368
+  },
+  {
+    "category": "university of canberra",
+    "group": "nme",
+    "measure": 63.60450606727986
+  },
+  {
+    "category": "university of new south wales",
+    "group": "nme",
+    "measure": 559.8350617269241
+  },
+  {
+    "category": "university of sydney",
+    "group": "nme",
+    "measure": 429.14293748927236
+  },
+  {
+    "category": "village roadshow",
+    "group": "nme",
+    "measure": 435.86222560564755
+  },
+  {
+    "category": "village roadshow group",
+    "group": "nme",
+    "measure": 49.081970638799156
+  },
+  {
+    "category": "wolters kluwer united states inc",
+    "group": "nme",
+    "measure": 589.8822389283104
+  },
+  {
+    "category": "wpp 2005 limited",
+    "group": "nme",
+    "measure": 418.96370534745097
+  },
+  { "category": "yahoo inc", "group": "nme", "measure": 454.61725515167393 },
+  {
+    "category": "yell adworks ltd",
+    "group": "nme",
+    "measure": 135.49912839686485
+  },
+  { "category": "yell limited", "group": "nme", "measure": 245.79072177627359 },
+  { "category": "alticor", "group": "cpg", "measure": 327.71154202265853 },
+  {
+    "category": "anheuser busch inb",
+    "group": "cpg",
+    "measure": 388.675346431813
+  },
+  {
+    "category": "anheuser busch inbev",
+    "group": "cpg",
+    "measure": 546.8901161351557
+  },
+  {
+    "category": "anheuser-busch",
+    "group": "cpg",
+    "measure": 733.8731876500036
+  },
+  {
+    "category": "anheuser-busch companies",
+    "group": "cpg",
+    "measure": 695.9970784680332
+  },
+  {
+    "category": "archer daniels midland",
+    "group": "cpg",
+    "measure": 622.4249176810135
+  },
+  {
+    "category": "asahi holdings australia",
+    "group": "cpg",
+    "measure": 580.1929609681855
+  },
+  {
+    "category": "bacardi martini bv - geneva branc",
+    "group": "cpg",
+    "measure": 757.3810484515799
+  },
+  { "category": "brasil foods", "group": "cpg", "measure": 407.4647114933789 },
+  {
+    "category": "brf brasil foods",
+    "group": "cpg",
+    "measure": 435.55019375423234
+  },
+  {
+    "category": "british american",
+    "group": "cpg",
+    "measure": 769.3548369208494
+  },
+  {
+    "category": "british american tobacco",
+    "group": "cpg",
+    "measure": 231.68080017298144
+  },
+  {
+    "category": "british american tobacco plc",
+    "group": "cpg",
+    "measure": 354.96090015422857
+  },
+  {
+    "category": "british american tobacco plc",
+    "group": "cpg",
+    "measure": 299.76325776590363
+  },
+  {
+    "category": "british american tobacco plc",
+    "group": "cpg",
+    "measure": 670.0345566677689
+  },
+  {
+    "category": "campbell soup company",
+    "group": "cpg",
+    "measure": 569.9530761747349
+  },
+  { "category": "cargill", "group": "cpg", "measure": 841.9542938157637 },
+  {
+    "category": "cargill agricola sa",
+    "group": "cpg",
+    "measure": 627.5571511540373
+  },
+  {
+    "category": "cargill argentina",
+    "group": "cpg",
+    "measure": 697.2964286221872
+  },
+  {
+    "category": "cargill asia pacific",
+    "group": "cpg",
+    "measure": 861.7199875304257
+  },
+  {
+    "category": "cargill de mexico sa de cva de cv",
+    "group": "cpg",
+    "measure": 278.73425966634704
+  },
+  {
+    "category": "cargill incorporated",
+    "group": "cpg",
+    "measure": 99.31882099746525
+  },
+  {
+    "category": "cargill incorporated",
+    "group": "cpg",
+    "measure": 549.8296555016298
+  },
+  {
+    "category": "cargill sociedad anonima comercial",
+    "group": "cpg",
+    "measure": 188.16511341501618
+  },
+  { "category": "carlsberg", "group": "cpg", "measure": 956.6137097804622 },
+  {
+    "category": "carlsberg it a/s",
+    "group": "cpg",
+    "measure": 826.4161786984721
+  },
+  {
+    "category": "carlton united & breweries",
+    "group": "cpg",
+    "measure": 45.08231293750686
+  },
+  {
+    "category": "cervecer+\u00a1a y maltaria",
+    "group": "cpg",
+    "measure": 728.1162020035041
+  },
+  {
+    "category": "cervecer+\u00eda y maltaria",
+    "group": "cpg",
+    "measure": 677.1866101730643
+  },
+  {
+    "category": "cervecerfa y maltaria",
+    "group": "cpg",
+    "measure": 714.5922477060078
+  },
+  {
+    "category": "cervecer\u00e3\u00ada y maltaria",
+    "group": "cpg",
+    "measure": 625.4575569489136
+  },
+  {
+    "category": "cervecer\u00eda y maltaria",
+    "group": "cpg",
+    "measure": 186.8182298133193
+  },
+  {
+    "category": "cervecer\u251c\u00a1a y maltaria",
+    "group": "cpg",
+    "measure": 592.0277022169714
+  },
+  { "category": "chs inc", "group": "cpg", "measure": 569.3009739831823 },
+  {
+    "category": "coach hongkong",
+    "group": "cpg",
+    "measure": 486.6488691082893
+  },
+  {
+    "category": "coach hongkong limited",
+    "group": "cpg",
+    "measure": 516.8151317886098
+  },
+  { "category": "coach inc", "group": "cpg", "measure": 630.2116951714768 },
+  { "category": "coca cola", "group": "cpg", "measure": 789.276340017277 },
+  {
+    "category": "coca cola enterprises inc",
+    "group": "cpg",
+    "measure": 739.2354280309629
+  },
+  {
+    "category": "coca-cola enterprises inc",
+    "group": "cpg",
+    "measure": 646.013699120754
+  },
+  {
+    "category": "coca-cola singapore beverages",
+    "group": "cpg",
+    "measure": 851.1891187355869
+  },
+  {
+    "category": "coco-cola enterprises",
+    "group": "cpg",
+    "measure": 915.6772471312582
+  },
+  { "category": "colgate", "group": "cpg", "measure": 376.3908124797599 },
+  {
+    "category": "colgate palmolive",
+    "group": "cpg",
+    "measure": 610.6032371831793
+  },
+  {
+    "category": "colgate palmolive argentina sa",
+    "group": "cpg",
+    "measure": 317.7151134080424
+  },
+  {
+    "category": "colgate palmolive chile sa",
+    "group": "cpg",
+    "measure": 907.6354950880354
+  },
+  {
+    "category": "colgate-palmolive",
+    "group": "cpg",
+    "measure": 744.1914190430647
+  },
+  {
+    "category": "compa+\u00a6+\u00a1as cic sa",
+    "group": "cpg",
+    "measure": 616.8628650525765
+  },
+  {
+    "category": "companhia de bebidas das americas",
+    "group": "cpg",
+    "measure": 115.18760505874847
+  },
+  {
+    "category": "compa\u00e3\u00b1\u00e3\u00adas cic sa",
+    "group": "cpg",
+    "measure": 34.06391072791515
+  },
+  {
+    "category": "corn products international inc",
+    "group": "cpg",
+    "measure": 7.16993463030402
+  },
+  {
+    "category": "corn products international inc",
+    "group": "cpg",
+    "measure": 720.9746044521288
+  },
+  { "category": "edf man", "group": "cpg", "measure": 610.4277997646022 },
+  {
+    "category": "edgewell personal care",
+    "group": "cpg",
+    "measure": 514.2947625693607
+  },
+  {
+    "category": "frieslandcampina nederland",
+    "group": "cpg",
+    "measure": 176.16945856652444
+  },
+  {
+    "category": "fruit of the loom",
+    "group": "cpg",
+    "measure": 112.64426617900203
+  },
+  { "category": "general mills", "group": "cpg", "measure": 287.9799080065355 },
+  {
+    "category": "general mills services inc",
+    "group": "cpg",
+    "measure": 546.3536747238226
+  },
+  {
+    "category": "gf services company limited",
+    "group": "cpg",
+    "measure": 447.4164345604307
+  },
+  {
+    "category": "gf services company pty limited",
+    "group": "cpg",
+    "measure": 612.7019579820828
+  },
+  {
+    "category": "goodman fielder",
+    "group": "cpg",
+    "measure": 620.8780243113027
+  },
+  {
+    "category": "grupo modelo sab de cv",
+    "group": "cpg",
+    "measure": 537.2357985712993
+  },
+  {
+    "category": "hanesbrands inc",
+    "group": "cpg",
+    "measure": 855.1198908476476
+  },
+  {
+    "category": "heineken mexico",
+    "group": "cpg",
+    "measure": 970.8208254684957
+  },
+  {
+    "category": "imperial tobacco canada limited",
+    "group": "cpg",
+    "measure": 15.838722880550327
+  },
+  { "category": "ingredion", "group": "cpg", "measure": 955.9098139778398 },
+  {
+    "category": "ingredion incorporated",
+    "group": "cpg",
+    "measure": 694.2600809600353
+  },
+  { "category": "japan tobacco", "group": "cpg", "measure": 668.7621387752043 },
+  {
+    "category": "japan tobacco inc",
+    "group": "cpg",
+    "measure": 416.6235789187718
+  },
+  {
+    "category": "jt international sa",
+    "group": "cpg",
+    "measure": 594.860213535182
+  },
+  {
+    "category": "kellogg company",
+    "group": "cpg",
+    "measure": 102.43951521007489
+  },
+  { "category": "kellogg's", "group": "cpg", "measure": 20.156777642858835 },
+  { "category": "kellogg's inc", "group": "cpg", "measure": 789.8723085671895 },
+  { "category": "kelloggs", "group": "cpg", "measure": 356.4026690325859 },
+  { "category": "kelloggs inc", "group": "cpg", "measure": 368.4699753132115 },
+  {
+    "category": "kimberly clark",
+    "group": "cpg",
+    "measure": 6.335243918362599
+  },
+  {
+    "category": "kimberly clark european servic",
+    "group": "cpg",
+    "measure": 862.5726515373532
+  },
+  {
+    "category": "kimberly clark european services lt",
+    "group": "cpg",
+    "measure": 460.2569023885234
+  },
+  {
+    "category": "kimberly-clark corporation",
+    "group": "cpg",
+    "measure": 51.26633556679128
+  },
+  {
+    "category": "kimberly-clark european services limited",
+    "group": "cpg",
+    "measure": 599.1467089231072
+  },
+  { "category": "l'oreal", "group": "cpg", "measure": 56.23673435008847 },
+  { "category": "l'oreal sa", "group": "cpg", "measure": 838.507812439478 },
+  { "category": "l'oreal usa", "group": "cpg", "measure": 241.6095577646028 },
+  { "category": "ldc", "group": "cpg", "measure": 228.4626151129119 },
+  {
+    "category": "levi strauss & company",
+    "group": "cpg",
+    "measure": 437.90962870867287
+  },
+  { "category": "levis", "group": "cpg", "measure": 692.1915318269955 },
+  {
+    "category": "lindt & spr++ngli uk",
+    "group": "cpg",
+    "measure": 741.9025697932719
+  },
+  {
+    "category": "lindt & sprnngli uk",
+    "group": "cpg",
+    "measure": 335.570218915759
+  },
+  {
+    "category": "lindt & spr\u207fngli uk",
+    "group": "cpg",
+    "measure": 933.5933593381271
+  },
+  {
+    "category": "louis dreyfus commodities",
+    "group": "cpg",
+    "measure": 842.3238986859395
+  },
+  {
+    "category": "louis dreyfus company",
+    "group": "cpg",
+    "measure": 480.75252535982605
+  },
+  {
+    "category": "lucozade ribena suntory limited",
+    "group": "cpg",
+    "measure": 613.3773547124805
+  },
+  { "category": "mattel inc", "group": "cpg", "measure": 431.92161161188824 },
+  {
+    "category": "monsanto company",
+    "group": "cpg",
+    "measure": 975.165618272004
+  },
+  {
+    "category": "nestl+\u00ac operational services worldwi",
+    "group": "cpg",
+    "measure": 339.8915456665899
+  },
+  {
+    "category": "nestl+\u00bc operational services worldwi",
+    "group": "cpg",
+    "measure": 953.788832920767
+  },
+  { "category": "nestle", "group": "cpg", "measure": 205.8917483748164 },
+  { "category": "nestle - usa", "group": "cpg", "measure": 946.487352930544 },
+  {
+    "category": "nestle australia",
+    "group": "cpg",
+    "measure": 251.85783580691367
+  },
+  {
+    "category": "nestle business services ltd",
+    "group": "cpg",
+    "measure": 19.409540150109763
+  },
+  {
+    "category": "nestle operational services",
+    "group": "cpg",
+    "measure": 16.554771798944156
+  },
+  { "category": "nike", "group": "cpg", "measure": 276.82008125561373 },
+  {
+    "category": "nike european operations nl bv",
+    "group": "cpg",
+    "measure": 554.4159669191288
+  },
+  { "category": "nike inc", "group": "cpg", "measure": 912.8379159011716 },
+  { "category": "nike inc", "group": "cpg", "measure": 408.44876921952743 },
+  { "category": "nike inc", "group": "cpg", "measure": 609.931452998607 },
+  {
+    "category": "nike sport (china) co ltd",
+    "group": "cpg",
+    "measure": 858.974627340458
+  },
+  {
+    "category": "nike sport (china) co ltd",
+    "group": "cpg",
+    "measure": 911.3802601539596
+  },
+  {
+    "category": "nike sport china co ltd",
+    "group": "cpg",
+    "measure": 847.2100314714048
+  },
+  {
+    "category": "olam europe limited",
+    "group": "cpg",
+    "measure": 789.6926298746206
+  },
+  {
+    "category": "olam international",
+    "group": "cpg",
+    "measure": 881.4752744233728
+  },
+  { "category": "pepsico", "group": "cpg", "measure": 125.42057357677538 },
+  { "category": "pepsico inc", "group": "cpg", "measure": 36.57731164803424 },
+  { "category": "pepsico india", "group": "cpg", "measure": 141.3659649554231 },
+  { "category": "philip morris", "group": "cpg", "measure": 45.85482468457413 },
+  { "category": "pvh corp", "group": "cpg", "measure": 881.4174870308628 },
+  {
+    "category": "pz cussons (international) limited",
+    "group": "cpg",
+    "measure": 298.1108067321161
+  },
+  {
+    "category": "pz cussons (international) ltd",
+    "group": "cpg",
+    "measure": 598.6329831980695
+  },
+  {
+    "category": "reckit benkiser",
+    "group": "cpg",
+    "measure": 666.2782462213453
+  },
+  {
+    "category": "reckitt benckiser",
+    "group": "cpg",
+    "measure": 471.2108669066206
+  },
+  {
+    "category": "reckitt benckiser (brazil) ltda",
+    "group": "cpg",
+    "measure": 769.7639978926587
+  },
+  {
+    "category": "reckitt benckiser corporate",
+    "group": "cpg",
+    "measure": 546.9618369904817
+  },
+  {
+    "category": "reckitt benckiser plc",
+    "group": "cpg",
+    "measure": 902.9103361716749
+  },
+  {
+    "category": "souza cruz sa",
+    "group": "cpg",
+    "measure": 430.64313809195664
+  },
+  {
+    "category": "suntory holdings limited",
+    "group": "cpg",
+    "measure": 777.3543012285606
+  },
+  { "category": "swarovski ag", "group": "cpg", "measure": 240.15199126768505 },
+  {
+    "category": "the coca-cola company",
+    "group": "cpg",
+    "measure": 140.43462667171758
+  },
+  {
+    "category": "the highland council",
+    "group": "cpg",
+    "measure": 460.98058689388245
+  },
+  {
+    "category": "the north lanarkshire council",
+    "group": "cpg",
+    "measure": 684.7789234470118
+  },
+  {
+    "category": "tiger brands limited",
+    "group": "cpg",
+    "measure": 890.9648718310336
+  },
+  {
+    "category": "treasury wine estates",
+    "group": "cpg",
+    "measure": 838.7140385280027
+  },
+  { "category": "unilever", "group": "cpg", "measure": 133.79599444874256 },
+  {
+    "category": "unilever uk central resources ltd",
+    "group": "cpg",
+    "measure": 578.9025562019224
+  },
+  { "category": "vf asia", "group": "cpg", "measure": 605.9312380543795 },
+  { "category": "vf corp", "group": "cpg", "measure": 150.90245507550105 },
+  {
+    "category": "vf europe bvba",
+    "group": "cpg",
+    "measure": 265.8439071425066
+  },
+  { "category": "vfa", "group": "cpg", "measure": 252.64829281961488 },
+  {
+    "category": "yildiz holding as",
+    "group": "cpg",
+    "measure": 126.91374173320035
+  },
+  {
+    "category": "yildiz jde implementation",
+    "group": "cpg",
+    "measure": 532.7426516907138
+  },
+  {
+    "category": "asurion",
+    "group": "securities & ib",
+    "measure": 231.29218663869466
+  },
+  {
+    "category": "asurion insurance services inc",
+    "group": "securities & ib",
+    "measure": 554.7651112133076
+  },
+  {
+    "category": "asurion insurance services inc",
+    "group": "securities & ib",
+    "measure": 201.84446311888428
+  },
+  {
+    "category": "bank of new york",
+    "group": "securities & ib",
+    "measure": 963.4285149052945
+  },
+  {
+    "category": "carlyle investment management ll",
+    "group": "securities & ib",
+    "measure": 635.3319295212643
+  },
+  {
+    "category": "charles schwab & coinc",
+    "group": "securities & ib",
+    "measure": 919.1441734624253
+  },
+  {
+    "category": "credit agricole",
+    "group": "securities & ib",
+    "measure": 505.7771263045874
+  },
+  {
+    "category": "credit agricole corporate and",
+    "group": "securities & ib",
+    "measure": 33.2165727179613
+  },
+  {
+    "category": "credit suisse",
+    "group": "securities & ib",
+    "measure": 480.0261504748858
+  },
+  {
+    "category": "cr\u00e9dit agricole corporate and",
+    "group": "securities & ib",
+    "measure": 344.41012387087545
+  },
+  {
+    "category": "cr\u03b8dit agricole corporate and",
+    "group": "securities & ib",
+    "measure": 399.41985187537057
+  },
+  {
+    "category": "fmr llc (fidelity)",
+    "group": "securities & ib",
+    "measure": 176.53464475223757
+  },
+  {
+    "category": "goldman sachs & co",
+    "group": "securities & ib",
+    "measure": 594.5638191523972
+  },
+  {
+    "category": "international financial",
+    "group": "securities & ib",
+    "measure": 449.23857573261125
+  },
+  {
+    "category": "jefferies llc",
+    "group": "securities & ib",
+    "measure": 895.2214793326874
+  },
+  {
+    "category": "john hancock  financial",
+    "group": "securities & ib",
+    "measure": 861.6049514092537
+  },
+  {
+    "category": "john hancock life insurance co",
+    "group": "securities & ib",
+    "measure": 869.5656029314794
+  },
+  {
+    "category": "london stock exchange plc",
+    "group": "securities & ib",
+    "measure": 381.691752147112
+  },
+  {
+    "category": "macquarie group services australia",
+    "group": "securities & ib",
+    "measure": 498.9976226695474
+  },
+  {
+    "category": "morgan stanley & co inc",
+    "group": "securities & ib",
+    "measure": 216.8624626123493
+  },
+  {
+    "category": "morgan stanley advantage services",
+    "group": "securities & ib",
+    "measure": 574.0189787517338
+  },
+  {
+    "category": "msci inc",
+    "group": "securities & ib",
+    "measure": 527.7921076757069
+  },
+  {
+    "category": "new york stock exchange inc",
+    "group": "securities & ib",
+    "measure": 966.2475226113451
+  },
+  {
+    "category": "new york stock exchange inc",
+    "group": "securities & ib",
+    "measure": 205.56185705188835
+  },
+  {
+    "category": "nomura services india pvt ltd",
+    "group": "securities & ib",
+    "measure": 135.19119581749962
+  },
+  {
+    "category": "nomura services india pvt ltd (sez)",
+    "group": "securities & ib",
+    "measure": 962.5423520690538
+  },
+  {
+    "category": "northern trust",
+    "group": "securities & ib",
+    "measure": 713.7190534397657
+  },
+  {
+    "category": "nyse",
+    "group": "securities & ib",
+    "measure": 792.318447706086
+  },
+  {
+    "category": "putnam investments",
+    "group": "securities & ib",
+    "measure": 207.69151035834997
+  },
+  {
+    "category": "six telekurs",
+    "group": "securities & ib",
+    "measure": 184.50227087794735
+  },
+  {
+    "category": "societe generale",
+    "group": "securities & ib",
+    "measure": 153.22468544499523
+  },
+  {
+    "category": "societe generale global solution",
+    "group": "securities & ib",
+    "measure": 504.41245070546057
+  },
+  {
+    "category": "standard & poor",
+    "group": "securities & ib",
+    "measure": 466.3718917152252
+  },
+  {
+    "category": "standard & poor's",
+    "group": "securities & ib",
+    "measure": 43.08121101138618
+  },
+  {
+    "category": "state street",
+    "group": "securities & ib",
+    "measure": 227.35484477506773
+  },
+  {
+    "category": "state street bank & trust company",
+    "group": "securities & ib",
+    "measure": 57.185589719647155
+  },
+  {
+    "category": "sumitomo mitsui trust bank ( usa",
+    "group": "securities & ib",
+    "measure": 903.398452144465
+  },
+  {
+    "category": "the bank of new york mellon corp",
+    "group": "securities & ib",
+    "measure": 376.23405244508325
+  },
+  {
+    "category": "the bank of new york mellon corpora",
+    "group": "securities & ib",
+    "measure": 377.81973382472364
+  },
+  {
+    "category": "wellington management company llp",
+    "group": "securities & ib",
+    "measure": 967.5370273002245
+  },
+  {
+    "category": "xtrac llc",
+    "group": "securities & ib",
+    "measure": 322.6734495719313
+  },
+  { "category": "credit suisse", "group": "sub", "measure": 386.9567826382555 },
+  {
+    "category": "credit suisse (rb)",
+    "group": "sub",
+    "measure": 138.9143271714729
+  },
+  {
+    "category": "credit suisse ag",
+    "group": "sub",
+    "measure": 215.1451821047713
+  },
+  {
+    "category": "credit suisse ib singapore",
+    "group": "sub",
+    "measure": 158.14231354547803
+  },
+  {
+    "category": "credit suisse securities (europe) l",
+    "group": "sub",
+    "measure": 629.1897094921328
+  },
+  {
+    "category": "credit suisse securities (usa) llc",
+    "group": "sub",
+    "measure": 536.011989506012
+  },
+  {
+    "category": "credit suisse services (india)",
+    "group": "sub",
+    "measure": 330.30030371782715
+  },
+  { "category": "cssi", "group": "sub", "measure": 735.4300602267649 },
+  {
+    "category": "the capital markets company sarl",
+    "group": "sub",
+    "measure": 170.0463221831685
+  },
+  { "category": "ubs", "group": "sub", "measure": 640.2924919561839 },
+  { "category": "ubs ag", "group": "sub", "measure": 51.12797663828872 },
+  { "category": "anz bank", "group": "bfs apac", "measure": 785.0521862600547 },
+  {
+    "category": "anz bank ltd",
+    "group": "bfs apac",
+    "measure": 993.1752678372354
+  },
+  {
+    "category": "anz banking group ltd",
+    "group": "bfs apac",
+    "measure": 769.9640730205687
+  },
+  {
+    "category": "anz global services & operations",
+    "group": "bfs apac",
+    "measure": 691.2524376271152
+  },
+  {
+    "category": "anz operations and technology",
+    "group": "bfs apac",
+    "measure": 681.8153351450109
+  },
+  {
+    "category": "anz singapore",
+    "group": "bfs apac",
+    "measure": 90.91774358914495
+  },
+  {
+    "category": "australia and new zealand",
+    "group": "bfs apac",
+    "measure": 541.1159563057876
+  },
+  {
+    "category": "bank mandiri (europe) ltd",
+    "group": "bfs apac",
+    "measure": 932.5932189225034
+  },
+  {
+    "category": "cimb malaysia",
+    "group": "bfs apac",
+    "measure": 108.15912409257655
+  },
+  {
+    "category": "dbs bank limited",
+    "group": "bfs apac",
+    "measure": 414.83646015924927
+  },
+  {
+    "category": "dbs bank ltd",
+    "group": "bfs apac",
+    "measure": 8.199789934858037
+  },
+  {
+    "category": "fixer hokukokubank",
+    "group": "bfs apac",
+    "measure": 611.4493034191827
+  },
+  {
+    "category": "maybank berhad",
+    "group": "bfs apac",
+    "measure": 896.3312001004791
+  },
+  {
+    "category": "ozforex limited",
+    "group": "bfs apac",
+    "measure": 607.6146738810228
+  },
+  {
+    "category": "pt bank mandiri(persero) tbk",
+    "group": "bfs apac",
+    "measure": 524.6590663397056
+  },
+  {
+    "category": "raiffeisen bank aval",
+    "group": "bfs apac",
+    "measure": 646.6777516481159
+  },
+  {
+    "category": "rashid hussein bank",
+    "group": "bfs apac",
+    "measure": 690.4560684017496
+  },
+  {
+    "category": "reserve bank of australia",
+    "group": "bfs apac",
+    "measure": 699.5621715772475
+  },
+  {
+    "category": "standard chartered bank",
+    "group": "bfs apac",
+    "measure": 316.8177599462513
+  },
+  { "category": "suncorp", "group": "bfs apac", "measure": 111.24485138286455 },
+  {
+    "category": "suncorp bank",
+    "group": "bfs apac",
+    "measure": 687.3989584515091
+  },
+  {
+    "category": "swift scrl",
+    "group": "bfs apac",
+    "measure": 527.3838851018642
+  },
+  {
+    "category": "thai military bank",
+    "group": "bfs apac",
+    "measure": 359.9595533915626
+  },
+  {
+    "category": "thanachart bank public company limi",
+    "group": "bfs apac",
+    "measure": 251.4853803205118
+  },
+  {
+    "category": "the siam commercial bank",
+    "group": "bfs apac",
+    "measure": 795.9151012483226
+  },
+  {
+    "category": "tmb bank public company limited",
+    "group": "bfs apac",
+    "measure": 336.5769478348715
+  },
+  {
+    "category": "vietinbank",
+    "group": "bfs apac",
+    "measure": 371.3820617167842
+  },
+  {
+    "category": "westpac banking corporation",
+    "group": "bfs apac",
+    "measure": 113.13011734201561
+  },
+  {
+    "category": "nedbank limited",
+    "group": "bfs europe",
+    "measure": 606.831041990276
+  },
+  {
+    "category": "banco nacional de m+xico sa",
+    "group": "citos",
+    "measure": 758.8986150085291
+  },
+  {
+    "category": "banco nacional de mexico sa",
+    "group": "citos",
+    "measure": 510.2209616609187
+  },
+  {
+    "category": "bank handlowy w",
+    "group": "citos",
+    "measure": 792.4581313289144
+  },
+  { "category": "cfj kk", "group": "citos", "measure": 275.86720091575154 },
+  {
+    "category": "citi consumer banking banking & ca",
+    "group": "citos",
+    "measure": 720.9459400142757
+  },
+  {
+    "category": "citi consumer banking na",
+    "group": "citos",
+    "measure": 245.18770031322944
+  },
+  {
+    "category": "citi consumer banking na",
+    "group": "citos",
+    "measure": 448.2013424695768
+  },
+  {
+    "category": "citi consumer banking shared servi",
+    "group": "citos",
+    "measure": 894.1633049939917
+  },
+  {
+    "category": "citi consumer banking shared services",
+    "group": "citos",
+    "measure": 862.4982377071374
+  },
+  {
+    "category": "citi private bank",
+    "group": "citos",
+    "measure": 742.6542435204082
+  },
+  {
+    "category": "citi technology inc",
+    "group": "citos",
+    "measure": 86.62382772422772
+  },
+  {
+    "category": "citi technology infrastructure na",
+    "group": "citos",
+    "measure": 613.7301295998226
+  },
+  {
+    "category": "citi technology infrastructure na",
+    "group": "citos",
+    "measure": 149.20376350326458
+  },
+  { "category": "citibank", "group": "citos", "measure": 64.13378188221586 },
+  { "category": "citibank as", "group": "citos", "measure": 524.3048305618772 },
+  {
+    "category": "citibank europe plc czech republic",
+    "group": "citos",
+    "measure": 570.4779141182672
+  },
+  {
+    "category": "citibank international plc",
+    "group": "citos",
+    "measure": 629.1438556536456
+  },
+  {
+    "category": "citibank japan limited",
+    "group": "citos",
+    "measure": 709.934381651316
+  },
+  { "category": "citibank na", "group": "citos", "measure": 994.6365640503341 },
+  {
+    "category": "citibank na  bahrain",
+    "group": "citos",
+    "measure": 592.6383954320481
+  },
+  {
+    "category": "citibank na egypt branch",
+    "group": "citos",
+    "measure": 709.2212525678224
+  },
+  {
+    "category": "citibank na india",
+    "group": "citos",
+    "measure": 276.83439559856413
+  },
+  {
+    "category": "citibank na israel_cti_emea",
+    "group": "citos",
+    "measure": 76.82386467305813
+  },
+  {
+    "category": "citibank na regional",
+    "group": "citos",
+    "measure": 474.3474277689223
+  },
+  {
+    "category": "citibank na singapore",
+    "group": "citos",
+    "measure": 896.8150391259111
+  },
+  {
+    "category": "citibank na singapore",
+    "group": "citos",
+    "measure": 589.0276797496649
+  },
+  {
+    "category": "citibank na singapore branch",
+    "group": "citos",
+    "measure": 619.0007338180156
+  },
+  {
+    "category": "citibank na south africa branch",
+    "group": "citos",
+    "measure": 471.2622270051956
+  },
+  {
+    "category": "citibank na united kingdom",
+    "group": "citos",
+    "measure": 748.9592833304605
+  },
+  {
+    "category": "citibank na usa",
+    "group": "citos",
+    "measure": 479.27652948272913
+  },
+  {
+    "category": "citibank na usa",
+    "group": "citos",
+    "measure": 272.6597572943089
+  },
+  {
+    "category": "citibank na usa_gcg - nait_nait",
+    "group": "citos",
+    "measure": 864.2270548486347
+  },
+  {
+    "category": "citibank na_usa_cti_gcmd isa supp",
+    "group": "citos",
+    "measure": 905.1985472075389
+  },
+  {
+    "category": "citicorp credit services inc(usa)",
+    "group": "citos",
+    "measure": 767.6335415775583
+  },
+  {
+    "category": "citicorp north america inc",
+    "group": "citos",
+    "measure": 569.93560612883
+  },
+  {
+    "category": "citigroup corporate & financial sys",
+    "group": "citos",
+    "measure": 517.3073444644353
+  },
+  {
+    "category": "citigroup global markets inc",
+    "group": "citos",
+    "measure": 671.004436241196
+  },
+  {
+    "category": "citigroup global markets inc usa",
+    "group": "citos",
+    "measure": 737.5203413545736
+  },
+  {
+    "category": "citigroup global markets inc usa",
+    "group": "citos",
+    "measure": 505.5789957061743
+  },
+  {
+    "category": "citigroup global markets inc usa_",
+    "group": "citos",
+    "measure": 210.49074352424702
+  },
+  {
+    "category": "citigroup na",
+    "group": "citos",
+    "measure": 370.94032206069363
+  },
+  {
+    "category": "citigroup services japan ltd",
+    "group": "citos",
+    "measure": 855.9874875317213
+  },
+  {
+    "category": "citigroup technology inc",
+    "group": "citos",
+    "measure": 135.42745882128625
+  },
+  {
+    "category": "citigroup technology inc",
+    "group": "citos",
+    "measure": 811.0461756138932
+  },
+  {
+    "category": "citigroup technology inc usa",
+    "group": "citos",
+    "measure": 533.076444104058
+  },
+  {
+    "category": "citigroup technology inc usa",
+    "group": "citos",
+    "measure": 724.7336065460512
+  },
+  {
+    "category": "citigroup technology inc usa",
+    "group": "citos",
+    "measure": 960.3054142893732
+  },
+  { "category": "geico", "group": "citos", "measure": 400.8867514298527 },
+  {
+    "category": "mckinsey & company",
+    "group": "citos",
+    "measure": 482.03060645745956
+  },
+  {
+    "category": "zao kb citibank_cti",
+    "group": "citos",
+    "measure": 552.2474773574543
+  },
+  {
+    "category": "1st advantage mortgage",
+    "group": "bp",
+    "measure": 752.8287614630032
+  },
+  {
+    "category": "american equity mortgage",
+    "group": "bp",
+    "measure": 597.2391894519465
+  },
+  { "category": "anz group", "group": "bp", "measure": 913.212008780332 },
+  { "category": "astoria", "group": "bp", "measure": 531.9042231703102 },
+  {
+    "category": "astoria federal savings",
+    "group": "bp",
+    "measure": 405.9039218521131
+  },
+  { "category": "bokf na", "group": "bp", "measure": 752.3291951902191 },
+  { "category": "century", "group": "bp", "measure": 26.142332326172358 },
+  {
+    "category": "century lending company",
+    "group": "bp",
+    "measure": 866.8837236803232
+  },
+  {
+    "category": "city national bank",
+    "group": "bp",
+    "measure": 563.9317208516712
+  },
+  {
+    "category": "discover product inc",
+    "group": "bp",
+    "measure": 63.08787300054885
+  },
+  {
+    "category": "first republic bank",
+    "group": "bp",
+    "measure": 430.58992632571034
+  },
+  {
+    "category": "first republic national bank",
+    "group": "bp",
+    "measure": 104.55477257323619
+  },
+  {
+    "category": "firstkey holdings",
+    "group": "bp",
+    "measure": 630.4025242782013
+  },
+  {
+    "category": "flushing saving bank",
+    "group": "bp",
+    "measure": 666.3607050128351
+  },
+  {
+    "category": "flushing savings bank",
+    "group": "bp",
+    "measure": 254.4828145690482
+  },
+  { "category": "freddie", "group": "bp", "measure": 145.3820095781423 },
+  { "category": "freddie mac", "group": "bp", "measure": 292.56692695779066 },
+  {
+    "category": "freedom mortgage",
+    "group": "bp",
+    "measure": 903.9631109240024
+  },
+  {
+    "category": "freedom mortgage corporation",
+    "group": "bp",
+    "measure": 228.6983267029319
+  },
+  {
+    "category": "huntington national bank",
+    "group": "bp",
+    "measure": 177.68092706139115
+  },
+  { "category": "impac", "group": "bp", "measure": 304.03445339802005 },
+  {
+    "category": "impac mortgage corp",
+    "group": "bp",
+    "measure": 128.35371381369876
+  },
+  {
+    "category": "interbolsa soluciones de",
+    "group": "bp",
+    "measure": 606.1802954323824
+  },
+  {
+    "category": "jpmorgan chase bank na",
+    "group": "bp",
+    "measure": 733.4777672500584
+  },
+  {
+    "category": "m & i mortgage corporation",
+    "group": "bp",
+    "measure": 40.47686102364645
+  },
+  {
+    "category": "mortgage master",
+    "group": "bp",
+    "measure": 697.5318724534222
+  },
+  {
+    "category": "mortgage master inc",
+    "group": "bp",
+    "measure": 293.6148875232666
+  },
+  {
+    "category": "northwest savings bank inc",
+    "group": "bp",
+    "measure": 145.31062603453537
+  },
+  {
+    "category": "pacific union financial",
+    "group": "bp",
+    "measure": 255.3859768934459
+  },
+  {
+    "category": "plaza home mortgage inc",
+    "group": "bp",
+    "measure": 246.7133753118388
+  },
+  { "category": "tbi mortgage", "group": "bp", "measure": 62.96846563265201 },
+  {
+    "category": "tbi mortgage company",
+    "group": "bp",
+    "measure": 838.3472425142568
+  },
+  {
+    "category": "the bank of new york",
+    "group": "bp",
+    "measure": 364.50626142969423
+  },
+  {
+    "category": "the bank of new york mellon corp",
+    "group": "bp",
+    "measure": 761.3219486431763
+  },
+  {
+    "category": "us bank home mortgage",
+    "group": "bp",
+    "measure": 545.506232322445
+  },
+  {
+    "category": "virginia housing",
+    "group": "bp",
+    "measure": 961.6886537412621
+  },
+  {
+    "category": "webster bank national associa",
+    "group": "bp",
+    "measure": 502.476660109487
+  },
+  { "category": "wells fargo", "group": "bp", "measure": 542.5516289484295 },
+  {
+    "category": "wells fargo bank na",
+    "group": "bp",
+    "measure": 961.8136939175232
+  },
+  {
+    "category": "bank of scotland plc",
+    "group": "lbg",
+    "measure": 416.2728040901624
+  },
+  {
+    "category": "lloyds banking group",
+    "group": "lbg",
+    "measure": 12.150263426830676
+  },
+  {
+    "category": "lloyds tsb bank plc",
+    "group": "lbg",
+    "measure": 528.8687681010449
+  },
+  {
+    "category": "shell information technology",
+    "group": "lbg",
+    "measure": 232.66407397768396
+  },
+  {
+    "category": "banco santander brasil",
+    "group": "bfs americas",
+    "measure": 742.3377200972219
+  },
+  {
+    "category": "amp services",
+    "group": "insurance",
+    "measure": 324.5328986138755
+  }
+]

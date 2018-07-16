@@ -1,0 +1,170 @@
+<!--
+<h1>Custom Stripe Form</h1>
+<div class="col-xs-12 col-md-4">
+
+<div class="panel panel-default credit-card-box">
+<div class="panel-heading display-table" >
+<div class="row display-tr" >
+<h3 class="panel-title display-td" >Payment Details</h3>
+<div class="display-td" >                            
+<img class="img-responsive pull-right" src="http://i76.imgup.net/accepted_c22e0.png">
+</div>
+</div>                    
+</div>
+<div class="panel-body">
+<form role="form" id="payment-form">
+<div class="row">
+<div class="col-xs-12">
+<div class="form-group">
+<label for="cardNumber">CARD NUMBER</label>
+<div class="input-group">
+<input 
+type="tel"
+class="form-control"
+name="cardNumber"
+placeholder="Valid Card Number"
+autocomplete="cc-number"
+required autofocus 
+[(ngModel)]="cardNumber"
+/>
+<span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+</div>
+</div>                            
+</div>
+</div>
+<div class="row">
+<div class="col-xs-4 col-md-4">
+<div class="form-group">
+<label for="cardExpiry"><span class="hidden-xs">EXP</span><span class="visible-xs-inline">EXP</span> MONTHS</label>
+<input 
+type="tel" 
+class="form-control" 
+name="cardExpiry"
+placeholder="MM"
+autocomplete="cc-exp"
+required 
+[(ngModel)]="expiryMonth"
+/>
+
+</div>
+</div>
+<div class="col-xs-4 col-md-4">
+<div class="form-group">
+<label for="cardExpiry"><span class="hidden-xs">EXP</span><span class="visible-xs-inline">EXP</span> YEAR</label>
+<input 
+type="tel" 
+class="form-control" 
+name="cardExpiry"
+placeholder="YY"
+autocomplete="cc-exp"
+required 
+[(ngModel)]="expiryYear"
+/>
+
+</div>
+</div>
+<div class="col-xs-4 col-md-4 pull-right">
+<div class="form-group">
+<label for="cardCVC"><span class="hidden-xs">CV</span><span class="visible-xs-inline">CV</span> CODE</label>
+<input 
+type="tel" 
+class="form-control"
+name="cardCVC"
+placeholder="CVC"
+autocomplete="cc-csc"
+required
+[(ngModel)]="cvc"
+/>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12">
+<div class="form-group">
+<label for="couponCode">COUPON CODE</label>
+<input type="text" class="form-control" name="couponCode" />
+</div>
+</div>                        
+</div>
+<div class="row">
+<div class="col-xs-12">
+<button class="btn btn-success btn-lg btn-block" type="submit" (click)="getToken()">Start Subscription</button>
+</div>
+</div>
+<div class="row" style="display:none;">
+<div class="col-xs-12">
+<p class="payment-errors"></p>
+</div>
+</div>
+</form>
+</div>
+</div> 
+
+
+</div>            
+
+
+
+</div>
+</div>-->
+
+<div id="card-success" class="hidden" >
+  <i class="fa fa-check"></i>
+  <p>Payment Successful!</p>
+</div>
+<div id="form-errors" class="hidden">
+  <i class="fa fa-exclamation-triangle"></i>
+  <p id="card-error">Card error</p>
+</div>
+<div id="form-container">
+
+  <div id="card-front">
+    <div id="shadow"></div>
+    <div id="image-container">
+      <span id="amount">paying: <strong>$20</strong></span>
+      <span id="card-image">
+        <img [src]="imgURL" alt=" " height="60" width="60">
+        </span>
+    </div>
+
+    <label for="card-number">
+        Card Number
+      </label>
+    <input type="text" id="card-number" placeholder="1234 5678 9101 1112" length="16" [(ngModel)]="cardNumber" (keyup)="onKey($event)">
+    <div id="cardholder-container">
+      <label for="card-holder">Card Holder
+      </label>
+      <input type="text" id="card-holder" placeholder="e.g. John Doe" />
+    </div>
+    <div id="exp-container">
+      <label for="card-exp">
+          Expiration
+        </label>
+      <input id="card-month" type="text" placeholder="MM" length="2" [(ngModel)]="expiryMonth">
+      <input id="card-year" type="text" placeholder="YY" length="2" [(ngModel)]="expiryYear">
+    </div>
+        <div id="cvc-container">
+      <label for="card-cvc"> CVC/CVV</label>
+      <input id="card-cvc" placeholder="XXX" type="text" min-length="3" max-length="4" [(ngModel)]="cvc">
+      <p>Last 3 or 4 digits</p>
+    </div>
+    
+  </div>
+ 
+  <div id="card-back">
+    <div id="card-stripe">
+    </div>
+
+  </div>
+ 
+  <input type="text" id="card-token" />
+  <button type="button" id="card-btn" (click)="getToken()">Submit</button>
+
+</div>
+<!--<input (keyup)="onKey($event)">
+  <p>{{values}}</p>-->
+  
+ <div class='pm-button'><a href='https://www.payumoney.com/sandbox/paybypayumoney/#/1A345D521B2EAE65D88EBE716A2CA854'><img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/22.png' /></a></div>  
+
+
+

@@ -1,0 +1,6 @@
+<div class="charts"  ><p-chart (onDataSelect)="selectData($event)" type="doughnut" [data]="data"></p-chart></div>
+<div *ngIf="vertical">
+  <div class="vertical-data">
+    <p-chart  type="bar" [data]="data1"></p-chart>
+  </div>
+</div>

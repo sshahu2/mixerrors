@@ -1,0 +1,24 @@
+<!--Login -->
+
+<div class="bg-img"></div>
+
+<div class="card card-container" style="top: 150px;">
+  <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+  <p id="profile-name" class="profile-name-card"></p>
+  <form>
+    <mat-form-field style="width: 266px;">
+      <input matInput placeholder="Email Username" [(ngModel)]="username" name="username" required>
+    </mat-form-field>
+    <mat-form-field style="width: 266px;">
+      <input matInput placeholder="Enter your password" [type]="hide ? 'password' : 'text'" [(ngModel)]="password" name="password"
+        required>
+      <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>
+    </mat-form-field>
+    <button mat-raised-button color="primary" class="sss" (click)='login()'>Sign in</button>
+  </form>
+  <span>
+    <a href="#" class="forgot-password"> Forgot password?</a>
+  </span>
+</div>
+
+<!--Login end-->

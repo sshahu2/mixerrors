@@ -1,0 +1,19 @@
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      
+      <th class="th1" scope="col">SBUs</th>
+      <!-- <th scope="col">Progress</th> -->
+      <th class="th2" scope="col">Verticals</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let x of data">
+      <td scope="row">{{x.sbu}}</td>
+      
+      <!-- <td>Progress datas</td> -->
+      <td>{{x.rev}}</td>
+    </tr>
+   
+  </tbody>
+</table>

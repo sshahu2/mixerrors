@@ -1,0 +1,21 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:url(img4.jpg);
+    background-size:cover;
+    min-height: 500px;
+}
+#in{
+    background: transparent;
+    border:2px solid gray;
+}
+label{
+    color: red
+}
+select{
+    background: transparent;
+}
+h2{
+    text-align: center;
+    font-family: sans-serif;
+}

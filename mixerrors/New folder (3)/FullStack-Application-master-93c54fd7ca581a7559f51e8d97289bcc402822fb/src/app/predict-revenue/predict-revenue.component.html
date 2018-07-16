@@ -1,0 +1,187 @@
+<div class="result-body">
+    
+    <div class="row">
+        <div class="col col-lg-3">
+                <form  style="margin-left:11%; margin-top:3%;text-align:center; " #formValue="ngForm" (ngSubmit)="submit(formValue.value,'/prediction')" class="form">
+                        <div class="form-row">
+                                <div class="form-group col-sm-6">
+                                       
+                                        <select name="Entity" [(ngModel)]="Entity" (change)="dropdown(this)" id="inputState" class="form-control">
+                                           <option name="unit"  value="unit">Business unit</option>
+                                          <option  value="OVERALL" >OVERALL</option>
+                                          <option value="SBU" >SBU</option>
+                                          <option value="VERTICAL" >VERTICAL</option>
+                                        </select>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                       
+                                        <input name="EntityName" [(ngModel)]="EntityName"  [disabled]="disable" type="text" class="form-control" id="inputCity">
+                                  
+                                </div>
+                                
+                            </div>
+                        <div class="form-group"  style="margin-left:2%; ">
+                          <!--<select name="Timeline" [(ngModel)]="Timeline" class="form-control" id="sel1">
+                            <option >TimeLine</option>
+                            <option>    Q1     </option>
+                            <option>Q1 After April Closure</option>
+                            <option>Q1 After May Closure </option>
+                          </select>-->
+                          <p-dropdown [options]="timelineP" name="timelineP" [(ngModel)]="Timeline"  ></p-dropdown>
+                        </div>
+          
+                        <div class="sub" style="margin-bottom:3%;">
+                                <button class="btn " type="submit" name="prediction">Submit</button>
+                            </div>
+                      </form>
+          
+                 <mat-divider></mat-divider>  
+            <div *ngIf= "changeInput" class="navwrap">
+              
+                <ul class="nav">
+                        <div class="in-para">Input Parameter</div>
+                    <li>
+                        <span  class="input-data" style="white-space:nowrap">
+                                <label for="id1">Man Month:</label>
+                                <input [(ngModel)]="parameter1"  class="para" type="number" id="id1"/>
+                         </span>
+                         <mat-slider
+                         [(ngModel)]="parameter1"
+                         thumbLabel
+                         [displayWith]="formatLabel"
+                         tickInterval="10"
+                         min="1"
+                         max="1000000"></mat-slider>
+
+                    </li>
+                    <!-- <mat-divider></mat-divider>
+                    <li>
+                        <span  class="input-data" style="white-space:nowrap">
+                                <label for="id1">Parameter 1:</label>
+                                <input [(ngModel)]="parameter2"  class="para" type="number" id="id1"/>
+                         </span>
+                         <mat-slider
+                         [(ngModel)]="parameter2"
+                         thumbLabel
+                         [displayWith]="formatLabel"
+                         tickInterval="10"
+                         min="1"
+                         max="1000"></mat-slider>
+
+                    </li>
+                    <mat-divider></mat-divider>
+                    <li>
+                        <span  class="input-data" style="white-space:nowrap">
+                                <label for="id1">Parameter 1:</label>
+                                <input [(ngModel)]="parameter3"  class="para" type="number" id="id1"/>
+                         </span>
+                         <mat-slider
+                         [(ngModel)]="parameter3"
+                         thumbLabel
+                         [displayWith]="formatLabel"
+                         tickInterval="10"
+                         min="1"
+                         max="1000"></mat-slider>
+
+                    </li>
+                    <mat-divider></mat-divider>
+                    <li>
+                        
+                        <span  class="input-data" style="white-space:nowrap">
+                                <label for="id1">Parameter 1:</label>
+                                <input [(ngModel)]="parameter4"  class="para" type="number" id="id1"/>
+                         </span>
+                         <mat-slider
+                         [(ngModel)]="parameter4"
+                         thumbLabel
+                         [displayWith]="formatLabel"
+                         tickInterval="10"
+                         min="1"
+                         max="1000"></mat-slider>
+                    </li> -->
+                </ul>
+                <div class="sub">
+                    <button class="btn " (click)="predictionChange()">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="col col-lg-7">
+                <div class="query">
+                        <p>{{dd.EntityName | uppercase}} {{dd.Timeline}} Prediction is : {{newChange[0]}}  USD</p>
+                    </div>
+<!--                     
+                <form  style="margin-left:11%; text-align:center;" #formValue="ngForm" (ngSubmit)="submit(formValue.value,'prediction')" class="form-inline">
+                        <div class="form-group">
+                          <select name="Entity" [(ngModel)]="Entity" class="form-control col-md-offset-1" id="sel1">
+                            <option selected="selected" value="OVERALL" >OVERALL</option>
+                            <option value="SBU" >SBU</option>
+                            <option value="VERTICAL" >VERTICAL</option>
+                          </select>
+                        </div>
+                        <div class="input-group">
+                          <input  name="EntityName" [(ngModel)]="EntityName"  type="text" class="form-control">
+          
+                        </div>
+                        <div class="form-group"  style="margin-left:2%; ">
+                          <select name="timeline" [(ngModel)]="timeline" class="form-control" id="sel1">
+                            <option >TimeLine</option>
+                            <option>    Q1     </option>
+                            <option>Q1 After April Closure</option>
+                            <option>Q1 After May Closure </option>
+                          </select>
+                        </div>
+          
+                         <div  style ="margin:2%; justify-content:space-around;">
+                        <button  type="submit" name="prediction" class="btn btn-default">GO</button>
+                        </div>
+                      </form> -->
+            <div *ngIf="nam" style="margin-top:2%;margin-left:2%; margin-bottom:2%;">
+                <p-chart [options]="option" type="bar" [data]="data"></p-chart>
+                <div class="query">
+                   <p>Inference : {{inference}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col col-lg-2">
+            <div>
+                    <div class="in-para">Original Parameter</div>
+            <ul class="wrap" style=" border:0px; list-style:circle; color:#f4bb49;">
+
+               
+                <li class="pred">
+                    <span class="in-item">
+                       Man Month: {{manMonth}}
+                    </span>
+                </li>
+                <!-- <li class="pred">
+                    <span class="in-item">
+                        Parameter 2: 58%
+                    </span>
+                </li>
+                <li class="pred">
+                    <span class="in-item">
+                        Parameter 3: 58%
+                    </span>
+                </li>
+                <li class="pred">
+                    <span class="in-item">
+                        Parameter 4: 58%
+                    </span>
+                </li> -->
+            </ul>
+            </div>
+            <div>
+                    <div class="avatar1"(click)="openFormDialog('Revenue Compare')"><span class="time"><i class="material-icons">
+                            equalizer
+                 </i></span></div>
+                   <div class="btn1" > Revenue Compare</div>
+            </div>
+            <div>
+                    <div class="avatar2"(click)="openFormDialog('Historic Data')"><span class="time"><i class="material-icons">
+                            donut_small
+                 </i></span></div>
+                   <div class="btn1" >Historic Revenue</div>
+            </div>
+        </div>
+    </div>
+</div>

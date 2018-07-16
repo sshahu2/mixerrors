@@ -1,0 +1,286 @@
+<div class="container-fluid" style="background:#f3f3f3;">
+  <button mat-raised-button color="primary" data-toggle="modal" data-target="#myModal" class="customize-button">Customize</button>
+  <button data-toggle="modal" data-target="#stockModal" mat-mini-fab color="accent" style="z-index:999;left:10px;bottom:10px;position: fixed;">
+    <i class="material-icons">add</i>
+  </button>
+  <div class="row">
+    <div class="col-md-3 stock-card">
+      <mat-card class="client_card">
+        <div class="client_card_cont">
+          <p>
+            <mat-icon class="icon_client">people</mat-icon>New client</p>
+          <h3>333</h3>
+          <p>15% from last quater</p>
+        </div>
+        <div class="client_card_footer">
+          <span style="top: 14px;position: relative;"> from client</span>
+        </div>
+      </mat-card>
+    </div>
+    <div class="col-md-3 stock-card">
+      <mat-card class="total_sales">
+        <div class="client_card_cont">
+
+          <p>
+            <i class="fa fa-american-sign-language-interpreting fa-1x"> </i> sales</p>
+          <h3>$8990.54</h3>
+          <p>70% from last Month</p>
+        </div>
+        <div class="total_sales_footer">
+          <span style="top: 14px;position: relative;">Total revenue</span>
+        </div>
+      </mat-card>
+    </div>
+    <div class="col-md-3 stock-card">
+      <mat-card class="total_profit" (click)="openGraphDialog('WIT')">
+        <div class="total_profit_cont">
+          <!--<p><i class="fa fa-chart-line fa-2x"></i>This year profit</p>
+            <h3>$999.88</h3>
+            <p>80% from last year</p>-->
+          <h3 style="margin-top:5px;">Wipro Limited</h3>
+          <div class="wipro_value">
+            <p id='dateTime'></p>
+            <p id="wiproStockPrice"></p>
+          </div>
+        </div>
+      </mat-card>
+    </div>
+    <div class="col-md-3 stock-card">
+      <mat-card class="new_invoice">
+        
+        <h5 style="margin-top: -13px;">Competitors' Stock Analysis</h5>
+        <table class="stock_analysis_tbl">
+          <tr>
+            <td>Infosys</td>
+            <td id="infyStockPrice"></td>
+            <td style="cursor:pointer;" (click)="openGraphDialog('INFY')">view</td>
+          </tr>
+          <tr>
+            <td>Cognizant</td>
+            <td id="ctsStockPrice"></td>
+            <td style="cursor:pointer;" (click)="openGraphDialog('CTSH')">view</td>
+          </tr>
+          <tr>
+            <td>TCS</td>
+            <td id="tcsStockPrice"></td>
+            <td style="cursor:pointer;" (click)="openGraphDialog('TCS')">view</td>
+          </tr>
+          <tr>
+            <td>Accenture</td>
+            <td id="accStockPrice"></td>
+            <td style="cursor:pointer;" (click)="openGraphDialog('ACC')">view</td>
+          </tr>
+        </table>
+      </mat-card>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-8" [hidden]="!allGraphs[0].show">
+      <mat-card style="background: #42BED6;">
+        <div class="customer_graph_hdr">
+          <div class="row">
+            <div class="col-md-4 col-xs-6">
+              <h5 class="main_graph_hdr">Top 5 Customers' Growth</h5>
+            </div>
+            <div class="col-md-8 col-xs-6">
+              <div class="graph_header">
+                <mat-icon>
+                  <a (click)="close('top5chart')" style="cursor:pointer;">close</a>
+                </mat-icon>
+              </div>
+              <div class="graph_header">
+                <mat-form-field>
+                  <mat-select placeholder="Customer name" [(ngModel)]="topCustomer" (change)="onChange($event.target.value)">
+                    <mat-option *ngFor="let customer of customers" [value]="customer.viewValue">
+                      {{ customer.viewValue }}
+                    </mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <canvas [hidden]="topCustomer!=='LBG'" id="lbg" height="230px" width="600px" style="margin-top: 20px;"></canvas>
+        <canvas [hidden]="topCustomer!=='CISCO'" id="cisco" height="230px" width="600px" style="margin-top: 20px;"></canvas>
+        <canvas [hidden]="topCustomer!=='Capital One'" id="cos" height="230px" width="600px" style="margin-top: 20px;"></canvas>
+        <canvas [hidden]="topCustomer!=='Citi Bank'" id="citi" height="230px" width="600px" style="margin-top: 20px;"></canvas>
+        <canvas [hidden]="topCustomer!=='Apple'" id="apple" height="230px" width="600px" style="margin-top: 20px;"></canvas>
+      </mat-card>
+    </div>
+    <div class="col-md-4" [hidden]="!allGraphs[0].show" style="margin-top:15px;">
+      <div class="example-container mat-elevation-z8 customer_table" style="background: #07b1a1;color: #fff;height:380px;">
+        <div class="row table_header">
+          <div class="col-md-7">
+            <h5 style="margin: 19px 0 0 11px;"> Customers' Current Stock</h5>
+          </div>
+          <div class="col-md-5">
+            <mat-form-field class="table_filter">
+              <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
+            </mat-form-field>
+          </div>
+        </div>
+        <mat-table #table [dataSource]="dataSource" style="background: #07b1a1;color: #fff;width:100%;">
+          <!-- Position Column -->
+          <ng-container matColumnDef="customerName">
+            <mat-header-cell *matHeaderCellDef>Name</mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.customerName}} </mat-cell>
+          </ng-container>
+          <!-- Name Column -->
+          <ng-container matColumnDef="stockValue">
+            <mat-header-cell *matHeaderCellDef> Price </mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.stockValue}} </mat-cell>
+          </ng-container>
+          <!-- Symbol Column -->
+          <ng-container matColumnDef="viewMore">
+            <mat-header-cell *matHeaderCellDef> View more </mat-header-cell>
+            <mat-cell *matCellDef="let element">
+              <a style="cursor: pointer;color: #0b1f90;font-size: 15px;" (click)="openDialog()">{{element.viewMore}}</a>
+            </mat-cell>
+          </ng-container>
+          <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+          <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+        </mat-table>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top:30px;">
+    <div class="col-md-4 col-xs-12" [hidden]="!allGraphs[1].show">
+      <mat-card style="background: #75a3d2;">
+        <h5 class="customer_revinu_hdr">Customer revenue</h5>
+        <div class="close_icon">
+          <mat-icon>
+            <a (click)="close('newlyadded')">close</a>
+          </mat-icon>
+        </div>
+        <canvas id="newlyadded" height="280px" width="600px"></canvas>
+      </mat-card>
+    </div>
+    <div class="col-md-8 col-xs-12" [hidden]="!allGraphs[2].show">
+      <mat-card style="background: #89ca98;">
+        <h5 class="customer_revinu_hdr">Top project</h5>
+        <div class="row">
+          <div class="close_icon">
+            <mat-icon>
+              <a (click)="close('overrun')">close</a>
+            </mat-icon>
+          </div>
+          <div class="col-md-6">
+            <canvas id="overrun" height="260px" width="600px"></canvas>
+          </div>
+          <div class="col-md-6">
+            <div class="top_project_text">
+              <p> Lorem Ipsum is simply dummy text of the printing</p>
+              <p>Lorem Ipsum is simply dummy text of the printing</p>
+              <p>Lorem Ipsum is simply dummy text of the printing</p>
+              <p>Lorem Ipsum is simply dummy text of the printing</p>
+            </div>
+          </div>
+        </div>
+      </mat-card>
+    </div>
+  </div>
+</div>
+
+<!--Search component HTML start-->
+
+<!--Search component HTML end-->
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+        <h4 class="modal-title">Select Graphs</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <ul style="list-style:none;" *ngFor="let chart of allGraphs">
+            <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <mat-slide-toggle color="warn" name='slide-toggle' [checked]="chart.show" (change)="toggle(chart)">
+                {{ chart.text }}</mat-slide-toggle>
+            </li>
+          </ul>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-default" (click)="submit()" data-dismiss="modal">Submit</button> -->
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--footer -->
+<section id="footer" style="margin: 13px 0 0 0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+        <ul class="list-unstyled list-inline social text-center" style="margin-top: -20px">
+          <li class="list-inline-item">
+            <a href="javascript:void();">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="javascript:void();">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="javascript:void();">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="javascript:void();">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="javascript:void();">
+              <i class="fa fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="row" style="padding: 0 0 19px 0px;">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+        <p class="h6">&copy All right Reversed.
+          <a class="text-green ml-2" href="https://www.wipro.com/">2018 Wipro Limited</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="stockModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Select Widgets</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <ul style="list-style:none;" *ngFor="let widgetCard of widgetNames">
+            <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <mat-slide-toggle color="warn" name='slide-toggle' [checked]='true' (change)="toggleCard(widgetCard)">
+                {{ widgetCard }} </mat-slide-toggle>
+            </li>
+          </ul>
+        </form>
+      </div>
+      <div class="modal-footer">
+          
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>

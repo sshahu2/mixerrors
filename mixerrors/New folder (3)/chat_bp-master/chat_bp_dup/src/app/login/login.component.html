@@ -1,0 +1,31 @@
+<div class="login-box">
+  <div class="login-logo">
+    <p>Login to ChatBot</p>
+  </div>
+  <!-- /.login-logo -->
+  <div class="login-box-body">
+    <form (onSubmit)="onLoginSubmit()">
+      <div *ngIf="didLoginFail" [ngClass]="messageClass" class="alert alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <h4>
+          <i class="icon fa fa-check"></i>{{ message }}</h4>
+      </div>
+      <div class="form-group">
+        <input name="username" type="username" class="form-control border-radius-5" placeholder="da000000" [(ngModel)]="username" pattern="^[a-z]+[a-z]+[0-9]{6,15}$"
+          #uname="ngModel">
+        <div *ngIf="uname.errors?.pattern" class="alert alert-danger">
+          User name not valid.
+        </div>
+      </div>
+      <div class="form-group">
+        <input name="password" type="password" class="form-control border-radius-5" style="display:inline;" placeholder="Password" [(ngModel)]="password"
+        />
+      </div>
+      <div class="form-group">
+        <button type="submit" (click)="onLoginSubmit()" class="submit" [disabled]="uname.errors?.pattern || username==''">Sign In</button>
+      </div>
+      <!-- /.col -->
+    </form>
+  </div>
+  <!-- /.login-box-body -->
+</div>

@@ -1,0 +1,13 @@
+img{
+    float:left;
+}
+.stars i{
+    float: left;
+    margin:5px 10px;
+}
+.silver{
+    color:#ffd700;
+}
+.white{
+    color:#EEE;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.0",
+  "description": "MEAN stack authentication app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.18.2",
+    "cors": "2.8.4",
+    "emailjs": "^2.0.0",
+    "express": "4.16.2",
+    "jsonwebtoken": "8.1.0",
+    "mongoose": "4.13.6",
+    "nexmo": "^2.2.1",
+    "nodemailer": "^4.6.4",
+    "passport": "0.4.0",
+    "passport-jwt": "3.0.1",
+    "socket.io": "^2.1.0",
+    "stripe": "^5.8.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@angular/cli": "^1.6.0"
+  }
+}

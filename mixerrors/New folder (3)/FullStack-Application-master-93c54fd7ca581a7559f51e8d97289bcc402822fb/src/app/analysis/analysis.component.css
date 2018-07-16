@@ -1,0 +1,297 @@
+/*.box-card {
+    height:270px;
+    padding: 10px;
+}
+
+.graph-card-header {
+    font-size : 1em;
+    color: #737373;
+    float : left;
+}
+
+.btn-group {
+    margin: auto;
+}
+
+.customer-menu {
+    margin: auto;
+    width: fit-content;
+}
+
+.customer-menu:hover {
+    box-shadow: 0 0 5px #444444;
+}
+
+.close-card {
+    float: right;
+    color: #9A9A9A;
+    border: 1px solid #9A9A9A;
+    border-radius : 50%;
+}
+
+.close-card:hover {
+    box-shadow: 0 0 5px #444444;
+}
+
+.graph-card {
+    margin: 10px 8px;
+    height:240px;
+    padding: 5PX;
+    linear-background-image: -webkit-gradient(linear, left top, left bottom, from(#0c2646), to(#204065));
+    background-image: -webkit-linear-gradient(top, #0c2646, #204065);
+    background-image: -moz-linear-gradient(top, #0c2646, #204065);
+    background-image: linear-gradient(to bottom, #0c2646, #204065);
+}
+
+.newlyadded-card, .overrun-card {
+    margin: 35px 8px;
+    height:240px;
+    padding: 5PX;
+}
+
+.newlyadded-card {
+    linear-background-image: -webkit-gradient(linear, left top, left bottom, from(#ffa726), to(#fb8c00));
+    background-image: -webkit-linear-gradient(top, #ffa726, #fb8c00);
+    background-image: -moz-linear-gradient(top, #ffa726, #fb8c00);
+    background-image: linear-gradient(to bottom, #ffa726, #fb8c00);
+}
+
+.overrun-card {
+    linear-background-image: -webkit-gradient(linear, left top, left bottom, from(#ef5350), to(#e53935));
+    background-image: -webkit-linear-gradient(top, #ef5350, #e53935);
+    background-image: -moz-linear-gradient(top, #ef5350, #e53935);
+    background-image: linear-gradient(to bottom, #ef5350, #e53935);
+}
+
+.customers-stock {
+    background: linear-gradient(60deg, #66bb6a, #43a047);
+    padding: 10px;
+}*/
+
+mat-card {
+    margin-top: 15px;
+}
+
+.icon_client{position: relative;
+    top: 5px;
+    right: 5px;
+    }
+.client_card{background: #28bed6;color: #fff; text-align: center;height: 203px;}
+.client_card_cont{text-align: center;position: relative; top: -17px;}
+.client_card_footer{
+    text-align: center;
+    background: #0aa3bb;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 52px;
+    bottom: 0;
+    }
+.total_sales{    
+    background: #F7981F;
+    color: #fff;
+     text-align: center;
+     height:203px;
+}  
+.total_sales_cont{text-align: center;position: relative; top: -17px;}
+.total_sales_footer{
+    text-align: center;
+    background: #de810d;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 52px;
+    bottom: 0;
+    }  
+.total_profit{
+    background: #4CA14C;
+    color: #fff;
+     text-align: center;
+     height: 203px;
+}
+.total_profit_cont{text-align: center;position: relative; top: -17px;}
+.total_profit_footer{
+    text-align: center;
+    background: #0c8a07;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 52px;
+    bottom: 0;
+    } 
+.new_invoice{
+    background: #E3403E;
+    color: #fff;
+     text-align: center;
+     height: 203px;
+}
+.new_invoice_cont{text-align: center;position: relative; top: -17px;}
+.new_invoice_footer{
+    text-align: center;
+    background:#b51817;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 52px;
+    bottom: 0;
+    } 
+.customer_graph_hdr{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 61px;    
+    }    
+  .graph_header{
+    float: right;
+    margin: 10px;
+    }  
+    .close_icon{
+        float: right;
+        top: 9px;
+        right: 10px;
+        position: absolute;
+        cursor: pointer;
+    }
+    .main_graph_hdr{
+        margin: 20px 0 0 30px;
+        color: #fff;
+    }
+/* Structure */
+.example-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.example-header {
+  min-height: 64px;
+  padding: 8px 24px 0;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 343px;
+}
+.mat-cell{color: #fff;}
+.mat-header-cell{color: #fff;font-size: 16px;}
+.mat-header-row, .mat-row {
+    border-bottom-color: #fff;
+}
+.table_filter{
+    width: 81% !important;
+    float: right;
+    margin: 7px 2px 0 0;
+}
+.header_cell{font-size: 15px;}
+/*.customer_table > .mat-row{padding: 0 14px !important;}*/
+
+    
+.customize-button {
+    position: fixed;
+    z-index: 9999;
+    right: 1%;
+    bottom: 1%;
+}
+.stock_analysis_tbl { 
+       width: 267px;
+    text-align: left;
+    height: 140px;
+    margin-top: 18px;
+    }
+    .wipro_value{   
+         top: 14px;
+    position: relative;}
+.customer_revinu_hdr{
+    margin: -9px 0 8px 3px;
+    color: #fff;
+}
+
+.top_project_text{
+    margin-left: 14px;
+    color: #fff;
+}
+
+
+/* Footer */
+/*section {
+    padding: 60px 0;
+}*/
+
+section .section-title {
+    text-align: center;
+    color: #0E3570;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #0E3570 !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+
+

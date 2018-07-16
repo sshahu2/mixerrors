@@ -1,0 +1,13 @@
+<app-navbar></app-navbar>
+<div>
+<h1>This is a dummy component</h1>
+</div>
+<div class="fixed-right-bottom fixed-right-bottom-button chat-button">
+    <button class="btn btn-primary border-radius" (click)="toggleChatBox()">Chat</button>
+</div>
+
+<div *ngIf="isBotActive" class="fixed-right-bottom fixed-right-bottom-chatbox">
+    <div>
+        <app-chatbox2></app-chatbox2>
+    </div>
+</div>

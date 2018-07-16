@@ -1,0 +1,28 @@
+<mat-dialog-content>
+  <div class="row">
+    <form>
+      <ul style="list-style:none;" *ngFor="let chart of allGraphs">
+        <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <mat-slide-toggle color="warn" name='slide-toggle' [checked]="chart.show" (change)="toggle(chart)">
+            {{ chart.text }}</mat-slide-toggle>
+        </li>
+        <!-- <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <mat-slide-toggle color="warn" name='slide-toggle' (ngModelChange)="toggle()">
+            Top Billable Resources</mat-slide-toggle>
+        </li> -->
+        <!-- <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <mat-slide-toggle color="warn" name='slide-toggle' (ngModelChange)="toggle()">
+            Top 10 Newly Added Customers</mat-slide-toggle>
+        </li>
+        <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <mat-slide-toggle color="warn" name='slide-toggle' (ngModelChange)="toggle()">
+            Top Project Overrun and Underrun</mat-slide-toggle>
+        </li> -->
+      </ul>
+    </form>
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions style="float:right;">
+  <button mat-button type="submit" color="primary" (click)="submit();dialogRef.close()">Submit</button>
+  <button mat-button type="button" color="warn" (click)="dialogRef.close()">Close</button>
+</mat-dialog-actions>

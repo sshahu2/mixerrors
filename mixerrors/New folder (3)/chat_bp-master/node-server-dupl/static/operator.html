@@ -1,0 +1,312 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <title>Operator Interface</title>
+  <style>
+    * {
+      margin: auto;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font: 13px Helvetica, Arial;
+    }
+
+    h1 {
+      tex-align: center;
+      padding: 20px;
+    }
+
+    form {
+      background: #000;
+      padding: 3px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    #chatui{
+      min-height: 400px;
+      max-height: 600px;
+      width: 80%;
+      max-width: 600px;
+      min-width: 300px;
+      margin: 0px auto;
+      background-color: #f8f8f8;
+      animation: chatbox-main 0.20s alternate 0s 1 ease-in;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      position: absolute;
+      bottom: 0;
+      right: 2px;
+      border-radius: 10px;
+    }
+    .main:focus {
+      box-shadow: 4px 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    @keyframes chatbox-main {
+      0% {
+        min-height: 100px;
+        max-height: 300px;
+        width: 50%;
+        max-width: 300px;
+      }
+      25% {
+        min-height: 200px;
+        max-height: 400px;
+        width: 60%;
+        max-width: 400px;
+      }
+      50% {
+        min-height: 300px;
+        max-height: 500px;
+        width: 70%;
+        max-width: 500px;
+      }
+      100% {
+        min-height: 400px;
+        max-height: 600px;
+        width: 80%;
+        max-width: 600px;
+      }
+    }
+
+    #chatTabs {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    #chatTabs li{
+      margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+
+    }
+
+    #chatTabs li.chat-tab {
+      padding: 5px;
+      float: left;
+      border: 1px solid black;
+      border-radius: 10px 10px 0 0;
+      cursor: default;
+    }
+
+    #chatTabs li.chat-tab.selected {
+      font-weight: bold;
+      color: white;
+      background-color: black;
+    }
+
+    #chatWindows {
+      clear: left;
+      border-top: 1px solid black;
+    }
+
+    ul.chat-window {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    ul.chat-window li {
+      padding: 5px 10px;
+    }
+
+    ul.chat-window li.operator-message {
+      color: rgb(119, 0, 255);
+    }
+
+    ul.chat-window li.operator-error {
+      color: red;
+    }
+
+    ul.chat-window li.operator-message::before {
+      content: ">>> "
+    }
+
+    ul.chat-window li.agent-response {
+      font-style: italic;
+    }
+
+    ul.chat-window li:nth-child(odd) {
+      background: #eee;
+    }
+  </style>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+  <div id="chatui">
+  <h2 style="text-align: center;color: black">Operator</h2>
+  <ul id="chatTabs">
+  </ul>
+  <div id="chatWindows">
+  </div>
+  <form>
+      <div class="input-group">
+          <input class="form-control" id="m" autocomplete="off" type="text" name="message" placeholder="Type Message ...">
+          <span class="input-group-btn">
+            <button type="submit" class="btn btn-warning">Send</button>
+          </span>
+        </div>
+  </form>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+    $(function () {
+      var socket = io('/operator');
+      let sendTyping = true;
+      // UI elements for all the customers we currently aware of
+      var connectedCustomers = {};
+      // Pointer to the currently open tab
+      var currentTab;
+
+      // The format we use to communicate a message to a specific customer
+      var messageObject = function (customerId, utterance) {
+        return { customerId: customerId, utterance: utterance };
+      };
+
+      // When the form is submitted, send an operator message to the server, referencing
+      // the current tab's customer
+      $('form').submit(function () {
+        if (currentTab.disconnected) {
+          alert('This customer has disconnected');
+          return false;
+        }
+        var messageText = $('#m').val();
+        socket.emit('operator message', messageObject(currentTab.customerId, messageText));
+        $('#m').val('');
+        sendTyping = true;
+        return false;
+      });
+      $('#m').keyup(function(){
+        console.log('operator is typing');
+        if(sendTyping){
+          socket.emit('operator typing',{typing:true});
+          sendTyping = false;
+        }
+      });
+
+      // Switch to a different tab
+      var setCurrentTab = function (target) {
+        // Do nothing if this is already the current tab
+        if (currentTab === target) return;
+        // Set the current tab
+        currentTab = target;
+        // Remove any other selected tab
+        $('li.chat-tab').removeClass('selected');
+        // Mark this tab as selected
+        target.tab.addClass('selected');
+        // Hide any other chat windows
+        $('.chat-window').hide();
+        // Show this chat window
+        target.window.show();
+      };
+      var createNewCustomerTab = function (customerId) {
+        var newChatElements = {};
+        newChatElements.customerId = customerId;
+        // A tab displaying the customer id
+        newChatElements.tab = $('<li class="chat-tab">').text(customerId);
+        // The chat log for this customer
+        newChatElements.window = $('<ul class="chat-window">').hide();
+
+        var clickHandler = function () {
+          setCurrentTab(newChatElements);
+        };
+        newChatElements.tab.click(clickHandler);
+
+        connectedCustomers[customerId] = newChatElements;
+
+        if (!currentTab) {
+          console.log('Setting current tab');
+          clickHandler();
+        }
+
+        $('#chatTabs').append(newChatElements.tab);
+        $('#chatWindows').append(newChatElements.window);
+      };
+
+      // Notify the operator that a customer has requested them
+      var notifyOperatorRequest = function (customerId) {
+        if (!connectedCustomers[customerId]) {
+          console.log('Received operator request from unknown customer id: ' + customerId);
+          return;
+        }
+        setCurrentTab(connectedCustomers[customerId]);
+        alert('Operator requested!');
+      };
+
+      // Notify the operator that a customer has disconnected
+      var notifyCustomerDisconnected = function (customerId) {
+        if (!connectedCustomers[customerId]) {
+          console.log('Received disconnect notification for unknown customer id: ' + customerId);
+          return;
+        }
+        connectedCustomers[customerId].disconnected = true;
+        connectedCustomers[customerId]
+          .window
+          .append($('<li class="customer-message">')
+            .text('--- Customer disconnected ---'));
+
+      };
+
+      // Notify the operator of a system error
+      var notifySystemError = function (error) {
+        var errorText;
+        // If we get this custom error type, the error was due to an operator mistake; display it
+        // in a friendlier manner (without the word 'Error')
+        if (error.type === 'CustomerModeError') {
+          errorText = error.message;
+          // Otherwise, print the error type and message
+        } else {
+          errorText = error.type + ' - ' + error.message;
+        }
+        console.log(errorText);
+        if (!currentTab) return;
+        currentTab.window.append($('<li class="operator-error">').text(errorText));
+      };
+
+      // Display messages sent by any operator to the customers this operator knows about
+      var receivedOperatorMessage = function (msg) {
+        var customer = connectedCustomers[msg.customerId];
+        if (!customer) {
+          console.log('Received operator message to unknown customer id: ' + JSON.stringify(msg));
+          return;
+        }
+        customer.window
+          .append($('<li class="operator-message">').text(msg.utterance));
+      };
+
+      // Display messages sent by customers
+      var receivedCustomerMessage = function (msg) {
+        if (!connectedCustomers[msg.customerId]) {
+          console.log('Received message for unknown customer id: ' + JSON.stringify(msg));
+          return;
+        }
+        // If your implementation has access to the customer's name,
+        // you can modify the next line to display it in the prefix.
+        var prefix = msg.isAgentResponse ? 'Agent: ' : 'Customer: ';
+        connectedCustomers[msg.customerId]
+          .window
+          .append($('<li class="customer-message">')
+            .toggleClass('agent-response', msg.isAgentResponse)
+            .text(prefix + msg.utterance));
+      };
+
+      // Attach all our event handlers
+      socket.on('customer connected', createNewCustomerTab);
+      socket.on('customer message', receivedCustomerMessage);
+      socket.on('operator requested', notifyOperatorRequest);
+      socket.on('operator message', receivedOperatorMessage);
+      socket.on('customer disconnected', notifyCustomerDisconnected);
+      socket.on('system error', notifySystemError);
+    });
+  </script>
+  </div>
+</body>
+
+</html>

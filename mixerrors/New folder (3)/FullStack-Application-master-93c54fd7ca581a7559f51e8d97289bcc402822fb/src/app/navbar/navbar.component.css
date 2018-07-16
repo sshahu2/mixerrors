@@ -1,0 +1,65 @@
+/* .wipro-digital-logo {
+    position: absolute;
+    top: 6px;
+    margin-left: 10px;
+}
+
+.logo_text {
+    margin: 33px 0 0 17px;
+    font-size: 18px;
+}
+*/
+
+nav {
+    background: #ffffff;
+}
+
+#login-btn {
+    padding: 3px 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#login-btn i {
+    
+}
+
+nav {
+    box-shadow: 0px 0px 5px black;
+}
+
+@media only screen and (max-width: 850px) {
+    .navbar-title {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 581px) {
+    .digital-logo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1085px) {
+    .navbar-title {
+        display: none;
+    }
+    .logo_text {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .navbar-title {
+        display: none;
+    }
+    .logo_text {
+        display: none;
+    }
+    .wipro-logo {
+        margin: auto;
+    }
+} 
+

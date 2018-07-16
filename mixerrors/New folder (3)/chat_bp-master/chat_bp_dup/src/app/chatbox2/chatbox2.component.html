@@ -1,0 +1,64 @@
+<div class="main">
+    <div class="header">
+        <div style="flex:1;justify-content: space-around">
+            <h4 class="box-title" style="color: black">Chat Bot</h4>
+            <a routerLink="/give_feedback" class="feedback-button p-blue">Feedback</a>
+        </div>
+    </div>
+    <div #scrollme class="body">
+        <div *ngIf="showFeedbackSubmissionStatus" style="text-align: center;position:absolute;width:80%">
+            <div [ngClass]="{green:submissionSucceded,red:submissionFailed}">{{feedbackSubmissionStatus}}</div>
+        </div>
+        <div style="padding:7px 0px"></div>
+        <div *ngFor="let message of listOfMessages;let id=index" style="clear:both">
+            <div *ngIf="message.userType=='bot' || message.userType=='operator'">
+                <div style="float:left;padding-left:10px">
+                    <img *ngIf="message.userType=='bot'" [src]="botImageUrl" height="40px" width="40px" style="margin-top:5px;" alt="bot">
+                    <img *ngIf="message.userType=='operator'" [src]="operatorImageUrl" height="40px" width="40px" style="margin-top:5px;" alt='operator'>
+                </div>
+                <div class="triangle-bottom-left" style="float:left"></div>
+                <div #box (click)="handleBotMessageClick($event)" id={{id}} style="float:left" class="message-view-bot" [innerHTML]="message.message"></div>
+                <div  class="block" style="margin-left:55px;clear:both"> 
+                    <!-- *ngIf="clickedMessageId==id" -->
+                    <button class=" fa fa-thumbs-up" (click)="handleFeedback(1,id)" style="color:rgb(3, 146, 3)"></button>
+                    <button class="fa fa-thumbs-down" (click)="handleFeedback(0,id)" style="color:rgb(172, 30, 30)"></button>
+                </div>
+            </div>
+            <div *ngIf="message.userType=='user'">
+                <div style="float:right;padding-right:10px">
+                    <img src="../../../assets/images/person.png" height="40px" width="40px">
+                </div>
+                <div class="triangle-bottom-right" style="float:right"></div>
+                <div style="float:right" class="message-view-user" [innerHTML]="message.message"></div>
+            </div>
+        </div>
+        <div style="display:block;clear: both;">
+            <div *ngIf="typing">
+                <div style="float:left;">
+                        <img *ngIf="!isOperatorMode" [src]="botImageUrl" height="40px" width="40px" style="margin-top:5px;" alt="bot">
+                        <img *ngIf="operatorMode" [src]="operatorImageUrl" height="40px" width="40px" style="margin-top:5px;" alt='operator'>
+                </div>
+                <div class="triangle-bottom-left" style="float:left"></div>
+                <div class="message-view-bot" [innerHTML]="typewriter_display" ></div>
+            </div>
+        </div>
+    </div>
+    <div class="text-iput">
+        <form [formGroup]='stateForm' class="formwidth" (ngSubmit)="handleNewMessage()" #myForm="ngForm" autocomplete="off">
+            <div class="input-group">
+                <mat-autocomplete #autocomplete="matAutocomplete">
+                    <div *ngIf="showDropDown">
+                        <!-- <mat-option *ngFor="let option of options" [value]="option">
+                            <p>{{option}}</p>
+                        </mat-option> -->
+                    </div>
+                </mat-autocomplete>
+                <input (keyup)="handleMessageBoxKeyUp($event)" [matAutocomplete]="autocomplete" type="text" name="message" placeholder="Type Message ..."
+                    class="form-control" formControlName="message">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-warning btn-flat">Send</button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>

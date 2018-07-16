@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>    
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Testing Pie Chart</title>
+   <!--<script type="text/javascript" src="d3/d3.v2.js"></script>-->
+	<script src="http://d3js.org/d3.v2.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	
+	  <!-- jQuery library -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  
+	  <!-- Popper JS -->
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	
+	  <!-- Latest compiled JavaScript -->
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	  
+	<!-- Note: I made good use of the sample code provided by the D3JS community and extended it to fit my needs to create this simple dashboard -->
+    <style type="text/css">
+
+
+#pieChart {    
+	position:absolute;
+	top:10px;
+	left:10px;
+	width:400px;
+	height: 400px; 
+	margin-top: 30px;
+}
+
+
+
+#lineChart {    
+	position:absolute;
+	top:10px;
+	left:410px;
+	height: 150px;
+}
+
+#barChart {
+	position:absolute;
+	top:160px;
+	left:410px;
+	height: 250px;
+}
+
+.slice {
+   font-size: 12pt;
+   font-family: Verdana;
+   fill: white; //svg specific - instead of color
+   font-weight: bold;	
+  		} 
+
+/*for line chart*/
+.axis path, .axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges; //The shape-rendering property is an SVG attribute, used here to make sure our axis and its tick mark lines are pixel-perfect. 
+}
+
+.line {
+  fill: none;
+  /*stroke: steelblue;*/
+  stroke-width: 3px;
+}
+
+.dot {
+  /*fill: white;*/
+  /*stroke: steelblue;*/
+  stroke-width: 1.5px;
+  }
+				
+
+.axis text {
+    font-family: Verdana;
+    font-size: 11px;
+}
+
+.title {
+	 font-family: Verdana;
+    font-size: 15px;	
+		
+}
+
+.xAxis {
+    font-family: verdana;
+    font-size: 11px;
+    fill: black;
+}  
+
+.yAxis {
+    font-family: verdana;
+    font-size: 11px;
+    fill: white;
+}
+
+  
+table {
+	border-collapse:collapse;
+	border: 0px;	
+	font-family: Verdana;	
+	color: #5C5558;
+	font-size: 12px;
+	text-align: right;			
+}
+
+td {
+	padding-left: 10px;		
+}
+
+#lineChartTitle1 {
+	font-family: Verdana;
+	font-size  : 14px;
+	fill       : lightgrey;
+	font-weight: bold;
+	text-anchor: middle;
+}
+
+#lineChartTitle2 {
+	font-family: Verdana;
+	font-size  : 72px;
+	fill       : grey;
+	text-anchor: middle;
+	font-weight: bold;
+	/*font-style: italic;*/
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: fit-content;					
+    height: fit-content;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+				 
+    </style>
+  </head>
+  <body>  
+	<div id="pieChart"></div>
+    <div id="barChart" style="display:none;"></div>  
+	<!-- <div id="lineChart"></div> -->
+    select Vertical top : <input type="number" min="1" max="32" onchange="selectTop(event.target.value);">
+    select Accounts top : <input type="number" min="5" max="20" onchange="selectAccTop(event.target.value);">
+    <script src="d3RevChart.js"></script>
+</body>
+</html>

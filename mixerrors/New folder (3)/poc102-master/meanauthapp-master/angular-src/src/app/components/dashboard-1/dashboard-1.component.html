@@ -1,0 +1,124 @@
+<h1>
+  dashboard-1 works!
+  wait for admin
+</h1>
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>-->
+<!--<div class="container col-md-6">
+  <div class="panel panel-default">
+    <div class="panel-heading"><select class='select-option form-control ' required [(ngModel)]='optionSelected' (ngModelChange)='onOptionsSelected($event)' style="height:30px">
+    <option class='option' *ngFor='let option of options' [value]="option">{{option}}</option>
+</select></div>
+    <div class="panel-body">
+        <div class="table-responsive">
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>SL NO</th>
+                <th>{{e}}</th>
+                <th>Toll_tax</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let x of x;let i =index'>
+                <td>{{i+1}}</td>
+                <td>{{x}}</td>
+                <td>{{tollTax[i]}}</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="container col-md-6">
+  <div class="panel panel-primary">
+    <div class="panel-heading"><p id="demo"> Time v/s Toll Tax</p></div>
+    <div class="panel-body" >
+        <div class="container-fluid" style="margin-right: 30px;">
+<canvas id="myChart" class="mychart col-md-6 " style="position: relative; height:40vh; width:70vw;"></canvas>
+    </div>
+    </div>
+  </div>
+</div>-->
+<div style="margin-top: 40px;">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-block">
+                    <div class="panel-heading"><select class='select-option form-control ' required [(ngModel)]='optionSelected' (ngModelChange)='onOptionsSelected($event)' style="height:40px">
+    <option class='option' *ngFor='let option of options' [value]="option" >{{option}}</option>
+</select></div>
+                </div>
+                <div class="table-responsive">
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>SL NO</th>
+                <th>{{e}}</th>
+                <th>Toll_tax</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let x of x;let i =index'>
+                <td>{{i+1}}</td>
+                <td>{{x}}</td>
+                <td>{{tollTax[i]}}</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-block">
+                    <h4 class="card-title"><p id="demo"> Time v/s Toll Tax</p></h4>
+                    <canvas id="myChart" style="position:absolute;left:-200px; height:40vh; width:70vw;"></canvas>
+                </div>
+            </div>
+        </div>
+           
+    </div>
+</div>
+</div>
+<button class="btn btn-default" (click)="sendmail()" id="demo">Send Email</button>
+<button class="btn btn-default" (click)="sendsms()" id="demo">Send SMS</button>
+<a routerLink="/payment" class="btn btn-xs btn-primary">Donate</a>
+<br><br><br><br>
+<!--<agm-map [latitude]="lat1" [longitude]="lng1">
+    <agm-marker [latitude]="lat1" [longitude]="lng1"></agm-marker>
+</agm-map>-->
+<agm-map 
+  [latitude]="lat1"
+  [longitude]="lng1"
+  [zoom]="zoom"
+  [disableDefaultUI]="false"
+  [zoomControl]="false"
+  (mapClick)="mapClicked($event)">
+
+  <agm-marker 
+      *ngFor="let m of markers; let i = index"
+      (markerClick)="clickedMarker(m.label, i)"
+      [latitude]="m.lat"
+      [longitude]="m.lng"
+      [label]="m.label"
+      [markerDraggable]="m.draggable"
+      (dragEnd)="markerDragEnd(m, $event)">
+      
+    <agm-info-window>
+      <strong>{{m.name}}</strong>
+    </agm-info-window>
+    
+  </agm-marker>
+  
+
+</agm-map>
+

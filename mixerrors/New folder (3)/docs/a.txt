@@ -1,0 +1,47 @@
+Binding types other than interpolation have a target name to the left of the equal sign, either surrounded by punctuation ([], ()) or preceded by a prefix (bind-, on-, bindon-).
+
+Attributes initialize DOM properties and then they are done. Property values can change; attribute values can't.
+
+For example, when the browser renders <input type="text" value="Bob">, it creates a corresponding DOM node with a value property initialized to "Bob".
+
+When the user enters "Sally" into the input box, the DOM element value property becomes "Sally". But the HTML value attribute remains unchanged as you discover if you ask the input element about that attribute: input.getAttribute('value') returns "Bob".
+
+The HTML attribute value specifies the initial value; the DOM value property is the current value.
+
+
+When rendering data values as strings, there is no technical reason to prefer one form to the other. You lean toward readability, which tends to favor interpolation. You suggest establishing coding style rules and choosing the form that both conforms to the rules and feels most natural for the task at hand.
+
+When setting an element property to a non-string data value, you must use property binding.
+
+
+Consider the ARIA, SVG, and table span attributes. They are pure attributes. They do not correspond to element properties, and they do not set element properties. There are no property targets to bind to.
+ <tr><td [attr.colspan]="1 + 1">One-Two</td></tr>
+
+
+Class binding syntax resembles property binding. Instead of an element property between brackets, start with the prefix class, optionally followed by a dot (.) and the name of a CSS class: [class.class-name].
+<div [class.special]="isSpecial">The class binding is special</div>
+
+<!-- binding to `class.special` trumps the class attribute -->
+<div class="special"
+     [class.special]="!isSpecial">This one is not so special</div>
+
+
+start with the prefix style, followed by a dot (.) and the name of a CSS style property: [style.style-property].
+<button [style.color]="isSpecial ? 'red': 'green'">Red</button>
+
+
+<button (click)="onSave()">Save</button>
+Some people prefer the on- prefix alternative, known as the canonical form:
+
+
+<input [value]="currentHero.name"
+       (input)="currentHero.name=$event.target.value" >
+
+src/app/app.component.html
+content_copy
+<button on-click="onSave()">On Save</button>
+
+
+
+
+

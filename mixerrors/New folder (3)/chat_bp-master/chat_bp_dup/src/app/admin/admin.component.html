@@ -1,0 +1,75 @@
+<div>
+  <app-navbar></app-navbar>
+  <div class="container">
+    <h4 class="description p-blue">List of unchecked feedbacks</h4>
+  </div>
+  <div class="container" style="overflow-x: auto;">
+    <table id="table2" class="table table-bordered table-hover" style="background-color: #EEE">
+      <thead class="table-header font-lighter">
+        <tr>
+          <th>Query</th>
+          <th>Bot Response</th>
+          <!-- <th>Edit</th> -->
+          <th class="text-center">Feedback</th>
+          <th class="text-center">Old Intent</th>
+          <th class="text-center">New Intent</th>
+          <th class="text-center">Action</th>
+          <!-- <th>Reject</th> -->
+          <th class="text-center">Message</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let feedback of feedbacks; let i=index">
+          <td class="text-justify" style="width:20%">{{feedback.user_query}}</td>
+          <td class="text-justify" style="width:20%">{{feedback.bot_response}}</td>
+          <!-- <td> <button class="fa fa-edit"></button></td> -->
+          <td>{{feedback.feedback_type}}</td>
+          <td>{{feedback.old_intent}}</td>
+          <td class="text-center">
+            <div>
+              <select id="intent" name="intent" [(ngModel)]="outputIntents[i]" required #intent="ngModel">
+                <option *ngFor="let intent of intents" [value]="intent">{{intent}}</option>
+              </select>
+              <!-- <div class="alert alert-warning" [hidden]="intent.valid || intent.pristine">
+                    <p style="color:red">Intent is required</p>
+                  </div> -->
+            </div>
+          </td>
+          <td class="text-center">
+            <div style="display: flex; justify-content: space-around;">
+              <div (click)="acceptAction(i)" style="float:left;" [class.active]="outputActions[i]=='accept'">
+                <i class="fa fa-check green"></i>
+              </div>
+              <div (click)="rejectAction(i)" style="float:left" [class.active]="outputActions[i]=='reject'">
+                <i class="fa fa-times danger"></i>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div *ngIf="outputIntents[i]!='' && outputActions[i]=='' && ifShowIntentNotSelected" class="text-center danger">
+              Select action!
+            </div>
+          </td>
+          <!-- <td><button class="btn btn-block btn-xs btn-flat" (click)="getApproval(feedback.newIntent)">Approve</button></td> 
+          <td><button class="btn btn-block btn-xs btn-flat btn-danger" (click)="getRejection(feedback.newIntent)">Reject</button></td> -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <button class="fixed-middle-bottom btn btn-success" type="submit" (click)="handleAdminFeedbackSumit()"> Submit</button>
+  </div>
+  <p *ngIf="isAdminFeedbackSubmissionFailed" class="btn btn-danger">Feedback submission failed.</p>
+  <div class="fixed-right-bottom fixed-right-bottom-button">
+    <button (click)="toggleChatBox()" style="background: inherit;border: 1px solid transparent">
+        <!--  -->
+      <img src="../../assets/images/bot_icon.gif" width="150px" height="150px" >
+    </button>
+  </div>
+
+  <div *ngIf="isBotActive" class="fixed-right-bottom fixed-right-bottom-chatbox">
+    <div>
+      <app-chatbox2></app-chatbox2>
+    </div>
+  </div>
+</div>

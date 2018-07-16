@@ -1,0 +1,36 @@
+.table{
+    box-shadow: 1px 1px 1px #999; 
+    text-align: center;
+    
+}
+.thead-dark{
+  
+    background: #314a63;
+    color:#1abc9c;
+    font-family: 'Karla', sans-serif;
+      
+}
+thead{
+     
+      height: 50px;
+     
+
+}
+th{
+      font-weight:normal;
+      font-size: 30px;
+      text-align: center;
+     
+}
+.th1{
+     border-top-left-radius: 5px;
+       
+}
+.th2{
+ 
+       border-top-right-radius: 5px;
+}
+tbody{
+    font-size:15px;
+    color:#576263;
+}

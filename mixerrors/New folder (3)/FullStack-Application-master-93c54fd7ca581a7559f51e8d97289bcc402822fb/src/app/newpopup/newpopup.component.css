@@ -1,0 +1,52 @@
+ .cross1{
+        color:#f4bb49 ; 
+         background: #fff;
+         font-size: 20px;
+
+     }
+     .cross2{
+        color:#e84545; 
+         background: #fff;
+         font-size: 20px;
+
+     }
+     .cross3{
+        color:#3cead9;
+         background: #fff;
+         font-size: 20px;
+
+     }
+     .cross1:hover{
+          color:#534f48;
+     }
+     .cross2:hover{
+        color:#534f48;
+   }
+   .cross3:hover{
+    color:#534f48;
+}
+input.a{
+    display: inline;
+    width: auto;
+    height:75%;
+    padding: 15px;
+  }
+  .a{
+    display: inline;
+  }
+  div.a{
+    display: inline;
+  }input.a{
+    display: inline;
+    width: auto;
+    height:75%;
+    padding: 15px;
+  }
+  h3.a{
+    display: inline;
+  }
+  .a1{
+    display: flex;
+  }
+
+     

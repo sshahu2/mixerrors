@@ -1,0 +1,29 @@
+.example-form {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+.search-button {
+    margin-top:10px;
+    height: 35px;
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+.search-container {
+    width: 80%;
+    margin: auto;
+}
+
+.input-label {
+    padding-top: 20px;
+    padding-left: 5%;
+    width: fit-content;
+}
+
+/* mat-card {
+    background: #f7f7f7;
+} */

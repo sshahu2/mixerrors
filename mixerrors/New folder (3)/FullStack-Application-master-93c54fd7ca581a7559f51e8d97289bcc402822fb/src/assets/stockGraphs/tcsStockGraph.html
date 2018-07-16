@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+</head>
+
+<body>
+    <script>
+        $.getJSON('https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&' +
+        'symbol=' + 'TCS' + '&interval=1min&apikey=PXUJFJ9B3W9H8P8H', function (data) {
+            // Create the chart
+            let wiproStockPriceHistory = data['Time Series (Daily)'];
+            let wiproStockData = [];
+            let dates = Object.keys(wiproStockPriceHistory);
+            dates.map((date) => {
+                wiproStockData.push([Number((Date.parse(date)+"")),Number(wiproStockPriceHistory[date]['4. close'])]);
+            });
+            Highcharts.stockChart('container', {
+                rangeSelector: {
+                    selected: 4
+                },
+
+                title: {
+                    text: 'TCS Stock Price'
+                },
+
+                series: [{
+                    name: 'TCS',
+                    data: wiproStockData,
+                    tooltip: {
+                        valueDecimals: 2,
+                        pointFormat: 'Stock Price = {point.y}$'
+                    }
+                }]
+            });
+        });
+    </script>
+    <div id="container" width="100%" height="fit-content"></div>
+</body>
+
+</html>

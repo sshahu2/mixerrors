@@ -1,0 +1,11 @@
+<!-- <app-navbar *ngIf='showNav'></app-navbar> -->
+<!-- <app-dashboard></app-dashboard> -->
+<!-- <div *ngIf='showNav' style="padding-top:20px;"></div> -->
+<!-- <app-search *ngIf='showNav'></app-search> -->
+<!-- <div ><para-root></para-root></div> -->
+<!-- <div ><popup-root></popup-root></div> -->
+<div class="routeContainer" [@routerAnimation]="getDepth(myOutlet)">
+    <router-outlet #myOutlet="outlet"></router-outlet>
+</div>
+
+<!--///////////////////////////////////////////////////-->

@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+/*
+deeppurple-amber.css
+indigo-pink.css
+pink-bluegrey.css
+purple-green.css
+*/
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+a{
+  text-decoration:none; 
+}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+  font-family:'Source Sans Pro',sans-serif
+}
+.border-radius {
+  border-radius: 50px;
+}
+.border-radius-5{
+  border-radius:5px;
+}
+.fixed-right-bottom {
+  position: fixed;
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+}
+.fixed-right-bottom-button {
+  right: 5px;
+  bottom: 0.5em;
+}
+.fixed-right-bottom-chatbox {
+  right: 100px;
+  bottom: 0px;
+}
+p-blue-text {
+  color: rgb(82, 82, 224);
+}
+p-blue {
+  background-color: rgb(82, 82, 224);
+}
+p-lightblue {
+  background-color: rgb(102, 102, 172);
+}
+p-lightgreen {
+  background-color: rgb(125, 170, 125);
+}
+p-lightorange {
+  background-color: rgb(243, 117, 71);
+}

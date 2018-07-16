@@ -1,0 +1,207 @@
+<div class="container-fluid top">
+    <div class="row">
+        <div class=" col-xs-1 col-sm-1 col-lg-1">
+            <button class="back" (click)="back()"><i class="material-icons">
+            arrow_back
+            </i></button>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-lg-1"></div>
+        <div class=" col-xs-8 col-sm-8 col-lg-8 search-bar">
+            <app-search></app-search>
+        </div>
+        <div class=" col-xs-2 col-sm-2 col-lg-2"></div>
+    </div>
+</div>
+
+<div class="container-fluid" style="min-height: 720px;padding-top:30px;background:#f1f1f1; height:100%;">
+    <button mat-raised-button color="primary" data-toggle="modal" data-target="#feedbackModal" class="feedback-button">Feedback</button>
+    <div class="row">
+        <div class="row" *ngIf="query" style="width: 100%;text-align:center;font-size:18px;">
+            <span><i>You searched for : </i> &nbsp;&nbsp;</span>
+            <span> <b>{{'  '+query | dataFilter}}</b> </span>
+        </div>
+        <div *ngIf="!showAccTable && !showActualResult && !showOfftopic && !showSbuChart && !showVerChart && !showAccChart && !showTimeLineChart &&!showCompareTimeChart &&!showPredictedDetailChart" style="margin: auto;text-align:center;padding-top:150px;">
+            <mat-spinner></mat-spinner>
+            Please Wait..
+        </div>
+        <div *ngIf="showOfftopic" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin: 100px auto;">
+            <!--<p>Did you mean:</p>
+            <div *ngFor='let relQuery of relevantQuery'>    
+                <p><i><a (click)="getRelevantQuery(relQuery)">{{relQuery}}</a></i></p>
+            </div>-->
+            <mat-card>
+                <h5 style="text-align:center;color:crimson;"> {{alertMsg}}</h5>
+            </mat-card>
+        </div>
+
+        <div style="display:block;font-size: 30px; margin: 100px auto;" *ngIf="showActualResult">
+            <mat-card>
+                <div style="text-align: center;"> {{ query | dataFilter}} : {{ actualResult }} </div>
+            </mat-card>
+        </div>
+
+        <div *ngIf="showSbuChart" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom:50px;">
+            <mat-card>
+                <h6 style="text-align: right;"><i>*Figures are in USD </i></h6>
+                <h4 *ngIf="apiData[apiData.length-1].title" style="text-align: center;">{{ apiData[apiData.length-1].title }}</h4>
+                <br>
+                <p-chart width="100px" type="doughnut" #sbuDetailActualChart [data]="sbuDetailActualData" (onDataSelect)="getVerticalActual($event)" [options]="options"></p-chart>
+                <div class="row" style="width:fit-content;margin: auto;">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <table class="table" cellspacing="10">
+                            <thead class="thead-dark">
+                                <th style="padding:10px;" *ngFor="let header of predictedTableHeader">{{ header | dataFilter }}</th>
+                            </thead>
+                            <tr *ngFor="let row of apiData;">
+                                <td style="padding:10px;" *ngFor="let header of predictedTableHeader">{{ row[''+header]}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </mat-card>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" *ngIf='showVerChart' style="margin-bottom:50px;">
+            <mat-card>
+                <h6 style="text-align: right;"><i>*Figures are in USD millions</i></h6>
+                <h4 *ngIf="apiData[apiData.length-1].title" style="text-align: center;">{{ apiData[apiData.length-1].title }}</h4>
+                <br>
+                <p-chart #verDetailActualChart type="bar" (onDataSelect)="getAccounts($event)" [data]="verDetailActualdata"></p-chart>
+            </mat-card>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" *ngIf='showAccChart' style="margin-bottom:50px;">
+            <mat-card>
+                <h6 style="text-align: right;"><i>*Figures are in USD</i></h6>
+                <h4 *ngIf="apiData[apiData.length-1].title||title" style="text-align: center;"> {{ title }}</h4>
+                <br>
+                <p-chart #accDetailActualChart type="bar" [data]="accDetailActualdata"></p-chart>
+            </mat-card>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" *ngIf='showAccTable' style="margin-bottom:50px;">
+            <mat-card>
+                <div class="row" style="width:fit-content;margin: auto;">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h4 *ngIf="apiData[apiData.length-1].title" style="text-align: center;">{{ apiData[apiData.length-1].title }}</h4>
+                        <br>
+                        <table class="table table-hover" cellspacing="10">
+                            <thead>
+                                <th style="padding:10px;" *ngFor="let header of accountTableHeader">{{ header | dataFilter }}</th>
+                            </thead>
+                            <tr *ngFor="let row of apiData;">
+                                <td style="padding:10px;" *ngFor="let header of accountTableHeader">{{ row[''+header]}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </mat-card>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" *ngIf='showTimeLineChart' style="margin-bottom:50px;">
+            <mat-card>
+                <h6 style="text-align: right;"><i>*Figures are in USD millions</i></h6>
+                <h4 *ngIf="apiData[apiData.length-1].title" style="text-align: center;">{{ apiData[apiData.length-1].title }}</h4>
+                <br>
+                <p-chart #accTimeLineDetailChart type="line" [data]="accTimeLineDetaildata"></p-chart>
+                <div class="row" style="width:fit-content;margin: auto;">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h4 *ngIf="apiData[apiData.length-1].title" style="text-align: center;">{{ apiData[apiData.length-1].title }}</h4>
+                        <br>
+                        <table class="table table-hover" cellspacing="10">
+                            <thead>
+                                <th style="padding:10px;" *ngFor="let header of accountTableHeader">{{ header | dataFilter }}</th>
+                            </thead>
+                            <tr *ngFor="let row of apiData;">
+                                <td style="padding:10px;" *ngFor="let header of accountTableHeader">{{ row[''+header]}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </mat-card>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" *ngIf='showCompareTimeChart' style="margin-bottom:50px;">
+            <mat-card>
+                <h6 style="text-align: right;"><i>*Figures are in USD millions</i></h6>
+
+                <h6 style="text-align: right;"><i>{{ message }}</i></h6>
+                <h4 *ngIf="apiData[apiData.length-1].title" style="text-align: center;">{{ apiData[apiData.length-1].title }}</h4>
+                <br>
+                <p-chart #compareBarChart type="bar" [data]="compareBarChartdata" [options]='options'></p-chart>
+            </mat-card>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" *ngIf='showPredictedDetailChart' style="margin-bottom:50px;">
+            <mat-card>
+                <h6 style="text-align: right;"><i>*Figures are in USD millions</i></h6>
+                <h4 *ngIf="apiData[apiData.length-1].title" style="text-align: center;">{{ apiData[apiData.length-1].title }}</h4>
+                <br>
+                <h3 *ngIf='apiData[0].WIPRO_REVENUE_PREDICTED' style="text-align: center;"><b> Predicted Wipro Revenue (Q1) : {{ apiData[0].WIPRO_REVENUE_PREDICTED }}</b></h3>
+                <h3 *ngIf='apiData[0].SBU_PREDICTED_REVENUE' style="text-align: center;"><b> Predicted {{apiData[0].SBU}} Revenue (Q1) : {{ apiData[0].SBU_PREDICTED_REVENUE }}</b></h3>
+                <div class="row" *ngIf='apiData.length>2'>
+                    <p-chart class="col-lg-12 col-md-12 col-sm-12 col-xs-12" #predictedDetailChart type="doughnut" (onDataSelect)="getVerticalPredicted($event)" [data]="predictedDetailChartdata"></p-chart>
+                </div>
+                <div class="row" style="width:fit-content;margin: auto;">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <table class="table" cellspacing="10">
+                            <thead class="thead-dark">
+                                <th style="padding:10px;" *ngFor="let header of predictedTableHeader">{{ header == 'WIPRO_REVENUE_PREDICTED' || header == 'SBU_PREDICTED_REVENUE' ? '': header | dataFilter }}</th>
+                            </thead>
+                            <tr *ngFor="let row of apiData;">
+                                <td style="padding:10px;" *ngFor="let header of predictedTableHeader">{{ header == 'WIPRO_REVENUE_PREDICTED' || header == 'SBU_PREDICTED_REVENUE' ? '' : row[''+header]}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </mat-card>
+        </div>
+    </div>
+</div>
+
+<!-- Feedback Modal -->
+<div id="feedbackModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                <h4 class="modal-title">Feedback</h4>
+                <mat-icon>
+                    <a data-dismiss="modal" style="cursor:pointer;">close</a>
+                </mat-icon>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <mat-form-field style="width:100%;">
+                        <input matInput [value]="query" disabled placeholder="Query">
+                    </mat-form-field>
+                    <mat-form-field style="width:100%;">
+                        <textarea matInput placeholder="Comments"></textarea>
+                    </mat-form-field>
+                    Was this Result helpful?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <mat-radio-group>
+                        <mat-radio-button value="1">
+                            <i class="material-icons">thumb_up</i>
+                        </mat-radio-button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <mat-radio-button value="2">
+                            <i class="material-icons">thumb_down</i>
+                        </mat-radio-button>
+                    </mat-radio-group>
+                    <br>
+                    <hr>
+                    <button mat-raised-button style="float: right;" color="primary">Submit</button>
+                </form>
+            </div>
+            <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div> -->
+        </div>
+
+    </div>
+</div>
+<!--search reasult page end-->
+<div *ngIf ="prediction">
+    <app-predict-revenue></app-predict-revenue>
+</div>
+<div *ngIf ="actuals">
+        <app-historic-prediction></app-historic-prediction>
+    </div>
+    <div *ngIf ="compareRevenue">
+            <app-compare-revenue></app-compare-revenue>
+        </div>

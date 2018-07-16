@@ -1,0 +1,102 @@
+.col{
+   
+    font-family: 'Times New Roman', Times, serif;
+    color:#606665;
+    padding:4%;
+    text-align: center;
+   
+}
+
+.card .row{
+    background: #fff;
+    padding: 2%;
+}
+.main{
+  margin:1%
+}
+.company{
+      font-size: 20px;
+    margin-top:10%;
+    margin-left: 5%;
+    float: left;
+}
+.share{
+      font-size: 30px;
+     margin-right: 5%;
+    float: right;
+       text-align: center;
+}
+.data{
+    font-size: 12px;
+}
+.num{
+     color:#fff;
+     font-size: 25px;
+     margin:3%;
+     padding-top:3%
+}
+.small-box{
+    color:#fff;
+   
+    background: #18BC9C;
+    margin-bottom: 5.5%;
+
+}
+.topic{
+  
+    font-size: 15px;
+}
+.icon{
+    margin-right: 5%;
+    margin-bottom: 3%;
+    float:right;
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.15);
+}
+#card1{
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.inner1{
+    background: rgba(0,0,0,0.15);
+    margin-left:3%;
+}
+.small-box1{
+    color:#fff;
+   
+    background: #314a63;
+  
+
+}
+
+.num-det{
+  color:#fff;
+     font-size: 30px;
+     
+}
+.glyphicon-stats{
+    font-size:45px;
+}
+.glyphicon-arrow-down{
+    font-size:15px;
+}
+/*.main{
+    
+  background: #fff;
+ 
+}
+.main1 {
+    margin:2%;
+}
+.names{
+    margin:5px;
+    font-size: 20px;
+}
+.glyphicon{
+     
+
+     font-size:50px;
+}
+.col{
+   padding:4%;
+}*/
